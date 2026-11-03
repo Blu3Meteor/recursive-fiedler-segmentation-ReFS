@@ -1,0 +1,53 @@
+{
+  "DINOv2 ViT-S/14 @1022": {
+    "grid": [
+      73,
+      73
+    ],
+    "debias_components": 100,
+    "runner": {
+      "sim_own": 0.5636606216430664,
+      "sim_other_person": 0.4770074188709259,
+      "sim_background": 0.1603238582611084
+    },
+    "fielder": {
+      "sim_own": 0.46821969747543335,
+      "sim_other_person": 0.4045884609222412,
+      "sim_background": 0.056676674634218216
+    }
+  },
+  "DINOv3 ViT-S/16->14 (PI-resize) @1022": {
+    "grid": [
+      73,
+      73
+    ],
+    "debias_components": 100,
+    "runner": {
+      "sim_own": 0.6932066082954407,
+      "sim_other_person": 0.5972165465354919,
+      "sim_background": 0.3218948543071747
+    },
+    "fielder": {
+      "sim_own": 0.6366740465164185,
+      "sim_other_person": 0.6041114926338196,
+      "sim_background": 0.31088733673095703
+    }
+  },
+  "DINOv3 ViT-S/16 @1168 (control)": {
+    "grid": [
+      73,
+      73
+    ],
+    "debias_components": 100,
+    "runner": {
+      "sim_own": 0.6940212845802307,
+      "sim_other_person": 0.5966558456420898,
+      "sim_background": 0.32149702310562134
+    },
+    "fielder": {
+      "sim_own": 0.6381065845489502,
+      "sim_other_person": 0.6064677834510803,
+      "sim_background": 0.31230872869491577
+    }
+  }
+}

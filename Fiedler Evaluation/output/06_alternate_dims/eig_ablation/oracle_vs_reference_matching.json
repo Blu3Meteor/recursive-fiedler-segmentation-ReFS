@@ -1,0 +1,24 @@
+{
+  "description": "Reference-matching pipeline aggregate mIoU numbers expressed as a % of the Fiedler-vector oracle ceiling (eig_ablation/eig1 = best-possible node in the tree, GT used only for scoring, never for selection).",
+  "caveats": [
+    "Oracle computed on a 100-image sample (eig_ablation/eig1), restricted post-hoc to the 20 COCO-20i classes (all 20 were present in that sample, 162 instances total).",
+    "Reference-matching numbers were computed on the full 410-image COCO-20i filtered set, a different (larger) sample than the oracle's 100 images.",
+    "Metric mismatch: the oracle ceiling here is an unweighted mean of per-class mean per-instance IoU; the reference-matching numbers use the cumulative/area-weighted metric (sum(intersection)/sum(union) per class, averaged over classes). These are not identical aggregation rules.",
+    "Because of both gaps (sample size, aggregation rule), these percentages are a ballpark headroom estimate, not an exact bound -- a method could in principle score slightly above or below this specific 58.80% figure on a like-for-like rerun."
+  ],
+  "oracle_ceiling": {
+    "value": 0.5880,
+    "source": "Fiedler Evaluation/output/eig_ablation/eig1/summary.json, per_class means restricted to the 20 COCO-20i classes, unweighted mean across classes",
+    "sample": "100 images (first 100 of coco_500_from_1000.json, sorted by image_id), 162 COCO-20i instances",
+    "method": "oracle best-IoU node search over the full Fiedler tree (eig_index=1, i.e. standard Fiedler vector); GT never touches tree construction, only scoring"
+  },
+  "reference_matching_results": [
+    {"method": "DINOv2 single-node (all-410)", "miou": 0.3234, "pct_of_oracle": 55.0},
+    {"method": "DINOv2 best union, tau=0.7 (all-410)", "miou": 0.3738, "pct_of_oracle": 63.6},
+    {"method": "DINOv2 best union, tau=0.7 (held-out 310)", "miou": 0.3701, "pct_of_oracle": 62.9},
+    {"method": "DINOv3 single-node (all-410)", "miou": 0.3076, "pct_of_oracle": 52.3},
+    {"method": "DINOv3 best union, tau=0.8 (all-410)", "miou": 0.3392, "pct_of_oracle": 57.7},
+    {"method": "DINOv3 best union, tau=0.8 (held-out 310)", "miou": 0.3258, "pct_of_oracle": 55.4},
+    {"method": "INSID3-small, class-level-ref (all-410)", "miou": 0.418, "pct_of_oracle": 71.1}
+  ]
+}

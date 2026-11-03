@@ -1,0 +1,145 @@
+﻿python.exe : Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+At line:2 char:1
++ & ".\.venv\Scripts\python.exe" "Fiedler Evaluation\fiedler_reference_ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Using cache fou...rch_dinov2_main:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is 
+not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is 
+not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not 
+available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.05s)
+creating index...
+index created!
+Evaluating on 410 images (COCO-20i classes only)
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Building positional basis...
+  basis shape: (384, 100)
+Building reference data (prototypes + full patch features + masks)...
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+  Built reference data: person (from image 218997, 243 fg patches, 5329 total patches)
+  Built reference data: bicycle (from image 65350, 114 fg patches, 5329 total patches)
+  Built reference data: car (from image 84170, 29 fg patches, 5329 total patches)
+  Built reference data: motorcycle (from image 312421, 103 fg patches, 5329 total patches)
+  Built reference data: airplane (from image 338325, 198 fg patches, 5329 total patches)
+  Built reference data: bus (from image 524850, 215 fg patches, 5329 total patches)
+  Built reference data: train (from image 187144, 62 fg patches, 5329 total patches)
+  Built reference data: boat (from image 353518, 13 fg patches, 5329 total patches)
+  Built reference data: bird (from image 2923, 1 fg patches, 5329 total patches)
+  Built reference data: cat (from image 385205, 1922 fg patches, 5329 total patches)
+  Built reference data: dog (from image 547502, 62 fg patches, 5329 total patches)
+  Built reference data: horse (from image 23126, 612 fg patches, 5329 total patches)
+  Built reference data: sheep (from image 375763, 76 fg patches, 5329 total patches)
+  Built reference data: cow (from image 23937, 31 fg patches, 5329 total patches)
+  Built reference data: backpack (from image 32887, 22 fg patches, 5329 total patches)
+  Built reference data: handbag (from image 530975, 18 fg patches, 5329 total patches)
+  Built reference data: bottle (from image 132329, 98 fg patches, 5329 total patches)
+  Built reference data: cup (from image 80932, 100 fg patches, 5329 total patches)
+  Built reference data: chair (from image 518770, 10 fg patches, 5329 total patches)
+  Built reference data: dining table (from image 513283, 147 fg patches, 5329 total patches)
+[1/410] 000000001490.jpg (1 instances) | elapsed=20.24s | ETA=138.0m
+[2/410] 000000001532.jpg (7 instances) | elapsed=22.89s | ETA=146.6m
+[3/410] 000000002431.jpg (5 instances) | elapsed=18.93s | ETA=140.3m
+[4/410] 000000004395.jpg (1 instances) | elapsed=15.29s | ETA=130.9m
+[5/410] 000000006040.jpg (11 instances) | elapsed=18.12s | ETA=128.9m
+[6/410] 000000006460.jpg (1 instances) | elapsed=13.35s | ETA=122.1m
+[7/410] 000000009914.jpg (1 instances) | elapsed=11.86s | ETA=115.8m
+[8/410] 000000012576.jpg (6 instances) | elapsed=19.40s | ETA=117.3m
+[9/410] 000000013348.jpg (8 instances) | elapsed=13.43s | ETA=114.0m
+[10/410] 000000014439.jpg (19 instances) | elapsed=13.83s | ETA=111.6m
+[11/410] 000000015335.jpg (12 instances) | elapsed=12.63s | ETA=108.8m
+[12/410] 000000015440.jpg (2 instances) | elapsed=18.69s | ETA=109.8m
+[13/410] 000000015751.jpg (4 instances) | elapsed=14.10s | ETA=108.3m
+[14/410] 000000016451.jpg (8 instances) | elapsed=19.92s | ETA=109.7m
+[15/410] 000000016598.jpg (1 instances) | elapsed=10.83s | ETA=106.9m
+[16/410] 000000019786.jpg (2 instances) | elapsed=12.91s | ETA=105.2m
+[17/410] 000000021167.jpg (2 instances) | elapsed=11.85s | ETA=103.4m
+[18/410] 000000022396.jpg (1 instances) | elapsed=13.94s | ETA=102.4m
+[19/410] 000000022705.jpg (2 instances) | elapsed=16.28s | ETA=102.4m
+[20/410] 000000022892.jpg (4 instances) | elapsed=13.40s | ETA=101.4m
+[21/410] 000000023230.jpg (4 instances) | elapsed=11.67s | ETA=99.9m
+[22/410] 000000023272.jpg (2 instances) | elapsed=14.83s | ETA=99.5m
+[23/410] 000000025393.jpg (7 instances) | elapsed=17.53s | ETA=99.8m
+[24/410] 000000026926.jpg (2 instances) | elapsed=15.82s | ETA=99.6m
+[25/410] 000000027620.jpg (2 instances) | elapsed=16.41s | ETA=99.6m
+[26/410] 000000028993.jpg (9 instances) | elapsed=14.69s | ETA=99.2m
+[27/410] 000000029596.jpg (5 instances) | elapsed=14.34s | ETA=98.6m
+[28/410] 000000032735.jpg (2 instances) | elapsed=17.63s | ETA=98.9m
+[29/410] 000000035326.jpg (4 instances) | elapsed=19.28s | ETA=99.4m
+[30/410] 000000038829.jpg (12 instances) | elapsed=19.80s | ETA=100.0m
+[31/410] 000000040083.jpg (10 instances) | elapsed=13.92s | ETA=99.4m
+[32/410] 000000040757.jpg (1 instances) | elapsed=15.25s | ETA=99.0m
+[33/410] 000000042102.jpg (2 instances) | elapsed=13.76s | ETA=98.4m
+[34/410] 000000047571.jpg (3 instances) | elapsed=11.27s | ETA=97.3m
+[35/410] 000000047740.jpg (4 instances) | elapsed=11.20s | ETA=96.3m
+[36/410] 000000047828.jpg (13 instances) | elapsed=10.51s | ETA=95.2m
+[37/410] 000000048924.jpg (3 instances) | elapsed=14.70s | ETA=94.8m
+[38/410] 000000050145.jpg (9 instances) | elapsed=12.11s | ETA=94.1m
+[39/410] 000000050326.jpg (2 instances) | elapsed=19.75s | ETA=94.6m
+[40/410] 000000051314.jpg (1 instances) | elapsed=15.70s | ETA=94.4m
+ERROR: Image 52507 (Fiedler Evaluation\datasets\val2017\000000052507.jpg) failed after 1.26s: Unable to allocate 108. MiB for an array with shape (28398241,) and data type float32
+ERROR: Image 53624 (Fiedler Evaluation\datasets\val2017\000000053624.jpg) failed after 1.96s: Unable to allocate 108. MiB for an array with shape (28398241,) and data type float32
+ERROR: Image 54164 (Fiedler Evaluation\datasets\val2017\000000054164.jpg) failed after 2.02s: Unable to allocate 108. MiB for an array with shape (28398241,) and data type float32
+ERROR: Image 54654 (Fiedler Evaluation\datasets\val2017\000000054654.jpg) failed after 15.10s: 
+ERROR: Image 55950 (Fiedler Evaluation\datasets\val2017\000000055950.jpg) failed after 1.52s: Unable to allocate 108. MiB for an array with shape (28398241,) and data type int32
+ERROR: Image 56350 (Fiedler Evaluation\datasets\val2017\000000056350.jpg) failed after 1.10s: Unable to allocate 108. MiB for an array with shape (28398241,) and data type int32
+ERROR: Image 58384 (Fiedler Evaluation\datasets\val2017\000000058384.jpg) failed after 1.22s: Unable to allocate 108. MiB for an array with shape (28398241,) and data type int32
+ERROR: Image 60102 (Fiedler Evaluation\datasets\val2017\000000060102.jpg) failed after 1.13s: Unable to allocate 108. MiB for an array with shape (28398241,) and data type int32
+ERROR: Image 61471 (Fiedler Evaluation\datasets\val2017\000000061471.jpg) failed after 1.20s: Unable to allocate 108. MiB for an array with shape (28398241,) and data type int32
+ERROR: Image 68409 (Fiedler Evaluation\datasets\val2017\000000068409.jpg) failed after 1.43s: Unable to allocate 108. MiB for an array with shape (28398241,) and data type int32
+ERROR: Image 69213 (Fiedler Evaluation\datasets\val2017\000000069213.jpg) failed after 1.17s: Unable to allocate 108. MiB for an array with shape (28398241,) and data type int32
+ERROR: Image 73153 (Fiedler Evaluation\datasets\val2017\000000073153.jpg) failed after 0.99s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 76416 (Fiedler Evaluation\datasets\val2017\000000076416.jpg) failed after 1.06s: Unable to allocate 108. MiB for an array with shape (28398241,) and data type int32
+ERROR: Image 76547 (Fiedler Evaluation\datasets\val2017\000000076547.jpg) failed after 1.07s: Unable to allocate 108. MiB for an array with shape (28398241,) and data type int32
+ERROR: Image 78170 (Fiedler Evaluation\datasets\val2017\000000078170.jpg) failed after 0.86s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 78426 (Fiedler Evaluation\datasets\val2017\000000078426.jpg) failed after 0.90s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 80949 (Fiedler Evaluation\datasets\val2017\000000080949.jpg) failed after 1.05s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 82696 (Fiedler Evaluation\datasets\val2017\000000082696.jpg) failed after 0.97s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 84270 (Fiedler Evaluation\datasets\val2017\000000084270.jpg) failed after 0.91s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 85157 (Fiedler Evaluation\datasets\val2017\000000085157.jpg) failed after 1.12s: Unable to allocate 108. MiB for an array with shape (28398241,) and data type int32
+ERROR: Image 87038 (Fiedler Evaluation\datasets\val2017\000000087038.jpg) failed after 1.13s: Unable to allocate 108. MiB for an array with shape (28398241,) and data type int32
+ERROR: Image 89078 (Fiedler Evaluation\datasets\val2017\000000089078.jpg) failed after 1.19s: Unable to allocate 108. MiB for an array with shape (28398241,) and data type int32
+ERROR: Image 90891 (Fiedler Evaluation\datasets\val2017\000000090891.jpg) failed after 1.31s: Unable to allocate 108. MiB for an array with shape (28398241,) and data type int32
+ERROR: Image 91779 (Fiedler Evaluation\datasets\val2017\000000091779.jpg) failed after 1.49s: Unable to allocate 108. MiB for an array with shape (28398241,) and data type int32
+ERROR: Image 93437 (Fiedler Evaluation\datasets\val2017\000000093437.jpg) failed after 1.02s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 94751 (Fiedler Evaluation\datasets\val2017\000000094751.jpg) failed after 0.83s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 94871 (Fiedler Evaluation\datasets\val2017\000000094871.jpg) failed after 0.82s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 95155 (Fiedler Evaluation\datasets\val2017\000000095155.jpg) failed after 0.82s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 95786 (Fiedler Evaluation\datasets\val2017\000000095786.jpg) failed after 0.83s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 97337 (Fiedler Evaluation\datasets\val2017\000000097337.jpg) failed after 0.85s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 97679 (Fiedler Evaluation\datasets\val2017\000000097679.jpg) failed after 0.83s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 100274 (Fiedler Evaluation\datasets\val2017\000000100274.jpg) failed after 0.81s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 100283 (Fiedler Evaluation\datasets\val2017\000000100283.jpg) failed after 0.88s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 101762 (Fiedler Evaluation\datasets\val2017\000000101762.jpg) failed after 0.85s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 102707 (Fiedler Evaluation\datasets\val2017\000000102707.jpg) failed after 0.86s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 105264 (Fiedler Evaluation\datasets\val2017\000000105264.jpg) failed after 0.91s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 105455 (Fiedler Evaluation\datasets\val2017\000000105455.jpg) failed after 0.87s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 107087 (Fiedler Evaluation\datasets\val2017\000000107087.jpg) failed after 0.98s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 110359 (Fiedler Evaluation\datasets\val2017\000000110359.jpg) failed after 0.88s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 110999 (Fiedler Evaluation\datasets\val2017\000000110999.jpg) failed after 0.84s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 111036 (Fiedler Evaluation\datasets\val2017\000000111036.jpg) failed after 0.86s: Unable to allocate 433. MiB for an array with shape (28398241, 2) and data type int64
+ERROR: Image 112110 (Fiedler Evaluation\datasets\val2017\000000112110.jpg) failed after 0.76s: Unable to allocate 108. MiB for an array with shape (5329, 5329) and data type float32
+ERROR: Image 117374 (Fiedler Evaluation\datasets\val2017\000000117374.jpg) failed after 0.81s: Unable to allocate 108. MiB for an array with shape (5329, 5329) and data type float32
+ERROR: Image 117525 (Fiedler Evaluation\datasets\val2017\000000117525.jpg) failed after 0.70s: Unable to allocate 108. MiB for an array with shape (5329, 5329) and data type float32
+ERROR: Image 121744 (Fiedler Evaluation\datasets\val2017\000000121744.jpg) failed after 0.75s: Unable to allocate 108. MiB for an array with shape (5329, 5329) and data type float32
+ERROR: Image 123213 (Fiedler Evaluation\datasets\val2017\000000123213.jpg) failed after 0.79s: Unable to allocate 108. MiB for an array with shape (5329, 5329) and data type float32
+ERROR: Image 124636 (Fiedler Evaluation\datasets\val2017\000000124636.jpg) failed after 0.75s: Unable to allocate 108. MiB for an array with shape (5329, 5329) and data type float32
+ERROR: Image 130386 (Fiedler Evaluation\datasets\val2017\000000130386.jpg) failed after 0.66s: Unable to allocate 108. MiB for an array with shape (5329, 5329) and data type float32
+ERROR: Image 130579 (Fiedler Evaluation\datasets\val2017\000000130579.jpg) failed after 0.67s: Unable to allocate 108. MiB for an array with shape (5329, 5329) and data type float32
+ERROR: Image 131131 (Fiedler Evaluation\datasets\val2017\000000131131.jpg) failed after 0.68s: Unable to allocate 108. MiB for an array with shape (5329, 5329) and data type float32
+ERROR: Image 133000 (Fiedler Evaluation\datasets\val2017\000000133000.jpg) failed after 0.71s: Unable to allocate 108. MiB for an array with shape (5329, 5329) and data type float32
+ERROR: Image 133244 (Fiedler Evaluation\datasets\val2017\000000133244.jpg) failed after 0.67s: Unable to allocate 108. MiB for an array with shape (5329, 5329) and data type float32
+ERROR: Image 133645 (Fiedler Evaluation\datasets\val2017\000000133645.jpg) failed after 0.81s: Unable to allocate 108. MiB for an array with shape (5329, 5329) and data type float32
+ERROR: Image 133969 (Fiedler Evaluation\datasets\val2017\000000133969.jpg) failed after 0.66s: Unable to allocate 108. MiB for an array with shape (5329, 5329) and data type float32
+ERROR: Image 134722 (Fiedler Evaluation\datasets\val2017\000000134722.jpg) failed after 0.66s: Unable to allocate 108. MiB for an array with shape (5329, 5329) and data type float32

@@ -1,0 +1,252 @@
+[
+  {
+    "image_id": 359135,
+    "file_name": "000000359135.jpg",
+    "width": 640,
+    "height": 427,
+    "num_instances": 2,
+    "class_distribution": {
+      "bear": 2
+    },
+    "num_classes": 1,
+    "category": "same_class_instances"
+  },
+  {
+    "image_id": 506656,
+    "file_name": "000000506656.jpg",
+    "width": 640,
+    "height": 480,
+    "num_instances": 2,
+    "class_distribution": {
+      "sheep": 2
+    },
+    "num_classes": 1,
+    "category": "same_class_instances"
+  },
+  {
+    "image_id": 292082,
+    "file_name": "000000292082.jpg",
+    "width": 640,
+    "height": 640,
+    "num_instances": 2,
+    "class_distribution": {
+      "person": 2
+    },
+    "num_classes": 1,
+    "category": "same_class_instances"
+  },
+  {
+    "image_id": 420840,
+    "file_name": "000000420840.jpg",
+    "width": 640,
+    "height": 424,
+    "num_instances": 2,
+    "class_distribution": {
+      "person": 2
+    },
+    "num_classes": 1,
+    "category": "same_class_instances"
+  },
+  {
+    "image_id": 192699,
+    "file_name": "000000192699.jpg",
+    "width": 640,
+    "height": 457,
+    "num_instances": 2,
+    "class_distribution": {
+      "person": 2
+    },
+    "num_classes": 1,
+    "category": "same_class_instances"
+  },
+  {
+    "image_id": 212573,
+    "file_name": "000000212573.jpg",
+    "width": 640,
+    "height": 559,
+    "num_instances": 2,
+    "class_distribution": {
+      "person": 2
+    },
+    "num_classes": 1,
+    "category": "same_class_instances"
+  },
+  {
+    "image_id": 305309,
+    "file_name": "000000305309.jpg",
+    "width": 640,
+    "height": 406,
+    "num_instances": 2,
+    "class_distribution": {
+      "person": 2
+    },
+    "num_classes": 1,
+    "category": "same_class_instances"
+  },
+  {
+    "image_id": 334399,
+    "file_name": "000000334399.jpg",
+    "width": 640,
+    "height": 480,
+    "num_instances": 3,
+    "class_distribution": {
+      "person": 3
+    },
+    "num_classes": 1,
+    "category": "same_class_instances"
+  },
+  {
+    "image_id": 447611,
+    "file_name": "000000447611.jpg",
+    "width": 500,
+    "height": 334,
+    "num_instances": 2,
+    "class_distribution": {
+      "person": 2
+    },
+    "num_classes": 1,
+    "category": "same_class_instances"
+  },
+  {
+    "image_id": 277020,
+    "file_name": "000000277020.jpg",
+    "width": 640,
+    "height": 360,
+    "num_instances": 3,
+    "class_distribution": {
+      "person": 3
+    },
+    "num_classes": 1,
+    "category": "same_class_instances"
+  },
+  {
+    "image_id": 579321,
+    "file_name": "000000579321.jpg",
+    "width": 640,
+    "height": 498,
+    "num_instances": 2,
+    "class_distribution": {
+      "cat": 1,
+      "person": 1
+    },
+    "num_classes": 2,
+    "category": "multi_class"
+  },
+  {
+    "image_id": 223747,
+    "file_name": "000000223747.jpg",
+    "width": 500,
+    "height": 370,
+    "num_instances": 2,
+    "class_distribution": {
+      "horse": 1,
+      "person": 1
+    },
+    "num_classes": 2,
+    "category": "multi_class"
+  },
+  {
+    "image_id": 369037,
+    "file_name": "000000369037.jpg",
+    "width": 425,
+    "height": 640,
+    "num_instances": 2,
+    "class_distribution": {
+      "person": 1,
+      "bear": 1
+    },
+    "num_classes": 2,
+    "category": "multi_class"
+  },
+  {
+    "image_id": 319721,
+    "file_name": "000000319721.jpg",
+    "width": 480,
+    "height": 640,
+    "num_instances": 2,
+    "class_distribution": {
+      "sheep": 1,
+      "person": 1
+    },
+    "num_classes": 2,
+    "category": "multi_class"
+  },
+  {
+    "image_id": 177015,
+    "file_name": "000000177015.jpg",
+    "width": 640,
+    "height": 480,
+    "num_instances": 2,
+    "class_distribution": {
+      "horse": 1,
+      "person": 1
+    },
+    "num_classes": 2,
+    "category": "multi_class"
+  },
+  {
+    "image_id": 50380,
+    "file_name": "000000050380.jpg",
+    "width": 640,
+    "height": 427,
+    "num_instances": 3,
+    "class_distribution": {
+      "sheep": 1,
+      "person": 2
+    },
+    "num_classes": 2,
+    "category": "multi_class"
+  },
+  {
+    "image_id": 97924,
+    "file_name": "000000097924.jpg",
+    "width": 600,
+    "height": 400,
+    "num_instances": 2,
+    "class_distribution": {
+      "sheep": 1,
+      "person": 1
+    },
+    "num_classes": 2,
+    "category": "multi_class"
+  },
+  {
+    "image_id": 413395,
+    "file_name": "000000413395.jpg",
+    "width": 640,
+    "height": 421,
+    "num_instances": 3,
+    "class_distribution": {
+      "horse": 2,
+      "person": 1
+    },
+    "num_classes": 2,
+    "category": "multi_class"
+  },
+  {
+    "image_id": 23126,
+    "file_name": "000000023126.jpg",
+    "width": 640,
+    "height": 428,
+    "num_instances": 2,
+    "class_distribution": {
+      "sheep": 1,
+      "person": 1
+    },
+    "num_classes": 2,
+    "category": "multi_class"
+  },
+  {
+    "image_id": 554579,
+    "file_name": "000000554579.jpg",
+    "width": 494,
+    "height": 640,
+    "num_instances": 4,
+    "class_distribution": {
+      "cat": 1,
+      "person": 3
+    },
+    "num_classes": 2,
+    "category": "multi_class"
+  }
+]

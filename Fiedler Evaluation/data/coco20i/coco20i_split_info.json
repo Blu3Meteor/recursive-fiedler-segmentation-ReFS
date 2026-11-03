@@ -1,0 +1,32 @@
+{
+  "dataset": "COCO-20i",
+  "num_classes": 20,
+  "classes": [
+    "person",
+    "bicycle",
+    "car",
+    "motorcycle",
+    "airplane",
+    "bus",
+    "train",
+    "boat",
+    "dog",
+    "cat",
+    "bird",
+    "horse",
+    "sheep",
+    "cow",
+    "bottle",
+    "cup",
+    "chair",
+    "dining table",
+    "backpack",
+    "handbag"
+  ],
+  "reference_count_per_class": 1,
+  "num_reference_images": 20,
+  "num_reference_annotations": 20,
+  "num_test_images": 4008,
+  "num_test_annotations": 21526,
+  "random_seed": 42
+}

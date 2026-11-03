@@ -1,0 +1,703 @@
+{
+  "dataset_name": "dataset",
+  "annotations": "d:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\pascal_voc2012_val_coco.json",
+  "image_root": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages",
+  "fixed_size": 476,
+  "patch_size": 14,
+  "tau": 0.15,
+  "num_images": 10,
+  "num_instances": 30,
+  "mean_best_iou": 0.3626610235450788,
+  "median_best_iou": 0.30817760426851926,
+  "min_best_iou": 0.00912566628526777,
+  "max_best_iou": 0.7726389428682472,
+  "mean_best_iou_per_image": 0.6042280378080986,
+  "median_best_iou_per_image": 0.6881253223207858,
+  "per_class": {
+    "chair": {
+      "count": 7,
+      "mean_iou": 0.11605109724182013,
+      "median_iou": 0.07775892712877686,
+      "min_iou": 0.02575604650293447,
+      "max_iou": 0.26856416868932037,
+      "scores": [
+        0.03445046219000692,
+        0.02575604650293447,
+        0.17588977750824394,
+        0.26856416868932037,
+        0.03389692732888961,
+        0.07775892712877686,
+        0.1960413713445687
+      ]
+    },
+    "diningtable": {
+      "count": 1,
+      "mean_iou": 0.7382726374211207,
+      "median_iou": 0.7382726374211207,
+      "min_iou": 0.7382726374211207,
+      "max_iou": 0.7382726374211207,
+      "scores": [
+        0.7382726374211207
+      ]
+    },
+    "person": {
+      "count": 8,
+      "mean_iou": 0.538839617329926,
+      "median_iou": 0.588940770482004,
+      "min_iou": 0.17006802721088435,
+      "max_iou": 0.7192629478731788,
+      "scores": [
+        0.5228406223299621,
+        0.17006802721088435,
+        0.7192629478731788,
+        0.655040918634046,
+        0.6731005080885359,
+        0.3918117207733542,
+        0.49233667005908893,
+        0.6862555236703579
+      ]
+    },
+    "tvmonitor": {
+      "count": 5,
+      "mean_iou": 0.3464882212588202,
+      "median_iou": 0.12133225383176527,
+      "min_iou": 0.08589951377633712,
+      "max_iou": 0.7726389428682472,
+      "scores": [
+        0.7726389428682472,
+        0.08589951377633712,
+        0.08949929049260086,
+        0.12133225383176527,
+        0.6630711053251503
+      ]
+    },
+    "sofa": {
+      "count": 1,
+      "mean_iou": 0.75,
+      "median_iou": 0.75,
+      "min_iou": 0.75,
+      "max_iou": 0.75,
+      "scores": [
+        0.75
+      ]
+    },
+    "boat": {
+      "count": 1,
+      "mean_iou": 0.3477910398477182,
+      "median_iou": 0.3477910398477182,
+      "min_iou": 0.3477910398477182,
+      "max_iou": 0.3477910398477182,
+      "scores": [
+        0.3477910398477182
+      ]
+    },
+    "bicycle": {
+      "count": 1,
+      "mean_iou": 0.6899951209712137,
+      "median_iou": 0.6899951209712137,
+      "min_iou": 0.6899951209712137,
+      "max_iou": 0.6899951209712137,
+      "scores": [
+        0.6899951209712137
+      ]
+    },
+    "pottedplant": {
+      "count": 3,
+      "mean_iou": 0.015130445114529592,
+      "median_iou": 0.015606242496998799,
+      "min_iou": 0.00912566628526777,
+      "max_iou": 0.020659426561322202,
+      "scores": [
+        0.00912566628526777,
+        0.020659426561322202,
+        0.015606242496998799
+      ]
+    },
+    "cat": {
+      "count": 1,
+      "mean_iou": 0.740053729052066,
+      "median_iou": 0.740053729052066,
+      "min_iou": 0.740053729052066,
+      "max_iou": 0.740053729052066,
+      "scores": [
+        0.740053729052066
+      ]
+    },
+    "car": {
+      "count": 1,
+      "mean_iou": 0.5596446700507615,
+      "median_iou": 0.5596446700507615,
+      "min_iou": 0.5596446700507615,
+      "max_iou": 0.5596446700507615,
+      "scores": [
+        0.5596446700507615
+      ]
+    },
+    "dog": {
+      "count": 1,
+      "mean_iou": 0.15316644803964435,
+      "median_iou": 0.15316644803964435,
+      "min_iou": 0.15316644803964435,
+      "max_iou": 0.15316644803964435,
+      "scores": [
+        0.15316644803964435
+      ]
+    }
+  },
+  "image_summaries": [
+    {
+      "image_id": 2342,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2010_002639.jpg",
+      "num_instances": 8,
+      "best_instance_iou": 0.7382726374211207,
+      "mean_instance_iou": 0.19382878976423268
+    },
+    {
+      "image_id": 51461,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2008_002314.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.5228406223299621,
+      "mean_instance_iou": 0.3464543247704232
+    },
+    {
+      "image_id": 55067,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2009_000398.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.7726389428682472,
+      "mean_instance_iou": 0.3160125823790617
+    },
+    {
+      "image_id": 58882,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2010_001192.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.75,
+      "mean_instance_iou": 0.7081012888357415
+    },
+    {
+      "image_id": 61761,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2008_003989.jpg",
+      "num_instances": 1,
+      "best_instance_iou": 0.3477910398477182,
+      "mean_instance_iou": 0.3477910398477182
+    },
+    {
+      "image_id": 68417,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2009_003832.jpg",
+      "num_instances": 1,
+      "best_instance_iou": 0.6899951209712137,
+      "mean_instance_iou": 0.6899951209712137
+    },
+    {
+      "image_id": 104637,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2008_002259.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.6731005080885359,
+      "mean_instance_iou": 0.5324561144309451
+    },
+    {
+      "image_id": 133240,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2008_001688.jpg",
+      "num_instances": 4,
+      "best_instance_iou": 0.12133225383176527,
+      "mean_instance_iou": 0.041680897293838504
+    },
+    {
+      "image_id": 138045,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2009_004128.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.740053729052066,
+      "mean_instance_iou": 0.7015624171886081
+    },
+    {
+      "image_id": 147468,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2008_003755.jpg",
+      "num_instances": 4,
+      "best_instance_iou": 0.6862555236703579,
+      "mean_instance_iou": 0.4728508279549632
+    }
+  ],
+  "top_samples": [
+    {
+      "image_id": 55067,
+      "annotation_id": 6613,
+      "category_id": 20,
+      "category_name": "tvmonitor",
+      "title": "tvmonitor | img 55067 ann 6613 | IoU 0.773",
+      "best_iou": 0.7726389428682472,
+      "best_candidate_id": 13,
+      "best_candidate_depth": 4,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 116,
+      "candidate_count": 17,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2009_000398.jpg",
+      "best_candidate_label": "leaf",
+      "resize_metadata": {
+        "orig_w": 400,
+        "orig_h": 500,
+        "scale": 0.95,
+        "pad_left": 48,
+        "pad_top": 0,
+        "resized_w": 380,
+        "resized_h": 476
+      }
+    },
+    {
+      "image_id": 58882,
+      "annotation_id": 10487,
+      "category_id": 18,
+      "category_name": "sofa",
+      "title": "sofa | img 58882 ann 10487 | IoU 0.750",
+      "best_iou": 0.75,
+      "best_candidate_id": 0,
+      "best_candidate_depth": 0,
+      "best_candidate_status": "split",
+      "best_candidate_area_patches": 1156,
+      "candidate_count": 15,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2010_001192.jpg",
+      "best_candidate_label": "split",
+      "resize_metadata": {
+        "orig_w": 500,
+        "orig_h": 375,
+        "scale": 0.952,
+        "pad_left": 0,
+        "pad_top": 59,
+        "resized_w": 476,
+        "resized_h": 357
+      }
+    },
+    {
+      "image_id": 138045,
+      "annotation_id": 9050,
+      "category_id": 8,
+      "category_name": "cat",
+      "title": "cat | img 138045 ann 9050 | IoU 0.740",
+      "best_iou": 0.740053729052066,
+      "best_candidate_id": 1,
+      "best_candidate_depth": 1,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 132,
+      "candidate_count": 15,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2009_004128.jpg",
+      "best_candidate_label": "leaf",
+      "resize_metadata": {
+        "orig_w": 500,
+        "orig_h": 375,
+        "scale": 0.952,
+        "pad_left": 0,
+        "pad_top": 59,
+        "resized_w": 476,
+        "resized_h": 357
+      }
+    },
+    {
+      "image_id": 2342,
+      "annotation_id": 11351,
+      "category_id": 11,
+      "category_name": "diningtable",
+      "title": "diningtable | img 2342 ann 11351 | IoU 0.738",
+      "best_iou": 0.7382726374211207,
+      "best_candidate_id": 1,
+      "best_candidate_depth": 1,
+      "best_candidate_status": "split",
+      "best_candidate_area_patches": 517,
+      "candidate_count": 15,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2010_002639.jpg",
+      "best_candidate_label": "split",
+      "resize_metadata": {
+        "orig_w": 500,
+        "orig_h": 375,
+        "scale": 0.952,
+        "pad_left": 0,
+        "pad_top": 59,
+        "resized_w": 476,
+        "resized_h": 357
+      }
+    },
+    {
+      "image_id": 58882,
+      "annotation_id": 10488,
+      "category_id": 15,
+      "category_name": "person",
+      "title": "person | img 58882 ann 10488 | IoU 0.719",
+      "best_iou": 0.7192629478731788,
+      "best_candidate_id": 1,
+      "best_candidate_depth": 1,
+      "best_candidate_status": "split",
+      "best_candidate_area_patches": 567,
+      "candidate_count": 15,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2010_001192.jpg",
+      "best_candidate_label": "split",
+      "resize_metadata": {
+        "orig_w": 500,
+        "orig_h": 375,
+        "scale": 0.952,
+        "pad_left": 0,
+        "pad_top": 59,
+        "resized_w": 476,
+        "resized_h": 357
+      }
+    },
+    {
+      "image_id": 68417,
+      "annotation_id": 8824,
+      "category_id": 2,
+      "category_name": "bicycle",
+      "title": "bicycle | img 68417 ann 8824 | IoU 0.690",
+      "best_iou": 0.6899951209712137,
+      "best_candidate_id": 6,
+      "best_candidate_depth": 2,
+      "best_candidate_status": "split",
+      "best_candidate_area_patches": 668,
+      "candidate_count": 21,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2009_003832.jpg",
+      "best_candidate_label": "split",
+      "resize_metadata": {
+        "orig_w": 500,
+        "orig_h": 333,
+        "scale": 0.952,
+        "pad_left": 0,
+        "pad_top": 79,
+        "resized_w": 476,
+        "resized_h": 317
+      }
+    },
+    {
+      "image_id": 147468,
+      "annotation_id": 2674,
+      "category_id": 15,
+      "category_name": "person",
+      "title": "person | img 147468 ann 2674 | IoU 0.686",
+      "best_iou": 0.6862555236703579,
+      "best_candidate_id": 4,
+      "best_candidate_depth": 2,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 279,
+      "candidate_count": 17,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2008_003755.jpg",
+      "best_candidate_label": "leaf",
+      "resize_metadata": {
+        "orig_w": 500,
+        "orig_h": 375,
+        "scale": 0.952,
+        "pad_left": 0,
+        "pad_top": 59,
+        "resized_w": 476,
+        "resized_h": 357
+      }
+    },
+    {
+      "image_id": 104637,
+      "annotation_id": 1641,
+      "category_id": 15,
+      "category_name": "person",
+      "title": "person | img 104637 ann 1641 | IoU 0.673",
+      "best_iou": 0.6731005080885359,
+      "best_candidate_id": 1,
+      "best_candidate_depth": 1,
+      "best_candidate_status": "split",
+      "best_candidate_area_patches": 513,
+      "candidate_count": 19,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2008_002259.jpg",
+      "best_candidate_label": "split",
+      "resize_metadata": {
+        "orig_w": 500,
+        "orig_h": 375,
+        "scale": 0.952,
+        "pad_left": 0,
+        "pad_top": 59,
+        "resized_w": 476,
+        "resized_h": 357
+      }
+    },
+    {
+      "image_id": 138045,
+      "annotation_id": 9051,
+      "category_id": 20,
+      "category_name": "tvmonitor",
+      "title": "tvmonitor | img 138045 ann 9051 | IoU 0.663",
+      "best_iou": 0.6630711053251503,
+      "best_candidate_id": 11,
+      "best_candidate_depth": 5,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 56,
+      "candidate_count": 15,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2009_004128.jpg",
+      "best_candidate_label": "leaf",
+      "resize_metadata": {
+        "orig_w": 500,
+        "orig_h": 375,
+        "scale": 0.952,
+        "pad_left": 0,
+        "pad_top": 59,
+        "resized_w": 476,
+        "resized_h": 357
+      }
+    },
+    {
+      "image_id": 58882,
+      "annotation_id": 10489,
+      "category_id": 15,
+      "category_name": "person",
+      "title": "person | img 58882 ann 10489 | IoU 0.655",
+      "best_iou": 0.655040918634046,
+      "best_candidate_id": 3,
+      "best_candidate_depth": 2,
+      "best_candidate_status": "split",
+      "best_candidate_area_patches": 313,
+      "candidate_count": 15,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2010_001192.jpg",
+      "best_candidate_label": "split",
+      "resize_metadata": {
+        "orig_w": 500,
+        "orig_h": 375,
+        "scale": 0.952,
+        "pad_left": 0,
+        "pad_top": 59,
+        "resized_w": 476,
+        "resized_h": 357
+      }
+    }
+  ],
+  "bottom_samples": [
+    {
+      "image_id": 133240,
+      "annotation_id": 1157,
+      "category_id": 16,
+      "category_name": "pottedplant",
+      "title": "pottedplant | img 133240 ann 1157 | IoU 0.009",
+      "best_iou": 0.00912566628526777,
+      "best_candidate_id": 4,
+      "best_candidate_depth": 2,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 731,
+      "candidate_count": 11,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2008_001688.jpg",
+      "best_candidate_label": "leaf",
+      "resize_metadata": {
+        "orig_w": 500,
+        "orig_h": 375,
+        "scale": 0.952,
+        "pad_left": 0,
+        "pad_top": 59,
+        "resized_w": 476,
+        "resized_h": 357
+      }
+    },
+    {
+      "image_id": 133240,
+      "annotation_id": 1159,
+      "category_id": 16,
+      "category_name": "pottedplant",
+      "title": "pottedplant | img 133240 ann 1159 | IoU 0.016",
+      "best_iou": 0.015606242496998799,
+      "best_candidate_id": 4,
+      "best_candidate_depth": 2,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 731,
+      "candidate_count": 11,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2008_001688.jpg",
+      "best_candidate_label": "leaf",
+      "resize_metadata": {
+        "orig_w": 500,
+        "orig_h": 375,
+        "scale": 0.952,
+        "pad_left": 0,
+        "pad_top": 59,
+        "resized_w": 476,
+        "resized_h": 357
+      }
+    },
+    {
+      "image_id": 133240,
+      "annotation_id": 1158,
+      "category_id": 16,
+      "category_name": "pottedplant",
+      "title": "pottedplant | img 133240 ann 1158 | IoU 0.021",
+      "best_iou": 0.020659426561322202,
+      "best_candidate_id": 4,
+      "best_candidate_depth": 2,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 731,
+      "candidate_count": 11,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2008_001688.jpg",
+      "best_candidate_label": "leaf",
+      "resize_metadata": {
+        "orig_w": 500,
+        "orig_h": 375,
+        "scale": 0.952,
+        "pad_left": 0,
+        "pad_top": 59,
+        "resized_w": 476,
+        "resized_h": 357
+      }
+    },
+    {
+      "image_id": 2342,
+      "annotation_id": 11345,
+      "category_id": 9,
+      "category_name": "chair",
+      "title": "chair | img 2342 ann 11345 | IoU 0.026",
+      "best_iou": 0.02575604650293447,
+      "best_candidate_id": 3,
+      "best_candidate_depth": 2,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 130,
+      "candidate_count": 15,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2010_002639.jpg",
+      "best_candidate_label": "leaf",
+      "resize_metadata": {
+        "orig_w": 500,
+        "orig_h": 375,
+        "scale": 0.952,
+        "pad_left": 0,
+        "pad_top": 59,
+        "resized_w": 476,
+        "resized_h": 357
+      }
+    },
+    {
+      "image_id": 2342,
+      "annotation_id": 11348,
+      "category_id": 9,
+      "category_name": "chair",
+      "title": "chair | img 2342 ann 11348 | IoU 0.034",
+      "best_iou": 0.03389692732888961,
+      "best_candidate_id": 8,
+      "best_candidate_depth": 3,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 247,
+      "candidate_count": 15,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2010_002639.jpg",
+      "best_candidate_label": "leaf",
+      "resize_metadata": {
+        "orig_w": 500,
+        "orig_h": 375,
+        "scale": 0.952,
+        "pad_left": 0,
+        "pad_top": 59,
+        "resized_w": 476,
+        "resized_h": 357
+      }
+    },
+    {
+      "image_id": 2342,
+      "annotation_id": 11344,
+      "category_id": 9,
+      "category_name": "chair",
+      "title": "chair | img 2342 ann 11344 | IoU 0.034",
+      "best_iou": 0.03445046219000692,
+      "best_candidate_id": 8,
+      "best_candidate_depth": 3,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 247,
+      "candidate_count": 15,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2010_002639.jpg",
+      "best_candidate_label": "leaf",
+      "resize_metadata": {
+        "orig_w": 500,
+        "orig_h": 375,
+        "scale": 0.952,
+        "pad_left": 0,
+        "pad_top": 59,
+        "resized_w": 476,
+        "resized_h": 357
+      }
+    },
+    {
+      "image_id": 2342,
+      "annotation_id": 11349,
+      "category_id": 9,
+      "category_name": "chair",
+      "title": "chair | img 2342 ann 11349 | IoU 0.078",
+      "best_iou": 0.07775892712877686,
+      "best_candidate_id": 8,
+      "best_candidate_depth": 3,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 247,
+      "candidate_count": 15,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2010_002639.jpg",
+      "best_candidate_label": "leaf",
+      "resize_metadata": {
+        "orig_w": 500,
+        "orig_h": 375,
+        "scale": 0.952,
+        "pad_left": 0,
+        "pad_top": 59,
+        "resized_w": 476,
+        "resized_h": 357
+      }
+    },
+    {
+      "image_id": 55067,
+      "annotation_id": 6614,
+      "category_id": 20,
+      "category_name": "tvmonitor",
+      "title": "tvmonitor | img 55067 ann 6614 | IoU 0.086",
+      "best_iou": 0.08589951377633712,
+      "best_candidate_id": 11,
+      "best_candidate_depth": 4,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 44,
+      "candidate_count": 17,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2009_000398.jpg",
+      "best_candidate_label": "leaf",
+      "resize_metadata": {
+        "orig_w": 400,
+        "orig_h": 500,
+        "scale": 0.95,
+        "pad_left": 48,
+        "pad_top": 0,
+        "resized_w": 380,
+        "resized_h": 476
+      }
+    },
+    {
+      "image_id": 55067,
+      "annotation_id": 6615,
+      "category_id": 20,
+      "category_name": "tvmonitor",
+      "title": "tvmonitor | img 55067 ann 6615 | IoU 0.089",
+      "best_iou": 0.08949929049260086,
+      "best_candidate_id": 11,
+      "best_candidate_depth": 4,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 44,
+      "candidate_count": 17,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2009_000398.jpg",
+      "best_candidate_label": "leaf",
+      "resize_metadata": {
+        "orig_w": 400,
+        "orig_h": 500,
+        "scale": 0.95,
+        "pad_left": 48,
+        "pad_top": 0,
+        "resized_w": 380,
+        "resized_h": 476
+      }
+    },
+    {
+      "image_id": 133240,
+      "annotation_id": 1156,
+      "category_id": 20,
+      "category_name": "tvmonitor",
+      "title": "tvmonitor | img 133240 ann 1156 | IoU 0.121",
+      "best_iou": 0.12133225383176527,
+      "best_candidate_id": 4,
+      "best_candidate_depth": 2,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 731,
+      "candidate_count": 11,
+      "image_path": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2008_001688.jpg",
+      "best_candidate_label": "leaf",
+      "resize_metadata": {
+        "orig_w": 500,
+        "orig_h": 375,
+        "scale": 0.952,
+        "pad_left": 0,
+        "pad_top": 59,
+        "resized_w": 476,
+        "resized_h": 357
+      }
+    }
+  ]
+}

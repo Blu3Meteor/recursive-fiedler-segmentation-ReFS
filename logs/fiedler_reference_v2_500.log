@@ -1,0 +1,292 @@
+﻿python.exe : Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+At line:3 char:1
++ & ".\.venv\Scripts\python.exe" "Fiedler Evaluation\fiedler_reference_ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Using cache fou...rch_dinov2_main:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is 
+not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is 
+not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not 
+available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.05s)
+creating index...
+index created!
+Evaluating on 410 images (COCO-20i classes only)
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Building positional basis...
+  basis shape: (384, 100)
+Building reference data (prototypes + full patch features + masks)...
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+  Built reference data: person (from image 218997, 243 fg patches, 5329 total patches)
+  Built reference data: bicycle (from image 65350, 114 fg patches, 5329 total patches)
+  Built reference data: car (from image 84170, 29 fg patches, 5329 total patches)
+  Built reference data: motorcycle (from image 312421, 103 fg patches, 5329 total patches)
+  Built reference data: airplane (from image 338325, 198 fg patches, 5329 total patches)
+  Built reference data: bus (from image 524850, 215 fg patches, 5329 total patches)
+  Built reference data: train (from image 187144, 62 fg patches, 5329 total patches)
+  Built reference data: boat (from image 353518, 13 fg patches, 5329 total patches)
+  Built reference data: bird (from image 2923, 1 fg patches, 5329 total patches)
+  Built reference data: cat (from image 385205, 1922 fg patches, 5329 total patches)
+  Built reference data: dog (from image 547502, 62 fg patches, 5329 total patches)
+  Built reference data: horse (from image 23126, 612 fg patches, 5329 total patches)
+  Built reference data: sheep (from image 375763, 76 fg patches, 5329 total patches)
+  Built reference data: cow (from image 23937, 31 fg patches, 5329 total patches)
+  Built reference data: backpack (from image 32887, 22 fg patches, 5329 total patches)
+  Built reference data: handbag (from image 530975, 18 fg patches, 5329 total patches)
+  Built reference data: bottle (from image 132329, 98 fg patches, 5329 total patches)
+  Built reference data: cup (from image 80932, 100 fg patches, 5329 total patches)
+  Built reference data: chair (from image 518770, 10 fg patches, 5329 total patches)
+  Built reference data: dining table (from image 513283, 147 fg patches, 5329 total patches)
+[1/410] 000000001490.jpg (1 instances) | elapsed=15.20s | ETA=103.6m
+[2/410] 000000001532.jpg (7 instances) | elapsed=16.88s | ETA=109.1m
+[3/410] 000000002431.jpg (5 instances) | elapsed=13.30s | ETA=102.6m
+[4/410] 000000004395.jpg (1 instances) | elapsed=11.48s | ETA=96.2m
+[5/410] 000000006040.jpg (11 instances) | elapsed=14.72s | ETA=96.6m
+[6/410] 000000006460.jpg (1 instances) | elapsed=12.20s | ETA=94.0m
+[7/410] 000000009914.jpg (1 instances) | elapsed=12.50s | ETA=92.4m
+[8/410] 000000012576.jpg (6 instances) | elapsed=11.61s | ETA=90.4m
+[9/410] 000000013348.jpg (8 instances) | elapsed=11.51s | ETA=88.7m
+[10/410] 000000014439.jpg (19 instances) | elapsed=13.72s | ETA=88.8m
+[11/410] 000000015335.jpg (12 instances) | elapsed=11.68s | ETA=87.5m
+[12/410] 000000015440.jpg (2 instances) | elapsed=13.83s | ETA=87.7m
+[13/410] 000000015751.jpg (4 instances) | elapsed=12.25s | ETA=87.0m
+[14/410] 000000016451.jpg (8 instances) | elapsed=13.60s | ETA=87.0m
+[15/410] 000000016598.jpg (1 instances) | elapsed=10.59s | ETA=85.6m
+[16/410] 000000019786.jpg (2 instances) | elapsed=10.61s | ETA=84.4m
+[17/410] 000000021167.jpg (2 instances) | elapsed=11.27s | ETA=83.6m
+[18/410] 000000022396.jpg (1 instances) | elapsed=11.14s | ETA=82.8m
+[19/410] 000000022705.jpg (2 instances) | elapsed=12.74s | ETA=82.6m
+[20/410] 000000022892.jpg (4 instances) | elapsed=12.30s | ETA=82.3m
+[21/410] 000000023230.jpg (4 instances) | elapsed=10.89s | ETA=81.5m
+[22/410] 000000023272.jpg (2 instances) | elapsed=11.32s | ETA=80.9m
+[23/410] 000000025393.jpg (7 instances) | elapsed=12.77s | ETA=80.8m
+[24/410] 000000026926.jpg (2 instances) | elapsed=13.73s | ETA=80.9m
+[25/410] 000000027620.jpg (2 instances) | elapsed=12.62s | ETA=80.7m
+[26/410] 000000028993.jpg (9 instances) | elapsed=12.40s | ETA=80.5m
+[27/410] 000000029596.jpg (5 instances) | elapsed=11.43s | ETA=80.0m
+[28/410] 000000032735.jpg (2 instances) | elapsed=12.59s | ETA=79.8m
+[29/410] 000000035326.jpg (4 instances) | elapsed=13.79s | ETA=79.9m
+[30/410] 000000038829.jpg (12 instances) | elapsed=13.85s | ETA=79.9m
+[31/410] 000000040083.jpg (10 instances) | elapsed=12.13s | ETA=79.6m
+[32/410] 000000040757.jpg (1 instances) | elapsed=10.54s | ETA=79.0m
+[33/410] 000000042102.jpg (2 instances) | elapsed=11.08s | ETA=78.5m
+[34/410] 000000047571.jpg (3 instances) | elapsed=11.02s | ETA=78.0m
+[35/410] 000000047740.jpg (4 instances) | elapsed=13.08s | ETA=77.9m
+[36/410] 000000047828.jpg (13 instances) | elapsed=11.94s | ETA=77.6m
+[37/410] 000000048924.jpg (3 instances) | elapsed=12.43s | ETA=77.4m
+[38/410] 000000050145.jpg (9 instances) | elapsed=12.58s | ETA=77.2m
+[39/410] 000000050326.jpg (2 instances) | elapsed=12.51s | ETA=77.0m
+[40/410] 000000051314.jpg (1 instances) | elapsed=18.73s | ETA=77.8m
+[41/410] 000000052507.jpg (1 instances) | elapsed=12.65s | ETA=77.6m
+[42/410] 000000053624.jpg (5 instances) | elapsed=16.52s | ETA=77.9m
+[43/410] 000000054164.jpg (1 instances) | elapsed=13.95s | ETA=77.9m
+[44/410] 000000054654.jpg (1 instances) | elapsed=10.56s | ETA=77.4m
+[45/410] 000000055950.jpg (1 instances) | elapsed=10.06s | ETA=76.8m
+[46/410] 000000056350.jpg (9 instances) | elapsed=12.26s | ETA=76.6m
+[47/410] 000000058384.jpg (1 instances) | elapsed=8.56s | ETA=75.8m
+[48/410] 000000060102.jpg (2 instances) | elapsed=10.35s | ETA=75.4m
+[49/410] 000000061471.jpg (2 instances) | elapsed=12.79s | ETA=75.2m
+[50/410] 000000068409.jpg (10 instances) | elapsed=10.03s | ETA=74.7m
+[51/410] 000000069213.jpg (8 instances) | elapsed=9.69s | ETA=74.1m
+[52/410] 000000073153.jpg (1 instances) | elapsed=10.39s | ETA=73.7m
+[53/410] 000000076416.jpg (6 instances) | elapsed=10.22s | ETA=73.3m
+[54/410] 000000076547.jpg (8 instances) | elapsed=10.95s | ETA=72.9m
+[55/410] 000000078170.jpg (8 instances) | elapsed=10.87s | ETA=72.6m
+[56/410] 000000078426.jpg (3 instances) | elapsed=10.76s | ETA=72.2m
+[57/410] 000000080949.jpg (3 instances) | elapsed=11.03s | ETA=71.9m
+[58/410] 000000082696.jpg (12 instances) | elapsed=11.82s | ETA=71.6m
+[59/410] 000000084270.jpg (17 instances) | elapsed=9.94s | ETA=71.2m
+[60/410] 000000085157.jpg (18 instances) | elapsed=9.52s | ETA=70.7m
+[61/410] 000000087038.jpg (15 instances) | elapsed=9.10s | ETA=70.2m
+[62/410] 000000089078.jpg (1 instances) | elapsed=10.96s | ETA=69.9m
+[63/410] 000000090891.jpg (5 instances) | elapsed=10.42s | ETA=69.6m
+[64/410] 000000091779.jpg (3 instances) | elapsed=9.83s | ETA=69.2m
+[65/410] 000000093437.jpg (7 instances) | elapsed=12.69s | ETA=69.0m
+[66/410] 000000094751.jpg (13 instances) | elapsed=11.22s | ETA=68.8m
+[67/410] 000000094871.jpg (10 instances) | elapsed=9.31s | ETA=68.3m
+[68/410] 000000095155.jpg (4 instances) | elapsed=11.42s | ETA=68.1m
+[69/410] 000000095786.jpg (2 instances) | elapsed=9.56s | ETA=67.7m
+[70/410] 000000097337.jpg (6 instances) | elapsed=10.06s | ETA=67.4m
+[71/410] 000000097679.jpg (4 instances) | elapsed=9.72s | ETA=67.0m
+[72/410] 000000100274.jpg (6 instances) | elapsed=10.34s | ETA=66.7m
+[73/410] 000000100283.jpg (5 instances) | elapsed=10.28s | ETA=66.4m
+[74/410] 000000101762.jpg (2 instances) | elapsed=10.76s | ETA=66.1m
+[75/410] 000000102707.jpg (2 instances) | elapsed=11.27s | ETA=65.8m
+[76/410] 000000105264.jpg (9 instances) | elapsed=10.46s | ETA=65.5m
+[77/410] 000000105455.jpg (1 instances) | elapsed=9.06s | ETA=65.2m
+[78/410] 000000107087.jpg (3 instances) | elapsed=9.70s | ETA=64.8m
+[79/410] 000000110359.jpg (1 instances) | elapsed=10.13s | ETA=64.5m
+[80/410] 000000110999.jpg (2 instances) | elapsed=9.37s | ETA=64.2m
+[81/410] 000000111036.jpg (1 instances) | elapsed=9.55s | ETA=63.8m
+[82/410] 000000112110.jpg (1 instances) | elapsed=10.58s | ETA=63.6m
+[83/410] 000000117374.jpg (3 instances) | elapsed=10.65s | ETA=63.3m
+[84/410] 000000117525.jpg (2 instances) | elapsed=11.13s | ETA=63.1m
+[85/410] 000000121744.jpg (11 instances) | elapsed=9.65s | ETA=62.8m
+[86/410] 000000123213.jpg (13 instances) | elapsed=10.87s | ETA=62.5m
+[87/410] 000000124636.jpg (3 instances) | elapsed=9.35s | ETA=62.2m
+[88/410] 000000130386.jpg (10 instances) | elapsed=8.59s | ETA=61.8m
+[89/410] 000000130579.jpg (1 instances) | elapsed=9.43s | ETA=61.5m
+[90/410] 000000131131.jpg (1 instances) | elapsed=10.88s | ETA=61.3m
+[91/410] 000000133000.jpg (3 instances) | elapsed=9.21s | ETA=60.9m
+[92/410] 000000133244.jpg (19 instances) | elapsed=11.41s | ETA=60.7m
+[93/410] 000000133645.jpg (7 instances) | elapsed=9.56s | ETA=60.4m
+[94/410] 000000133969.jpg (13 instances) | elapsed=9.08s | ETA=60.1m
+[95/410] 000000134722.jpg (1 instances) | elapsed=8.44s | ETA=59.8m
+[96/410] 000000134886.jpg (12 instances) | elapsed=10.01s | ETA=59.5m
+[97/410] 000000135410.jpg (9 instances) | elapsed=9.73s | ETA=59.2m
+[98/410] 000000135673.jpg (2 instances) | elapsed=10.22s | ETA=59.0m
+[99/410] 000000135872.jpg (2 instances) | elapsed=9.69s | ETA=58.7m
+[100/410] 000000139684.jpg (4 instances) | elapsed=10.42s | ETA=58.5m
+[101/410] 000000140987.jpg (15 instances) | elapsed=10.11s | ETA=58.2m
+[102/410] 000000142324.jpg (18 instances) | elapsed=9.77s | ETA=58.0m
+[103/410] 000000143961.jpg (18 instances) | elapsed=12.68s | ETA=57.8m
+[104/410] 000000145020.jpg (13 instances) | elapsed=10.47s | ETA=57.6m
+[105/410] 000000145620.jpg (5 instances) | elapsed=9.59s | ETA=57.3m
+[106/410] 000000145665.jpg (1 instances) | elapsed=8.54s | ETA=57.0m
+[107/410] 000000147729.jpg (9 instances) | elapsed=8.79s | ETA=56.7m
+[108/410] 000000148739.jpg (1 instances) | elapsed=10.26s | ETA=56.5m
+[109/410] 000000150417.jpg (9 instances) | elapsed=9.80s | ETA=56.2m
+[110/410] 000000150649.jpg (6 instances) | elapsed=10.28s | ETA=56.0m
+[111/410] 000000151938.jpg (7 instances) | elapsed=9.90s | ETA=55.8m
+[112/410] 000000153011.jpg (23 instances) | elapsed=11.94s | ETA=55.6m
+[113/410] 000000157046.jpg (2 instances) | elapsed=9.91s | ETA=55.4m
+[114/410] 000000157601.jpg (3 instances) | elapsed=8.78s | ETA=55.1m
+[115/410] 000000157767.jpg (19 instances) | elapsed=10.36s | ETA=54.8m
+[116/410] 000000158227.jpg (1 instances) | elapsed=8.86s | ETA=54.6m
+[117/410] 000000160012.jpg (5 instances) | elapsed=10.13s | ETA=54.3m
+[118/410] 000000161128.jpg (12 instances) | elapsed=9.50s | ETA=54.1m
+[119/410] 000000161609.jpg (7 instances) | elapsed=9.90s | ETA=53.8m
+[120/410] 000000161781.jpg (1 instances) | elapsed=9.96s | ETA=53.6m
+[121/410] 000000162581.jpg (1 instances) | elapsed=8.58s | ETA=53.3m
+[122/410] 000000163117.jpg (15 instances) | elapsed=9.46s | ETA=53.1m
+[123/410] 000000166768.jpg (2 instances) | elapsed=8.59s | ETA=52.8m
+[124/410] 000000168337.jpg (4 instances) | elapsed=9.35s | ETA=52.6m
+[125/410] 000000173091.jpg (2 instances) | elapsed=8.89s | ETA=52.3m
+[126/410] 000000175438.jpg (13 instances) | elapsed=9.72s | ETA=52.1m
+[127/410] 000000176901.jpg (3 instances) | elapsed=9.72s | ETA=51.8m
+[128/410] 000000177213.jpg (4 instances) | elapsed=9.51s | ETA=51.6m
+[129/410] 000000179765.jpg (1 instances) | elapsed=9.34s | ETA=51.3m
+[130/410] 000000181796.jpg (6 instances) | elapsed=9.53s | ETA=51.1m
+[131/410] 000000181859.jpg (1 instances) | elapsed=12.05s | ETA=51.0m
+[132/410] 000000182021.jpg (3 instances) | elapsed=9.19s | ETA=50.7m
+[133/410] 000000182923.jpg (13 instances) | elapsed=8.88s | ETA=50.5m
+[134/410] 000000184384.jpg (4 instances) | elapsed=8.76s | ETA=50.2m
+[135/410] 000000185157.jpg (6 instances) | elapsed=11.59s | ETA=50.1m
+[136/410] 000000185802.jpg (2 instances) | elapsed=9.77s | ETA=49.8m
+[137/410] 000000186873.jpg (10 instances) | elapsed=9.95s | ETA=49.6m
+[138/410] 000000187990.jpg (1 instances) | elapsed=9.55s | ETA=49.4m
+[139/410] 000000189436.jpg (1 instances) | elapsed=8.57s | ETA=49.1m
+[140/410] 000000189752.jpg (8 instances) | elapsed=9.19s | ETA=48.9m
+[141/410] 000000189806.jpg (2 instances) | elapsed=9.85s | ETA=48.7m
+[142/410] 000000189828.jpg (1 instances) | elapsed=10.06s | ETA=48.5m
+[143/410] 000000190637.jpg (1 instances) | elapsed=8.61s | ETA=48.2m
+[144/410] 000000190853.jpg (1 instances) | elapsed=10.91s | ETA=48.1m
+[145/410] 000000191614.jpg (3 instances) | elapsed=9.01s | ETA=47.8m
+[146/410] 000000191845.jpg (24 instances) | elapsed=9.62s | ETA=47.6m
+[147/410] 000000194471.jpg (1 instances) | elapsed=8.51s | ETA=47.3m
+[148/410] 000000195754.jpg (5 instances) | elapsed=9.34s | ETA=47.1m
+[149/410] 000000198510.jpg (2 instances) | elapsed=9.22s | ETA=46.9m
+[150/410] 000000199395.jpg (12 instances) | elapsed=10.03s | ETA=46.7m
+[151/410] 000000200961.jpg (3 instances) | elapsed=9.74s | ETA=46.5m
+[152/410] 000000201072.jpg (4 instances) | elapsed=10.34s | ETA=46.3m
+[153/410] 000000201148.jpg (3 instances) | elapsed=9.11s | ETA=46.1m
+[154/410] 000000202228.jpg (1 instances) | elapsed=10.56s | ETA=45.9m
+[155/410] 000000206025.jpg (1 instances) | elapsed=8.80s | ETA=45.7m
+[156/410] 000000206994.jpg (1 instances) | elapsed=9.43s | ETA=45.4m
+[157/410] 000000208363.jpg (25 instances) | elapsed=9.34s | ETA=45.2m
+[158/410] 000000209222.jpg (15 instances) | elapsed=9.91s | ETA=45.0m
+[159/410] 000000209753.jpg (1 instances) | elapsed=8.73s | ETA=44.8m
+[160/410] 000000211674.jpg (15 instances) | elapsed=10.09s | ETA=44.6m
+[161/410] 000000213830.jpg (7 instances) | elapsed=10.20s | ETA=44.4m
+[162/410] 000000222863.jpg (1 instances) | elapsed=11.04s | ETA=44.2m
+[163/410] 000000223188.jpg (2 instances) | elapsed=9.57s | ETA=44.0m
+[164/410] 000000223955.jpg (1 instances) | elapsed=8.89s | ETA=43.8m
+[165/410] 000000224675.jpg (3 instances) | elapsed=9.25s | ETA=43.6m
+[166/410] 000000225946.jpg (1 instances) | elapsed=9.53s | ETA=43.4m
+[167/410] 000000226171.jpg (3 instances) | elapsed=9.87s | ETA=43.2m
+[168/410] 000000226883.jpg (1 instances) | elapsed=8.95s | ETA=43.0m
+[169/410] 000000226984.jpg (5 instances) | elapsed=11.81s | ETA=42.8m
+[170/410] 000000227491.jpg (2 instances) | elapsed=9.35s | ETA=42.6m
+[171/410] 000000231879.jpg (8 instances) | elapsed=12.13s | ETA=42.5m
+[172/410] 000000234660.jpg (2 instances) | elapsed=9.13s | ETA=42.3m
+[173/410] 000000236599.jpg (4 instances) | elapsed=9.72s | ETA=42.1m
+[174/410] 000000239274.jpg (14 instances) | elapsed=9.08s | ETA=41.8m
+[175/410] 000000239318.jpg (1 instances) | elapsed=8.72s | ETA=41.6m
+[176/410] 000000239627.jpg (7 instances) | elapsed=10.44s | ETA=41.4m
+[177/410] 000000243626.jpg (1 instances) | elapsed=9.12s | ETA=41.2m
+[178/410] 000000245576.jpg (2 instances) | elapsed=10.55s | ETA=41.1m
+[179/410] 000000246963.jpg (10 instances) | elapsed=9.09s | ETA=40.8m
+[180/410] 000000246968.jpg (12 instances) | elapsed=10.90s | ETA=40.7m
+[181/410] 000000248112.jpg (2 instances) | elapsed=9.45s | ETA=40.5m
+[182/410] 000000249219.jpg (1 instances) | elapsed=8.51s | ETA=40.3m
+[183/410] 000000252716.jpg (3 instances) | elapsed=7.63s | ETA=40.0m
+[184/410] 000000255401.jpg (2 instances) | elapsed=9.63s | ETA=39.8m
+[185/410] 000000255965.jpg (1 instances) | elapsed=9.81s | ETA=39.6m
+[186/410] 000000257370.jpg (2 instances) | elapsed=9.92s | ETA=39.4m
+[187/410] 000000257896.jpg (1 instances) | elapsed=8.66s | ETA=39.2m
+[188/410] 000000259597.jpg (16 instances) | elapsed=8.83s | ETA=39.0m
+[189/410] 000000259640.jpg (16 instances) | elapsed=9.99s | ETA=38.8m
+[190/410] 000000261061.jpg (1 instances) | elapsed=10.58s | ETA=38.7m
+[191/410] 000000262440.jpg (1 instances) | elapsed=9.72s | ETA=38.5m
+[192/410] 000000263463.jpg (3 instances) | elapsed=10.26s | ETA=38.3m
+[193/410] 000000263969.jpg (2 instances) | elapsed=9.65s | ETA=38.1m
+[194/410] 000000264441.jpg (2 instances) | elapsed=10.25s | ETA=37.9m
+[195/410] 000000266400.jpg (12 instances) | elapsed=9.34s | ETA=37.7m
+[196/410] 000000267940.jpg (1 instances) | elapsed=10.21s | ETA=37.5m
+[197/410] 000000270122.jpg (1 instances) | elapsed=10.14s | ETA=37.3m
+[198/410] 000000276434.jpg (3 instances) | elapsed=10.39s | ETA=37.2m
+[199/410] 000000277020.jpg (8 instances) | elapsed=9.46s | ETA=37.0m
+[200/410] 000000277584.jpg (1 instances) | elapsed=10.45s | ETA=36.8m
+[201/410] 000000279730.jpg (5 instances) | elapsed=9.60s | ETA=36.6m
+[202/410] 000000281414.jpg (2 instances) | elapsed=9.49s | ETA=36.4m
+[203/410] 000000285047.jpg (2 instances) | elapsed=10.03s | ETA=36.2m
+[204/410] 000000287714.jpg (4 instances) | elapsed=9.86s | ETA=36.0m
+[205/410] 000000289343.jpg (3 instances) | elapsed=10.95s | ETA=35.9m
+[206/410] 000000289702.jpg (2 instances) | elapsed=10.62s | ETA=35.7m
+[207/410] 000000290179.jpg (13 instances) | elapsed=10.38s | ETA=35.5m
+[208/410] 000000291551.jpg (4 instances) | elapsed=9.28s | ETA=35.3m
+[209/410] 000000293300.jpg (1 instances) | elapsed=14.82s | ETA=35.2m
+[210/410] 000000295478.jpg (3 instances) | elapsed=16.11s | ETA=35.1m
+[211/410] 000000297698.jpg (5 instances) | elapsed=15.00s | ETA=35.0m
+[212/410] 000000300659.jpg (7 instances) | elapsed=12.48s | ETA=34.9m
+[213/410] 000000302165.jpg (10 instances) | elapsed=11.11s | ETA=34.7m
+[214/410] 000000303653.jpg (7 instances) | elapsed=11.86s | ETA=34.6m
+[215/410] 000000304560.jpg (1 instances) | elapsed=14.59s | ETA=34.4m
+[216/410] 000000304812.jpg (6 instances) | elapsed=12.51s | ETA=34.3m
+[217/410] 000000309452.jpg (1 instances) | elapsed=16.78s | ETA=34.2m
+[218/410] 000000309655.jpg (13 instances) | elapsed=15.62s | ETA=34.1m
+[219/410] 000000309678.jpg (2 instances) | elapsed=16.04s | ETA=34.0m
+[220/410] 000000311392.jpg (4 instances) | elapsed=15.21s | ETA=33.9m
+[221/410] 000000313034.jpg (7 instances) | elapsed=21.87s | ETA=33.9m
+[222/410] 000000314264.jpg (1 instances) | elapsed=11.97s | ETA=33.7m
+[223/410] 000000315492.jpg (1 instances) | elapsed=12.17s | ETA=33.6m
+[224/410] 000000316404.jpg (2 instances) | elapsed=13.91s | ETA=33.4m
+[225/410] 000000318138.jpg (3 instances) | elapsed=16.35s | ETA=33.3m
+[226/410] 000000319935.jpg (4 instances) | elapsed=18.07s | ETA=33.2m
+[227/410] 000000322163.jpg (10 instances) | elapsed=13.35s | ETA=33.1m
+[228/410] 000000322352.jpg (7 instances) | elapsed=15.38s | ETA=33.0m
+[229/410] 000000322724.jpg (2 instances) | elapsed=15.20s | ETA=32.8m
+[230/410] 000000323496.jpg (6 instances) | elapsed=14.16s | ETA=32.7m
+[231/410] 000000323799.jpg (11 instances) | elapsed=16.83s | ETA=32.6m
+[232/410] 000000326128.jpg (2 instances) | elapsed=12.03s | ETA=32.4m
+[233/410] 000000329542.jpg (2 instances) | elapsed=21.34s | ETA=32.4m
+[234/410] 000000334006.jpg (2 instances) | elapsed=20.63s | ETA=32.3m
+[235/410] 000000335450.jpg (3 instances) | elapsed=13.42s | ETA=32.2m
+[236/410] 000000336209.jpg (1 instances) | elapsed=17.96s | ETA=32.1m
+[237/410] 000000336628.jpg (7 instances) | elapsed=14.35s | ETA=31.9m
+[238/410] 000000338304.jpg (24 instances) | elapsed=13.21s | ETA=31.8m
+[239/410] 000000338718.jpg (2 instances) | elapsed=15.87s | ETA=31.6m
+[240/410] 000000339823.jpg (1 instances) | elapsed=13.55s | ETA=31.5m
+ERROR: Image 341058 (Fiedler Evaluation\datasets\val2017\000000341058.jpg) failed after 15.90s: Unable to allocate 108. MiB for an array with shape (5329, 5329) and data type float32
+ERROR: Image 344029 (Fiedler Evaluation\datasets\val2017\000000344029.jpg) failed after 0.09s: Unable to allocate 2.99 MiB for an array with shape (1022, 1022, 3) and data type uint8

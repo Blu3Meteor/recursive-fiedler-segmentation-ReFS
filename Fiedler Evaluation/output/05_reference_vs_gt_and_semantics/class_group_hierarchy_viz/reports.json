@@ -1,0 +1,532 @@
+[
+  {
+    "image_id": 383289,
+    "file_name": "000000383289.jpg",
+    "group": "car",
+    "group_node_id": 30,
+    "group_node_depth": 4,
+    "group_iou": 0.8417071853052404,
+    "group_chain": [
+      30,
+      14,
+      6,
+      2,
+      0
+    ],
+    "num_group_instances": 3,
+    "num_descendant": 1,
+    "num_same_as_group": 1,
+    "verdict": "HIERARCHY DOES NOT HOLD: some instance nodes are NOT descendants of the group node",
+    "instances": [
+      {
+        "ann_id": 356306,
+        "iou": 0.8501722158438576,
+        "node_id": 30,
+        "node_depth": 4,
+        "is_descendant_of_group": false,
+        "is_same_as_group": true
+      },
+      {
+        "ann_id": 357019,
+        "iou": 0.43209876543209874,
+        "node_id": 571,
+        "node_depth": 11,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 1770961,
+        "iou": 0.3,
+        "node_id": 53,
+        "node_depth": 5,
+        "is_descendant_of_group": false,
+        "is_same_as_group": false
+      }
+    ]
+  },
+  {
+    "image_id": 144333,
+    "file_name": "000000144333.jpg",
+    "group": "car",
+    "group_node_id": 44,
+    "group_node_depth": 5,
+    "group_iou": 0.4159146841673503,
+    "group_chain": [
+      44,
+      22,
+      10,
+      4,
+      1,
+      0
+    ],
+    "num_group_instances": 3,
+    "num_descendant": 3,
+    "num_same_as_group": 0,
+    "verdict": "HIERARCHY HOLDS: group isolated first, then all instances split beneath it",
+    "instances": [
+      {
+        "ann_id": 344685,
+        "iou": 0.5267175572519084,
+        "node_id": 220,
+        "node_depth": 8,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 354293,
+        "iou": 0.4265232974910394,
+        "node_id": 138,
+        "node_depth": 7,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 2036911,
+        "iou": 0.2639593908629442,
+        "node_id": 325,
+        "node_depth": 9,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      }
+    ]
+  },
+  {
+    "image_id": 575243,
+    "file_name": "000000575243.jpg",
+    "group": "car",
+    "group_node_id": 12,
+    "group_node_depth": 3,
+    "group_iou": 0.5,
+    "group_chain": [
+      12,
+      5,
+      2,
+      0
+    ],
+    "num_group_instances": 3,
+    "num_descendant": 2,
+    "num_same_as_group": 0,
+    "verdict": "HIERARCHY DOES NOT HOLD: some instance nodes are NOT descendants of the group node",
+    "instances": [
+      {
+        "ann_id": 348464,
+        "iou": 0.41386554621848737,
+        "node_id": 104,
+        "node_depth": 6,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 356910,
+        "iou": 0.28061224489795916,
+        "node_id": 7,
+        "node_depth": 3,
+        "is_descendant_of_group": false,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 361276,
+        "iou": 0.5,
+        "node_id": 188,
+        "node_depth": 7,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      }
+    ]
+  },
+  {
+    "image_id": 19432,
+    "file_name": "000000019432.jpg",
+    "group": "chair",
+    "group_node_id": 128,
+    "group_node_depth": 7,
+    "group_iou": 0.39169811320754716,
+    "group_chain": [
+      128,
+      78,
+      46,
+      22,
+      10,
+      4,
+      1,
+      0
+    ],
+    "num_group_instances": 6,
+    "num_descendant": 6,
+    "num_same_as_group": 0,
+    "verdict": "HIERARCHY HOLDS: group isolated first, then all instances split beneath it",
+    "instances": [
+      {
+        "ann_id": 378536,
+        "iou": 0.2912621359223301,
+        "node_id": 338,
+        "node_depth": 10,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 383277,
+        "iou": 0.18018018018018017,
+        "node_id": 433,
+        "node_depth": 12,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 384172,
+        "iou": 0.2857142857142857,
+        "node_id": 597,
+        "node_depth": 20,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 387701,
+        "iou": 0.25961538461538464,
+        "node_id": 341,
+        "node_depth": 10,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 388156,
+        "iou": 0.20652173913043478,
+        "node_id": 515,
+        "node_depth": 15,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 388869,
+        "iou": 0.22666666666666666,
+        "node_id": 649,
+        "node_depth": 24,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      }
+    ]
+  },
+  {
+    "image_id": 297022,
+    "file_name": "000000297022.jpg",
+    "group": "person",
+    "group_node_id": 34,
+    "group_node_depth": 5,
+    "group_iou": 0.4084507042253521,
+    "group_chain": [
+      34,
+      16,
+      7,
+      3,
+      1,
+      0
+    ],
+    "num_group_instances": 3,
+    "num_descendant": 2,
+    "num_same_as_group": 0,
+    "verdict": "HIERARCHY DOES NOT HOLD: some instance nodes are NOT descendants of the group node",
+    "instances": [
+      {
+        "ann_id": 441311,
+        "iou": 0.5882352941176471,
+        "node_id": 39,
+        "node_depth": 5,
+        "is_descendant_of_group": false,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 522981,
+        "iou": 0.3382352941176471,
+        "node_id": 371,
+        "node_depth": 9,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 1217405,
+        "iou": 0.43243243243243246,
+        "node_id": 138,
+        "node_depth": 7,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      }
+    ]
+  },
+  {
+    "image_id": 357816,
+    "file_name": "000000357816.jpg",
+    "group": "person",
+    "group_node_id": 0,
+    "group_node_depth": 0,
+    "group_iou": 0.3133796209420154,
+    "group_chain": [
+      0
+    ],
+    "num_group_instances": 4,
+    "num_descendant": 4,
+    "num_same_as_group": 0,
+    "verdict": "HIERARCHY HOLDS: group isolated first, then all instances split beneath it",
+    "instances": [
+      {
+        "ann_id": 455533,
+        "iou": 0.29172141918528255,
+        "node_id": 13,
+        "node_depth": 3,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 464718,
+        "iou": 0.4970809007506255,
+        "node_id": 3,
+        "node_depth": 2,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 467704,
+        "iou": 0.6406779661016949,
+        "node_id": 11,
+        "node_depth": 3,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 2158954,
+        "iou": 0.3290441176470588,
+        "node_id": 188,
+        "node_depth": 7,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      }
+    ]
+  },
+  {
+    "image_id": 320743,
+    "file_name": "000000320743.jpg",
+    "group": "elephant",
+    "group_node_id": 1,
+    "group_node_depth": 1,
+    "group_iou": 0.6671749904689287,
+    "group_chain": [
+      1,
+      0
+    ],
+    "num_group_instances": 5,
+    "num_descendant": 1,
+    "num_same_as_group": 1,
+    "verdict": "HIERARCHY DOES NOT HOLD: some instance nodes are NOT descendants of the group node",
+    "instances": [
+      {
+        "ann_id": 1409552,
+        "iou": 0.44816053511705684,
+        "node_id": 22,
+        "node_depth": 4,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 1410219,
+        "iou": 0.45381335859782096,
+        "node_id": 1,
+        "node_depth": 1,
+        "is_descendant_of_group": false,
+        "is_same_as_group": true
+      },
+      {
+        "ann_id": 1410387,
+        "iou": 0.48255813953488375,
+        "node_id": 57,
+        "node_depth": 5,
+        "is_descendant_of_group": false,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 1410647,
+        "iou": 0.4943820224719101,
+        "node_id": 58,
+        "node_depth": 5,
+        "is_descendant_of_group": false,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 1410740,
+        "iou": 0.30835734870317005,
+        "node_id": 112,
+        "node_depth": 6,
+        "is_descendant_of_group": false,
+        "is_same_as_group": false
+      }
+    ]
+  },
+  {
+    "image_id": 470924,
+    "file_name": "000000470924.jpg",
+    "group": "person",
+    "group_node_id": 5,
+    "group_node_depth": 2,
+    "group_iou": 0.44421906693711966,
+    "group_chain": [
+      5,
+      2,
+      0
+    ],
+    "num_group_instances": 5,
+    "num_descendant": 1,
+    "num_same_as_group": 1,
+    "verdict": "HIERARCHY DOES NOT HOLD: some instance nodes are NOT descendants of the group node",
+    "instances": [
+      {
+        "ann_id": 1236802,
+        "iou": 0.5792079207920792,
+        "node_id": 108,
+        "node_depth": 6,
+        "is_descendant_of_group": false,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 1245517,
+        "iou": 0.375,
+        "node_id": 49,
+        "node_depth": 5,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 1249146,
+        "iou": 0.6890756302521008,
+        "node_id": 5,
+        "node_depth": 2,
+        "is_descendant_of_group": false,
+        "is_same_as_group": true
+      },
+      {
+        "ann_id": 1291463,
+        "iou": 0.44,
+        "node_id": 592,
+        "node_depth": 11,
+        "is_descendant_of_group": false,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 1294453,
+        "iou": 0.7346041055718475,
+        "node_id": 28,
+        "node_depth": 4,
+        "is_descendant_of_group": false,
+        "is_same_as_group": false
+      }
+    ]
+  },
+  {
+    "image_id": 575970,
+    "file_name": "000000575970.jpg",
+    "group": "chair",
+    "group_node_id": 8,
+    "group_node_depth": 3,
+    "group_iou": 0.6133720930232558,
+    "group_chain": [
+      8,
+      3,
+      1,
+      0
+    ],
+    "num_group_instances": 3,
+    "num_descendant": 3,
+    "num_same_as_group": 0,
+    "verdict": "HIERARCHY HOLDS: group isolated first, then all instances split beneath it",
+    "instances": [
+      {
+        "ann_id": 101280,
+        "iou": 0.3487179487179487,
+        "node_id": 37,
+        "node_depth": 5,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 109744,
+        "iou": 0.3588516746411483,
+        "node_id": 17,
+        "node_depth": 4,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 109926,
+        "iou": 0.35802469135802467,
+        "node_id": 75,
+        "node_depth": 6,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      }
+    ]
+  },
+  {
+    "image_id": 458325,
+    "file_name": "000000458325.jpg",
+    "group": "car",
+    "group_node_id": 5,
+    "group_node_depth": 2,
+    "group_iou": 0.7268408551068883,
+    "group_chain": [
+      5,
+      2,
+      0
+    ],
+    "num_group_instances": 6,
+    "num_descendant": 6,
+    "num_same_as_group": 0,
+    "verdict": "HIERARCHY HOLDS: group isolated first, then all instances split beneath it",
+    "instances": [
+      {
+        "ann_id": 1352579,
+        "iou": 0.43951612903225806,
+        "node_id": 51,
+        "node_depth": 5,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 1352868,
+        "iou": 0.21314741035856574,
+        "node_id": 50,
+        "node_depth": 5,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 1358343,
+        "iou": 0.41832669322709165,
+        "node_id": 106,
+        "node_depth": 6,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 1358429,
+        "iou": 0.20218579234972678,
+        "node_id": 176,
+        "node_depth": 7,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 1773524,
+        "iou": 0.39552238805970147,
+        "node_id": 49,
+        "node_depth": 5,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      },
+      {
+        "ann_id": 1775733,
+        "iou": 0.24210526315789474,
+        "node_id": 526,
+        "node_depth": 10,
+        "is_descendant_of_group": true,
+        "is_same_as_group": false
+      }
+    ]
+  }
+]

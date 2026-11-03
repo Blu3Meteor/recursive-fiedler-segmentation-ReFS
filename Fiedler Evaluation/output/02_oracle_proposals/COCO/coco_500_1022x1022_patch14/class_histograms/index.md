@@ -1,0 +1,79 @@
+# coco_500_1022x1022_patch14 class histograms
+
+- airplane: airplane.png
+- apple: apple.png
+- backpack: backpack.png
+- banana: banana.png
+- baseball bat: baseball_bat.png
+- baseball glove: baseball_glove.png
+- bear: bear.png
+- bed: bed.png
+- bench: bench.png
+- bicycle: bicycle.png
+- bird: bird.png
+- boat: boat.png
+- book: book.png
+- bottle: bottle.png
+- bowl: bowl.png
+- broccoli: broccoli.png
+- bus: bus.png
+- cake: cake.png
+- car: car.png
+- carrot: carrot.png
+- cat: cat.png
+- cell phone: cell_phone.png
+- chair: chair.png
+- clock: clock.png
+- couch: couch.png
+- cow: cow.png
+- cup: cup.png
+- dining table: dining_table.png
+- dog: dog.png
+- donut: donut.png
+- elephant: elephant.png
+- fire hydrant: fire_hydrant.png
+- fork: fork.png
+- frisbee: frisbee.png
+- giraffe: giraffe.png
+- handbag: handbag.png
+- horse: horse.png
+- hot dog: hot_dog.png
+- keyboard: keyboard.png
+- kite: kite.png
+- knife: knife.png
+- laptop: laptop.png
+- microwave: microwave.png
+- motorcycle: motorcycle.png
+- mouse: mouse.png
+- orange: orange.png
+- oven: oven.png
+- parking meter: parking_meter.png
+- person: person.png
+- pizza: pizza.png
+- potted plant: potted_plant.png
+- refrigerator: refrigerator.png
+- remote: remote.png
+- sandwich: sandwich.png
+- scissors: scissors.png
+- sheep: sheep.png
+- sink: sink.png
+- skateboard: skateboard.png
+- skis: skis.png
+- snowboard: snowboard.png
+- spoon: spoon.png
+- sports ball: sports_ball.png
+- stop sign: stop_sign.png
+- suitcase: suitcase.png
+- surfboard: surfboard.png
+- teddy bear: teddy_bear.png
+- tennis racket: tennis_racket.png
+- tie: tie.png
+- toilet: toilet.png
+- traffic light: traffic_light.png
+- train: train.png
+- truck: truck.png
+- tv: tv.png
+- umbrella: umbrella.png
+- vase: vase.png
+- wine glass: wine_glass.png
+- zebra: zebra.png

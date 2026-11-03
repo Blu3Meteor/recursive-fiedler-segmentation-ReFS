@@ -1,0 +1,43 @@
+{
+  "image_id": 22892,
+  "1_insid3_small_clustering_oracle": {
+    "n_clusters": 8,
+    "cat": 0.8148527664536304,
+    "chair": 0.3416033668651201,
+    "dining table": 0.3914308661087379,
+    "dog": 0.9006524269298232
+  },
+  "2_fiedler_stretch_oracle": {
+    "n_nodes": 753,
+    "cat": 0.8827608686794606,
+    "chair": 0.2798135135588388,
+    "dining table": 0.7147504981902477,
+    "dog": 0.7670534821329354,
+    "cat_depth": 2,
+    "chair_depth": 6,
+    "dining table_depth": 3,
+    "dog_depth": 2
+  },
+  "3_insid3_small_reference": {
+    "cat": 0.6292850231529477,
+    "chair": 0.34542495777201004,
+    "dining table": 0.2807431298706141,
+    "dog": 0.31733994667278304
+  },
+  "4_fiedler_stretch_reference_union_tau0.7": {
+    "cat": 0.5920521945432977,
+    "chair": 0.0,
+    "dining table": 0.2664539663074317,
+    "dog": 0.26727729576496867,
+    "cat_n_nodes": 294,
+    "chair_n_nodes": 5,
+    "dining table_n_nodes": 38,
+    "dog_n_nodes": 227
+  },
+  "4b_fiedler_stretch_reference_single_node": {
+    "cat": 0.6237580453664938,
+    "chair": 0.0,
+    "dining table": 0.3547529659107974,
+    "dog": 0.26524280074661943
+  }
+}

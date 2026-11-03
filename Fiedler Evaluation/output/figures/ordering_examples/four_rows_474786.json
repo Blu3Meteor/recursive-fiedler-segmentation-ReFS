@@ -1,0 +1,22 @@
+{
+  "image_id": 474786,
+  "1_insid3_small_clustering_oracle": {
+    "n_clusters": 8,
+    "bottle": 0.38154269972451793
+  },
+  "2_fiedler_stretch_oracle": {
+    "n_nodes": 873,
+    "bottle": 0.6150240243759522,
+    "bottle_depth": 9
+  },
+  "3_insid3_small_reference": {
+    "bottle": 0.38450848150418965
+  },
+  "4_fiedler_stretch_reference_union_tau0.7": {
+    "bottle": 0.23701813668022895,
+    "bottle_n_nodes": 20
+  },
+  "4b_fiedler_stretch_reference_single_node": {
+    "bottle": 0.0
+  }
+}

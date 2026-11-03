@@ -1,0 +1,89 @@
+diff --git a/models/__init__.py b/models/__init__.py
+index 84a4937..ba834b7 100644
+--- a/models/__init__.py
++++ b/models/__init__.py
+@@ -1,28 +1,70 @@
+ """Model construction utilities for INSID3."""
+ 
++import importlib.util
++import sys
+ import torch
++from pathlib import Path
+ 
+ from models.insid3 import INSID3
+ 
+-_HUB_NAMES = {
+-    "small": "dinov3_vits16",
+-    "base": "dinov3_vitb16",
+-    "large": "dinov3_vitl16",
+-}
++DINOV3_ROOT = Path(__file__).parent.parent.parent / "dinov3_repo" / "dinov3_weights"
++
++# Register dinov3_weights directory as the 'dinov3' package in sys.modules
++# This allows absolute imports like 'from dinov3.layers import ...' to resolve correctly
++_spec = importlib.util.spec_from_file_location(
++    "dinov3",
++    DINOV3_ROOT / "__init__.py",
++    submodule_search_locations=[str(DINOV3_ROOT)],
++)
++_dinov3_pkg = importlib.util.module_from_spec(_spec)
++sys.modules["dinov3"] = _dinov3_pkg
++_spec.loader.exec_module(_dinov3_pkg)
+ 
+-_WEIGHTS = {
+-    "small": "pretrain/dinov3_vits16_pretrain_lvd1689m-08c60483.pth",
+-    "base": "pretrain/dinov3_vitb16_pretrain_lvd1689m-73cec8be.pth",
+-    "large": "pretrain/dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth",
++# Now safe to import from dinov3.models.vision_transformer
++from dinov3.models.vision_transformer import vit_small, vit_large
++
++_MODEL_CONFIGS = {
++    "small": {
++        "model_fn": vit_small,
++        "weights": "dinov3_vits16_pretrain_lvd1689m-08c60483.pth",
++        "kwargs": {
++            "img_size": 224, "in_chans": 3,
++            "pos_embed_rope_base": 100, "pos_embed_rope_normalize_coords": "separate",
++            "pos_embed_rope_rescale_coords": 2, "pos_embed_rope_dtype": "fp32",
++            "qkv_bias": True, "drop_path_rate": 0.0, "layerscale_init": 1.0e-05,
++            "norm_layer": "layernormbf16", "ffn_layer": "mlp", "ffn_bias": True, "proj_bias": True,
++            "n_storage_tokens": 4, "mask_k_bias": True,
++        }
++    },
++    "large": {
++        "model_fn": vit_large,
++        "weights": "dinov3_vitl16_pretrain_sat493m-eadcf0ff.pth",
++        "kwargs": {
++            "img_size": 224, "in_chans": 3,
++            "pos_embed_rope_base": 100, "pos_embed_rope_normalize_coords": "separate",
++            "pos_embed_rope_rescale_coords": 2, "pos_embed_rope_dtype": "fp32",
++            "qkv_bias": True, "drop_path_rate": 0.0, "layerscale_init": 1.0e-05,
++            "norm_layer": "layernormbf16", "ffn_layer": "mlp", "ffn_bias": True, "proj_bias": True,
++            "n_storage_tokens": 4, "mask_k_bias": True, "untie_global_and_local_cls_norm": True,
++        }
++    },
+ }
+ 
+ 
+ def _build_encoder(model_size: str = "large"):
+-    return torch.hub.load(
+-        "facebookresearch/dinov3",
+-        _HUB_NAMES[model_size],
+-        weights=_WEIGHTS[model_size],
+-    )
++    if model_size not in _MODEL_CONFIGS:
++        raise ValueError(f"Unsupported model size: {model_size}. Choose from {list(_MODEL_CONFIGS.keys())}")
++
++    cfg = _MODEL_CONFIGS[model_size]
++    model = cfg["model_fn"](**cfg["kwargs"])
++
++    weights_path = DINOV3_ROOT / cfg["weights"]
++    if not weights_path.exists():
++        raise FileNotFoundError(f"Weights not found: {weights_path}")
++
++    checkpoint = torch.load(weights_path, map_location='cpu')
++    model.load_state_dict(checkpoint, strict=True)
++    return model
+ 
+ 
+ def build_insid3(

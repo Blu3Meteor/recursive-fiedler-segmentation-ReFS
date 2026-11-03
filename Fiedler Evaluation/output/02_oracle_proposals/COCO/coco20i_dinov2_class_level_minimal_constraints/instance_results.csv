@@ -1,0 +1,109 @@
+image_id,annotation_id,category_id,category_name,best_iou,best_candidate_id,best_candidate_depth,best_candidate_status,best_candidate_area_patches,candidate_count,image_path
+139,-1,1,person,0.20679405520169852,99,8,leaf,5,123,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000000139.jpg
+139,-1,62,chair,0.44393939393939397,102,8,leaf,18,123,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000000139.jpg
+139,-1,67,dining table,0.2687029659141213,101,8,leaf,8,123,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000000139.jpg
+632,-1,62,chair,0.3120446818844099,59,6,leaf,13,139,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000000632.jpg
+724,-1,3,car,0.0017077078765390453,62,6,leaf,242,75,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000000724.jpg
+785,-1,1,person,0.48655397618132923,24,4,split,119,159,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000000785.jpg
+872,-1,1,person,0.7706571179715475,3,2,split,260,121,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000000872.jpg
+885,-1,1,person,0.2668214838632845,59,6,split,39,153,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000000885.jpg
+1000,-1,1,person,0.6954594062023142,4,2,split,380,135,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000001000.jpg
+1000,-1,27,backpack,0.12624410686223153,116,9,leaf,8,135,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000001000.jpg
+1000,-1,31,handbag,0.2397336293007769,83,8,leaf,15,135,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000001000.jpg
+1268,-1,1,person,0.41851802580816816,29,4,split,129,155,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000001268.jpg
+1268,-1,9,boat,0.31733021077283374,32,5,leaf,27,155,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000001268.jpg
+1268,-1,16,bird,0.14529696660718838,93,7,leaf,20,155,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000001268.jpg
+1268,-1,27,backpack,0.09461152882205513,91,7,leaf,7,155,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000001268.jpg
+1268,-1,31,handbag,0.6228608752449379,65,6,split,35,155,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000001268.jpg
+1296,-1,1,person,0.7467355175688509,6,2,split,769,133,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000001296.jpg
+1353,-1,1,person,0.6951866204364675,3,2,split,199,147,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000001353.jpg
+1353,-1,7,train,0.47595638183768324,20,4,split,57,147,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000001353.jpg
+1490,-1,1,person,0.24399615754082613,32,5,leaf,13,119,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000001490.jpg
+1532,-1,3,car,0.6862222837178733,18,4,split,140,139,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000001532.jpg
+1584,-1,1,person,0.16996929946971812,45,6,leaf,5,133,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000001584.jpg
+1584,-1,6,bus,0.8583819601492774,2,1,split,539,133,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000001584.jpg
+1675,-1,17,cat,0.893619956316818,6,2,split,434,141,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000001675.jpg
+1761,-1,1,person,0.05048543689320388,75,7,leaf,5,157,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000001761.jpg
+1761,-1,5,airplane,0.2783452502553626,147,14,leaf,7,157,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000001761.jpg
+1993,-1,62,chair,0.37165070109676523,115,8,leaf,16,151,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000001993.jpg
+1993,-1,67,dining table,0.4208131067961165,114,8,leaf,19,151,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000001993.jpg
+2006,-1,1,person,0.2327627199239182,25,4,leaf,13,113,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002006.jpg
+2006,-1,6,bus,0.8499036794451936,14,3,split,506,113,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002006.jpg
+2153,-1,1,person,0.4697682137522819,30,5,split,68,111,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002153.jpg
+2157,-1,47,cup,0.24648395239812476,64,7,leaf,16,85,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002157.jpg
+2157,-1,67,dining table,0.8780213235721341,1,1,split,660,85,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002157.jpg
+2261,-1,1,person,0.44504310344827586,46,6,split,32,137,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002261.jpg
+2299,-1,1,person,0.36771975469243634,16,4,split,179,67,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002299.jpg
+2431,-1,1,person,0.4459759893285905,84,7,split,82,119,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002431.jpg
+2431,-1,47,cup,0.2459143504711917,17,4,split,25,119,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002431.jpg
+2431,-1,67,dining table,0.7126734505087882,1,1,split,547,119,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002431.jpg
+2473,-1,1,person,0.3683254631311297,46,6,split,46,91,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002473.jpg
+2532,-1,1,person,0.517304189435337,30,5,leaf,19,143,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002532.jpg
+2592,-1,47,cup,0.7116529397374215,7,3,split,122,137,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002592.jpg
+2592,-1,67,dining table,0.8872494133165636,1,1,split,625,137,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002592.jpg
+2685,-1,1,person,0.6918692884672075,1,1,split,413,171,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002685.jpg
+2685,-1,31,handbag,0.4286589099816289,31,5,leaf,8,171,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002685.jpg
+2685,-1,44,bottle,0.4517345399698341,156,9,leaf,19,171,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002685.jpg
+2685,-1,47,cup,0.07985837922895359,111,7,leaf,11,171,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002685.jpg
+2923,-1,9,boat,0.24955309259921343,74,7,leaf,7,115,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002923.jpg
+2923,-1,16,bird,0.02756183745583039,15,4,leaf,7,115,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002923.jpg
+3156,-1,1,person,0.6541197835732874,1,1,split,545,123,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000003156.jpg
+3255,-1,1,person,0.26423200859291085,18,4,split,19,111,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000003255.jpg
+3255,-1,27,backpack,0.06200607902735562,29,5,leaf,8,111,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000003255.jpg
+3553,-1,1,person,0.7046198998978014,21,4,split,177,127,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000003553.jpg
+3661,-1,47,cup,0.4476494550258725,13,3,split,32,59,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000003661.jpg
+3845,-1,47,cup,0.6717102246675837,70,6,leaf,22,145,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000003845.jpg
+3845,-1,67,dining table,0.7177635760186427,0,0,split,1156,145,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000003845.jpg
+3934,-1,1,person,0.692065505447462,11,3,split,187,143,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000003934.jpg
+3934,-1,47,cup,0.06513026052104208,93,7,leaf,5,143,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000003934.jpg
+4134,-1,1,person,0.7292383820998278,1,1,split,614,159,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000004134.jpg
+4134,-1,62,chair,0.2402555910543131,15,4,leaf,6,159,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000004134.jpg
+4134,-1,67,dining table,0.29366799771819735,61,6,split,28,159,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000004134.jpg
+4395,-1,1,person,0.9275662928504419,1,1,split,587,137,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000004395.jpg
+4495,-1,62,chair,0.6822606625113804,50,5,split,63,177,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000004495.jpg
+4765,-1,1,person,0.565359279627727,18,4,split,80,153,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000004765.jpg
+4795,-1,17,cat,0.8063953691111344,4,2,split,287,201,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000004795.jpg
+5001,-1,1,person,0.5256691201070592,1,1,split,576,177,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000005001.jpg
+5001,-1,2,bicycle,0.3439646712463199,60,6,leaf,9,177,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000005001.jpg
+5001,-1,31,handbag,0.15405260332796564,124,8,leaf,26,177,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000005001.jpg
+5037,-1,1,person,0.1971736204576043,35,5,leaf,7,163,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000005037.jpg
+5037,-1,3,car,0.05397664683851069,15,4,leaf,23,163,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000005037.jpg
+5037,-1,6,bus,0.7782961832061068,10,3,split,371,163,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000005037.jpg
+5060,-1,1,person,0.6939439818319455,38,5,split,64,147,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000005060.jpg
+5193,-1,1,person,0.7239063670962338,4,2,split,327,119,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000005193.jpg
+5193,-1,44,bottle,0.1258008153756552,33,5,leaf,26,119,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000005193.jpg
+5477,-1,5,airplane,0.6557980316645272,8,3,split,175,115,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000005477.jpg
+5529,-1,1,person,0.3872644233293086,13,4,split,49,117,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000005529.jpg
+5586,-1,1,person,0.24757543103448276,58,6,leaf,45,109,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000005586.jpg
+5992,-1,20,sheep,0.7967402454314045,4,2,split,368,83,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000005992.jpg
+6040,-1,1,person,0.107958050586058,81,8,leaf,5,97,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000006040.jpg
+6040,-1,3,car,0.0502652890254119,94,9,leaf,17,97,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000006040.jpg
+6040,-1,7,train,0.7977429359062715,4,2,split,294,97,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000006040.jpg
+6460,-1,1,person,0.5017685699848409,61,7,leaf,10,99,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000006460.jpg
+6471,-1,1,person,0.5036591081149284,68,6,split,230,199,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000006471.jpg
+6471,-1,44,bottle,0.06448508180943215,127,9,leaf,5,199,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000006471.jpg
+6723,-1,3,car,0.09958289885297185,67,6,leaf,9,125,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000006723.jpg
+6723,-1,6,bus,0.106763555058692,59,6,leaf,8,125,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000006723.jpg
+6763,-1,1,person,0.7549507980601723,1,1,split,537,165,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000006763.jpg
+6763,-1,67,dining table,0.5362308664513411,18,4,split,70,165,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000006763.jpg
+6771,-1,1,person,0.8104795591017521,1,1,split,557,121,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000006771.jpg
+6894,-1,1,person,0.8447476212485855,5,2,split,315,123,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000006894.jpg
+6954,-1,1,person,0.7197508573367425,4,2,split,390,63,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000006954.jpg
+7088,-1,1,person,0.605320985716528,36,5,split,58,145,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000007088.jpg
+7088,-1,3,car,0.008319852091518374,27,5,leaf,22,145,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000007088.jpg
+7278,-1,1,person,0.4521526219138951,41,7,split,20,107,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000007278.jpg
+7281,-1,1,person,0.4276159955413125,58,7,split,27,95,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000007281.jpg
+7281,-1,19,horse,0.37440949418135727,14,4,split,85,95,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000007281.jpg
+7386,-1,2,bicycle,0.4950094415969787,49,6,split,16,129,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000007386.jpg
+7386,-1,4,motorcycle,0.751015808049352,22,4,split,308,129,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000007386.jpg
+7386,-1,18,dog,0.18109499298081422,33,5,leaf,9,129,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000007386.jpg
+7511,-1,1,person,0.5003785648187095,48,5,split,47,157,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000007511.jpg
+7511,-1,27,backpack,0.1642219387755102,49,5,leaf,16,157,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000007511.jpg
+7574,-1,44,bottle,0.23269961977186313,86,7,leaf,7,187,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000007574.jpg
+7816,-1,1,person,0.27206912657636617,35,5,split,50,167,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000007816.jpg
+7816,-1,4,motorcycle,0.45132743362831856,36,5,split,57,167,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000007816.jpg
+7818,-1,62,chair,0.410136815920398,59,6,leaf,10,113,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000007818.jpg
+7818,-1,67,dining table,0.581934631580189,1,1,split,396,113,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000007818.jpg
+7977,-1,1,person,0.3812149256670277,11,3,split,34,67,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000007977.jpg
+8021,-1,1,person,0.6368215042298573,28,4,leaf,276,125,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000008021.jpg
+8021,-1,44,bottle,0.06675170068027211,57,6,leaf,12,125,CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000008021.jpg

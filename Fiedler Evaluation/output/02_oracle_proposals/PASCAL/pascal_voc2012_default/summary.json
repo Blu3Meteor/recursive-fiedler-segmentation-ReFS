@@ -1,0 +1,20 @@
+{
+  "dataset_name": "pascal_voc2012_default",
+  "annotations": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\pascal_voc2012_val_coco.json",
+  "image_root": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages",
+  "fixed_size": 480,
+  "patch_size": 8,
+  "tau": 0.15,
+  "num_images": 5823,
+  "num_instances": 0,
+  "mean_best_iou": 0.0,
+  "median_best_iou": 0.0,
+  "min_best_iou": 0.0,
+  "max_best_iou": 0.0,
+  "mean_best_iou_per_image": 0.0,
+  "median_best_iou_per_image": 0.0,
+  "per_class": {},
+  "image_summaries": [],
+  "top_samples": [],
+  "bottom_samples": []
+}

@@ -1,0 +1,22 @@
+{
+  "image_id": 15440,
+  "1_insid3_small_clustering_oracle": {
+    "n_clusters": 7,
+    "bus": 0.19504578280535306
+  },
+  "2_fiedler_stretch_oracle": {
+    "n_nodes": 729,
+    "bus": 0.5722639011473963,
+    "bus_depth": 4
+  },
+  "3_insid3_small_reference": {
+    "bus": 0.19639008850160564
+  },
+  "4_fiedler_stretch_reference_union_tau0.7": {
+    "bus": 0.16012112928943736,
+    "bus_n_nodes": 39
+  },
+  "4b_fiedler_stretch_reference_single_node": {
+    "bus": 0.017685079794779245
+  }
+}

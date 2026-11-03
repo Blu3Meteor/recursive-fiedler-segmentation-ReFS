@@ -1,0 +1,1398 @@
+
+======================================================================
+Batch: skip=0, size=25 (0-25 of 410)
+======================================================================
+Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.04s)
+creating index...
+index created!
+Evaluating on 25 images (COCO-20i classes only, skip=0, of 410 total filtered)
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Building positional basis...
+  basis shape: (384, 100)
+  tree built on raw features
+Building reference data (prototypes + full patch features + masks)...
+loading annotations into memory...
+Done (t=0.58s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+  Built reference data: person (from image 218997, 12 instance(s) in mask, 788 fg patches, 5329 total patches)
+  Built reference data: bicycle (from image 65350, 4 instance(s) in mask, 400 fg patches, 5329 total patches)
+  Built reference data: car (from image 84170, 4 instance(s) in mask, 159 fg patches, 5329 total patches)
+  Built reference data: motorcycle (from image 312421, 1 instance(s) in mask, 162 fg patches, 5329 total patches)
+  Built reference data: airplane (from image 338325, 1 instance(s) in mask, 291 fg patches, 5329 total patches)
+  Built reference data: bus (from image 524850, 1 instance(s) in mask, 339 fg patches, 5329 total patches)
+  Built reference data: train (from image 187144, 1 instance(s) in mask, 83 fg patches, 5329 total patches)
+  Built reference data: boat (from image 353518, 7 instance(s) in mask, 337 fg patches, 5329 total patches)
+  Built reference data: bird (from image 2923, 3 instance(s) in mask, 6 fg patches, 5329 total patches)
+  Built reference data: cat (from image 385205, 1 instance(s) in mask, 2565 fg patches, 5329 total patches)
+  Built reference data: dog (from image 547502, 4 instance(s) in mask, 698 fg patches, 5329 total patches)
+  Built reference data: horse (from image 23126, 2 instance(s) in mask, 935 fg patches, 5329 total patches)
+  Built reference data: sheep (from image 375763, 12 instance(s) in mask, 759 fg patches, 5329 total patches)
+  Built reference data: cow (from image 23937, 5 instance(s) in mask, 242 fg patches, 5329 total patches)
+  Built reference data: backpack (from image 32887, 1 instance(s) in mask, 27 fg patches, 5329 total patches)
+  Built reference data: handbag (from image 530975, 1 instance(s) in mask, 24 fg patches, 5329 total patches)
+  Built reference data: bottle (from image 132329, 4 instance(s) in mask, 552 fg patches, 5329 total patches)
+  Built reference data: cup (from image 80932, 3 instance(s) in mask, 158 fg patches, 5329 total patches)
+  Built reference data: chair (from image 518770, 12 instance(s) in mask, 148 fg patches, 5329 total patches)
+  Built reference data: dining table (from image 513283, 2 instance(s) in mask, 437 fg patches, 5329 total patches)
+[1/25] 000000001490.jpg (1 instances) | elapsed=10.65s | ETA=4.3m
+[2/25] 000000001532.jpg (7 instances) | elapsed=9.63s | ETA=3.9m
+[3/25] 000000002431.jpg (5 instances) | elapsed=8.59s | ETA=3.5m
+[4/25] 000000004395.jpg (1 instances) | elapsed=8.88s | ETA=3.3m
+[5/25] 000000006040.jpg (11 instances) | elapsed=8.35s | ETA=3.1m
+[6/25] 000000006460.jpg (1 instances) | elapsed=8.66s | ETA=2.9m
+[7/25] 000000009914.jpg (1 instances) | elapsed=8.80s | ETA=2.7m
+[8/25] 000000012576.jpg (6 instances) | elapsed=8.52s | ETA=2.6m
+[9/25] 000000013348.jpg (8 instances) | elapsed=9.25s | ETA=2.4m
+[10/25] 000000014439.jpg (19 instances) | elapsed=10.35s | ETA=2.3m
+[11/25] 000000015335.jpg (12 instances) | elapsed=8.91s | ETA=2.1m
+[12/25] 000000015440.jpg (2 instances) | elapsed=8.82s | ETA=2.0m
+[13/25] 000000015751.jpg (4 instances) | elapsed=10.55s | ETA=1.8m
+[14/25] 000000016451.jpg (8 instances) | elapsed=10.90s | ETA=1.7m
+[15/25] 000000016598.jpg (1 instances) | elapsed=8.56s | ETA=1.5m
+[16/25] 000000019786.jpg (2 instances) | elapsed=7.77s | ETA=1.4m
+[17/25] 000000021167.jpg (2 instances) | elapsed=8.14s | ETA=1.2m
+[18/25] 000000022396.jpg (1 instances) | elapsed=9.16s | ETA=1.1m
+[19/25] 000000022705.jpg (2 instances) | elapsed=9.31s | ETA=0.9m
+[20/25] 000000022892.jpg (4 instances) | elapsed=10.85s | ETA=0.8m
+[21/25] 000000023230.jpg (4 instances) | elapsed=7.76s | ETA=0.6m
+[22/25] 000000023272.jpg (2 instances) | elapsed=8.04s | ETA=0.5m
+[23/25] 000000025393.jpg (7 instances) | elapsed=8.89s | ETA=0.3m
+[24/25] 000000026926.jpg (2 instances) | elapsed=7.99s | ETA=0.2m
+[25/25] 000000027620.jpg (2 instances) | elapsed=7.83s | ETA=0.0m
+
+Reference-guided Fiedler v2 Results:
+  Images: 25
+  Instances: 45
+  Mean IoU: 0.3336
+  Median IoU: 0.2957
+Saved report to Fiedler Evaluation/output/04_reference_matching/fiedler_v2_1022_stretch_union_clref\report.md
+Batch completed in 261.5s. Progress: 25/410
+
+======================================================================
+Batch: skip=25, size=25 (25-50 of 410)
+======================================================================
+Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.04s)
+creating index...
+index created!
+Evaluating on 25 images (COCO-20i classes only, skip=25, of 410 total filtered)
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Building positional basis...
+  basis shape: (384, 100)
+  tree built on raw features
+Building reference data (prototypes + full patch features + masks)...
+loading annotations into memory...
+Done (t=0.51s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+  Built reference data: person (from image 218997, 12 instance(s) in mask, 788 fg patches, 5329 total patches)
+  Built reference data: bicycle (from image 65350, 4 instance(s) in mask, 400 fg patches, 5329 total patches)
+  Built reference data: car (from image 84170, 4 instance(s) in mask, 159 fg patches, 5329 total patches)
+  Built reference data: motorcycle (from image 312421, 1 instance(s) in mask, 162 fg patches, 5329 total patches)
+  Built reference data: airplane (from image 338325, 1 instance(s) in mask, 291 fg patches, 5329 total patches)
+  Built reference data: bus (from image 524850, 1 instance(s) in mask, 339 fg patches, 5329 total patches)
+  Built reference data: train (from image 187144, 1 instance(s) in mask, 83 fg patches, 5329 total patches)
+  Built reference data: boat (from image 353518, 7 instance(s) in mask, 337 fg patches, 5329 total patches)
+  Built reference data: bird (from image 2923, 3 instance(s) in mask, 6 fg patches, 5329 total patches)
+  Built reference data: cat (from image 385205, 1 instance(s) in mask, 2565 fg patches, 5329 total patches)
+  Built reference data: dog (from image 547502, 4 instance(s) in mask, 698 fg patches, 5329 total patches)
+  Built reference data: horse (from image 23126, 2 instance(s) in mask, 935 fg patches, 5329 total patches)
+  Built reference data: sheep (from image 375763, 12 instance(s) in mask, 759 fg patches, 5329 total patches)
+  Built reference data: cow (from image 23937, 5 instance(s) in mask, 242 fg patches, 5329 total patches)
+  Built reference data: backpack (from image 32887, 1 instance(s) in mask, 27 fg patches, 5329 total patches)
+  Built reference data: handbag (from image 530975, 1 instance(s) in mask, 24 fg patches, 5329 total patches)
+  Built reference data: bottle (from image 132329, 4 instance(s) in mask, 552 fg patches, 5329 total patches)
+  Built reference data: cup (from image 80932, 3 instance(s) in mask, 158 fg patches, 5329 total patches)
+  Built reference data: chair (from image 518770, 12 instance(s) in mask, 148 fg patches, 5329 total patches)
+  Built reference data: dining table (from image 513283, 2 instance(s) in mask, 437 fg patches, 5329 total patches)
+[1/25] 000000028993.jpg (9 instances) | elapsed=9.48s | ETA=3.8m
+[2/25] 000000029596.jpg (5 instances) | elapsed=8.54s | ETA=3.5m
+[3/25] 000000032735.jpg (2 instances) | elapsed=10.86s | ETA=3.5m
+[4/25] 000000035326.jpg (4 instances) | elapsed=10.91s | ETA=3.5m
+[5/25] 000000038829.jpg (12 instances) | elapsed=9.30s | ETA=3.3m
+[6/25] 000000040083.jpg (10 instances) | elapsed=9.92s | ETA=3.1m
+[7/25] 000000040757.jpg (1 instances) | elapsed=8.83s | ETA=2.9m
+[8/25] 000000042102.jpg (2 instances) | elapsed=9.21s | ETA=2.7m
+[9/25] 000000047571.jpg (3 instances) | elapsed=9.35s | ETA=2.6m
+[10/25] 000000047740.jpg (4 instances) | elapsed=8.88s | ETA=2.4m
+[11/25] 000000047828.jpg (13 instances) | elapsed=10.01s | ETA=2.2m
+[12/25] 000000048924.jpg (3 instances) | elapsed=9.88s | ETA=2.1m
+[13/25] 000000050145.jpg (9 instances) | elapsed=9.83s | ETA=1.9m
+[14/25] 000000050326.jpg (2 instances) | elapsed=9.91s | ETA=1.8m
+[15/25] 000000051314.jpg (1 instances) | elapsed=9.25s | ETA=1.6m
+[16/25] 000000052507.jpg (1 instances) | elapsed=9.06s | ETA=1.4m
+[17/25] 000000053624.jpg (5 instances) | elapsed=8.45s | ETA=1.3m
+[18/25] 000000054164.jpg (1 instances) | elapsed=8.55s | ETA=1.1m
+[19/25] 000000054654.jpg (1 instances) | elapsed=8.66s | ETA=0.9m
+[20/25] 000000055950.jpg (1 instances) | elapsed=10.38s | ETA=0.8m
+[21/25] 000000056350.jpg (9 instances) | elapsed=12.27s | ETA=0.6m
+[22/25] 000000058384.jpg (1 instances) | elapsed=8.57s | ETA=0.5m
+[23/25] 000000060102.jpg (2 instances) | elapsed=9.87s | ETA=0.3m
+[24/25] 000000061471.jpg (2 instances) | elapsed=9.94s | ETA=0.2m
+[25/25] 000000068409.jpg (10 instances) | elapsed=10.90s | ETA=0.0m
+
+Reference-guided Fiedler v2 Results:
+  Images: 25
+  Instances: 44
+  Mean IoU: 0.3704
+  Median IoU: 0.4364
+Saved report to Fiedler Evaluation/output/04_reference_matching/fiedler_v2_1022_stretch_union_clref\report.md
+Batch completed in 273.7s. Progress: 50/410
+
+======================================================================
+Batch: skip=50, size=25 (50-75 of 410)
+======================================================================
+Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.04s)
+creating index...
+index created!
+Evaluating on 25 images (COCO-20i classes only, skip=50, of 410 total filtered)
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Building positional basis...
+  basis shape: (384, 100)
+  tree built on raw features
+Building reference data (prototypes + full patch features + masks)...
+loading annotations into memory...
+Done (t=0.52s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+  Built reference data: person (from image 218997, 12 instance(s) in mask, 788 fg patches, 5329 total patches)
+  Built reference data: bicycle (from image 65350, 4 instance(s) in mask, 400 fg patches, 5329 total patches)
+  Built reference data: car (from image 84170, 4 instance(s) in mask, 159 fg patches, 5329 total patches)
+  Built reference data: motorcycle (from image 312421, 1 instance(s) in mask, 162 fg patches, 5329 total patches)
+  Built reference data: airplane (from image 338325, 1 instance(s) in mask, 291 fg patches, 5329 total patches)
+  Built reference data: bus (from image 524850, 1 instance(s) in mask, 339 fg patches, 5329 total patches)
+  Built reference data: train (from image 187144, 1 instance(s) in mask, 83 fg patches, 5329 total patches)
+  Built reference data: boat (from image 353518, 7 instance(s) in mask, 337 fg patches, 5329 total patches)
+  Built reference data: bird (from image 2923, 3 instance(s) in mask, 6 fg patches, 5329 total patches)
+  Built reference data: cat (from image 385205, 1 instance(s) in mask, 2565 fg patches, 5329 total patches)
+  Built reference data: dog (from image 547502, 4 instance(s) in mask, 698 fg patches, 5329 total patches)
+  Built reference data: horse (from image 23126, 2 instance(s) in mask, 935 fg patches, 5329 total patches)
+  Built reference data: sheep (from image 375763, 12 instance(s) in mask, 759 fg patches, 5329 total patches)
+  Built reference data: cow (from image 23937, 5 instance(s) in mask, 242 fg patches, 5329 total patches)
+  Built reference data: backpack (from image 32887, 1 instance(s) in mask, 27 fg patches, 5329 total patches)
+  Built reference data: handbag (from image 530975, 1 instance(s) in mask, 24 fg patches, 5329 total patches)
+  Built reference data: bottle (from image 132329, 4 instance(s) in mask, 552 fg patches, 5329 total patches)
+  Built reference data: cup (from image 80932, 3 instance(s) in mask, 158 fg patches, 5329 total patches)
+  Built reference data: chair (from image 518770, 12 instance(s) in mask, 148 fg patches, 5329 total patches)
+  Built reference data: dining table (from image 513283, 2 instance(s) in mask, 437 fg patches, 5329 total patches)
+[1/25] 000000069213.jpg (8 instances) | elapsed=8.79s | ETA=3.5m
+[2/25] 000000073153.jpg (1 instances) | elapsed=9.02s | ETA=3.4m
+[3/25] 000000076416.jpg (6 instances) | elapsed=8.82s | ETA=3.3m
+[4/25] 000000076547.jpg (8 instances) | elapsed=9.81s | ETA=3.2m
+[5/25] 000000078170.jpg (8 instances) | elapsed=10.69s | ETA=3.1m
+[6/25] 000000078426.jpg (3 instances) | elapsed=9.40s | ETA=3.0m
+[7/25] 000000080949.jpg (3 instances) | elapsed=10.30s | ETA=2.9m
+[8/25] 000000082696.jpg (12 instances) | elapsed=13.76s | ETA=2.9m
+[9/25] 000000084270.jpg (17 instances) | elapsed=8.92s | ETA=2.7m
+[10/25] 000000085157.jpg (18 instances) | elapsed=9.62s | ETA=2.5m
+[11/25] 000000087038.jpg (15 instances) | elapsed=9.54s | ETA=2.3m
+[12/25] 000000089078.jpg (1 instances) | elapsed=10.01s | ETA=2.1m
+[13/25] 000000090891.jpg (5 instances) | elapsed=9.24s | ETA=2.0m
+[14/25] 000000091779.jpg (3 instances) | elapsed=8.25s | ETA=1.8m
+[15/25] 000000093437.jpg (7 instances) | elapsed=10.16s | ETA=1.6m
+[16/25] 000000094751.jpg (13 instances) | elapsed=8.78s | ETA=1.5m
+[17/25] 000000094871.jpg (10 instances) | elapsed=9.27s | ETA=1.3m
+[18/25] 000000095155.jpg (4 instances) | elapsed=11.24s | ETA=1.1m
+[19/25] 000000095786.jpg (2 instances) | elapsed=8.90s | ETA=1.0m
+[20/25] 000000097337.jpg (6 instances) | elapsed=9.18s | ETA=0.8m
+[21/25] 000000097679.jpg (4 instances) | elapsed=11.60s | ETA=0.7m
+[22/25] 000000100274.jpg (6 instances) | elapsed=8.33s | ETA=0.5m
+[23/25] 000000100283.jpg (5 instances) | elapsed=10.91s | ETA=0.3m
+[24/25] 000000101762.jpg (2 instances) | elapsed=19.35s | ETA=0.2m
+[25/25] 000000102707.jpg (2 instances) | elapsed=9.54s | ETA=0.0m
+
+Reference-guided Fiedler v2 Results:
+  Images: 25
+  Instances: 66
+  Mean IoU: 0.3092
+  Median IoU: 0.2281
+Saved report to Fiedler Evaluation/output/04_reference_matching/fiedler_v2_1022_stretch_union_clref\report.md
+Batch completed in 287.3s. Progress: 75/410
+
+======================================================================
+Batch: skip=75, size=25 (75-100 of 410)
+======================================================================
+Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.03s)
+creating index...
+index created!
+Evaluating on 25 images (COCO-20i classes only, skip=75, of 410 total filtered)
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Building positional basis...
+  basis shape: (384, 100)
+  tree built on raw features
+Building reference data (prototypes + full patch features + masks)...
+loading annotations into memory...
+Done (t=0.52s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+  Built reference data: person (from image 218997, 12 instance(s) in mask, 788 fg patches, 5329 total patches)
+  Built reference data: bicycle (from image 65350, 4 instance(s) in mask, 400 fg patches, 5329 total patches)
+  Built reference data: car (from image 84170, 4 instance(s) in mask, 159 fg patches, 5329 total patches)
+  Built reference data: motorcycle (from image 312421, 1 instance(s) in mask, 162 fg patches, 5329 total patches)
+  Built reference data: airplane (from image 338325, 1 instance(s) in mask, 291 fg patches, 5329 total patches)
+  Built reference data: bus (from image 524850, 1 instance(s) in mask, 339 fg patches, 5329 total patches)
+  Built reference data: train (from image 187144, 1 instance(s) in mask, 83 fg patches, 5329 total patches)
+  Built reference data: boat (from image 353518, 7 instance(s) in mask, 337 fg patches, 5329 total patches)
+  Built reference data: bird (from image 2923, 3 instance(s) in mask, 6 fg patches, 5329 total patches)
+  Built reference data: cat (from image 385205, 1 instance(s) in mask, 2565 fg patches, 5329 total patches)
+  Built reference data: dog (from image 547502, 4 instance(s) in mask, 698 fg patches, 5329 total patches)
+  Built reference data: horse (from image 23126, 2 instance(s) in mask, 935 fg patches, 5329 total patches)
+  Built reference data: sheep (from image 375763, 12 instance(s) in mask, 759 fg patches, 5329 total patches)
+  Built reference data: cow (from image 23937, 5 instance(s) in mask, 242 fg patches, 5329 total patches)
+  Built reference data: backpack (from image 32887, 1 instance(s) in mask, 27 fg patches, 5329 total patches)
+  Built reference data: handbag (from image 530975, 1 instance(s) in mask, 24 fg patches, 5329 total patches)
+  Built reference data: bottle (from image 132329, 4 instance(s) in mask, 552 fg patches, 5329 total patches)
+  Built reference data: cup (from image 80932, 3 instance(s) in mask, 158 fg patches, 5329 total patches)
+  Built reference data: chair (from image 518770, 12 instance(s) in mask, 148 fg patches, 5329 total patches)
+  Built reference data: dining table (from image 513283, 2 instance(s) in mask, 437 fg patches, 5329 total patches)
+[1/25] 000000105264.jpg (9 instances) | elapsed=9.69s | ETA=3.9m
+[2/25] 000000105455.jpg (1 instances) | elapsed=10.69s | ETA=3.9m
+[3/25] 000000107087.jpg (3 instances) | elapsed=9.43s | ETA=3.6m
+[4/25] 000000110359.jpg (1 instances) | elapsed=8.49s | ETA=3.4m
+[5/25] 000000110999.jpg (2 instances) | elapsed=8.14s | ETA=3.1m
+[6/25] 000000111036.jpg (1 instances) | elapsed=8.33s | ETA=2.9m
+[7/25] 000000112110.jpg (1 instances) | elapsed=9.34s | ETA=2.7m
+[8/25] 000000117374.jpg (3 instances) | elapsed=8.98s | ETA=2.6m
+[9/25] 000000117525.jpg (2 instances) | elapsed=9.94s | ETA=2.5m
+[10/25] 000000121744.jpg (11 instances) | elapsed=8.48s | ETA=2.3m
+[11/25] 000000123213.jpg (13 instances) | elapsed=10.70s | ETA=2.2m
+[12/25] 000000124636.jpg (3 instances) | elapsed=9.62s | ETA=2.0m
+[13/25] 000000130386.jpg (10 instances) | elapsed=10.13s | ETA=1.9m
+[14/25] 000000130579.jpg (1 instances) | elapsed=9.37s | ETA=1.7m
+[15/25] 000000131131.jpg (1 instances) | elapsed=8.49s | ETA=1.6m
+[16/25] 000000133000.jpg (3 instances) | elapsed=8.29s | ETA=1.4m
+[17/25] 000000133244.jpg (19 instances) | elapsed=9.79s | ETA=1.2m
+[18/25] 000000133645.jpg (7 instances) | elapsed=8.00s | ETA=1.1m
+[19/25] 000000133969.jpg (13 instances) | elapsed=8.07s | ETA=0.9m
+[20/25] 000000134722.jpg (1 instances) | elapsed=7.93s | ETA=0.8m
+[21/25] 000000134886.jpg (12 instances) | elapsed=11.20s | ETA=0.6m
+[22/25] 000000135410.jpg (9 instances) | elapsed=9.09s | ETA=0.5m
+[23/25] 000000135673.jpg (2 instances) | elapsed=10.58s | ETA=0.3m
+[24/25] 000000135872.jpg (2 instances) | elapsed=8.31s | ETA=0.2m
+[25/25] 000000139684.jpg (4 instances) | elapsed=8.57s | ETA=0.0m
+
+Reference-guided Fiedler v2 Results:
+  Images: 25
+  Instances: 45
+  Mean IoU: 0.3022
+  Median IoU: 0.2418
+Saved report to Fiedler Evaluation/output/04_reference_matching/fiedler_v2_1022_stretch_union_clref\report.md
+Batch completed in 261.7s. Progress: 100/410
+
+======================================================================
+Batch: skip=100, size=25 (100-125 of 410)
+======================================================================
+Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.04s)
+creating index...
+index created!
+Evaluating on 25 images (COCO-20i classes only, skip=100, of 410 total filtered)
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Building positional basis...
+  basis shape: (384, 100)
+  tree built on raw features
+Building reference data (prototypes + full patch features + masks)...
+loading annotations into memory...
+Done (t=0.53s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+  Built reference data: person (from image 218997, 12 instance(s) in mask, 788 fg patches, 5329 total patches)
+  Built reference data: bicycle (from image 65350, 4 instance(s) in mask, 400 fg patches, 5329 total patches)
+  Built reference data: car (from image 84170, 4 instance(s) in mask, 159 fg patches, 5329 total patches)
+  Built reference data: motorcycle (from image 312421, 1 instance(s) in mask, 162 fg patches, 5329 total patches)
+  Built reference data: airplane (from image 338325, 1 instance(s) in mask, 291 fg patches, 5329 total patches)
+  Built reference data: bus (from image 524850, 1 instance(s) in mask, 339 fg patches, 5329 total patches)
+  Built reference data: train (from image 187144, 1 instance(s) in mask, 83 fg patches, 5329 total patches)
+  Built reference data: boat (from image 353518, 7 instance(s) in mask, 337 fg patches, 5329 total patches)
+  Built reference data: bird (from image 2923, 3 instance(s) in mask, 6 fg patches, 5329 total patches)
+  Built reference data: cat (from image 385205, 1 instance(s) in mask, 2565 fg patches, 5329 total patches)
+  Built reference data: dog (from image 547502, 4 instance(s) in mask, 698 fg patches, 5329 total patches)
+  Built reference data: horse (from image 23126, 2 instance(s) in mask, 935 fg patches, 5329 total patches)
+  Built reference data: sheep (from image 375763, 12 instance(s) in mask, 759 fg patches, 5329 total patches)
+  Built reference data: cow (from image 23937, 5 instance(s) in mask, 242 fg patches, 5329 total patches)
+  Built reference data: backpack (from image 32887, 1 instance(s) in mask, 27 fg patches, 5329 total patches)
+  Built reference data: handbag (from image 530975, 1 instance(s) in mask, 24 fg patches, 5329 total patches)
+  Built reference data: bottle (from image 132329, 4 instance(s) in mask, 552 fg patches, 5329 total patches)
+  Built reference data: cup (from image 80932, 3 instance(s) in mask, 158 fg patches, 5329 total patches)
+  Built reference data: chair (from image 518770, 12 instance(s) in mask, 148 fg patches, 5329 total patches)
+  Built reference data: dining table (from image 513283, 2 instance(s) in mask, 437 fg patches, 5329 total patches)
+[1/25] 000000140987.jpg (15 instances) | elapsed=9.47s | ETA=3.8m
+[2/25] 000000142324.jpg (18 instances) | elapsed=8.95s | ETA=3.5m
+[3/25] 000000143961.jpg (18 instances) | elapsed=10.06s | ETA=3.5m
+[4/25] 000000145020.jpg (13 instances) | elapsed=8.51s | ETA=3.2m
+[5/25] 000000145620.jpg (5 instances) | elapsed=9.55s | ETA=3.1m
+[6/25] 000000145665.jpg (1 instances) | elapsed=8.68s | ETA=2.9m
+[7/25] 000000147729.jpg (9 instances) | elapsed=8.23s | ETA=2.7m
+[8/25] 000000148739.jpg (1 instances) | elapsed=8.70s | ETA=2.6m
+[9/25] 000000150417.jpg (9 instances) | elapsed=8.85s | ETA=2.4m
+[10/25] 000000150649.jpg (6 instances) | elapsed=8.86s | ETA=2.2m
+[11/25] 000000151938.jpg (7 instances) | elapsed=9.72s | ETA=2.1m
+[12/25] 000000153011.jpg (23 instances) | elapsed=9.93s | ETA=2.0m
+[13/25] 000000157046.jpg (2 instances) | elapsed=9.34s | ETA=1.8m
+[14/25] 000000157601.jpg (3 instances) | elapsed=8.58s | ETA=1.7m
+[15/25] 000000157767.jpg (19 instances) | elapsed=9.52s | ETA=1.5m
+[16/25] 000000158227.jpg (1 instances) | elapsed=9.30s | ETA=1.4m
+[17/25] 000000160012.jpg (5 instances) | elapsed=9.70s | ETA=1.2m
+[18/25] 000000161128.jpg (12 instances) | elapsed=9.84s | ETA=1.1m
+[19/25] 000000161609.jpg (7 instances) | elapsed=9.54s | ETA=0.9m
+[20/25] 000000161781.jpg (1 instances) | elapsed=9.02s | ETA=0.8m
+[21/25] 000000162581.jpg (1 instances) | elapsed=8.76s | ETA=0.6m
+[22/25] 000000163117.jpg (15 instances) | elapsed=10.98s | ETA=0.5m
+[23/25] 000000166768.jpg (2 instances) | elapsed=8.39s | ETA=0.3m
+[24/25] 000000168337.jpg (4 instances) | elapsed=9.33s | ETA=0.2m
+[25/25] 000000173091.jpg (2 instances) | elapsed=9.07s | ETA=0.0m
+
+Reference-guided Fiedler v2 Results:
+  Images: 25
+  Instances: 64
+  Mean IoU: 0.3310
+  Median IoU: 0.3022
+Saved report to Fiedler Evaluation/output/04_reference_matching/fiedler_v2_1022_stretch_union_clref\report.md
+Batch completed in 263.6s. Progress: 125/410
+
+======================================================================
+Batch: skip=125, size=25 (125-150 of 410)
+======================================================================
+Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.04s)
+creating index...
+index created!
+Evaluating on 25 images (COCO-20i classes only, skip=125, of 410 total filtered)
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Building positional basis...
+  basis shape: (384, 100)
+  tree built on raw features
+Building reference data (prototypes + full patch features + masks)...
+loading annotations into memory...
+Done (t=0.57s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+  Built reference data: person (from image 218997, 12 instance(s) in mask, 788 fg patches, 5329 total patches)
+  Built reference data: bicycle (from image 65350, 4 instance(s) in mask, 400 fg patches, 5329 total patches)
+  Built reference data: car (from image 84170, 4 instance(s) in mask, 159 fg patches, 5329 total patches)
+  Built reference data: motorcycle (from image 312421, 1 instance(s) in mask, 162 fg patches, 5329 total patches)
+  Built reference data: airplane (from image 338325, 1 instance(s) in mask, 291 fg patches, 5329 total patches)
+  Built reference data: bus (from image 524850, 1 instance(s) in mask, 339 fg patches, 5329 total patches)
+  Built reference data: train (from image 187144, 1 instance(s) in mask, 83 fg patches, 5329 total patches)
+  Built reference data: boat (from image 353518, 7 instance(s) in mask, 337 fg patches, 5329 total patches)
+  Built reference data: bird (from image 2923, 3 instance(s) in mask, 6 fg patches, 5329 total patches)
+  Built reference data: cat (from image 385205, 1 instance(s) in mask, 2565 fg patches, 5329 total patches)
+  Built reference data: dog (from image 547502, 4 instance(s) in mask, 698 fg patches, 5329 total patches)
+  Built reference data: horse (from image 23126, 2 instance(s) in mask, 935 fg patches, 5329 total patches)
+  Built reference data: sheep (from image 375763, 12 instance(s) in mask, 759 fg patches, 5329 total patches)
+  Built reference data: cow (from image 23937, 5 instance(s) in mask, 242 fg patches, 5329 total patches)
+  Built reference data: backpack (from image 32887, 1 instance(s) in mask, 27 fg patches, 5329 total patches)
+  Built reference data: handbag (from image 530975, 1 instance(s) in mask, 24 fg patches, 5329 total patches)
+  Built reference data: bottle (from image 132329, 4 instance(s) in mask, 552 fg patches, 5329 total patches)
+  Built reference data: cup (from image 80932, 3 instance(s) in mask, 158 fg patches, 5329 total patches)
+  Built reference data: chair (from image 518770, 12 instance(s) in mask, 148 fg patches, 5329 total patches)
+  Built reference data: dining table (from image 513283, 2 instance(s) in mask, 437 fg patches, 5329 total patches)
+[1/25] 000000175438.jpg (13 instances) | elapsed=8.80s | ETA=3.5m
+[2/25] 000000176901.jpg (3 instances) | elapsed=9.12s | ETA=3.4m
+[3/25] 000000177213.jpg (4 instances) | elapsed=8.93s | ETA=3.3m
+[4/25] 000000179765.jpg (1 instances) | elapsed=9.15s | ETA=3.1m
+[5/25] 000000181796.jpg (6 instances) | elapsed=9.86s | ETA=3.1m
+[6/25] 000000181859.jpg (1 instances) | elapsed=9.24s | ETA=2.9m
+[7/25] 000000182021.jpg (3 instances) | elapsed=9.69s | ETA=2.8m
+[8/25] 000000182923.jpg (13 instances) | elapsed=9.22s | ETA=2.6m
+[9/25] 000000184384.jpg (4 instances) | elapsed=9.91s | ETA=2.5m
+[10/25] 000000185157.jpg (6 instances) | elapsed=10.16s | ETA=2.4m
+[11/25] 000000185802.jpg (2 instances) | elapsed=9.56s | ETA=2.2m
+[12/25] 000000186873.jpg (10 instances) | elapsed=9.93s | ETA=2.1m
+[13/25] 000000187990.jpg (1 instances) | elapsed=10.71s | ETA=1.9m
+[14/25] 000000189436.jpg (1 instances) | elapsed=8.45s | ETA=1.7m
+[15/25] 000000189752.jpg (8 instances) | elapsed=10.21s | ETA=1.6m
+[16/25] 000000189806.jpg (2 instances) | elapsed=9.17s | ETA=1.4m
+[17/25] 000000189828.jpg (1 instances) | elapsed=10.27s | ETA=1.3m
+[18/25] 000000190637.jpg (1 instances) | elapsed=9.20s | ETA=1.1m
+[19/25] 000000190853.jpg (1 instances) | elapsed=8.78s | ETA=0.9m
+[20/25] 000000191614.jpg (3 instances) | elapsed=9.01s | ETA=0.8m
+[21/25] 000000191845.jpg (24 instances) | elapsed=10.61s | ETA=0.6m
+[22/25] 000000194471.jpg (1 instances) | elapsed=9.65s | ETA=0.5m
+[23/25] 000000195754.jpg (5 instances) | elapsed=8.29s | ETA=0.3m
+[24/25] 000000198510.jpg (2 instances) | elapsed=8.66s | ETA=0.2m
+[25/25] 000000199395.jpg (12 instances) | elapsed=8.96s | ETA=0.0m
+
+Reference-guided Fiedler v2 Results:
+  Images: 25
+  Instances: 40
+  Mean IoU: 0.3751
+  Median IoU: 0.3908
+Saved report to Fiedler Evaluation/output/04_reference_matching/fiedler_v2_1022_stretch_union_clref\report.md
+Batch completed in 269.1s. Progress: 150/410
+
+======================================================================
+Batch: skip=150, size=25 (150-175 of 410)
+======================================================================
+Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.04s)
+creating index...
+index created!
+Evaluating on 25 images (COCO-20i classes only, skip=150, of 410 total filtered)
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Building positional basis...
+  basis shape: (384, 100)
+  tree built on raw features
+Building reference data (prototypes + full patch features + masks)...
+loading annotations into memory...
+Done (t=0.59s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+  Built reference data: person (from image 218997, 12 instance(s) in mask, 788 fg patches, 5329 total patches)
+  Built reference data: bicycle (from image 65350, 4 instance(s) in mask, 400 fg patches, 5329 total patches)
+  Built reference data: car (from image 84170, 4 instance(s) in mask, 159 fg patches, 5329 total patches)
+  Built reference data: motorcycle (from image 312421, 1 instance(s) in mask, 162 fg patches, 5329 total patches)
+  Built reference data: airplane (from image 338325, 1 instance(s) in mask, 291 fg patches, 5329 total patches)
+  Built reference data: bus (from image 524850, 1 instance(s) in mask, 339 fg patches, 5329 total patches)
+  Built reference data: train (from image 187144, 1 instance(s) in mask, 83 fg patches, 5329 total patches)
+  Built reference data: boat (from image 353518, 7 instance(s) in mask, 337 fg patches, 5329 total patches)
+  Built reference data: bird (from image 2923, 3 instance(s) in mask, 6 fg patches, 5329 total patches)
+  Built reference data: cat (from image 385205, 1 instance(s) in mask, 2565 fg patches, 5329 total patches)
+  Built reference data: dog (from image 547502, 4 instance(s) in mask, 698 fg patches, 5329 total patches)
+  Built reference data: horse (from image 23126, 2 instance(s) in mask, 935 fg patches, 5329 total patches)
+  Built reference data: sheep (from image 375763, 12 instance(s) in mask, 759 fg patches, 5329 total patches)
+  Built reference data: cow (from image 23937, 5 instance(s) in mask, 242 fg patches, 5329 total patches)
+  Built reference data: backpack (from image 32887, 1 instance(s) in mask, 27 fg patches, 5329 total patches)
+  Built reference data: handbag (from image 530975, 1 instance(s) in mask, 24 fg patches, 5329 total patches)
+  Built reference data: bottle (from image 132329, 4 instance(s) in mask, 552 fg patches, 5329 total patches)
+  Built reference data: cup (from image 80932, 3 instance(s) in mask, 158 fg patches, 5329 total patches)
+  Built reference data: chair (from image 518770, 12 instance(s) in mask, 148 fg patches, 5329 total patches)
+  Built reference data: dining table (from image 513283, 2 instance(s) in mask, 437 fg patches, 5329 total patches)
+[1/25] 000000200961.jpg (3 instances) | elapsed=9.71s | ETA=3.9m
+[2/25] 000000201072.jpg (4 instances) | elapsed=9.51s | ETA=3.7m
+[3/25] 000000201148.jpg (3 instances) | elapsed=8.71s | ETA=3.4m
+[4/25] 000000202228.jpg (1 instances) | elapsed=10.37s | ETA=3.4m
+[5/25] 000000206025.jpg (1 instances) | elapsed=8.35s | ETA=3.1m
+[6/25] 000000206994.jpg (1 instances) | elapsed=8.14s | ETA=2.9m
+[7/25] 000000208363.jpg (25 instances) | elapsed=8.77s | ETA=2.7m
+[8/25] 000000209222.jpg (15 instances) | elapsed=9.65s | ETA=2.6m
+[9/25] 000000209753.jpg (1 instances) | elapsed=7.93s | ETA=2.4m
+[10/25] 000000211674.jpg (15 instances) | elapsed=9.27s | ETA=2.3m
+[11/25] 000000213830.jpg (7 instances) | elapsed=10.21s | ETA=2.1m
+[12/25] 000000222863.jpg (1 instances) | elapsed=9.91s | ETA=2.0m
+[13/25] 000000223188.jpg (2 instances) | elapsed=9.05s | ETA=1.8m
+[14/25] 000000223955.jpg (1 instances) | elapsed=9.29s | ETA=1.7m
+[15/25] 000000224675.jpg (3 instances) | elapsed=8.15s | ETA=1.5m
+[16/25] 000000225946.jpg (1 instances) | elapsed=8.07s | ETA=1.4m
+[17/25] 000000226171.jpg (3 instances) | elapsed=9.11s | ETA=1.2m
+[18/25] 000000226883.jpg (1 instances) | elapsed=7.95s | ETA=1.1m
+[19/25] 000000226984.jpg (5 instances) | elapsed=8.49s | ETA=0.9m
+[20/25] 000000227491.jpg (2 instances) | elapsed=9.10s | ETA=0.7m
+[21/25] 000000231879.jpg (8 instances) | elapsed=9.02s | ETA=0.6m
+[22/25] 000000234660.jpg (2 instances) | elapsed=8.16s | ETA=0.4m
+[23/25] 000000236599.jpg (4 instances) | elapsed=8.03s | ETA=0.3m
+[24/25] 000000239274.jpg (14 instances) | elapsed=8.96s | ETA=0.1m
+[25/25] 000000239318.jpg (1 instances) | elapsed=8.05s | ETA=0.0m
+
+Reference-guided Fiedler v2 Results:
+  Images: 25
+  Instances: 41
+  Mean IoU: 0.3219
+  Median IoU: 0.1511
+Saved report to Fiedler Evaluation/output/04_reference_matching/fiedler_v2_1022_stretch_union_clref\report.md
+Batch completed in 254.6s. Progress: 175/410
+
+======================================================================
+Batch: skip=175, size=25 (175-200 of 410)
+======================================================================
+Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.04s)
+creating index...
+index created!
+Evaluating on 25 images (COCO-20i classes only, skip=175, of 410 total filtered)
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Building positional basis...
+  basis shape: (384, 100)
+  tree built on raw features
+Building reference data (prototypes + full patch features + masks)...
+loading annotations into memory...
+Done (t=0.56s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+  Built reference data: person (from image 218997, 12 instance(s) in mask, 788 fg patches, 5329 total patches)
+  Built reference data: bicycle (from image 65350, 4 instance(s) in mask, 400 fg patches, 5329 total patches)
+  Built reference data: car (from image 84170, 4 instance(s) in mask, 159 fg patches, 5329 total patches)
+  Built reference data: motorcycle (from image 312421, 1 instance(s) in mask, 162 fg patches, 5329 total patches)
+  Built reference data: airplane (from image 338325, 1 instance(s) in mask, 291 fg patches, 5329 total patches)
+  Built reference data: bus (from image 524850, 1 instance(s) in mask, 339 fg patches, 5329 total patches)
+  Built reference data: train (from image 187144, 1 instance(s) in mask, 83 fg patches, 5329 total patches)
+  Built reference data: boat (from image 353518, 7 instance(s) in mask, 337 fg patches, 5329 total patches)
+  Built reference data: bird (from image 2923, 3 instance(s) in mask, 6 fg patches, 5329 total patches)
+  Built reference data: cat (from image 385205, 1 instance(s) in mask, 2565 fg patches, 5329 total patches)
+  Built reference data: dog (from image 547502, 4 instance(s) in mask, 698 fg patches, 5329 total patches)
+  Built reference data: horse (from image 23126, 2 instance(s) in mask, 935 fg patches, 5329 total patches)
+  Built reference data: sheep (from image 375763, 12 instance(s) in mask, 759 fg patches, 5329 total patches)
+  Built reference data: cow (from image 23937, 5 instance(s) in mask, 242 fg patches, 5329 total patches)
+  Built reference data: backpack (from image 32887, 1 instance(s) in mask, 27 fg patches, 5329 total patches)
+  Built reference data: handbag (from image 530975, 1 instance(s) in mask, 24 fg patches, 5329 total patches)
+  Built reference data: bottle (from image 132329, 4 instance(s) in mask, 552 fg patches, 5329 total patches)
+  Built reference data: cup (from image 80932, 3 instance(s) in mask, 158 fg patches, 5329 total patches)
+  Built reference data: chair (from image 518770, 12 instance(s) in mask, 148 fg patches, 5329 total patches)
+  Built reference data: dining table (from image 513283, 2 instance(s) in mask, 437 fg patches, 5329 total patches)
+[1/25] 000000239627.jpg (7 instances) | elapsed=9.89s | ETA=4.0m
+[2/25] 000000243626.jpg (1 instances) | elapsed=8.40s | ETA=3.5m
+[3/25] 000000245576.jpg (2 instances) | elapsed=8.80s | ETA=3.3m
+[4/25] 000000246963.jpg (10 instances) | elapsed=9.58s | ETA=3.2m
+[5/25] 000000246968.jpg (12 instances) | elapsed=10.22s | ETA=3.1m
+[6/25] 000000248112.jpg (2 instances) | elapsed=9.85s | ETA=3.0m
+[7/25] 000000249219.jpg (1 instances) | elapsed=9.04s | ETA=2.8m
+[8/25] 000000252716.jpg (3 instances) | elapsed=8.65s | ETA=2.6m
+[9/25] 000000255401.jpg (2 instances) | elapsed=7.95s | ETA=2.4m
+[10/25] 000000255965.jpg (1 instances) | elapsed=9.11s | ETA=2.3m
+[11/25] 000000257370.jpg (2 instances) | elapsed=8.70s | ETA=2.1m
+[12/25] 000000257896.jpg (1 instances) | elapsed=8.43s | ETA=2.0m
+[13/25] 000000259597.jpg (16 instances) | elapsed=9.22s | ETA=1.8m
+[14/25] 000000259640.jpg (16 instances) | elapsed=8.78s | ETA=1.7m
+[15/25] 000000261061.jpg (1 instances) | elapsed=8.80s | ETA=1.5m
+[16/25] 000000262440.jpg (1 instances) | elapsed=8.17s | ETA=1.3m
+[17/25] 000000263463.jpg (3 instances) | elapsed=11.37s | ETA=1.2m
+[18/25] 000000263969.jpg (2 instances) | elapsed=8.12s | ETA=1.1m
+[19/25] 000000264441.jpg (2 instances) | elapsed=8.86s | ETA=0.9m
+[20/25] 000000266400.jpg (12 instances) | elapsed=8.94s | ETA=0.8m
+[21/25] 000000267940.jpg (1 instances) | elapsed=8.86s | ETA=0.6m
+[22/25] 000000270122.jpg (1 instances) | elapsed=7.98s | ETA=0.4m
+[23/25] 000000276434.jpg (3 instances) | elapsed=8.05s | ETA=0.3m
+[24/25] 000000277020.jpg (8 instances) | elapsed=9.31s | ETA=0.1m
+[25/25] 000000277584.jpg (1 instances) | elapsed=8.67s | ETA=0.0m
+
+Reference-guided Fiedler v2 Results:
+  Images: 25
+  Instances: 44
+  Mean IoU: 0.3858
+  Median IoU: 0.4037
+Saved report to Fiedler Evaluation/output/04_reference_matching/fiedler_v2_1022_stretch_union_clref\report.md
+Batch completed in 255.8s. Progress: 200/410
+
+======================================================================
+Batch: skip=200, size=25 (200-225 of 410)
+======================================================================
+Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.03s)
+creating index...
+index created!
+Evaluating on 25 images (COCO-20i classes only, skip=200, of 410 total filtered)
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Building positional basis...
+  basis shape: (384, 100)
+  tree built on raw features
+Building reference data (prototypes + full patch features + masks)...
+loading annotations into memory...
+Done (t=0.51s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+  Built reference data: person (from image 218997, 12 instance(s) in mask, 788 fg patches, 5329 total patches)
+  Built reference data: bicycle (from image 65350, 4 instance(s) in mask, 400 fg patches, 5329 total patches)
+  Built reference data: car (from image 84170, 4 instance(s) in mask, 159 fg patches, 5329 total patches)
+  Built reference data: motorcycle (from image 312421, 1 instance(s) in mask, 162 fg patches, 5329 total patches)
+  Built reference data: airplane (from image 338325, 1 instance(s) in mask, 291 fg patches, 5329 total patches)
+  Built reference data: bus (from image 524850, 1 instance(s) in mask, 339 fg patches, 5329 total patches)
+  Built reference data: train (from image 187144, 1 instance(s) in mask, 83 fg patches, 5329 total patches)
+  Built reference data: boat (from image 353518, 7 instance(s) in mask, 337 fg patches, 5329 total patches)
+  Built reference data: bird (from image 2923, 3 instance(s) in mask, 6 fg patches, 5329 total patches)
+  Built reference data: cat (from image 385205, 1 instance(s) in mask, 2565 fg patches, 5329 total patches)
+  Built reference data: dog (from image 547502, 4 instance(s) in mask, 698 fg patches, 5329 total patches)
+  Built reference data: horse (from image 23126, 2 instance(s) in mask, 935 fg patches, 5329 total patches)
+  Built reference data: sheep (from image 375763, 12 instance(s) in mask, 759 fg patches, 5329 total patches)
+  Built reference data: cow (from image 23937, 5 instance(s) in mask, 242 fg patches, 5329 total patches)
+  Built reference data: backpack (from image 32887, 1 instance(s) in mask, 27 fg patches, 5329 total patches)
+  Built reference data: handbag (from image 530975, 1 instance(s) in mask, 24 fg patches, 5329 total patches)
+  Built reference data: bottle (from image 132329, 4 instance(s) in mask, 552 fg patches, 5329 total patches)
+  Built reference data: cup (from image 80932, 3 instance(s) in mask, 158 fg patches, 5329 total patches)
+  Built reference data: chair (from image 518770, 12 instance(s) in mask, 148 fg patches, 5329 total patches)
+  Built reference data: dining table (from image 513283, 2 instance(s) in mask, 437 fg patches, 5329 total patches)
+[1/25] 000000279730.jpg (5 instances) | elapsed=9.05s | ETA=3.6m
+[2/25] 000000281414.jpg (2 instances) | elapsed=9.31s | ETA=3.5m
+[3/25] 000000285047.jpg (2 instances) | elapsed=8.20s | ETA=3.2m
+[4/25] 000000287714.jpg (4 instances) | elapsed=8.53s | ETA=3.1m
+[5/25] 000000289343.jpg (3 instances) | elapsed=10.13s | ETA=3.0m
+[6/25] 000000289702.jpg (2 instances) | elapsed=8.78s | ETA=2.9m
+[7/25] 000000290179.jpg (13 instances) | elapsed=11.30s | ETA=2.8m
+[8/25] 000000291551.jpg (4 instances) | elapsed=8.54s | ETA=2.6m
+[9/25] 000000293300.jpg (1 instances) | elapsed=8.30s | ETA=2.4m
+[10/25] 000000295478.jpg (3 instances) | elapsed=9.02s | ETA=2.3m
+[11/25] 000000297698.jpg (5 instances) | elapsed=9.20s | ETA=2.1m
+[12/25] 000000300659.jpg (7 instances) | elapsed=8.71s | ETA=2.0m
+[13/25] 000000302165.jpg (10 instances) | elapsed=7.77s | ETA=1.8m
+[14/25] 000000303653.jpg (7 instances) | elapsed=9.63s | ETA=1.7m
+[15/25] 000000304560.jpg (1 instances) | elapsed=8.77s | ETA=1.5m
+[16/25] 000000304812.jpg (6 instances) | elapsed=8.37s | ETA=1.3m
+[17/25] 000000309452.jpg (1 instances) | elapsed=11.52s | ETA=1.2m
+[18/25] 000000309655.jpg (13 instances) | elapsed=9.48s | ETA=1.1m
+[19/25] 000000309678.jpg (2 instances) | elapsed=9.45s | ETA=0.9m
+[20/25] 000000311392.jpg (4 instances) | elapsed=7.86s | ETA=0.8m
+[21/25] 000000313034.jpg (7 instances) | elapsed=8.54s | ETA=0.6m
+[22/25] 000000314264.jpg (1 instances) | elapsed=9.56s | ETA=0.5m
+[23/25] 000000315492.jpg (1 instances) | elapsed=8.50s | ETA=0.3m
+[24/25] 000000316404.jpg (2 instances) | elapsed=8.53s | ETA=0.2m
+[25/25] 000000318138.jpg (3 instances) | elapsed=8.97s | ETA=0.0m
+
+Reference-guided Fiedler v2 Results:
+  Images: 25
+  Instances: 42
+  Mean IoU: 0.3393
+  Median IoU: 0.2047
+Saved report to Fiedler Evaluation/output/04_reference_matching/fiedler_v2_1022_stretch_union_clref\report.md
+Batch completed in 259.3s. Progress: 225/410
+
+======================================================================
+Batch: skip=225, size=25 (225-250 of 410)
+======================================================================
+Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.04s)
+creating index...
+index created!
+Evaluating on 25 images (COCO-20i classes only, skip=225, of 410 total filtered)
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Building positional basis...
+  basis shape: (384, 100)
+  tree built on raw features
+Building reference data (prototypes + full patch features + masks)...
+loading annotations into memory...
+Done (t=0.48s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+  Built reference data: person (from image 218997, 12 instance(s) in mask, 788 fg patches, 5329 total patches)
+  Built reference data: bicycle (from image 65350, 4 instance(s) in mask, 400 fg patches, 5329 total patches)
+  Built reference data: car (from image 84170, 4 instance(s) in mask, 159 fg patches, 5329 total patches)
+  Built reference data: motorcycle (from image 312421, 1 instance(s) in mask, 162 fg patches, 5329 total patches)
+  Built reference data: airplane (from image 338325, 1 instance(s) in mask, 291 fg patches, 5329 total patches)
+  Built reference data: bus (from image 524850, 1 instance(s) in mask, 339 fg patches, 5329 total patches)
+  Built reference data: train (from image 187144, 1 instance(s) in mask, 83 fg patches, 5329 total patches)
+  Built reference data: boat (from image 353518, 7 instance(s) in mask, 337 fg patches, 5329 total patches)
+  Built reference data: bird (from image 2923, 3 instance(s) in mask, 6 fg patches, 5329 total patches)
+  Built reference data: cat (from image 385205, 1 instance(s) in mask, 2565 fg patches, 5329 total patches)
+  Built reference data: dog (from image 547502, 4 instance(s) in mask, 698 fg patches, 5329 total patches)
+  Built reference data: horse (from image 23126, 2 instance(s) in mask, 935 fg patches, 5329 total patches)
+  Built reference data: sheep (from image 375763, 12 instance(s) in mask, 759 fg patches, 5329 total patches)
+  Built reference data: cow (from image 23937, 5 instance(s) in mask, 242 fg patches, 5329 total patches)
+  Built reference data: backpack (from image 32887, 1 instance(s) in mask, 27 fg patches, 5329 total patches)
+  Built reference data: handbag (from image 530975, 1 instance(s) in mask, 24 fg patches, 5329 total patches)
+  Built reference data: bottle (from image 132329, 4 instance(s) in mask, 552 fg patches, 5329 total patches)
+  Built reference data: cup (from image 80932, 3 instance(s) in mask, 158 fg patches, 5329 total patches)
+  Built reference data: chair (from image 518770, 12 instance(s) in mask, 148 fg patches, 5329 total patches)
+  Built reference data: dining table (from image 513283, 2 instance(s) in mask, 437 fg patches, 5329 total patches)
+[1/25] 000000319935.jpg (4 instances) | elapsed=8.59s | ETA=3.4m
+[2/25] 000000322163.jpg (10 instances) | elapsed=9.16s | ETA=3.4m
+[3/25] 000000322352.jpg (7 instances) | elapsed=8.80s | ETA=3.2m
+[4/25] 000000322724.jpg (2 instances) | elapsed=10.06s | ETA=3.2m
+[5/25] 000000323496.jpg (6 instances) | elapsed=8.87s | ETA=3.0m
+[6/25] 000000323799.jpg (11 instances) | elapsed=9.27s | ETA=2.9m
+[7/25] 000000326128.jpg (2 instances) | elapsed=8.72s | ETA=2.7m
+[8/25] 000000329542.jpg (2 instances) | elapsed=10.28s | ETA=2.6m
+[9/25] 000000334006.jpg (2 instances) | elapsed=8.26s | ETA=2.4m
+[10/25] 000000335450.jpg (3 instances) | elapsed=9.83s | ETA=2.3m
+[11/25] 000000336209.jpg (1 instances) | elapsed=9.89s | ETA=2.2m
+[12/25] 000000336628.jpg (7 instances) | elapsed=8.84s | ETA=2.0m
+[13/25] 000000338304.jpg (24 instances) | elapsed=8.75s | ETA=1.8m
+[14/25] 000000338718.jpg (2 instances) | elapsed=9.05s | ETA=1.7m
+[15/25] 000000339823.jpg (1 instances) | elapsed=8.39s | ETA=1.5m
+[16/25] 000000341058.jpg (6 instances) | elapsed=8.72s | ETA=1.4m
+[17/25] 000000344029.jpg (11 instances) | elapsed=8.93s | ETA=1.2m
+[18/25] 000000344909.jpg (3 instances) | elapsed=8.40s | ETA=1.1m
+[19/25] 000000345361.jpg (8 instances) | elapsed=9.51s | ETA=0.9m
+[20/25] 000000348243.jpg (2 instances) | elapsed=9.20s | ETA=0.8m
+[21/25] 000000349480.jpg (4 instances) | elapsed=8.55s | ETA=0.6m
+[22/25] 000000355240.jpg (3 instances) | elapsed=9.58s | ETA=0.5m
+[23/25] 000000356169.jpg (7 instances) | elapsed=8.09s | ETA=0.3m
+[24/25] 000000356261.jpg (2 instances) | elapsed=8.14s | ETA=0.1m
+[25/25] 000000357742.jpg (2 instances) | elapsed=8.57s | ETA=0.0m
+
+Reference-guided Fiedler v2 Results:
+  Images: 25
+  Instances: 46
+  Mean IoU: 0.3672
+  Median IoU: 0.4657
+Saved report to Fiedler Evaluation/output/04_reference_matching/fiedler_v2_1022_stretch_union_clref\report.md
+Batch completed in 257.0s. Progress: 250/410
+
+======================================================================
+Batch: skip=250, size=25 (250-275 of 410)
+======================================================================
+Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.04s)
+creating index...
+index created!
+Evaluating on 25 images (COCO-20i classes only, skip=250, of 410 total filtered)
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Building positional basis...
+  basis shape: (384, 100)
+  tree built on raw features
+Building reference data (prototypes + full patch features + masks)...
+loading annotations into memory...
+Done (t=0.48s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+  Built reference data: person (from image 218997, 12 instance(s) in mask, 788 fg patches, 5329 total patches)
+  Built reference data: bicycle (from image 65350, 4 instance(s) in mask, 400 fg patches, 5329 total patches)
+  Built reference data: car (from image 84170, 4 instance(s) in mask, 159 fg patches, 5329 total patches)
+  Built reference data: motorcycle (from image 312421, 1 instance(s) in mask, 162 fg patches, 5329 total patches)
+  Built reference data: airplane (from image 338325, 1 instance(s) in mask, 291 fg patches, 5329 total patches)
+  Built reference data: bus (from image 524850, 1 instance(s) in mask, 339 fg patches, 5329 total patches)
+  Built reference data: train (from image 187144, 1 instance(s) in mask, 83 fg patches, 5329 total patches)
+  Built reference data: boat (from image 353518, 7 instance(s) in mask, 337 fg patches, 5329 total patches)
+  Built reference data: bird (from image 2923, 3 instance(s) in mask, 6 fg patches, 5329 total patches)
+  Built reference data: cat (from image 385205, 1 instance(s) in mask, 2565 fg patches, 5329 total patches)
+  Built reference data: dog (from image 547502, 4 instance(s) in mask, 698 fg patches, 5329 total patches)
+  Built reference data: horse (from image 23126, 2 instance(s) in mask, 935 fg patches, 5329 total patches)
+  Built reference data: sheep (from image 375763, 12 instance(s) in mask, 759 fg patches, 5329 total patches)
+  Built reference data: cow (from image 23937, 5 instance(s) in mask, 242 fg patches, 5329 total patches)
+  Built reference data: backpack (from image 32887, 1 instance(s) in mask, 27 fg patches, 5329 total patches)
+  Built reference data: handbag (from image 530975, 1 instance(s) in mask, 24 fg patches, 5329 total patches)
+  Built reference data: bottle (from image 132329, 4 instance(s) in mask, 552 fg patches, 5329 total patches)
+  Built reference data: cup (from image 80932, 3 instance(s) in mask, 158 fg patches, 5329 total patches)
+  Built reference data: chair (from image 518770, 12 instance(s) in mask, 148 fg patches, 5329 total patches)
+  Built reference data: dining table (from image 513283, 2 instance(s) in mask, 437 fg patches, 5329 total patches)
+[1/25] 000000357816.jpg (5 instances) | elapsed=9.74s | ETA=3.9m
+[2/25] 000000360097.jpg (1 instances) | elapsed=8.88s | ETA=3.6m
+[3/25] 000000361919.jpg (13 instances) | elapsed=8.50s | ETA=3.3m
+[4/25] 000000362682.jpg (3 instances) | elapsed=8.28s | ETA=3.1m
+[5/25] 000000363188.jpg (16 instances) | elapsed=9.21s | ETA=3.0m
+[6/25] 000000365207.jpg (4 instances) | elapsed=13.86s | ETA=3.1m
+[7/25] 000000368456.jpg (1 instances) | elapsed=8.68s | ETA=2.9m
+[8/25] 000000368752.jpg (5 instances) | elapsed=8.38s | ETA=2.7m
+[9/25] 000000369812.jpg (16 instances) | elapsed=10.98s | ETA=2.6m
+[10/25] 000000370478.jpg (1 instances) | elapsed=8.26s | ETA=2.4m
+[11/25] 000000373315.jpg (1 instances) | elapsed=9.19s | ETA=2.2m
+[12/25] 000000373353.jpg (30 instances) | elapsed=9.61s | ETA=2.1m
+[13/25] 000000374551.jpg (1 instances) | elapsed=12.61s | ETA=1.9m
+[14/25] 000000377882.jpg (6 instances) | elapsed=17.33s | ETA=1.9m
+[15/25] 000000380706.jpg (8 instances) | elapsed=9.60s | ETA=1.7m
+[16/25] 000000382030.jpg (1 instances) | elapsed=8.92s | ETA=1.5m
+[17/25] 000000383289.jpg (5 instances) | elapsed=8.41s | ETA=1.3m
+[18/25] 000000384670.jpg (2 instances) | elapsed=8.12s | ETA=1.2m
+[19/25] 000000385997.jpg (4 instances) | elapsed=8.56s | ETA=1.0m
+[20/25] 000000386352.jpg (12 instances) | elapsed=10.14s | ETA=0.8m
+[21/25] 000000387383.jpg (1 instances) | elapsed=9.11s | ETA=0.7m
+[22/25] 000000388056.jpg (10 instances) | elapsed=9.08s | ETA=0.5m
+[23/25] 000000389451.jpg (17 instances) | elapsed=10.38s | ETA=0.3m
+[24/25] 000000390246.jpg (1 instances) | elapsed=8.46s | ETA=0.2m
+[25/25] 000000393056.jpg (1 instances) | elapsed=9.05s | ETA=0.0m
+
+Reference-guided Fiedler v2 Results:
+  Images: 25
+  Instances: 49
+  Mean IoU: 0.3406
+  Median IoU: 0.3021
+Saved report to Fiedler Evaluation/output/04_reference_matching/fiedler_v2_1022_stretch_union_clref\report.md
+Batch completed in 275.3s. Progress: 275/410
+
+======================================================================
+Batch: skip=275, size=25 (275-300 of 410)
+======================================================================
+Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.03s)
+creating index...
+index created!
+Evaluating on 25 images (COCO-20i classes only, skip=275, of 410 total filtered)
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Building positional basis...
+  basis shape: (384, 100)
+  tree built on raw features
+Building reference data (prototypes + full patch features + masks)...
+loading annotations into memory...
+Done (t=0.50s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+  Built reference data: person (from image 218997, 12 instance(s) in mask, 788 fg patches, 5329 total patches)
+  Built reference data: bicycle (from image 65350, 4 instance(s) in mask, 400 fg patches, 5329 total patches)
+  Built reference data: car (from image 84170, 4 instance(s) in mask, 159 fg patches, 5329 total patches)
+  Built reference data: motorcycle (from image 312421, 1 instance(s) in mask, 162 fg patches, 5329 total patches)
+  Built reference data: airplane (from image 338325, 1 instance(s) in mask, 291 fg patches, 5329 total patches)
+  Built reference data: bus (from image 524850, 1 instance(s) in mask, 339 fg patches, 5329 total patches)
+  Built reference data: train (from image 187144, 1 instance(s) in mask, 83 fg patches, 5329 total patches)
+  Built reference data: boat (from image 353518, 7 instance(s) in mask, 337 fg patches, 5329 total patches)
+  Built reference data: bird (from image 2923, 3 instance(s) in mask, 6 fg patches, 5329 total patches)
+  Built reference data: cat (from image 385205, 1 instance(s) in mask, 2565 fg patches, 5329 total patches)
+  Built reference data: dog (from image 547502, 4 instance(s) in mask, 698 fg patches, 5329 total patches)
+  Built reference data: horse (from image 23126, 2 instance(s) in mask, 935 fg patches, 5329 total patches)
+  Built reference data: sheep (from image 375763, 12 instance(s) in mask, 759 fg patches, 5329 total patches)
+  Built reference data: cow (from image 23937, 5 instance(s) in mask, 242 fg patches, 5329 total patches)
+  Built reference data: backpack (from image 32887, 1 instance(s) in mask, 27 fg patches, 5329 total patches)
+  Built reference data: handbag (from image 530975, 1 instance(s) in mask, 24 fg patches, 5329 total patches)
+  Built reference data: bottle (from image 132329, 4 instance(s) in mask, 552 fg patches, 5329 total patches)
+  Built reference data: cup (from image 80932, 3 instance(s) in mask, 158 fg patches, 5329 total patches)
+  Built reference data: chair (from image 518770, 12 instance(s) in mask, 148 fg patches, 5329 total patches)
+  Built reference data: dining table (from image 513283, 2 instance(s) in mask, 437 fg patches, 5329 total patches)
+[1/25] 000000394275.jpg (10 instances) | elapsed=8.44s | ETA=3.4m
+[2/25] 000000398742.jpg (7 instances) | elapsed=8.44s | ETA=3.2m
+[3/25] 000000400044.jpg (1 instances) | elapsed=8.61s | ETA=3.1m
+[4/25] 000000400082.jpg (2 instances) | elapsed=9.88s | ETA=3.1m
+[5/25] 000000400367.jpg (13 instances) | elapsed=9.30s | ETA=3.0m
+[6/25] 000000400922.jpg (1 instances) | elapsed=8.50s | ETA=2.8m
+[7/25] 000000404839.jpg (2 instances) | elapsed=8.51s | ETA=2.6m
+[8/25] 000000404923.jpg (4 instances) | elapsed=8.96s | ETA=2.5m
+[9/25] 000000405691.jpg (3 instances) | elapsed=8.62s | ETA=2.3m
+[10/25] 000000407650.jpg (1 instances) | elapsed=8.84s | ETA=2.2m
+[11/25] 000000409198.jpg (1 instances) | elapsed=9.36s | ETA=2.1m
+[12/25] 000000409424.jpg (1 instances) | elapsed=8.35s | ETA=1.9m
+[13/25] 000000409475.jpg (2 instances) | elapsed=9.42s | ETA=1.8m
+[14/25] 000000411665.jpg (2 instances) | elapsed=9.02s | ETA=1.6m
+[15/25] 000000416343.jpg (5 instances) | elapsed=8.86s | ETA=1.5m
+[16/25] 000000417085.jpg (2 instances) | elapsed=9.63s | ETA=1.3m
+[17/25] 000000417249.jpg (6 instances) | elapsed=8.34s | ETA=1.2m
+[18/25] 000000419096.jpg (1 instances) | elapsed=8.31s | ETA=1.0m
+[19/25] 000000421455.jpg (3 instances) | elapsed=9.09s | ETA=0.9m
+[20/25] 000000422886.jpg (1 instances) | elapsed=7.94s | ETA=0.7m
+[21/25] 000000423123.jpg (5 instances) | elapsed=8.14s | ETA=0.6m
+[22/25] 000000424521.jpg (1 instances) | elapsed=8.14s | ETA=0.4m
+[23/25] 000000425390.jpg (1 instances) | elapsed=7.91s | ETA=0.3m
+[24/25] 000000425925.jpg (10 instances) | elapsed=9.62s | ETA=0.1m
+[25/25] 000000426166.jpg (1 instances) | elapsed=8.56s | ETA=0.0m
+
+Reference-guided Fiedler v2 Results:
+  Images: 25
+  Instances: 36
+  Mean IoU: 0.4173
+  Median IoU: 0.4314
+Saved report to Fiedler Evaluation/output/04_reference_matching/fiedler_v2_1022_stretch_union_clref\report.md
+Batch completed in 251.5s. Progress: 300/410
+
+======================================================================
+Batch: skip=300, size=25 (300-325 of 410)
+======================================================================
+Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.03s)
+creating index...
+index created!
+Evaluating on 25 images (COCO-20i classes only, skip=300, of 410 total filtered)
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Building positional basis...
+  basis shape: (384, 100)
+  tree built on raw features
+Building reference data (prototypes + full patch features + masks)...
+loading annotations into memory...
+Done (t=0.48s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+  Built reference data: person (from image 218997, 12 instance(s) in mask, 788 fg patches, 5329 total patches)
+  Built reference data: bicycle (from image 65350, 4 instance(s) in mask, 400 fg patches, 5329 total patches)
+  Built reference data: car (from image 84170, 4 instance(s) in mask, 159 fg patches, 5329 total patches)
+  Built reference data: motorcycle (from image 312421, 1 instance(s) in mask, 162 fg patches, 5329 total patches)
+  Built reference data: airplane (from image 338325, 1 instance(s) in mask, 291 fg patches, 5329 total patches)
+  Built reference data: bus (from image 524850, 1 instance(s) in mask, 339 fg patches, 5329 total patches)
+  Built reference data: train (from image 187144, 1 instance(s) in mask, 83 fg patches, 5329 total patches)
+  Built reference data: boat (from image 353518, 7 instance(s) in mask, 337 fg patches, 5329 total patches)
+  Built reference data: bird (from image 2923, 3 instance(s) in mask, 6 fg patches, 5329 total patches)
+  Built reference data: cat (from image 385205, 1 instance(s) in mask, 2565 fg patches, 5329 total patches)
+  Built reference data: dog (from image 547502, 4 instance(s) in mask, 698 fg patches, 5329 total patches)
+  Built reference data: horse (from image 23126, 2 instance(s) in mask, 935 fg patches, 5329 total patches)
+  Built reference data: sheep (from image 375763, 12 instance(s) in mask, 759 fg patches, 5329 total patches)
+  Built reference data: cow (from image 23937, 5 instance(s) in mask, 242 fg patches, 5329 total patches)
+  Built reference data: backpack (from image 32887, 1 instance(s) in mask, 27 fg patches, 5329 total patches)
+  Built reference data: handbag (from image 530975, 1 instance(s) in mask, 24 fg patches, 5329 total patches)
+  Built reference data: bottle (from image 132329, 4 instance(s) in mask, 552 fg patches, 5329 total patches)
+  Built reference data: cup (from image 80932, 3 instance(s) in mask, 158 fg patches, 5329 total patches)
+  Built reference data: chair (from image 518770, 12 instance(s) in mask, 148 fg patches, 5329 total patches)
+  Built reference data: dining table (from image 513283, 2 instance(s) in mask, 437 fg patches, 5329 total patches)
+[1/25] 000000429623.jpg (2 instances) | elapsed=9.21s | ETA=3.7m
+[2/25] 000000429761.jpg (2 instances) | elapsed=8.94s | ETA=3.5m
+[3/25] 000000430961.jpg (2 instances) | elapsed=9.19s | ETA=3.3m
+[4/25] 000000431896.jpg (1 instances) | elapsed=8.16s | ETA=3.1m
+[5/25] 000000432468.jpg (1 instances) | elapsed=9.56s | ETA=3.0m
+[6/25] 000000433774.jpg (2 instances) | elapsed=7.78s | ETA=2.8m
+[7/25] 000000435003.jpg (1 instances) | elapsed=8.07s | ETA=2.6m
+[8/25] 000000437239.jpg (8 instances) | elapsed=9.31s | ETA=2.5m
+[9/25] 000000438269.jpg (1 instances) | elapsed=11.62s | ETA=2.4m
+[10/25] 000000438862.jpg (6 instances) | elapsed=9.13s | ETA=2.3m
+[11/25] 000000440171.jpg (2 instances) | elapsed=8.24s | ETA=2.1m
+[12/25] 000000440617.jpg (1 instances) | elapsed=8.17s | ETA=1.9m
+[13/25] 000000441553.jpg (15 instances) | elapsed=8.66s | ETA=1.8m
+[14/25] 000000445602.jpg (6 instances) | elapsed=8.81s | ETA=1.6m
+[15/25] 000000446522.jpg (3 instances) | elapsed=9.62s | ETA=1.5m
+[16/25] 000000455872.jpg (2 instances) | elapsed=8.36s | ETA=1.3m
+[17/25] 000000456292.jpg (2 instances) | elapsed=9.05s | ETA=1.2m
+[18/25] 000000459500.jpg (3 instances) | elapsed=8.81s | ETA=1.0m
+[19/25] 000000460841.jpg (3 instances) | elapsed=9.81s | ETA=0.9m
+[20/25] 000000460929.jpg (1 instances) | elapsed=9.89s | ETA=0.8m
+[21/25] 000000460967.jpg (2 instances) | elapsed=11.19s | ETA=0.6m
+[22/25] 000000462371.jpg (8 instances) | elapsed=9.27s | ETA=0.5m
+[23/25] 000000462643.jpg (1 instances) | elapsed=9.12s | ETA=0.3m
+[24/25] 000000463174.jpg (1 instances) | elapsed=8.96s | ETA=0.2m
+[25/25] 000000463842.jpg (13 instances) | elapsed=8.07s | ETA=0.0m
+
+Reference-guided Fiedler v2 Results:
+  Images: 25
+  Instances: 38
+  Mean IoU: 0.3606
+  Median IoU: 0.3262
+Saved report to Fiedler Evaluation/output/04_reference_matching/fiedler_v2_1022_stretch_union_clref\report.md
+Batch completed in 259.4s. Progress: 325/410
+
+======================================================================
+Batch: skip=325, size=25 (325-350 of 410)
+======================================================================
+Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.04s)
+creating index...
+index created!
+Evaluating on 25 images (COCO-20i classes only, skip=325, of 410 total filtered)
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Building positional basis...
+  basis shape: (384, 100)
+  tree built on raw features
+Building reference data (prototypes + full patch features + masks)...
+loading annotations into memory...
+Done (t=0.54s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+  Built reference data: person (from image 218997, 12 instance(s) in mask, 788 fg patches, 5329 total patches)
+  Built reference data: bicycle (from image 65350, 4 instance(s) in mask, 400 fg patches, 5329 total patches)
+  Built reference data: car (from image 84170, 4 instance(s) in mask, 159 fg patches, 5329 total patches)
+  Built reference data: motorcycle (from image 312421, 1 instance(s) in mask, 162 fg patches, 5329 total patches)
+  Built reference data: airplane (from image 338325, 1 instance(s) in mask, 291 fg patches, 5329 total patches)
+  Built reference data: bus (from image 524850, 1 instance(s) in mask, 339 fg patches, 5329 total patches)
+  Built reference data: train (from image 187144, 1 instance(s) in mask, 83 fg patches, 5329 total patches)
+  Built reference data: boat (from image 353518, 7 instance(s) in mask, 337 fg patches, 5329 total patches)
+  Built reference data: bird (from image 2923, 3 instance(s) in mask, 6 fg patches, 5329 total patches)
+  Built reference data: cat (from image 385205, 1 instance(s) in mask, 2565 fg patches, 5329 total patches)
+  Built reference data: dog (from image 547502, 4 instance(s) in mask, 698 fg patches, 5329 total patches)
+  Built reference data: horse (from image 23126, 2 instance(s) in mask, 935 fg patches, 5329 total patches)
+  Built reference data: sheep (from image 375763, 12 instance(s) in mask, 759 fg patches, 5329 total patches)
+  Built reference data: cow (from image 23937, 5 instance(s) in mask, 242 fg patches, 5329 total patches)
+  Built reference data: backpack (from image 32887, 1 instance(s) in mask, 27 fg patches, 5329 total patches)
+  Built reference data: handbag (from image 530975, 1 instance(s) in mask, 24 fg patches, 5329 total patches)
+  Built reference data: bottle (from image 132329, 4 instance(s) in mask, 552 fg patches, 5329 total patches)
+  Built reference data: cup (from image 80932, 3 instance(s) in mask, 158 fg patches, 5329 total patches)
+  Built reference data: chair (from image 518770, 12 instance(s) in mask, 148 fg patches, 5329 total patches)
+  Built reference data: dining table (from image 513283, 2 instance(s) in mask, 437 fg patches, 5329 total patches)
+[1/25] 000000463849.jpg (24 instances) | elapsed=10.87s | ETA=4.3m
+[2/25] 000000464144.jpg (1 instances) | elapsed=11.53s | ETA=4.3m
+[3/25] 000000465675.jpg (2 instances) | elapsed=8.33s | ETA=3.8m
+[4/25] 000000465836.jpg (4 instances) | elapsed=8.80s | ETA=3.5m
+[5/25] 000000468632.jpg (4 instances) | elapsed=9.47s | ETA=3.3m
+[6/25] 000000468954.jpg (2 instances) | elapsed=7.88s | ETA=3.0m
+[7/25] 000000468965.jpg (10 instances) | elapsed=8.03s | ETA=2.8m
+[8/25] 000000469174.jpg (1 instances) | elapsed=10.91s | ETA=2.7m
+[9/25] 000000470924.jpg (39 instances) | elapsed=9.32s | ETA=2.5m
+[10/25] 000000473219.jpg (13 instances) | elapsed=8.63s | ETA=2.3m
+[11/25] 000000473406.jpg (5 instances) | elapsed=9.45s | ETA=2.2m
+[12/25] 000000473869.jpg (6 instances) | elapsed=9.23s | ETA=2.0m
+[13/25] 000000474786.jpg (2 instances) | elapsed=8.78s | ETA=1.9m
+[14/25] 000000475365.jpg (1 instances) | elapsed=8.17s | ETA=1.7m
+[15/25] 000000476119.jpg (3 instances) | elapsed=8.54s | ETA=1.5m
+[16/25] 000000476787.jpg (7 instances) | elapsed=8.67s | ETA=1.4m
+[17/25] 000000480021.jpg (8 instances) | elapsed=9.45s | ETA=1.2m
+[18/25] 000000481390.jpg (26 instances) | elapsed=10.44s | ETA=1.1m
+[19/25] 000000488673.jpg (9 instances) | elapsed=8.94s | ETA=0.9m
+[20/25] 000000489764.jpg (2 instances) | elapsed=8.62s | ETA=0.8m
+[21/25] 000000491008.jpg (20 instances) | elapsed=8.88s | ETA=0.6m
+[22/25] 000000491090.jpg (6 instances) | elapsed=8.70s | ETA=0.5m
+[23/25] 000000491497.jpg (1 instances) | elapsed=8.33s | ETA=0.3m
+[24/25] 000000493772.jpg (1 instances) | elapsed=7.84s | ETA=0.2m
+[25/25] 000000497344.jpg (2 instances) | elapsed=8.06s | ETA=0.0m
+
+Reference-guided Fiedler v2 Results:
+  Images: 25
+  Instances: 52
+  Mean IoU: 0.3508
+  Median IoU: 0.2882
+Saved report to Fiedler Evaluation/output/04_reference_matching/fiedler_v2_1022_stretch_union_clref\report.md
+Batch completed in 258.6s. Progress: 350/410
+
+======================================================================
+Batch: skip=350, size=25 (350-375 of 410)
+======================================================================
+Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.04s)
+creating index...
+index created!
+Evaluating on 25 images (COCO-20i classes only, skip=350, of 410 total filtered)
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Building positional basis...
+  basis shape: (384, 100)
+  tree built on raw features
+Building reference data (prototypes + full patch features + masks)...
+loading annotations into memory...
+Done (t=0.47s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+  Built reference data: person (from image 218997, 12 instance(s) in mask, 788 fg patches, 5329 total patches)
+  Built reference data: bicycle (from image 65350, 4 instance(s) in mask, 400 fg patches, 5329 total patches)
+  Built reference data: car (from image 84170, 4 instance(s) in mask, 159 fg patches, 5329 total patches)
+  Built reference data: motorcycle (from image 312421, 1 instance(s) in mask, 162 fg patches, 5329 total patches)
+  Built reference data: airplane (from image 338325, 1 instance(s) in mask, 291 fg patches, 5329 total patches)
+  Built reference data: bus (from image 524850, 1 instance(s) in mask, 339 fg patches, 5329 total patches)
+  Built reference data: train (from image 187144, 1 instance(s) in mask, 83 fg patches, 5329 total patches)
+  Built reference data: boat (from image 353518, 7 instance(s) in mask, 337 fg patches, 5329 total patches)
+  Built reference data: bird (from image 2923, 3 instance(s) in mask, 6 fg patches, 5329 total patches)
+  Built reference data: cat (from image 385205, 1 instance(s) in mask, 2565 fg patches, 5329 total patches)
+  Built reference data: dog (from image 547502, 4 instance(s) in mask, 698 fg patches, 5329 total patches)
+  Built reference data: horse (from image 23126, 2 instance(s) in mask, 935 fg patches, 5329 total patches)
+  Built reference data: sheep (from image 375763, 12 instance(s) in mask, 759 fg patches, 5329 total patches)
+  Built reference data: cow (from image 23937, 5 instance(s) in mask, 242 fg patches, 5329 total patches)
+  Built reference data: backpack (from image 32887, 1 instance(s) in mask, 27 fg patches, 5329 total patches)
+  Built reference data: handbag (from image 530975, 1 instance(s) in mask, 24 fg patches, 5329 total patches)
+  Built reference data: bottle (from image 132329, 4 instance(s) in mask, 552 fg patches, 5329 total patches)
+  Built reference data: cup (from image 80932, 3 instance(s) in mask, 158 fg patches, 5329 total patches)
+  Built reference data: chair (from image 518770, 12 instance(s) in mask, 148 fg patches, 5329 total patches)
+  Built reference data: dining table (from image 513283, 2 instance(s) in mask, 437 fg patches, 5329 total patches)
+[1/25] 000000498747.jpg (10 instances) | elapsed=8.40s | ETA=3.4m
+[2/25] 000000499181.jpg (7 instances) | elapsed=9.42s | ETA=3.4m
+[3/25] 000000499313.jpg (3 instances) | elapsed=8.43s | ETA=3.2m
+[4/25] 000000500270.jpg (8 instances) | elapsed=8.89s | ETA=3.1m
+[5/25] 000000503823.jpg (4 instances) | elapsed=7.63s | ETA=2.9m
+[6/25] 000000505451.jpg (1 instances) | elapsed=8.86s | ETA=2.7m
+[7/25] 000000506178.jpg (2 instances) | elapsed=8.20s | ETA=2.6m
+[8/25] 000000507667.jpg (15 instances) | elapsed=9.76s | ETA=2.5m
+[9/25] 000000507797.jpg (15 instances) | elapsed=9.36s | ETA=2.3m
+[10/25] 000000509008.jpg (1 instances) | elapsed=8.68s | ETA=2.2m
+[11/25] 000000511076.jpg (17 instances) | elapsed=9.41s | ETA=2.1m
+[12/25] 000000511647.jpg (1 instances) | elapsed=10.24s | ETA=1.9m
+[13/25] 000000512330.jpg (13 instances) | elapsed=8.18s | ETA=1.8m
+[14/25] 000000513567.jpg (12 instances) | elapsed=9.53s | ETA=1.6m
+[15/25] 000000513688.jpg (2 instances) | elapsed=8.54s | ETA=1.5m
+[16/25] 000000514376.jpg (4 instances) | elapsed=9.85s | ETA=1.3m
+[17/25] 000000523241.jpg (5 instances) | elapsed=8.48s | ETA=1.2m
+[18/25] 000000524850.jpg (34 instances) | elapsed=9.35s | ETA=1.0m
+[19/25] 000000525155.jpg (2 instances) | elapsed=10.52s | ETA=0.9m
+[20/25] 000000527616.jpg (1 instances) | elapsed=9.36s | ETA=0.8m
+[21/25] 000000528705.jpg (1 instances) | elapsed=8.48s | ETA=0.6m
+[22/25] 000000530061.jpg (4 instances) | elapsed=8.20s | ETA=0.4m
+[23/25] 000000530836.jpg (3 instances) | elapsed=10.78s | ETA=0.3m
+[24/25] 000000532530.jpg (5 instances) | elapsed=9.33s | ETA=0.2m
+[25/25] 000000533493.jpg (3 instances) | elapsed=8.55s | ETA=0.0m
+
+Reference-guided Fiedler v2 Results:
+  Images: 25
+  Instances: 51
+  Mean IoU: 0.3148
+  Median IoU: 0.3001
+Saved report to Fiedler Evaluation/output/04_reference_matching/fiedler_v2_1022_stretch_union_clref\report.md
+Batch completed in 258.3s. Progress: 375/410
+
+======================================================================
+Batch: skip=375, size=25 (375-400 of 410)
+======================================================================
+Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.03s)
+creating index...
+index created!
+Evaluating on 25 images (COCO-20i classes only, skip=375, of 410 total filtered)
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Building positional basis...
+  basis shape: (384, 100)
+  tree built on raw features
+Building reference data (prototypes + full patch features + masks)...
+loading annotations into memory...
+Done (t=0.49s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+  Built reference data: person (from image 218997, 12 instance(s) in mask, 788 fg patches, 5329 total patches)
+  Built reference data: bicycle (from image 65350, 4 instance(s) in mask, 400 fg patches, 5329 total patches)
+  Built reference data: car (from image 84170, 4 instance(s) in mask, 159 fg patches, 5329 total patches)
+  Built reference data: motorcycle (from image 312421, 1 instance(s) in mask, 162 fg patches, 5329 total patches)
+  Built reference data: airplane (from image 338325, 1 instance(s) in mask, 291 fg patches, 5329 total patches)
+  Built reference data: bus (from image 524850, 1 instance(s) in mask, 339 fg patches, 5329 total patches)
+  Built reference data: train (from image 187144, 1 instance(s) in mask, 83 fg patches, 5329 total patches)
+  Built reference data: boat (from image 353518, 7 instance(s) in mask, 337 fg patches, 5329 total patches)
+  Built reference data: bird (from image 2923, 3 instance(s) in mask, 6 fg patches, 5329 total patches)
+  Built reference data: cat (from image 385205, 1 instance(s) in mask, 2565 fg patches, 5329 total patches)
+  Built reference data: dog (from image 547502, 4 instance(s) in mask, 698 fg patches, 5329 total patches)
+  Built reference data: horse (from image 23126, 2 instance(s) in mask, 935 fg patches, 5329 total patches)
+  Built reference data: sheep (from image 375763, 12 instance(s) in mask, 759 fg patches, 5329 total patches)
+  Built reference data: cow (from image 23937, 5 instance(s) in mask, 242 fg patches, 5329 total patches)
+  Built reference data: backpack (from image 32887, 1 instance(s) in mask, 27 fg patches, 5329 total patches)
+  Built reference data: handbag (from image 530975, 1 instance(s) in mask, 24 fg patches, 5329 total patches)
+  Built reference data: bottle (from image 132329, 4 instance(s) in mask, 552 fg patches, 5329 total patches)
+  Built reference data: cup (from image 80932, 3 instance(s) in mask, 158 fg patches, 5329 total patches)
+  Built reference data: chair (from image 518770, 12 instance(s) in mask, 148 fg patches, 5329 total patches)
+  Built reference data: dining table (from image 513283, 2 instance(s) in mask, 437 fg patches, 5329 total patches)
+[1/25] 000000534827.jpg (10 instances) | elapsed=10.01s | ETA=4.0m
+[2/25] 000000535253.jpg (2 instances) | elapsed=10.31s | ETA=3.9m
+[3/25] 000000539143.jpg (1 instances) | elapsed=7.79s | ETA=3.4m
+[4/25] 000000540932.jpg (7 instances) | elapsed=8.52s | ETA=3.2m
+[5/25] 000000544565.jpg (1 instances) | elapsed=8.67s | ETA=3.0m
+[6/25] 000000545007.jpg (1 instances) | elapsed=8.54s | ETA=2.8m
+[7/25] 000000545826.jpg (2 instances) | elapsed=8.27s | ETA=2.7m
+[8/25] 000000548339.jpg (7 instances) | elapsed=10.93s | ETA=2.6m
+[9/25] 000000550691.jpg (7 instances) | elapsed=9.38s | ETA=2.4m
+[10/25] 000000550714.jpg (1 instances) | elapsed=9.57s | ETA=2.3m
+[11/25] 000000553990.jpg (2 instances) | elapsed=9.12s | ETA=2.1m
+[12/25] 000000554266.jpg (2 instances) | elapsed=8.96s | ETA=2.0m
+[13/25] 000000554291.jpg (4 instances) | elapsed=8.99s | ETA=1.8m
+[14/25] 000000554595.jpg (1 instances) | elapsed=8.21s | ETA=1.7m
+[15/25] 000000555009.jpg (3 instances) | elapsed=8.58s | ETA=1.5m
+[16/25] 000000555597.jpg (13 instances) | elapsed=8.32s | ETA=1.4m
+[17/25] 000000558213.jpg (4 instances) | elapsed=11.73s | ETA=1.2m
+[18/25] 000000562229.jpg (3 instances) | elapsed=8.94s | ETA=1.1m
+[19/25] 000000562561.jpg (2 instances) | elapsed=8.78s | ETA=0.9m
+[20/25] 000000562581.jpg (1 instances) | elapsed=8.65s | ETA=0.8m
+[21/25] 000000565012.jpg (3 instances) | elapsed=8.54s | ETA=0.6m
+[22/25] 000000565877.jpg (1 instances) | elapsed=10.64s | ETA=0.5m
+[23/25] 000000565962.jpg (2 instances) | elapsed=8.67s | ETA=0.3m
+[24/25] 000000569825.jpg (5 instances) | elapsed=9.28s | ETA=0.2m
+[25/25] 000000570756.jpg (13 instances) | elapsed=8.66s | ETA=0.0m
+
+Reference-guided Fiedler v2 Results:
+  Images: 25
+  Instances: 41
+  Mean IoU: 0.3680
+  Median IoU: 0.4056
+Saved report to Fiedler Evaluation/output/04_reference_matching/fiedler_v2_1022_stretch_union_clref\report.md
+Batch completed in 260.1s. Progress: 400/410
+
+======================================================================
+Batch: skip=400, size=25 (400-425 of 410)
+======================================================================
+Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.04s)
+creating index...
+index created!
+Evaluating on 10 images (COCO-20i classes only, skip=400, of 410 total filtered)
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Building positional basis...
+  basis shape: (384, 100)
+  tree built on raw features
+Building reference data (prototypes + full patch features + masks)...
+loading annotations into memory...
+Done (t=0.49s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+  Built reference data: person (from image 218997, 12 instance(s) in mask, 788 fg patches, 5329 total patches)
+  Built reference data: bicycle (from image 65350, 4 instance(s) in mask, 400 fg patches, 5329 total patches)
+  Built reference data: car (from image 84170, 4 instance(s) in mask, 159 fg patches, 5329 total patches)
+  Built reference data: motorcycle (from image 312421, 1 instance(s) in mask, 162 fg patches, 5329 total patches)
+  Built reference data: airplane (from image 338325, 1 instance(s) in mask, 291 fg patches, 5329 total patches)
+  Built reference data: bus (from image 524850, 1 instance(s) in mask, 339 fg patches, 5329 total patches)
+  Built reference data: train (from image 187144, 1 instance(s) in mask, 83 fg patches, 5329 total patches)
+  Built reference data: boat (from image 353518, 7 instance(s) in mask, 337 fg patches, 5329 total patches)
+  Built reference data: bird (from image 2923, 3 instance(s) in mask, 6 fg patches, 5329 total patches)
+  Built reference data: cat (from image 385205, 1 instance(s) in mask, 2565 fg patches, 5329 total patches)
+  Built reference data: dog (from image 547502, 4 instance(s) in mask, 698 fg patches, 5329 total patches)
+  Built reference data: horse (from image 23126, 2 instance(s) in mask, 935 fg patches, 5329 total patches)
+  Built reference data: sheep (from image 375763, 12 instance(s) in mask, 759 fg patches, 5329 total patches)
+  Built reference data: cow (from image 23937, 5 instance(s) in mask, 242 fg patches, 5329 total patches)
+  Built reference data: backpack (from image 32887, 1 instance(s) in mask, 27 fg patches, 5329 total patches)
+  Built reference data: handbag (from image 530975, 1 instance(s) in mask, 24 fg patches, 5329 total patches)
+  Built reference data: bottle (from image 132329, 4 instance(s) in mask, 552 fg patches, 5329 total patches)
+  Built reference data: cup (from image 80932, 3 instance(s) in mask, 158 fg patches, 5329 total patches)
+  Built reference data: chair (from image 518770, 12 instance(s) in mask, 148 fg patches, 5329 total patches)
+  Built reference data: dining table (from image 513283, 2 instance(s) in mask, 437 fg patches, 5329 total patches)
+[1/10] 000000571857.jpg (14 instances) | elapsed=28.54s | ETA=4.3m
+[2/10] 000000572408.jpg (5 instances) | elapsed=8.99s | ETA=2.5m
+[3/10] 000000574297.jpg (2 instances) | elapsed=8.87s | ETA=1.8m
+[4/10] 000000575081.jpg (1 instances) | elapsed=7.79s | ETA=1.4m
+[5/10] 000000576052.jpg (2 instances) | elapsed=8.67s | ETA=1.0m
+[6/10] 000000577976.jpg (2 instances) | elapsed=8.83s | ETA=0.8m
+[7/10] 000000578792.jpg (2 instances) | elapsed=9.24s | ETA=0.6m
+[8/10] 000000579818.jpg (3 instances) | elapsed=9.07s | ETA=0.4m
+[9/10] 000000580410.jpg (2 instances) | elapsed=9.00s | ETA=0.2m
+[10/10] 000000581206.jpg (1 instances) | elapsed=9.21s | ETA=0.0m
+
+Reference-guided Fiedler v2 Results:
+  Images: 10
+  Instances: 21
+  Mean IoU: 0.3487
+  Median IoU: 0.4067
+Saved report to Fiedler Evaluation/output/04_reference_matching/fiedler_v2_1022_stretch_union_clref\report.md
+Batch completed in 136.8s. Progress: 410/410
+
+All batches complete.

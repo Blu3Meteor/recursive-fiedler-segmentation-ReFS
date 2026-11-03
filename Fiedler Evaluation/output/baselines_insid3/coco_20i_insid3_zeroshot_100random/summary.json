@@ -1,0 +1,8 @@
+{
+  "num_images": 100,
+  "num_instances": 514,
+  "mean_best_iou": 0.153163372222604,
+  "median_best_iou": 0.05411899807206541,
+  "tau": 0.6,
+  "fixed_size": 1022
+}

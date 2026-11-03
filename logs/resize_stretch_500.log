@@ -1,0 +1,1015 @@
+Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.04s)
+creating index...
+index created!
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+[1/496] 000000001490.jpg (2 instances, 677 candidates)
+  Timing: load=0.017s | fiedler=9.079s | masks=0.826s | iou=2.943s | total=13.64s | ETA=112.5m
+[2/496] 000000001532.jpg (8 instances, 733 candidates)
+  Timing: load=0.015s | fiedler=8.705s | masks=0.902s | iou=3.246s | total=13.71s | ETA=112.6m
+[3/496] 000000002431.jpg (9 instances, 697 candidates)
+  Timing: load=0.015s | fiedler=6.534s | masks=0.819s | iou=8.816s | total=17.12s | ETA=121.8m
+[4/496] 000000004395.jpg (2 instances, 865 candidates)
+  Timing: load=0.035s | fiedler=7.042s | masks=1.023s | iou=3.678s | total=12.82s | ETA=117.4m
+[5/496] 000000006012.jpg (2 instances, 675 candidates)
+  Timing: load=0.035s | fiedler=12.903s | masks=0.801s | iou=1.488s | total=16.08s | ETA=120.1m
+[6/496] 000000006040.jpg (12 instances, 731 candidates)
+  Timing: load=0.034s | fiedler=6.216s | masks=0.917s | iou=6.203s | total=14.09s | ETA=119.0m
+[7/496] 000000006460.jpg (2 instances, 733 candidates)
+  Timing: load=0.027s | fiedler=6.986s | masks=0.865s | iou=3.171s | total=11.80s | ETA=115.6m
+[8/496] 000000009914.jpg (7 instances, 595 candidates)
+  Timing: load=0.030s | fiedler=7.608s | masks=0.711s | iou=6.277s | total=15.41s | ETA=116.6m
+[9/496] 000000012576.jpg (15 instances, 753 candidates)
+  Timing: load=0.024s | fiedler=6.478s | masks=0.900s | iou=11.046s | total=19.47s | ETA=121.0m
+[10/496] 000000012667.jpg (1 instances, 735 candidates)
+  Timing: load=0.023s | fiedler=6.559s | masks=0.878s | iou=1.624s | total=9.90s | ETA=116.7m
+[11/496] 000000013348.jpg (12 instances, 785 candidates)
+  Timing: load=0.025s | fiedler=7.378s | masks=0.940s | iou=4.679s | total=13.77s | ETA=116.0m
+[12/496] 000000014439.jpg (20 instances, 715 candidates)
+  Timing: load=0.022s | fiedler=7.551s | masks=0.788s | iou=5.660s | total=14.79s | ETA=116.0m
+[13/496] 000000015278.jpg (1 instances, 725 candidates)
+  Timing: load=0.045s | fiedler=7.438s | masks=0.782s | iou=1.533s | total=10.54s | ETA=113.4m
+[14/496] 000000015335.jpg (15 instances, 817 candidates)
+  Timing: load=0.023s | fiedler=6.215s | masks=0.892s | iou=8.027s | total=15.95s | ETA=114.2m
+[15/496] 000000015440.jpg (3 instances, 731 candidates)
+  Timing: load=0.023s | fiedler=6.799s | masks=0.823s | iou=2.930s | total=11.51s | ETA=112.6m
+[16/496] 000000015751.jpg (4 instances, 841 candidates)
+  Timing: load=0.020s | fiedler=8.552s | masks=1.031s | iou=1.872s | total=12.35s | ETA=111.5m
+[17/496] 000000016451.jpg (12 instances, 771 candidates)
+  Timing: load=0.025s | fiedler=7.691s | masks=0.841s | iou=9.072s | total=18.50s | ETA=113.4m
+[18/496] 000000016598.jpg (3 instances, 843 candidates)
+  Timing: load=0.022s | fiedler=6.126s | masks=0.952s | iou=5.026s | total=13.02s | ETA=112.6m
+[19/496] 000000019786.jpg (6 instances, 809 candidates)
+  Timing: load=0.020s | fiedler=5.750s | masks=0.954s | iou=6.357s | total=13.85s | ETA=112.3m
+[20/496] 000000021167.jpg (4 instances, 895 candidates)
+  Timing: load=0.022s | fiedler=5.934s | masks=0.963s | iou=5.281s | total=13.18s | ETA=111.7m
+[21/496] 000000021503.jpg (8 instances, 863 candidates)
+  Timing: load=0.032s | fiedler=6.390s | masks=0.949s | iou=6.769s | total=14.95s | ETA=111.8m
+[22/496] 000000022396.jpg (1 instances, 851 candidates)
+  Timing: load=0.028s | fiedler=7.102s | masks=0.945s | iou=1.725s | total=10.64s | ETA=110.3m
+[23/496] 000000022705.jpg (5 instances, 777 candidates)
+  Timing: load=0.041s | fiedler=6.983s | masks=0.891s | iou=7.576s | total=16.45s | ETA=110.9m
+[24/496] 000000022892.jpg (5 instances, 753 candidates)
+  Timing: load=0.031s | fiedler=7.871s | masks=0.826s | iou=7.667s | total=17.24s | ETA=111.7m
+[25/496] 000000023230.jpg (4 instances, 655 candidates)
+  Timing: load=0.044s | fiedler=6.549s | masks=0.799s | iou=1.519s | total=9.66s | ETA=110.0m
+[26/496] 000000023272.jpg (2 instances, 721 candidates)
+  Timing: load=0.033s | fiedler=6.462s | masks=0.891s | iou=3.103s | total=11.27s | ETA=109.0m
+[27/496] 000000023751.jpg (1 instances, 757 candidates)
+  Timing: load=0.038s | fiedler=11.704s | masks=0.915s | iou=1.682s | total=15.44s | ETA=109.2m
+[28/496] 000000023781.jpg (7 instances, 657 candidates)
+  Timing: load=0.037s | fiedler=7.361s | masks=0.817s | iou=2.824s | total=11.82s | ETA=108.4m
+[29/496] 000000025393.jpg (9 instances, 767 candidates)
+  Timing: load=0.036s | fiedler=7.186s | masks=0.923s | iou=4.919s | total=13.86s | ETA=108.1m
+[30/496] 000000026926.jpg (3 instances, 759 candidates)
+  Timing: load=0.037s | fiedler=6.329s | masks=0.952s | iou=3.260s | total=11.60s | ETA=107.3m
+[31/496] 000000027620.jpg (7 instances, 685 candidates)
+  Timing: load=0.033s | fiedler=6.206s | masks=0.830s | iou=7.241s | total=15.07s | ETA=107.4m
+[32/496] 000000028993.jpg (15 instances, 739 candidates)
+  Timing: load=0.039s | fiedler=7.629s | masks=0.918s | iou=5.139s | total=14.65s | ETA=107.3m
+[33/496] 000000029596.jpg (11 instances, 823 candidates)
+  Timing: load=0.040s | fiedler=6.307s | masks=0.995s | iou=13.883s | total=22.03s | ETA=109.0m
+[34/496] 000000032735.jpg (4 instances, 763 candidates)
+  Timing: load=0.036s | fiedler=9.416s | masks=0.940s | iou=3.285s | total=14.52s | ETA=108.9m
+[35/496] 000000034257.jpg (6 instances, 687 candidates)
+  Timing: load=0.033s | fiedler=7.121s | masks=0.849s | iou=3.005s | total=11.73s | ETA=108.1m
+[36/496] 000000035326.jpg (6 instances, 715 candidates)
+  Timing: load=0.023s | fiedler=9.078s | masks=0.872s | iou=4.595s | total=15.39s | ETA=108.1m
+[37/496] 000000036861.jpg (2 instances, 731 candidates)
+  Timing: load=0.024s | fiedler=7.441s | masks=0.890s | iou=1.641s | total=11.02s | ETA=107.3m
+[38/496] 000000038829.jpg (12 instances, 727 candidates)
+  Timing: load=0.037s | fiedler=6.238s | masks=0.884s | iou=6.194s | total=14.13s | ETA=107.1m
+[39/496] 000000040083.jpg (11 instances, 727 candidates)
+  Timing: load=0.032s | fiedler=6.373s | masks=0.901s | iou=9.329s | total=17.37s | ETA=107.5m
+[40/496] 000000040757.jpg (3 instances, 747 candidates)
+  Timing: load=0.039s | fiedler=6.701s | masks=0.911s | iou=4.801s | total=13.45s | ETA=107.1m
+[41/496] 000000042102.jpg (3 instances, 871 candidates)
+  Timing: load=0.023s | fiedler=6.711s | masks=1.054s | iou=5.564s | total=14.63s | ETA=107.0m
+[42/496] 000000044260.jpg (6 instances, 713 candidates)
+  Timing: load=0.040s | fiedler=9.508s | masks=0.872s | iou=1.589s | total=12.86s | ETA=106.5m
+[43/496] 000000047571.jpg (3 instances, 757 candidates)
+  Timing: load=0.028s | fiedler=6.800s | masks=0.924s | iou=3.283s | total=11.92s | ETA=105.9m
+[44/496] 000000047740.jpg (6 instances, 729 candidates)
+  Timing: load=0.035s | fiedler=6.586s | masks=0.888s | iou=3.203s | total=11.42s | ETA=105.2m
+[45/496] 000000047828.jpg (13 instances, 791 candidates)
+  Timing: load=0.043s | fiedler=7.135s | masks=0.976s | iou=5.020s | total=13.95s | ETA=105.0m
+[46/496] 000000048924.jpg (3 instances, 689 candidates)
+  Timing: load=0.035s | fiedler=7.095s | masks=0.849s | iou=4.408s | total=13.11s | ETA=104.6m
+[47/496] 000000050145.jpg (11 instances, 833 candidates)
+  Timing: load=0.026s | fiedler=6.773s | masks=1.042s | iou=7.049s | total=15.69s | ETA=104.7m
+[48/496] 000000050326.jpg (3 instances, 671 candidates)
+  Timing: load=0.032s | fiedler=7.153s | masks=0.847s | iou=4.263s | total=13.06s | ETA=104.3m
+[49/496] 000000051314.jpg (2 instances, 619 candidates)
+  Timing: load=0.035s | fiedler=6.876s | masks=0.763s | iou=2.667s | total=11.14s | ETA=103.6m
+[50/496] 000000052507.jpg (2 instances, 765 candidates)
+  Timing: load=0.025s | fiedler=7.002s | masks=0.925s | iou=3.300s | total=12.01s | ETA=103.1m
+[51/496] 000000053624.jpg (6 instances, 763 candidates)
+  Timing: load=0.037s | fiedler=6.418s | masks=0.929s | iou=3.301s | total=11.44s | ETA=102.5m
+[52/496] 000000054164.jpg (2 instances, 721 candidates)
+  Timing: load=0.024s | fiedler=6.641s | masks=0.885s | iou=3.110s | total=11.40s | ETA=102.0m
+[53/496] 000000054654.jpg (2 instances, 749 candidates)
+  Timing: load=0.023s | fiedler=6.565s | masks=0.928s | iou=3.240s | total=11.75s | ETA=101.4m
+[54/496] 000000055950.jpg (3 instances, 739 candidates)
+  Timing: load=0.024s | fiedler=8.225s | masks=0.925s | iou=4.705s | total=14.91s | ETA=101.4m
+[55/496] 000000056344.jpg (7 instances, 735 candidates)
+  Timing: load=0.024s | fiedler=7.019s | masks=0.920s | iou=7.739s | total=16.53s | ETA=101.5m
+[56/496] 000000056350.jpg (10 instances, 589 candidates)
+  Timing: load=0.038s | fiedler=10.312s | masks=0.727s | iou=2.593s | total=14.52s | ETA=101.4m
+[57/496] 000000058384.jpg (4 instances, 693 candidates)
+  Timing: load=0.023s | fiedler=6.563s | masks=0.848s | iou=3.007s | total=11.20s | ETA=100.8m
+[58/496] 000000060102.jpg (3 instances, 905 candidates)
+  Timing: load=0.027s | fiedler=7.467s | masks=1.121s | iou=3.867s | total=13.32s | ETA=100.5m
+[59/496] 000000061471.jpg (3 instances, 739 candidates)
+  Timing: load=0.036s | fiedler=7.473s | masks=0.902s | iou=4.761s | total=13.97s | ETA=100.3m
+[60/496] 000000068409.jpg (16 instances, 773 candidates)
+  Timing: load=0.019s | fiedler=8.604s | masks=0.934s | iou=3.412s | total=13.78s | ETA=100.1m
+[61/496] 000000069213.jpg (8 instances, 753 candidates)
+  Timing: load=0.023s | fiedler=6.509s | masks=0.902s | iou=3.251s | total=11.46s | ETA=99.6m
+[62/496] 000000070158.jpg (3 instances, 827 candidates)
+  Timing: load=0.031s | fiedler=7.030s | masks=1.028s | iou=1.821s | total=10.93s | ETA=99.0m
+[63/496] 000000073118.jpg (2 instances, 729 candidates)
+  Timing: load=0.038s | fiedler=7.125s | masks=0.930s | iou=1.634s | total=10.59s | ETA=98.4m
+[64/496] 000000073153.jpg (2 instances, 807 candidates)
+  Timing: load=0.036s | fiedler=7.298s | masks=1.004s | iou=3.456s | total=12.77s | ETA=98.1m
+[65/496] 000000076416.jpg (7 instances, 769 candidates)
+  Timing: load=0.041s | fiedler=6.573s | masks=0.953s | iou=6.528s | total=14.92s | ETA=98.0m
+[66/496] 000000076547.jpg (13 instances, 779 candidates)
+  Timing: load=0.037s | fiedler=6.326s | masks=1.008s | iou=16.320s | total=24.49s | ETA=99.0m
+[67/496] 000000078170.jpg (10 instances, 771 candidates)
+  Timing: load=0.041s | fiedler=7.552s | masks=0.952s | iou=9.403s | total=18.79s | ETA=99.3m
+[68/496] 000000078426.jpg (3 instances, 913 candidates)
+  Timing: load=0.024s | fiedler=6.275s | masks=0.986s | iou=5.355s | total=13.41s | ETA=99.0m
+[69/496] 000000079565.jpg (2 instances, 847 candidates)
+  Timing: load=0.031s | fiedler=6.615s | masks=0.916s | iou=1.741s | total=10.08s | ETA=98.4m
+[70/496] 000000080949.jpg (4 instances, 819 candidates)
+  Timing: load=0.021s | fiedler=7.241s | masks=0.876s | iou=6.379s | total=15.29s | ETA=98.3m
+[71/496] 000000082696.jpg (12 instances, 721 candidates)
+  Timing: load=0.021s | fiedler=10.023s | masks=0.775s | iou=7.013s | total=18.85s | ETA=98.6m
+[72/496] 000000083113.jpg (2 instances, 671 candidates)
+  Timing: load=0.024s | fiedler=6.133s | masks=0.736s | iou=1.391s | total=8.99s | ETA=97.9m
+[73/496] 000000084270.jpg (26 instances, 785 candidates)
+  Timing: load=0.021s | fiedler=5.993s | masks=0.863s | iou=9.179s | total=16.82s | ETA=97.9m
+[74/496] 000000084431.jpg (2 instances, 813 candidates)
+  Timing: load=0.021s | fiedler=5.785s | masks=0.877s | iou=3.245s | total=10.89s | ETA=97.4m
+[75/496] 000000085157.jpg (21 instances, 769 candidates)
+  Timing: load=0.035s | fiedler=6.414s | masks=0.849s | iou=10.450s | total=18.55s | ETA=97.6m
+[76/496] 000000087038.jpg (16 instances, 753 candidates)
+  Timing: load=0.035s | fiedler=6.893s | masks=0.829s | iou=4.466s | total=13.01s | ETA=97.3m
+[77/496] 000000088250.jpg (2 instances, 781 candidates)
+  Timing: load=0.022s | fiedler=6.344s | masks=0.843s | iou=1.611s | total=9.54s | ETA=96.7m
+[78/496] 000000089078.jpg (2 instances, 681 candidates)
+  Timing: load=0.024s | fiedler=7.832s | masks=0.748s | iou=2.745s | total=12.25s | ETA=96.3m
+[79/496] 000000090891.jpg (18 instances, 717 candidates)
+  Timing: load=0.023s | fiedler=6.915s | masks=0.819s | iou=2.855s | total=11.36s | ETA=95.8m
+[80/496] 000000091779.jpg (8 instances, 661 candidates)
+  Timing: load=0.022s | fiedler=5.718s | masks=0.746s | iou=7.724s | total=14.92s | ETA=95.7m
+[81/496] 000000092177.jpg (3 instances, 735 candidates)
+  Timing: load=0.024s | fiedler=5.745s | masks=0.814s | iou=2.904s | total=10.36s | ETA=95.2m
+[82/496] 000000092839.jpg (1 instances, 867 candidates)
+  Timing: load=0.024s | fiedler=6.760s | masks=0.954s | iou=1.771s | total=10.35s | ETA=94.7m
+[83/496] 000000093437.jpg (13 instances, 849 candidates)
+  Timing: load=0.020s | fiedler=6.454s | masks=0.914s | iou=13.120s | total=21.25s | ETA=95.1m
+[84/496] 000000094751.jpg (17 instances, 769 candidates)
+  Timing: load=0.036s | fiedler=6.090s | masks=0.829s | iou=6.016s | total=13.94s | ETA=94.8m
+[85/496] 000000094871.jpg (10 instances, 697 candidates)
+  Timing: load=0.024s | fiedler=6.327s | masks=0.763s | iou=4.083s | total=12.11s | ETA=94.5m
+[86/496] 000000095155.jpg (8 instances, 769 candidates)
+  Timing: load=0.022s | fiedler=8.867s | masks=0.847s | iou=3.030s | total=13.52s | ETA=94.2m
+[87/496] 000000095786.jpg (4 instances, 813 candidates)
+  Timing: load=0.019s | fiedler=6.902s | masks=0.874s | iou=3.199s | total=11.73s | ETA=93.8m
+[88/496] 000000097337.jpg (9 instances, 843 candidates)
+  Timing: load=0.020s | fiedler=6.343s | masks=0.904s | iou=8.577s | total=16.64s | ETA=93.8m
+[89/496] 000000097679.jpg (5 instances, 807 candidates)
+  Timing: load=0.021s | fiedler=8.904s | masks=0.925s | iou=4.759s | total=15.47s | ETA=93.7m
+[90/496] 000000098018.jpg (5 instances, 695 candidates)
+  Timing: load=0.023s | fiedler=5.983s | masks=0.757s | iou=4.102s | total=11.53s | ETA=93.3m
+[91/496] 000000100274.jpg (9 instances, 777 candidates)
+  Timing: load=0.034s | fiedler=5.908s | masks=0.835s | iou=4.576s | total=12.07s | ETA=93.0m
+[92/496] 000000100283.jpg (6 instances, 829 candidates)
+  Timing: load=0.041s | fiedler=8.293s | masks=0.894s | iou=3.272s | total=13.37s | ETA=92.7m
+[93/496] 000000101762.jpg (2 instances, 673 candidates)
+  Timing: load=0.021s | fiedler=16.689s | masks=0.710s | iou=2.654s | total=21.00s | ETA=93.0m
+[94/496] 000000102707.jpg (3 instances, 773 candidates)
+  Timing: load=0.023s | fiedler=7.147s | masks=0.847s | iou=4.543s | total=13.46s | ETA=92.7m
+[95/496] 000000105264.jpg (9 instances, 785 candidates)
+  Timing: load=0.033s | fiedler=6.721s | masks=0.888s | iou=3.116s | total=11.48s | ETA=92.3m
+[96/496] 000000105455.jpg (3 instances, 787 candidates)
+  Timing: load=0.022s | fiedler=8.528s | masks=0.843s | iou=3.132s | total=13.49s | ETA=92.1m
+[97/496] 000000107087.jpg (3 instances, 617 candidates)
+  Timing: load=0.022s | fiedler=6.886s | masks=0.663s | iou=3.644s | total=11.90s | ETA=91.7m
+[98/496] 000000109827.jpg (1 instances, 667 candidates)
+  Timing: load=0.023s | fiedler=6.872s | masks=0.721s | iou=1.379s | total=9.68s | ETA=91.2m
+[99/496] 000000110359.jpg (1 instances, 775 candidates)
+  Timing: load=0.021s | fiedler=6.220s | masks=0.837s | iou=1.573s | total=9.37s | ETA=90.7m
+[100/496] 000000110884.jpg (3 instances, 869 candidates)
+  Timing: load=0.024s | fiedler=6.442s | masks=0.942s | iou=5.077s | total=13.34s | ETA=90.4m
+[101/496] 000000110972.jpg (1 instances, 787 candidates)
+  Timing: load=0.022s | fiedler=6.305s | masks=0.850s | iou=1.614s | total=9.53s | ETA=89.9m
+[102/496] 000000110999.jpg (11 instances, 763 candidates)
+  Timing: load=0.027s | fiedler=5.832s | masks=0.825s | iou=11.775s | total=19.45s | ETA=90.1m
+[103/496] 000000111036.jpg (2 instances, 757 candidates)
+  Timing: load=0.036s | fiedler=6.195s | masks=0.810s | iou=2.970s | total=11.01s | ETA=89.7m
+[104/496] 000000112110.jpg (2 instances, 681 candidates)
+  Timing: load=0.034s | fiedler=7.521s | masks=0.730s | iou=2.710s | total=11.72s | ETA=89.3m
+[105/496] 000000117374.jpg (3 instances, 623 candidates)
+  Timing: load=0.021s | fiedler=6.657s | masks=0.691s | iou=2.479s | total=10.55s | ETA=88.9m
+[106/496] 000000117525.jpg (2 instances, 739 candidates)
+  Timing: load=0.021s | fiedler=7.515s | masks=0.784s | iou=2.926s | total=12.11s | ETA=88.6m
+[107/496] 000000121744.jpg (15 instances, 767 candidates)
+  Timing: load=0.022s | fiedler=6.370s | masks=0.833s | iou=3.059s | total=11.02s | ETA=88.2m
+[108/496] 000000123213.jpg (16 instances, 795 candidates)
+  Timing: load=0.021s | fiedler=6.289s | masks=0.876s | iou=7.732s | total=15.64s | ETA=88.1m
+[109/496] 000000123321.jpg (21 instances, 587 candidates)
+  Timing: load=0.023s | fiedler=8.095s | masks=0.639s | iou=3.481s | total=13.11s | ETA=87.8m
+[110/496] 000000124636.jpg (3 instances, 743 candidates)
+  Timing: load=0.023s | fiedler=5.797s | masks=0.794s | iou=1.510s | total=8.84s | ETA=87.3m
+[111/496] 000000125211.jpg (1 instances, 733 candidates)
+  Timing: load=0.022s | fiedler=5.964s | masks=0.802s | iou=1.487s | total=9.01s | ETA=86.9m
+[112/496] 000000130386.jpg (12 instances, 793 candidates)
+  Timing: load=0.029s | fiedler=5.983s | masks=0.852s | iou=6.192s | total=14.01s | ETA=86.7m
+[113/496] 000000130465.jpg (2 instances, 733 candidates)
+  Timing: load=0.020s | fiedler=6.058s | masks=0.776s | iou=1.492s | total=9.04s | ETA=86.2m
+[114/496] 000000130579.jpg (2 instances, 805 candidates)
+  Timing: load=0.023s | fiedler=6.537s | masks=0.894s | iou=3.146s | total=11.56s | ETA=85.8m
+[115/496] 000000131131.jpg (2 instances, 871 candidates)
+  Timing: load=0.022s | fiedler=6.095s | masks=0.935s | iou=3.392s | total=11.26s | ETA=85.5m
+[116/496] 000000133000.jpg (3 instances, 861 candidates)
+  Timing: load=0.021s | fiedler=5.773s | masks=0.907s | iou=3.393s | total=10.83s | ETA=85.1m
+[117/496] 000000133244.jpg (20 instances, 855 candidates)
+  Timing: load=0.020s | fiedler=6.735s | masks=0.911s | iou=6.651s | total=15.05s | ETA=85.0m
+[118/496] 000000133645.jpg (8 instances, 685 candidates)
+  Timing: load=0.036s | fiedler=5.728s | masks=0.736s | iou=2.704s | total=9.87s | ETA=84.6m
+[119/496] 000000133969.jpg (16 instances, 727 candidates)
+  Timing: load=0.033s | fiedler=6.175s | masks=0.773s | iou=5.698s | total=13.38s | ETA=84.3m
+[120/496] 000000134722.jpg (2 instances, 811 candidates)
+  Timing: load=0.034s | fiedler=5.823s | masks=0.857s | iou=3.214s | total=10.69s | ETA=84.0m
+[121/496] 000000134886.jpg (12 instances, 817 candidates)
+  Timing: load=0.021s | fiedler=8.184s | masks=0.868s | iou=4.802s | total=14.67s | ETA=83.8m
+[122/496] 000000135410.jpg (10 instances, 633 candidates)
+  Timing: load=0.053s | fiedler=5.885s | masks=0.674s | iou=6.161s | total=13.64s | ETA=83.6m
+[123/496] 000000135673.jpg (2 instances, 931 candidates)
+  Timing: load=0.022s | fiedler=8.153s | masks=0.989s | iou=1.885s | total=11.86s | ETA=83.3m
+[124/496] 000000135872.jpg (12 instances, 763 candidates)
+  Timing: load=0.021s | fiedler=5.848s | masks=0.827s | iou=10.315s | total=17.76s | ETA=83.3m
+[125/496] 000000139684.jpg (12 instances, 781 candidates)
+  Timing: load=0.031s | fiedler=5.759s | masks=0.842s | iou=10.533s | total=17.88s | ETA=83.3m
+[126/496] 000000140987.jpg (18 instances, 749 candidates)
+  Timing: load=0.023s | fiedler=6.041s | masks=0.805s | iou=8.753s | total=16.60s | ETA=83.2m
+[127/496] 000000142324.jpg (19 instances, 751 candidates)
+  Timing: load=0.035s | fiedler=5.567s | masks=0.797s | iou=7.298s | total=14.43s | ETA=83.0m
+[128/496] 000000143961.jpg (20 instances, 779 candidates)
+  Timing: load=0.033s | fiedler=6.557s | masks=0.857s | iou=7.589s | total=15.78s | ETA=82.9m
+[129/496] 000000145020.jpg (17 instances, 765 candidates)
+  Timing: load=0.022s | fiedler=6.114s | masks=0.831s | iou=3.020s | total=10.69s | ETA=82.6m
+[130/496] 000000145620.jpg (5 instances, 739 candidates)
+  Timing: load=0.039s | fiedler=7.126s | masks=0.790s | iou=2.962s | total=11.73s | ETA=82.3m
+[131/496] 000000145665.jpg (2 instances, 603 candidates)
+  Timing: load=0.025s | fiedler=6.609s | masks=0.650s | iou=2.407s | total=10.54s | ETA=81.9m
+[132/496] 000000147729.jpg (10 instances, 749 candidates)
+  Timing: load=0.027s | fiedler=6.154s | masks=0.787s | iou=2.966s | total=10.65s | ETA=81.5m
+[133/496] 000000148739.jpg (2 instances, 811 candidates)
+  Timing: load=0.036s | fiedler=6.500s | masks=0.882s | iou=3.227s | total=11.37s | ETA=81.2m
+[134/496] 000000150417.jpg (12 instances, 799 candidates)
+  Timing: load=0.035s | fiedler=5.772s | masks=0.864s | iou=10.822s | total=18.28s | ETA=81.2m
+[135/496] 000000150649.jpg (11 instances, 643 candidates)
+  Timing: load=0.019s | fiedler=6.737s | masks=0.692s | iou=2.570s | total=10.69s | ETA=80.9m
+[136/496] 000000150726.jpg (2 instances, 703 candidates)
+  Timing: load=0.026s | fiedler=6.145s | masks=0.764s | iou=1.425s | total=9.25s | ETA=80.5m
+[137/496] 000000150930.jpg (1 instances, 741 candidates)
+  Timing: load=0.021s | fiedler=6.616s | masks=0.788s | iou=1.506s | total=9.85s | ETA=80.1m
+[138/496] 000000151938.jpg (9 instances, 791 candidates)
+  Timing: load=0.036s | fiedler=6.318s | masks=0.900s | iou=9.221s | total=17.37s | ETA=80.0m
+[139/496] 000000153011.jpg (25 instances, 679 candidates)
+  Timing: load=0.022s | fiedler=5.984s | masks=0.735s | iou=9.258s | total=16.74s | ETA=80.0m
+[140/496] 000000153299.jpg (2 instances, 823 candidates)
+  Timing: load=0.036s | fiedler=8.426s | masks=0.886s | iou=1.682s | total=11.95s | ETA=79.7m
+[141/496] 000000157046.jpg (3 instances, 861 candidates)
+  Timing: load=0.035s | fiedler=6.668s | masks=0.921s | iou=3.383s | total=11.81s | ETA=79.4m
+[142/496] 000000157601.jpg (5 instances, 745 candidates)
+  Timing: load=0.024s | fiedler=5.758s | masks=0.815s | iou=7.188s | total=14.59s | ETA=79.2m
+[143/496] 000000157767.jpg (25 instances, 819 candidates)
+  Timing: load=0.035s | fiedler=5.931s | masks=0.878s | iou=12.719s | total=20.31s | ETA=79.3m
+[144/496] 000000158227.jpg (2 instances, 713 candidates)
+  Timing: load=0.033s | fiedler=7.031s | masks=0.757s | iou=2.822s | total=11.38s | ETA=79.0m
+[145/496] 000000160012.jpg (9 instances, 709 candidates)
+  Timing: load=0.034s | fiedler=6.000s | masks=0.765s | iou=10.921s | total=18.43s | ETA=78.9m
+[146/496] 000000161008.jpg (1 instances, 789 candidates)
+  Timing: load=0.023s | fiedler=7.256s | masks=0.841s | iou=1.627s | total=10.54s | ETA=78.6m
+[147/496] 000000161128.jpg (14 instances, 725 candidates)
+  Timing: load=0.021s | fiedler=6.580s | masks=0.774s | iou=7.046s | total=15.36s | ETA=78.4m
+[148/496] 000000161609.jpg (7 instances, 733 candidates)
+  Timing: load=0.034s | fiedler=6.124s | masks=0.784s | iou=5.728s | total=13.42s | ETA=78.2m
+[149/496] 000000161781.jpg (2 instances, 675 candidates)
+  Timing: load=0.035s | fiedler=6.508s | masks=0.766s | iou=2.679s | total=10.71s | ETA=77.9m
+[150/496] 000000162581.jpg (2 instances, 825 candidates)
+  Timing: load=0.023s | fiedler=6.515s | masks=0.929s | iou=3.222s | total=11.63s | ETA=77.6m
+[151/496] 000000163117.jpg (27 instances, 841 candidates)
+  Timing: load=0.033s | fiedler=8.053s | masks=0.900s | iou=6.570s | total=16.48s | ETA=77.5m
+[152/496] 000000163290.jpg (3 instances, 753 candidates)
+  Timing: load=0.023s | fiedler=6.807s | masks=0.798s | iou=2.980s | total=11.56s | ETA=77.2m
+[153/496] 000000166768.jpg (3 instances, 895 candidates)
+  Timing: load=0.036s | fiedler=5.773s | masks=0.946s | iou=4.471s | total=12.59s | ETA=76.9m
+[154/496] 000000168337.jpg (6 instances, 783 candidates)
+  Timing: load=0.025s | fiedler=9.236s | masks=0.954s | iou=6.253s | total=17.27s | ETA=76.8m
+[155/496] 000000173091.jpg (4 instances, 731 candidates)
+  Timing: load=0.023s | fiedler=5.967s | masks=0.815s | iou=5.797s | total=13.43s | ETA=76.6m
+[156/496] 000000175438.jpg (18 instances, 687 candidates)
+  Timing: load=0.022s | fiedler=5.975s | masks=0.756s | iou=5.443s | total=12.96s | ETA=76.4m
+[157/496] 000000176901.jpg (6 instances, 747 candidates)
+  Timing: load=0.020s | fiedler=8.215s | masks=1.137s | iou=3.600s | total=13.69s | ETA=76.1m
+[158/496] 000000177213.jpg (7 instances, 719 candidates)
+  Timing: load=0.020s | fiedler=5.961s | masks=0.794s | iou=8.436s | total=15.87s | ETA=76.0m
+[159/496] 000000179765.jpg (1 instances, 715 candidates)
+  Timing: load=0.028s | fiedler=6.292s | masks=0.792s | iou=1.487s | total=9.34s | ETA=75.6m
+[160/496] 000000181796.jpg (15 instances, 655 candidates)
+  Timing: load=0.034s | fiedler=6.969s | masks=0.718s | iou=7.674s | total=16.09s | ETA=75.5m
+[161/496] 000000181859.jpg (2 instances, 785 candidates)
+  Timing: load=0.021s | fiedler=6.407s | masks=0.865s | iou=3.091s | total=11.36s | ETA=75.2m
+[162/496] 000000182021.jpg (5 instances, 887 candidates)
+  Timing: load=0.033s | fiedler=6.920s | masks=0.953s | iou=5.231s | total=13.93s | ETA=75.0m
+[163/496] 000000182923.jpg (15 instances, 841 candidates)
+  Timing: load=0.033s | fiedler=6.308s | masks=0.952s | iou=4.999s | total=13.24s | ETA=74.8m
+[164/496] 000000183049.jpg (14 instances, 813 candidates)
+  Timing: load=0.035s | fiedler=6.849s | masks=0.878s | iou=3.290s | total=12.06s | ETA=74.5m
+[165/496] 000000184384.jpg (6 instances, 697 candidates)
+  Timing: load=0.035s | fiedler=6.188s | masks=0.756s | iou=6.837s | total=14.58s | ETA=74.3m
+[166/496] 000000185157.jpg (6 instances, 709 candidates)
+  Timing: load=0.028s | fiedler=7.014s | masks=0.768s | iou=1.484s | total=10.22s | ETA=74.0m
+[167/496] 000000185409.jpg (12 instances, 789 candidates)
+  Timing: load=0.022s | fiedler=6.746s | masks=0.854s | iou=1.635s | total=10.00s | ETA=73.6m
+[168/496] 000000185802.jpg (4 instances, 825 candidates)
+  Timing: load=0.023s | fiedler=6.604s | masks=0.918s | iou=4.876s | total=13.43s | ETA=73.4m
+[169/496] 000000186873.jpg (10 instances, 671 candidates)
+  Timing: load=0.023s | fiedler=7.387s | masks=0.879s | iou=3.039s | total=12.45s | ETA=73.2m
+[170/496] 000000187990.jpg (2 instances, 687 candidates)
+  Timing: load=0.030s | fiedler=8.574s | masks=0.776s | iou=2.857s | total=13.02s | ETA=72.9m
+[171/496] 000000189436.jpg (5 instances, 703 candidates)
+  Timing: load=0.034s | fiedler=5.719s | masks=0.767s | iou=5.607s | total=13.08s | ETA=72.7m
+[172/496] 000000189752.jpg (13 instances, 765 candidates)
+  Timing: load=0.045s | fiedler=6.241s | masks=0.877s | iou=12.167s | total=20.11s | ETA=72.7m
+[173/496] 000000189806.jpg (4 instances, 777 candidates)
+  Timing: load=0.021s | fiedler=5.980s | masks=0.867s | iou=4.654s | total=12.33s | ETA=72.4m
+[174/496] 000000189828.jpg (1 instances, 803 candidates)
+  Timing: load=0.025s | fiedler=7.005s | masks=0.858s | iou=1.643s | total=10.42s | ETA=72.1m
+[175/496] 000000190637.jpg (4 instances, 839 candidates)
+  Timing: load=0.031s | fiedler=6.108s | masks=0.916s | iou=4.990s | total=13.03s | ETA=71.9m
+[176/496] 000000190853.jpg (2 instances, 699 candidates)
+  Timing: load=0.024s | fiedler=6.940s | masks=0.848s | iou=3.168s | total=11.90s | ETA=71.6m
+[177/496] 000000191614.jpg (3 instances, 747 candidates)
+  Timing: load=0.023s | fiedler=6.127s | masks=0.825s | iou=3.006s | total=10.84s | ETA=71.3m
+[178/496] 000000191845.jpg (37 instances, 709 candidates)
+  Timing: load=0.020s | fiedler=7.857s | masks=0.774s | iou=5.650s | total=14.99s | ETA=71.1m
+[179/496] 000000194471.jpg (2 instances, 797 candidates)
+  Timing: load=0.020s | fiedler=7.072s | masks=0.908s | iou=3.160s | total=12.13s | ETA=70.9m
+[180/496] 000000195045.jpg (2 instances, 641 candidates)
+  Timing: load=0.031s | fiedler=6.306s | masks=0.734s | iou=1.330s | total=9.10s | ETA=70.5m
+[181/496] 000000195754.jpg (8 instances, 811 candidates)
+  Timing: load=0.033s | fiedler=5.653s | masks=0.888s | iou=6.365s | total=13.72s | ETA=70.3m
+[182/496] 000000198510.jpg (2 instances, 833 candidates)
+  Timing: load=0.048s | fiedler=5.999s | masks=0.926s | iou=3.325s | total=11.16s | ETA=70.0m
+[183/496] 000000199395.jpg (13 instances, 769 candidates)
+  Timing: load=0.022s | fiedler=6.205s | masks=0.843s | iou=4.591s | total=12.60s | ETA=69.8m
+[184/496] 000000200961.jpg (8 instances, 741 candidates)
+  Timing: load=0.052s | fiedler=6.687s | masks=0.805s | iou=5.848s | total=14.14s | ETA=69.6m
+[185/496] 000000201072.jpg (5 instances, 737 candidates)
+  Timing: load=0.025s | fiedler=7.322s | masks=0.807s | iou=2.989s | total=12.08s | ETA=69.3m
+[186/496] 000000201148.jpg (4 instances, 703 candidates)
+  Timing: load=0.021s | fiedler=6.055s | masks=0.764s | iou=4.180s | total=11.69s | ETA=69.0m
+[187/496] 000000202228.jpg (1 instances, 881 candidates)
+  Timing: load=0.022s | fiedler=8.335s | masks=0.946s | iou=1.792s | total=12.15s | ETA=68.8m
+[188/496] 000000206025.jpg (2 instances, 831 candidates)
+  Timing: load=0.038s | fiedler=6.108s | masks=0.898s | iou=3.291s | total=11.29s | ETA=68.5m
+[189/496] 000000206994.jpg (2 instances, 763 candidates)
+  Timing: load=0.035s | fiedler=5.894s | masks=0.816s | iou=3.038s | total=10.53s | ETA=68.2m
+[190/496] 000000208363.jpg (32 instances, 823 candidates)
+  Timing: load=0.022s | fiedler=5.970s | masks=0.886s | iou=4.961s | total=12.60s | ETA=68.0m
+[191/496] 000000209222.jpg (17 instances, 713 candidates)
+  Timing: load=0.021s | fiedler=6.518s | masks=0.772s | iou=7.039s | total=15.12s | ETA=67.8m
+[192/496] 000000209753.jpg (3 instances, 759 candidates)
+  Timing: load=0.023s | fiedler=5.561s | masks=0.825s | iou=4.576s | total=11.91s | ETA=67.5m
+[193/496] 000000211674.jpg (16 instances, 803 candidates)
+  Timing: load=0.025s | fiedler=6.305s | masks=0.870s | iou=6.951s | total=14.97s | ETA=67.3m
+[194/496] 000000213830.jpg (10 instances, 735 candidates)
+  Timing: load=0.025s | fiedler=7.263s | masks=0.791s | iou=5.866s | total=14.74s | ETA=67.2m
+[195/496] 000000218362.jpg (8 instances, 825 candidates)
+  Timing: load=0.022s | fiedler=6.603s | masks=0.909s | iou=1.689s | total=10.01s | ETA=66.8m
+[196/496] 000000219283.jpg (5 instances, 793 candidates)
+  Timing: load=0.033s | fiedler=6.373s | masks=0.858s | iou=4.686s | total=12.76s | ETA=66.6m
+[197/496] 000000220310.jpg (1 instances, 761 candidates)
+  Timing: load=0.021s | fiedler=5.866s | masks=0.830s | iou=1.574s | total=9.21s | ETA=66.3m
+[198/496] 000000221502.jpg (2 instances, 525 candidates)
+  Timing: load=0.021s | fiedler=6.350s | masks=0.580s | iou=2.119s | total=9.67s | ETA=66.0m
+[199/496] 000000222863.jpg (1 instances, 677 candidates)
+  Timing: load=0.026s | fiedler=7.557s | masks=0.747s | iou=1.386s | total=10.45s | ETA=65.7m
+[200/496] 000000223188.jpg (3 instances, 693 candidates)
+  Timing: load=0.035s | fiedler=6.623s | masks=0.751s | iou=4.106s | total=12.40s | ETA=65.4m
+[201/496] 000000223955.jpg (2 instances, 641 candidates)
+  Timing: load=0.020s | fiedler=6.978s | masks=0.695s | iou=2.583s | total=10.99s | ETA=65.2m
+[202/496] 000000224675.jpg (5 instances, 667 candidates)
+  Timing: load=0.021s | fiedler=5.647s | masks=0.727s | iou=3.982s | total=11.10s | ETA=64.9m
+[203/496] 000000225946.jpg (2 instances, 753 candidates)
+  Timing: load=0.022s | fiedler=5.697s | masks=0.818s | iou=3.027s | total=10.28s | ETA=64.6m
+[204/496] 000000226171.jpg (7 instances, 831 candidates)
+  Timing: load=0.022s | fiedler=7.082s | masks=1.004s | iou=10.491s | total=19.48s | ETA=64.5m
+[205/496] 000000226883.jpg (1 instances, 713 candidates)
+  Timing: load=0.036s | fiedler=6.195s | masks=0.854s | iou=1.588s | total=9.44s | ETA=64.2m
+[206/496] 000000226984.jpg (24 instances, 817 candidates)
+  Timing: load=0.035s | fiedler=6.408s | masks=1.012s | iou=15.493s | total=23.79s | ETA=64.2m
+[207/496] 000000227491.jpg (6 instances, 789 candidates)
+  Timing: load=0.023s | fiedler=6.952s | masks=0.971s | iou=8.350s | total=17.11s | ETA=64.1m
+[208/496] 000000231879.jpg (9 instances, 849 candidates)
+  Timing: load=0.035s | fiedler=6.237s | masks=1.030s | iou=7.214s | total=15.30s | ETA=63.9m
+[209/496] 000000234660.jpg (2 instances, 715 candidates)
+  Timing: load=0.039s | fiedler=6.259s | masks=0.873s | iou=1.604s | total=9.58s | ETA=63.6m
+[210/496] 000000235064.jpg (1 instances, 695 candidates)
+  Timing: load=0.026s | fiedler=7.508s | masks=0.851s | iou=1.565s | total=10.76s | ETA=63.3m
+[211/496] 000000236599.jpg (15 instances, 695 candidates)
+  Timing: load=0.034s | fiedler=6.262s | masks=0.834s | iou=3.063s | total=10.96s | ETA=63.1m
+[212/496] 000000239274.jpg (14 instances, 691 candidates)
+  Timing: load=0.038s | fiedler=6.905s | masks=0.843s | iou=3.051s | total=11.74s | ETA=62.8m
+[213/496] 000000239318.jpg (4 instances, 747 candidates)
+  Timing: load=0.035s | fiedler=6.184s | masks=0.911s | iou=4.776s | total=12.87s | ETA=62.6m
+[214/496] 000000239627.jpg (14 instances, 813 candidates)
+  Timing: load=0.022s | fiedler=7.522s | masks=0.980s | iou=8.657s | total=17.98s | ETA=62.5m
+[215/496] 000000243075.jpg (1 instances, 893 candidates)
+  Timing: load=0.023s | fiedler=7.067s | masks=1.087s | iou=1.973s | total=11.13s | ETA=62.2m
+[216/496] 000000243626.jpg (2 instances, 669 candidates)
+  Timing: load=0.034s | fiedler=6.486s | masks=0.803s | iou=2.998s | total=11.08s | ETA=61.9m
+[217/496] 000000244592.jpg (3 instances, 711 candidates)
+  Timing: load=0.033s | fiedler=12.703s | masks=0.867s | iou=1.582s | total=16.07s | ETA=61.8m
+[218/496] 000000245576.jpg (6 instances, 881 candidates)
+  Timing: load=0.023s | fiedler=6.490s | masks=1.067s | iou=11.254s | total=19.66s | ETA=61.7m
+[219/496] 000000246963.jpg (11 instances, 747 candidates)
+  Timing: load=0.031s | fiedler=7.061s | masks=0.907s | iou=4.816s | total=13.58s | ETA=61.5m
+[220/496] 000000246968.jpg (22 instances, 791 candidates)
+  Timing: load=0.036s | fiedler=7.250s | masks=0.967s | iou=19.975s | total=29.05s | ETA=61.6m
+[221/496] 000000248112.jpg (4 instances, 687 candidates)
+  Timing: load=0.023s | fiedler=7.917s | masks=0.835s | iou=3.015s | total=12.60s | ETA=61.3m
+[222/496] 000000249219.jpg (1 instances, 701 candidates)
+  Timing: load=0.036s | fiedler=7.314s | masks=0.884s | iou=1.558s | total=10.58s | ETA=61.1m
+[223/496] 000000252716.jpg (4 instances, 729 candidates)
+  Timing: load=0.024s | fiedler=7.153s | masks=0.941s | iou=3.135s | total=12.20s | ETA=60.8m
+[224/496] 000000253433.jpg (2 instances, 801 candidates)
+  Timing: load=0.035s | fiedler=7.098s | masks=0.983s | iou=3.446s | total=12.38s | ETA=60.6m
+[225/496] 000000255401.jpg (5 instances, 833 candidates)
+  Timing: load=0.032s | fiedler=6.290s | masks=1.010s | iou=5.305s | total=13.59s | ETA=60.3m
+[226/496] 000000255965.jpg (1 instances, 895 candidates)
+  Timing: load=0.035s | fiedler=7.250s | masks=1.093s | iou=1.956s | total=11.16s | ETA=60.1m
+[227/496] 000000257370.jpg (6 instances, 771 candidates)
+  Timing: load=0.022s | fiedler=7.271s | masks=0.938s | iou=6.579s | total=15.66s | ETA=59.9m
+[228/496] 000000257896.jpg (2 instances, 753 candidates)
+  Timing: load=0.026s | fiedler=6.790s | masks=0.912s | iou=3.241s | total=11.96s | ETA=59.7m
+[229/496] 000000259597.jpg (18 instances, 775 candidates)
+  Timing: load=0.033s | fiedler=7.142s | masks=0.949s | iou=6.606s | total=15.49s | ETA=59.5m
+[230/496] 000000259640.jpg (21 instances, 729 candidates)
+  Timing: load=0.039s | fiedler=6.100s | masks=0.889s | iou=9.295s | total=17.10s | ETA=59.3m
+[231/496] 000000261061.jpg (5 instances, 813 candidates)
+  Timing: load=0.021s | fiedler=7.021s | masks=1.006s | iou=5.209s | total=14.03s | ETA=59.1m
+[232/496] 000000262440.jpg (3 instances, 795 candidates)
+  Timing: load=0.028s | fiedler=6.477s | masks=0.966s | iou=5.064s | total=13.54s | ETA=58.9m
+[233/496] 000000263463.jpg (4 instances, 669 candidates)
+  Timing: load=0.035s | fiedler=9.279s | masks=0.813s | iou=5.661s | total=16.62s | ETA=58.7m
+[234/496] 000000263644.jpg (1 instances, 797 candidates)
+  Timing: load=0.051s | fiedler=6.296s | masks=0.974s | iou=1.788s | total=10.07s | ETA=58.4m
+[235/496] 000000263969.jpg (5 instances, 727 candidates)
+  Timing: load=0.024s | fiedler=6.253s | masks=0.904s | iou=6.157s | total=14.21s | ETA=58.2m
+[236/496] 000000264441.jpg (2 instances, 803 candidates)
+  Timing: load=0.021s | fiedler=7.084s | masks=1.014s | iou=3.456s | total=12.59s | ETA=58.0m
+[237/496] 000000265108.jpg (2 instances, 705 candidates)
+  Timing: load=0.024s | fiedler=6.511s | masks=0.860s | iou=3.087s | total=11.43s | ETA=57.7m
+[238/496] 000000266400.jpg (12 instances, 763 candidates)
+  Timing: load=0.035s | fiedler=6.603s | masks=0.969s | iou=4.859s | total=13.26s | ETA=57.5m
+[239/496] 000000267940.jpg (2 instances, 831 candidates)
+  Timing: load=0.023s | fiedler=6.838s | masks=1.000s | iou=3.603s | total=12.26s | ETA=57.3m
+[240/496] 000000270122.jpg (2 instances, 815 candidates)
+  Timing: load=0.034s | fiedler=6.199s | masks=1.017s | iou=3.559s | total=11.59s | ETA=57.0m
+[241/496] 000000273712.jpg (1 instances, 719 candidates)
+  Timing: load=0.037s | fiedler=6.397s | masks=0.873s | iou=1.635s | total=9.90s | ETA=56.7m
+[242/496] 000000276434.jpg (11 instances, 673 candidates)
+  Timing: load=0.022s | fiedler=6.118s | masks=0.845s | iou=7.192s | total=14.91s | ETA=56.5m
+[243/496] 000000277020.jpg (12 instances, 787 candidates)
+  Timing: load=0.034s | fiedler=6.561s | masks=0.961s | iou=9.976s | total=18.26s | ETA=56.4m
+[244/496] 000000277584.jpg (2 instances, 731 candidates)
+  Timing: load=0.041s | fiedler=7.034s | masks=0.900s | iou=3.133s | total=11.95s | ETA=56.1m
+[245/496] 000000279730.jpg (7 instances, 793 candidates)
+  Timing: load=0.029s | fiedler=6.563s | masks=0.968s | iou=6.476s | total=14.74s | ETA=56.0m
+[246/496] 000000281414.jpg (3 instances, 707 candidates)
+  Timing: load=0.023s | fiedler=6.593s | masks=0.754s | iou=4.161s | total=12.41s | ETA=55.7m
+[247/496] 000000283717.jpg (3 instances, 797 candidates)
+  Timing: load=0.035s | fiedler=5.800s | masks=0.871s | iou=3.120s | total=10.60s | ETA=55.4m
+[248/496] 000000284762.jpg (1 instances, 843 candidates)
+  Timing: load=0.023s | fiedler=7.574s | masks=0.900s | iou=1.683s | total=10.98s | ETA=55.2m
+[249/496] 000000285047.jpg (3 instances, 697 candidates)
+  Timing: load=0.034s | fiedler=5.676s | masks=0.757s | iou=4.077s | total=11.41s | ETA=54.9m
+[250/496] 000000287714.jpg (5 instances, 765 candidates)
+  Timing: load=0.022s | fiedler=6.006s | masks=0.812s | iou=4.492s | total=12.07s | ETA=54.7m
+[251/496] 000000289343.jpg (4 instances, 673 candidates)
+  Timing: load=0.035s | fiedler=7.501s | masks=0.721s | iou=5.250s | total=14.39s | ETA=54.5m
+[252/496] 000000289702.jpg (2 instances, 703 candidates)
+  Timing: load=0.024s | fiedler=6.608s | masks=0.763s | iou=1.428s | total=9.53s | ETA=54.2m
+[253/496] 000000290179.jpg (16 instances, 789 candidates)
+  Timing: load=0.022s | fiedler=8.034s | masks=0.841s | iou=9.176s | total=18.87s | ETA=54.1m
+[254/496] 000000291551.jpg (7 instances, 655 candidates)
+  Timing: load=0.024s | fiedler=6.242s | masks=0.695s | iou=3.872s | total=11.72s | ETA=53.8m
+[255/496] 000000293300.jpg (3 instances, 689 candidates)
+  Timing: load=0.042s | fiedler=6.454s | masks=0.750s | iou=2.726s | total=10.67s | ETA=53.5m
+[256/496] 000000295478.jpg (3 instances, 775 candidates)
+  Timing: load=0.023s | fiedler=6.322s | masks=0.874s | iou=4.533s | total=12.66s | ETA=53.3m
+[257/496] 000000296284.jpg (10 instances, 725 candidates)
+  Timing: load=0.022s | fiedler=9.654s | masks=0.817s | iou=1.495s | total=12.88s | ETA=53.1m
+[258/496] 000000297698.jpg (6 instances, 805 candidates)
+  Timing: load=0.020s | fiedler=6.809s | masks=0.873s | iou=3.191s | total=11.63s | ETA=52.8m
+[259/496] 000000300659.jpg (7 instances, 835 candidates)
+  Timing: load=0.033s | fiedler=6.652s | masks=0.911s | iou=1.694s | total=10.02s | ETA=52.6m
+[260/496] 000000302165.jpg (10 instances, 697 candidates)
+  Timing: load=0.029s | fiedler=5.629s | masks=0.741s | iou=1.499s | total=8.62s | ETA=52.3m
+[261/496] 000000303653.jpg (7 instances, 723 candidates)
+  Timing: load=0.021s | fiedler=7.278s | masks=0.788s | iou=4.303s | total=13.12s | ETA=52.0m
+[262/496] 000000304545.jpg (1 instances, 751 candidates)
+  Timing: load=0.023s | fiedler=6.605s | masks=0.846s | iou=1.524s | total=9.78s | ETA=51.8m
+[263/496] 000000304560.jpg (1 instances, 721 candidates)
+  Timing: load=0.027s | fiedler=6.472s | masks=0.787s | iou=1.487s | total=9.48s | ETA=51.5m
+[264/496] 000000304812.jpg (9 instances, 811 candidates)
+  Timing: load=0.022s | fiedler=6.272s | masks=0.871s | iou=3.208s | total=11.37s | ETA=51.2m
+[265/496] 000000309452.jpg (1 instances, 857 candidates)
+  Timing: load=0.022s | fiedler=9.260s | masks=0.954s | iou=1.713s | total=12.81s | ETA=51.0m
+[266/496] 000000309655.jpg (19 instances, 733 candidates)
+  Timing: load=0.027s | fiedler=7.288s | masks=0.794s | iou=4.308s | total=13.19s | ETA=50.8m
+[267/496] 000000309678.jpg (3 instances, 659 candidates)
+  Timing: load=0.021s | fiedler=6.907s | masks=0.716s | iou=3.866s | total=12.17s | ETA=50.6m
+[268/496] 000000311392.jpg (4 instances, 697 candidates)
+  Timing: load=0.022s | fiedler=5.455s | masks=0.760s | iou=2.785s | total=9.70s | ETA=50.3m
+[269/496] 000000313034.jpg (11 instances, 777 candidates)
+  Timing: load=0.022s | fiedler=6.041s | masks=0.840s | iou=10.629s | total=18.29s | ETA=50.1m
+[270/496] 000000314264.jpg (5 instances, 779 candidates)
+  Timing: load=0.023s | fiedler=7.345s | masks=0.863s | iou=4.585s | total=13.78s | ETA=49.9m
+[271/496] 000000314294.jpg (2 instances, 605 candidates)
+  Timing: load=0.033s | fiedler=6.220s | masks=0.647s | iou=1.242s | total=8.77s | ETA=49.6m
+[272/496] 000000315492.jpg (4 instances, 807 candidates)
+  Timing: load=0.025s | fiedler=6.529s | masks=0.876s | iou=4.718s | total=12.99s | ETA=49.4m
+[273/496] 000000316404.jpg (6 instances, 869 candidates)
+  Timing: load=0.021s | fiedler=6.440s | masks=0.927s | iou=5.106s | total=13.27s | ETA=49.2m
+[274/496] 000000318138.jpg (5 instances, 777 candidates)
+  Timing: load=0.022s | fiedler=6.720s | masks=0.830s | iou=3.072s | total=11.59s | ETA=49.0m
+[275/496] 000000319935.jpg (13 instances, 825 candidates)
+  Timing: load=0.032s | fiedler=5.718s | masks=0.889s | iou=11.465s | total=18.85s | ETA=48.8m
+[276/496] 000000322163.jpg (19 instances, 771 candidates)
+  Timing: load=0.023s | fiedler=6.284s | masks=0.848s | iou=13.375s | total=21.28s | ETA=48.7m
+[277/496] 000000322352.jpg (14 instances, 759 candidates)
+  Timing: load=0.046s | fiedler=6.100s | masks=0.858s | iou=7.343s | total=15.10s | ETA=48.5m
+[278/496] 000000322724.jpg (3 instances, 897 candidates)
+  Timing: load=0.021s | fiedler=7.855s | masks=0.968s | iou=3.511s | total=13.19s | ETA=48.3m
+[279/496] 000000322968.jpg (1 instances, 749 candidates)
+  Timing: load=0.035s | fiedler=9.296s | masks=0.806s | iou=1.536s | total=12.65s | ETA=48.0m
+[280/496] 000000323202.jpg (2 instances, 767 candidates)
+  Timing: load=0.035s | fiedler=7.429s | masks=0.843s | iou=3.135s | total=12.39s | ETA=47.8m
+[281/496] 000000323496.jpg (16 instances, 745 candidates)
+  Timing: load=0.020s | fiedler=6.841s | masks=0.806s | iou=5.870s | total=14.33s | ETA=47.6m
+[282/496] 000000323799.jpg (16 instances, 589 candidates)
+  Timing: load=0.022s | fiedler=7.257s | masks=0.637s | iou=2.369s | total=10.97s | ETA=47.4m
+[283/496] 000000326128.jpg (3 instances, 745 candidates)
+  Timing: load=0.023s | fiedler=6.239s | masks=0.816s | iou=4.388s | total=12.38s | ETA=47.1m
+[284/496] 000000329542.jpg (6 instances, 765 candidates)
+  Timing: load=0.048s | fiedler=7.766s | masks=0.820s | iou=4.498s | total=13.98s | ETA=46.9m
+[285/496] 000000331352.jpg (2 instances, 823 candidates)
+  Timing: load=0.039s | fiedler=5.635s | masks=0.896s | iou=3.270s | total=10.75s | ETA=46.7m
+[286/496] 000000333956.jpg (2 instances, 771 candidates)
+  Timing: load=0.035s | fiedler=7.805s | masks=0.862s | iou=3.037s | total=12.69s | ETA=46.4m
+[287/496] 000000334006.jpg (5 instances, 735 candidates)
+  Timing: load=0.021s | fiedler=6.010s | masks=0.815s | iou=5.705s | total=13.25s | ETA=46.2m
+[288/496] 000000335450.jpg (3 instances, 685 candidates)
+  Timing: load=0.022s | fiedler=7.697s | masks=0.760s | iou=1.424s | total=10.65s | ETA=46.0m
+[289/496] 000000336209.jpg (3 instances, 849 candidates)
+  Timing: load=0.020s | fiedler=7.627s | masks=0.964s | iou=4.959s | total=14.38s | ETA=45.8m
+[290/496] 000000336628.jpg (8 instances, 809 candidates)
+  Timing: load=0.032s | fiedler=6.106s | masks=0.873s | iou=4.737s | total=12.65s | ETA=45.5m
+[291/496] 000000338304.jpg (25 instances, 731 candidates)
+  Timing: load=0.034s | fiedler=5.799s | masks=0.782s | iou=5.724s | total=13.30s | ETA=45.3m
+[292/496] 000000338718.jpg (2 instances, 767 candidates)
+  Timing: load=0.023s | fiedler=6.183s | masks=0.842s | iou=1.652s | total=9.59s | ETA=45.0m
+[293/496] 000000339823.jpg (2 instances, 767 candidates)
+  Timing: load=0.032s | fiedler=6.207s | masks=0.857s | iou=3.011s | total=10.98s | ETA=44.8m
+[294/496] 000000341058.jpg (7 instances, 761 candidates)
+  Timing: load=0.033s | fiedler=6.229s | masks=0.819s | iou=5.915s | total=13.94s | ETA=44.6m
+[295/496] 000000344029.jpg (12 instances, 761 candidates)
+  Timing: load=0.035s | fiedler=5.783s | masks=0.811s | iou=5.923s | total=13.30s | ETA=44.4m
+[296/496] 000000344795.jpg (2 instances, 837 candidates)
+  Timing: load=0.019s | fiedler=7.725s | masks=0.896s | iou=3.291s | total=12.66s | ETA=44.1m
+[297/496] 000000344909.jpg (4 instances, 683 candidates)
+  Timing: load=0.036s | fiedler=5.848s | masks=0.732s | iou=2.731s | total=10.22s | ETA=43.9m
+[298/496] 000000345361.jpg (11 instances, 767 candidates)
+  Timing: load=0.032s | fiedler=6.275s | masks=0.813s | iou=8.918s | total=16.77s | ETA=43.7m
+[299/496] 000000348216.jpg (8 instances, 789 candidates)
+  Timing: load=0.036s | fiedler=5.706s | masks=0.836s | iou=1.619s | total=9.21s | ETA=43.4m
+[300/496] 000000348243.jpg (2 instances, 811 candidates)
+  Timing: load=0.064s | fiedler=6.718s | masks=0.885s | iou=1.659s | total=10.26s | ETA=43.2m
+[301/496] 000000349480.jpg (17 instances, 737 candidates)
+  Timing: load=0.034s | fiedler=5.707s | masks=0.784s | iou=14.352s | total=21.60s | ETA=43.0m
+[302/496] 000000350488.jpg (1 instances, 649 candidates)
+  Timing: load=0.023s | fiedler=10.171s | masks=0.868s | iou=1.463s | total=13.28s | ETA=42.8m
+[303/496] 000000355240.jpg (4 instances, 769 candidates)
+  Timing: load=0.021s | fiedler=6.866s | masks=0.848s | iou=4.645s | total=13.06s | ETA=42.6m
+[304/496] 000000356169.jpg (11 instances, 699 candidates)
+  Timing: load=0.022s | fiedler=6.063s | masks=0.753s | iou=4.138s | total=11.71s | ETA=42.4m
+[305/496] 000000356261.jpg (2 instances, 803 candidates)
+  Timing: load=0.023s | fiedler=6.402s | masks=0.914s | iou=1.780s | total=9.89s | ETA=42.1m
+[306/496] 000000357501.jpg (1 instances, 673 candidates)
+  Timing: load=0.023s | fiedler=6.755s | masks=0.724s | iou=1.426s | total=9.66s | ETA=41.9m
+[307/496] 000000357742.jpg (2 instances, 823 candidates)
+  Timing: load=0.023s | fiedler=6.017s | masks=0.872s | iou=3.268s | total=11.10s | ETA=41.6m
+[308/496] 000000357816.jpg (10 instances, 695 candidates)
+  Timing: load=0.036s | fiedler=6.992s | masks=0.749s | iou=9.437s | total=18.04s | ETA=41.4m
+[309/496] 000000358427.jpg (3 instances, 745 candidates)
+  Timing: load=0.021s | fiedler=6.198s | masks=0.826s | iou=2.928s | total=10.71s | ETA=41.2m
+[310/496] 000000360097.jpg (14 instances, 659 candidates)
+  Timing: load=0.019s | fiedler=6.856s | masks=0.711s | iou=2.626s | total=10.88s | ETA=41.0m
+[311/496] 000000360951.jpg (7 instances, 697 candidates)
+  Timing: load=0.022s | fiedler=6.428s | masks=0.765s | iou=5.439s | total=13.37s | ETA=40.7m
+[312/496] 000000361919.jpg (21 instances, 685 candidates)
+  Timing: load=0.022s | fiedler=6.258s | masks=0.727s | iou=4.086s | total=11.80s | ETA=40.5m
+[313/496] 000000362682.jpg (5 instances, 755 candidates)
+  Timing: load=0.022s | fiedler=5.802s | masks=0.803s | iou=4.434s | total=11.76s | ETA=40.3m
+[314/496] 000000363188.jpg (18 instances, 719 candidates)
+  Timing: load=0.023s | fiedler=5.861s | masks=0.774s | iou=6.992s | total=14.38s | ETA=40.1m
+[315/496] 000000365207.jpg (5 instances, 741 candidates)
+  Timing: load=0.023s | fiedler=10.207s | masks=0.790s | iou=4.379s | total=16.30s | ETA=39.9m
+[316/496] 000000368456.jpg (1 instances, 849 candidates)
+  Timing: load=0.022s | fiedler=6.356s | masks=0.910s | iou=1.733s | total=9.82s | ETA=39.6m
+[317/496] 000000368752.jpg (9 instances, 795 candidates)
+  Timing: load=0.038s | fiedler=5.624s | masks=0.855s | iou=9.250s | total=16.72s | ETA=39.4m
+[318/496] 000000369812.jpg (18 instances, 605 candidates)
+  Timing: load=0.029s | fiedler=7.663s | masks=0.695s | iou=5.926s | total=15.11s | ETA=39.2m
+[319/496] 000000370478.jpg (12 instances, 759 candidates)
+  Timing: load=0.021s | fiedler=5.805s | masks=0.815s | iou=7.372s | total=14.78s | ETA=39.0m
+[320/496] 000000371472.jpg (11 instances, 491 candidates)
+  Timing: load=0.067s | fiedler=7.694s | masks=0.524s | iou=1.046s | total=10.18s | ETA=38.8m
+[321/496] 000000373315.jpg (2 instances, 667 candidates)
+  Timing: load=0.023s | fiedler=6.928s | masks=0.714s | iou=2.639s | total=11.16s | ETA=38.5m
+[322/496] 000000373353.jpg (34 instances, 771 candidates)
+  Timing: load=0.034s | fiedler=6.018s | masks=0.830s | iou=9.000s | total=16.59s | ETA=38.3m
+[323/496] 000000374551.jpg (1 instances, 853 candidates)
+  Timing: load=0.019s | fiedler=9.912s | masks=0.902s | iou=1.730s | total=13.36s | ETA=38.1m
+[324/496] 000000377882.jpg (14 instances, 525 candidates)
+  Timing: load=0.022s | fiedler=15.098s | masks=0.569s | iou=2.140s | total=18.56s | ETA=37.9m
+[325/496] 000000380706.jpg (9 instances, 803 candidates)
+  Timing: load=0.021s | fiedler=6.296s | masks=0.846s | iou=7.799s | total=15.73s | ETA=37.8m
+[326/496] 000000382030.jpg (4 instances, 839 candidates)
+  Timing: load=0.021s | fiedler=6.216s | masks=0.896s | iou=6.577s | total=14.49s | ETA=37.5m
+[327/496] 000000383289.jpg (6 instances, 757 candidates)
+  Timing: load=0.021s | fiedler=5.955s | masks=0.811s | iou=4.418s | total=11.95s | ETA=37.3m
+[328/496] 000000384670.jpg (4 instances, 743 candidates)
+  Timing: load=0.021s | fiedler=6.192s | masks=0.828s | iou=4.385s | total=12.15s | ETA=37.1m
+[329/496] 000000385997.jpg (9 instances, 807 candidates)
+  Timing: load=0.021s | fiedler=5.684s | masks=0.907s | iou=11.090s | total=18.46s | ETA=36.9m
+[330/496] 000000386352.jpg (13 instances, 803 candidates)
+  Timing: load=0.022s | fiedler=7.189s | masks=0.861s | iou=4.725s | total=13.55s | ETA=36.7m
+[331/496] 000000387383.jpg (2 instances, 867 candidates)
+  Timing: load=0.021s | fiedler=6.723s | masks=0.920s | iou=3.452s | total=11.96s | ETA=36.5m
+[332/496] 000000388056.jpg (12 instances, 859 candidates)
+  Timing: load=0.027s | fiedler=6.646s | masks=0.945s | iou=5.068s | total=13.47s | ETA=36.2m
+[333/496] 000000389451.jpg (17 instances, 781 candidates)
+  Timing: load=0.043s | fiedler=7.296s | masks=0.835s | iou=4.625s | total=13.59s | ETA=36.0m
+[334/496] 000000390246.jpg (2 instances, 835 candidates)
+  Timing: load=0.034s | fiedler=6.052s | masks=0.942s | iou=3.315s | total=11.09s | ETA=35.8m
+[335/496] 000000392933.jpg (1 instances, 679 candidates)
+  Timing: load=0.042s | fiedler=5.657s | masks=0.779s | iou=1.388s | total=8.78s | ETA=35.5m
+[336/496] 000000393056.jpg (2 instances, 817 candidates)
+  Timing: load=0.021s | fiedler=6.699s | masks=0.874s | iou=3.254s | total=11.61s | ETA=35.3m
+[337/496] 000000393282.jpg (2 instances, 783 candidates)
+  Timing: load=0.025s | fiedler=6.579s | masks=0.885s | iou=1.587s | total=9.95s | ETA=35.0m
+[338/496] 000000394275.jpg (10 instances, 793 candidates)
+  Timing: load=0.033s | fiedler=5.570s | masks=0.860s | iou=3.152s | total=10.32s | ETA=34.8m
+[339/496] 000000396274.jpg (1 instances, 619 candidates)
+  Timing: load=0.035s | fiedler=7.124s | masks=0.678s | iou=1.306s | total=9.84s | ETA=34.5m
+[340/496] 000000398742.jpg (8 instances, 857 candidates)
+  Timing: load=0.031s | fiedler=5.713s | masks=0.914s | iou=5.073s | total=12.68s | ETA=34.3m
+[341/496] 000000400044.jpg (2 instances, 801 candidates)
+  Timing: load=0.036s | fiedler=6.156s | masks=0.930s | iou=3.186s | total=11.22s | ETA=34.1m
+[342/496] 000000400082.jpg (4 instances, 717 candidates)
+  Timing: load=0.021s | fiedler=7.510s | masks=0.771s | iou=5.624s | total=14.70s | ETA=33.9m
+[343/496] 000000400367.jpg (18 instances, 763 candidates)
+  Timing: load=0.019s | fiedler=6.575s | masks=0.858s | iou=3.036s | total=11.24s | ETA=33.6m
+[344/496] 000000400922.jpg (2 instances, 735 candidates)
+  Timing: load=0.023s | fiedler=6.189s | masks=0.823s | iou=2.895s | total=10.67s | ETA=33.4m
+[345/496] 000000404839.jpg (5 instances, 813 candidates)
+  Timing: load=0.024s | fiedler=6.231s | masks=0.910s | iou=3.210s | total=11.31s | ETA=33.2m
+[346/496] 000000404923.jpg (5 instances, 725 candidates)
+  Timing: load=0.036s | fiedler=6.864s | masks=0.772s | iou=2.882s | total=11.33s | ETA=32.9m
+[347/496] 000000405691.jpg (13 instances, 785 candidates)
+  Timing: load=0.035s | fiedler=6.045s | masks=0.836s | iou=12.253s | total=19.92s | ETA=32.8m
+[348/496] 000000407650.jpg (2 instances, 737 candidates)
+  Timing: load=0.022s | fiedler=6.756s | masks=0.793s | iou=2.913s | total=11.20s | ETA=32.5m
+[349/496] 000000409198.jpg (6 instances, 751 candidates)
+  Timing: load=0.023s | fiedler=7.060s | masks=0.804s | iou=4.438s | total=13.10s | ETA=32.3m
+[350/496] 000000409424.jpg (6 instances, 713 candidates)
+  Timing: load=0.024s | fiedler=6.356s | masks=0.768s | iou=4.209s | total=12.27s | ETA=32.1m
+[351/496] 000000409475.jpg (2 instances, 735 candidates)
+  Timing: load=0.033s | fiedler=7.171s | masks=0.805s | iou=1.495s | total=10.24s | ETA=31.9m
+[352/496] 000000411665.jpg (2 instances, 791 candidates)
+  Timing: load=0.023s | fiedler=6.537s | masks=0.928s | iou=1.639s | total=9.91s | ETA=31.6m
+[353/496] 000000416343.jpg (7 instances, 745 candidates)
+  Timing: load=0.036s | fiedler=5.925s | masks=0.802s | iou=5.843s | total=13.55s | ETA=31.4m
+[354/496] 000000417085.jpg (2 instances, 675 candidates)
+  Timing: load=0.022s | fiedler=7.448s | masks=0.724s | iou=1.387s | total=10.28s | ETA=31.2m
+[355/496] 000000417249.jpg (9 instances, 765 candidates)
+  Timing: load=0.023s | fiedler=5.877s | masks=0.829s | iou=4.541s | total=12.20s | ETA=30.9m
+[356/496] 000000419096.jpg (1 instances, 853 candidates)
+  Timing: load=0.036s | fiedler=6.070s | masks=0.916s | iou=1.716s | total=9.60s | ETA=30.7m
+[357/496] 000000421455.jpg (5 instances, 815 candidates)
+  Timing: load=0.026s | fiedler=6.255s | masks=0.887s | iou=7.959s | total=15.91s | ETA=30.5m
+[358/496] 000000422886.jpg (3 instances, 681 candidates)
+  Timing: load=0.037s | fiedler=5.739s | masks=0.743s | iou=4.023s | total=11.34s | ETA=30.3m
+[359/496] 000000423123.jpg (7 instances, 755 candidates)
+  Timing: load=0.022s | fiedler=5.971s | masks=0.803s | iou=5.927s | total=13.44s | ETA=30.0m
+[360/496] 000000423971.jpg (1 instances, 791 candidates)
+  Timing: load=0.031s | fiedler=5.878s | masks=0.859s | iou=1.632s | total=9.11s | ETA=29.8m
+[361/496] 000000424521.jpg (2 instances, 697 candidates)
+  Timing: load=0.022s | fiedler=6.126s | masks=0.757s | iou=2.816s | total=10.63s | ETA=29.6m
+[362/496] 000000425390.jpg (2 instances, 847 candidates)
+  Timing: load=0.019s | fiedler=5.707s | masks=0.921s | iou=3.380s | total=10.78s | ETA=29.3m
+[363/496] 000000425925.jpg (12 instances, 743 candidates)
+  Timing: load=0.023s | fiedler=6.788s | masks=0.800s | iou=5.857s | total=14.32s | ETA=29.1m
+[364/496] 000000426166.jpg (1 instances, 799 candidates)
+  Timing: load=0.020s | fiedler=6.109s | masks=0.872s | iou=1.624s | total=9.34s | ETA=28.9m
+[365/496] 000000429623.jpg (4 instances, 669 candidates)
+  Timing: load=0.022s | fiedler=6.309s | masks=0.718s | iou=5.237s | total=13.05s | ETA=28.6m
+[366/496] 000000429761.jpg (4 instances, 777 candidates)
+  Timing: load=0.021s | fiedler=6.878s | masks=0.836s | iou=3.110s | total=11.61s | ETA=28.4m
+[367/496] 000000430961.jpg (4 instances, 901 candidates)
+  Timing: load=0.028s | fiedler=6.721s | masks=0.979s | iou=5.290s | total=13.81s | ETA=28.2m
+[368/496] 000000431896.jpg (1 instances, 767 candidates)
+  Timing: load=0.022s | fiedler=6.039s | masks=0.837s | iou=1.567s | total=9.16s | ETA=28.0m
+[369/496] 000000432468.jpg (2 instances, 795 candidates)
+  Timing: load=0.022s | fiedler=7.287s | masks=0.865s | iou=3.154s | total=12.27s | ETA=27.7m
+[370/496] 000000433374.jpg (6 instances, 729 candidates)
+  Timing: load=0.035s | fiedler=6.736s | masks=0.777s | iou=1.515s | total=9.79s | ETA=27.5m
+[371/496] 000000433774.jpg (7 instances, 687 candidates)
+  Timing: load=0.021s | fiedler=5.769s | masks=0.739s | iou=4.118s | total=11.33s | ETA=27.3m
+[372/496] 000000435003.jpg (7 instances, 745 candidates)
+  Timing: load=0.021s | fiedler=5.806s | masks=0.814s | iou=7.294s | total=14.66s | ETA=27.1m
+[373/496] 000000436315.jpg (1 instances, 743 candidates)
+  Timing: load=0.023s | fiedler=6.100s | masks=0.819s | iou=1.509s | total=9.35s | ETA=26.8m
+[374/496] 000000437110.jpg (1 instances, 713 candidates)
+  Timing: load=0.028s | fiedler=10.447s | masks=0.768s | iou=1.484s | total=13.73s | ETA=26.6m
+[375/496] 000000437239.jpg (13 instances, 745 candidates)
+  Timing: load=0.027s | fiedler=6.512s | masks=0.804s | iou=7.291s | total=15.41s | ETA=26.4m
+[376/496] 000000438269.jpg (1 instances, 731 candidates)
+  Timing: load=0.033s | fiedler=9.119s | masks=0.793s | iou=1.499s | total=12.42s | ETA=26.2m
+[377/496] 000000438862.jpg (10 instances, 815 candidates)
+  Timing: load=0.021s | fiedler=6.879s | masks=0.889s | iou=4.822s | total=13.40s | ETA=26.0m
+[378/496] 000000440171.jpg (3 instances, 723 candidates)
+  Timing: load=0.038s | fiedler=5.993s | masks=0.793s | iou=2.866s | total=10.64s | ETA=25.7m
+[379/496] 000000440617.jpg (2 instances, 763 candidates)
+  Timing: load=0.035s | fiedler=5.996s | masks=0.837s | iou=3.011s | total=10.67s | ETA=25.5m
+[380/496] 000000441553.jpg (17 instances, 823 candidates)
+  Timing: load=0.028s | fiedler=5.732s | masks=0.887s | iou=6.481s | total=13.92s | ETA=25.3m
+[381/496] 000000445602.jpg (7 instances, 759 candidates)
+  Timing: load=0.027s | fiedler=6.028s | masks=0.903s | iou=3.038s | total=10.75s | ETA=25.1m
+[382/496] 000000445675.jpg (1 instances, 817 candidates)
+  Timing: load=0.024s | fiedler=8.135s | masks=0.869s | iou=1.645s | total=11.67s | ETA=24.8m
+[383/496] 000000446522.jpg (4 instances, 815 candidates)
+  Timing: load=0.022s | fiedler=6.891s | masks=0.882s | iou=6.336s | total=15.07s | ETA=24.6m
+[384/496] 000000450758.jpg (7 instances, 747 candidates)
+  Timing: load=0.027s | fiedler=7.295s | masks=0.807s | iou=1.532s | total=10.39s | ETA=24.4m
+[385/496] 000000453981.jpg (2 instances, 673 candidates)
+  Timing: load=0.022s | fiedler=8.006s | masks=0.716s | iou=1.380s | total=10.85s | ETA=24.2m
+[386/496] 000000455872.jpg (2 instances, 809 candidates)
+  Timing: load=0.029s | fiedler=6.108s | masks=0.933s | iou=1.647s | total=9.46s | ETA=23.9m
+[387/496] 000000456292.jpg (2 instances, 779 candidates)
+  Timing: load=0.023s | fiedler=6.422s | masks=0.843s | iou=3.103s | total=11.33s | ETA=23.7m
+[388/496] 000000459500.jpg (4 instances, 685 candidates)
+  Timing: load=0.033s | fiedler=6.379s | masks=0.729s | iou=4.019s | total=12.04s | ETA=23.5m
+[389/496] 000000460229.jpg (4 instances, 789 candidates)
+  Timing: load=0.029s | fiedler=7.630s | masks=0.859s | iou=4.645s | total=14.15s | ETA=23.3m
+[390/496] 000000460841.jpg (4 instances, 843 candidates)
+  Timing: load=0.019s | fiedler=6.818s | masks=0.928s | iou=6.530s | total=15.10s | ETA=23.1m
+[391/496] 000000460929.jpg (2 instances, 617 candidates)
+  Timing: load=0.023s | fiedler=7.560s | masks=0.670s | iou=2.453s | total=11.56s | ETA=22.8m
+[392/496] 000000460967.jpg (2 instances, 817 candidates)
+  Timing: load=0.031s | fiedler=8.571s | masks=0.866s | iou=3.209s | total=13.65s | ETA=22.6m
+[393/496] 000000461036.jpg (1 instances, 671 candidates)
+  Timing: load=0.033s | fiedler=8.224s | masks=0.716s | iou=1.382s | total=11.11s | ETA=22.4m
+[394/496] 000000462371.jpg (11 instances, 839 candidates)
+  Timing: load=0.020s | fiedler=6.736s | masks=0.945s | iou=8.200s | total=16.69s | ETA=22.2m
+[395/496] 000000462643.jpg (2 instances, 801 candidates)
+  Timing: load=0.034s | fiedler=7.030s | masks=0.867s | iou=3.180s | total=12.09s | ETA=22.0m
+[396/496] 000000463174.jpg (3 instances, 591 candidates)
+  Timing: load=0.035s | fiedler=7.072s | masks=0.665s | iou=3.467s | total=11.89s | ETA=21.8m
+[397/496] 000000463842.jpg (14 instances, 743 candidates)
+  Timing: load=0.021s | fiedler=6.024s | masks=0.804s | iou=2.966s | total=10.54s | ETA=21.5m
+[398/496] 000000463849.jpg (24 instances, 671 candidates)
+  Timing: load=0.027s | fiedler=7.496s | masks=0.706s | iou=5.273s | total=14.37s | ETA=21.3m
+[399/496] 000000464144.jpg (2 instances, 745 candidates)
+  Timing: load=0.022s | fiedler=9.188s | masks=0.813s | iou=2.929s | total=13.98s | ETA=21.1m
+[400/496] 000000465675.jpg (3 instances, 781 candidates)
+  Timing: load=0.019s | fiedler=6.340s | masks=0.861s | iou=3.092s | total=11.02s | ETA=20.9m
+[401/496] 000000465836.jpg (7 instances, 681 candidates)
+  Timing: load=0.020s | fiedler=6.401s | masks=0.738s | iou=4.043s | total=11.93s | ETA=20.7m
+[402/496] 000000466567.jpg (1 instances, 645 candidates)
+  Timing: load=0.023s | fiedler=12.915s | masks=0.729s | iou=1.322s | total=16.04s | ETA=20.4m
+[403/496] 000000468632.jpg (5 instances, 615 candidates)
+  Timing: load=0.023s | fiedler=7.438s | masks=0.685s | iou=2.435s | total=11.27s | ETA=20.2m
+[404/496] 000000468954.jpg (7 instances, 773 candidates)
+  Timing: load=0.020s | fiedler=5.836s | masks=0.840s | iou=4.513s | total=11.89s | ETA=20.0m
+[405/496] 000000468965.jpg (15 instances, 797 candidates)
+  Timing: load=0.022s | fiedler=6.182s | masks=0.872s | iou=4.690s | total=12.54s | ETA=19.8m
+[406/496] 000000469174.jpg (1 instances, 849 candidates)
+  Timing: load=0.021s | fiedler=8.769s | masks=0.930s | iou=1.701s | total=12.25s | ETA=19.6m
+[407/496] 000000470924.jpg (55 instances, 781 candidates)
+  Timing: load=0.022s | fiedler=6.137s | masks=0.825s | iou=13.656s | total=21.44s | ETA=19.4m
+[408/496] 000000473219.jpg (22 instances, 747 candidates)
+  Timing: load=0.023s | fiedler=6.070s | masks=0.797s | iou=7.298s | total=14.94s | ETA=19.2m
+[409/496] 000000473406.jpg (9 instances, 875 candidates)
+  Timing: load=0.023s | fiedler=6.731s | masks=0.924s | iou=10.125s | total=18.81s | ETA=19.0m
+[410/496] 000000473869.jpg (11 instances, 861 candidates)
+  Timing: load=0.020s | fiedler=6.227s | masks=0.922s | iou=13.256s | total=21.19s | ETA=18.8m
+[411/496] 000000473974.jpg (5 instances, 687 candidates)
+  Timing: load=0.036s | fiedler=6.965s | masks=0.727s | iou=1.405s | total=9.84s | ETA=18.5m
+[412/496] 000000474786.jpg (6 instances, 873 candidates)
+  Timing: load=0.020s | fiedler=6.384s | masks=0.984s | iou=5.123s | total=13.47s | ETA=18.3m
+[413/496] 000000475365.jpg (1 instances, 801 candidates)
+  Timing: load=0.028s | fiedler=6.235s | masks=0.860s | iou=1.616s | total=9.49s | ETA=18.1m
+[414/496] 000000476119.jpg (5 instances, 777 candidates)
+  Timing: load=0.032s | fiedler=6.222s | masks=0.840s | iou=6.020s | total=13.83s | ETA=17.9m
+[415/496] 000000476787.jpg (11 instances, 755 candidates)
+  Timing: load=0.024s | fiedler=6.334s | masks=0.827s | iou=7.316s | total=15.26s | ETA=17.7m
+[416/496] 000000480021.jpg (9 instances, 807 candidates)
+  Timing: load=0.022s | fiedler=7.912s | masks=0.998s | iou=6.371s | total=16.11s | ETA=17.5m
+[417/496] 000000481390.jpg (34 instances, 773 candidates)
+  Timing: load=0.023s | fiedler=7.526s | masks=0.861s | iou=7.586s | total=16.82s | ETA=17.3m
+[418/496] 000000488673.jpg (15 instances, 841 candidates)
+  Timing: load=0.036s | fiedler=5.816s | masks=0.916s | iou=11.409s | total=19.13s | ETA=17.1m
+[419/496] 000000489764.jpg (9 instances, 789 candidates)
+  Timing: load=0.023s | fiedler=5.792s | masks=0.842s | iou=6.121s | total=13.60s | ETA=16.8m
+[420/496] 000000491008.jpg (25 instances, 757 candidates)
+  Timing: load=0.034s | fiedler=5.737s | masks=0.836s | iou=11.759s | total=19.12s | ETA=16.6m
+[421/496] 000000491090.jpg (6 instances, 747 candidates)
+  Timing: load=0.023s | fiedler=6.121s | masks=0.808s | iou=3.011s | total=10.84s | ETA=16.4m
+[422/496] 000000491497.jpg (12 instances, 757 candidates)
+  Timing: load=0.021s | fiedler=6.212s | masks=0.807s | iou=5.896s | total=13.88s | ETA=16.2m
+[423/496] 000000493334.jpg (2 instances, 777 candidates)
+  Timing: load=0.027s | fiedler=7.991s | masks=0.823s | iou=3.075s | total=12.70s | ETA=16.0m
+[424/496] 000000493772.jpg (2 instances, 729 candidates)
+  Timing: load=0.023s | fiedler=5.670s | masks=0.785s | iou=2.897s | total=10.18s | ETA=15.8m
+[425/496] 000000497344.jpg (4 instances, 771 candidates)
+  Timing: load=0.019s | fiedler=5.749s | masks=0.840s | iou=6.022s | total=13.34s | ETA=15.5m
+[426/496] 000000498747.jpg (11 instances, 749 candidates)
+  Timing: load=0.021s | fiedler=5.666s | masks=0.832s | iou=4.381s | total=11.64s | ETA=15.3m
+[427/496] 000000499181.jpg (13 instances, 757 candidates)
+  Timing: load=0.022s | fiedler=7.016s | masks=0.805s | iou=5.889s | total=14.53s | ETA=15.1m
+[428/496] 000000499313.jpg (5 instances, 745 candidates)
+  Timing: load=0.022s | fiedler=6.137s | masks=0.834s | iou=5.775s | total=13.52s | ETA=14.9m
+[429/496] 000000500270.jpg (12 instances, 801 candidates)
+  Timing: load=0.021s | fiedler=6.642s | masks=0.855s | iou=3.187s | total=11.41s | ETA=14.7m
+[430/496] 000000503823.jpg (4 instances, 719 candidates)
+  Timing: load=0.019s | fiedler=5.705s | masks=0.771s | iou=1.477s | total=8.66s | ETA=14.4m
+[431/496] 000000505451.jpg (2 instances, 845 candidates)
+  Timing: load=0.018s | fiedler=6.695s | masks=0.919s | iou=3.341s | total=11.72s | ETA=14.2m
+[432/496] 000000506178.jpg (5 instances, 889 candidates)
+  Timing: load=0.020s | fiedler=6.310s | masks=0.964s | iou=5.265s | total=13.55s | ETA=14.0m
+[433/496] 000000507667.jpg (15 instances, 797 candidates)
+  Timing: load=0.035s | fiedler=6.575s | masks=0.859s | iou=6.201s | total=14.47s | ETA=13.8m
+[434/496] 000000507797.jpg (15 instances, 715 candidates)
+  Timing: load=0.033s | fiedler=5.920s | masks=0.764s | iou=5.601s | total=13.02s | ETA=13.6m
+[435/496] 000000509008.jpg (1 instances, 813 candidates)
+  Timing: load=0.023s | fiedler=6.281s | masks=0.874s | iou=1.634s | total=9.54s | ETA=13.3m
+[436/496] 000000511076.jpg (18 instances, 735 candidates)
+  Timing: load=0.022s | fiedler=6.387s | masks=0.804s | iou=7.161s | total=15.06s | ETA=13.1m
+[437/496] 000000511647.jpg (2 instances, 745 candidates)
+  Timing: load=0.025s | fiedler=7.938s | masks=0.800s | iou=2.932s | total=12.48s | ETA=12.9m
+[438/496] 000000512330.jpg (14 instances, 835 candidates)
+  Timing: load=0.023s | fiedler=6.165s | masks=0.910s | iou=3.297s | total=11.35s | ETA=12.7m
+[439/496] 000000513567.jpg (14 instances, 735 candidates)
+  Timing: load=0.020s | fiedler=6.868s | masks=0.796s | iou=5.718s | total=14.12s | ETA=12.5m
+[440/496] 000000513688.jpg (4 instances, 701 candidates)
+  Timing: load=0.021s | fiedler=5.898s | masks=0.796s | iou=5.482s | total=12.93s | ETA=12.2m
+[441/496] 000000514376.jpg (8 instances, 711 candidates)
+  Timing: load=0.023s | fiedler=7.486s | masks=0.846s | iou=5.568s | total=14.67s | ETA=12.0m
+[442/496] 000000523241.jpg (10 instances, 785 candidates)
+  Timing: load=0.032s | fiedler=6.505s | masks=0.845s | iou=4.649s | total=12.77s | ETA=11.8m
+[443/496] 000000524850.jpg (40 instances, 759 candidates)
+  Timing: load=0.018s | fiedler=6.116s | masks=0.831s | iou=10.348s | total=18.04s | ETA=11.6m
+[444/496] 000000525155.jpg (2 instances, 837 candidates)
+  Timing: load=0.032s | fiedler=7.763s | masks=0.894s | iou=3.339s | total=12.83s | ETA=11.4m
+[445/496] 000000527616.jpg (4 instances, 759 candidates)
+  Timing: load=0.048s | fiedler=7.064s | masks=0.813s | iou=5.895s | total=14.59s | ETA=11.2m
+[446/496] 000000528705.jpg (2 instances, 777 candidates)
+  Timing: load=0.024s | fiedler=6.231s | masks=0.839s | iou=3.068s | total=11.10s | ETA=10.9m
+[447/496] 000000530061.jpg (7 instances, 689 candidates)
+  Timing: load=0.036s | fiedler=5.715s | masks=0.733s | iou=7.997s | total=15.18s | ETA=10.7m
+[448/496] 000000530457.jpg (1 instances, 719 candidates)
+  Timing: load=0.027s | fiedler=6.810s | masks=0.777s | iou=1.465s | total=9.93s | ETA=10.5m
+[449/496] 000000530836.jpg (23 instances, 761 candidates)
+  Timing: load=0.031s | fiedler=7.900s | masks=0.822s | iou=14.702s | total=24.26s | ETA=10.3m
+[450/496] 000000531771.jpg (1 instances, 787 candidates)
+  Timing: load=0.024s | fiedler=6.137s | masks=0.850s | iou=1.591s | total=9.54s | ETA=10.1m
+[451/496] 000000532530.jpg (6 instances, 627 candidates)
+  Timing: load=0.034s | fiedler=6.788s | masks=0.677s | iou=3.696s | total=11.87s | ETA=9.8m
+[452/496] 000000533493.jpg (4 instances, 801 candidates)
+  Timing: load=0.042s | fiedler=6.463s | masks=0.862s | iou=3.157s | total=11.18s | ETA=9.6m
+[453/496] 000000534827.jpg (10 instances, 757 candidates)
+  Timing: load=0.022s | fiedler=6.399s | masks=0.810s | iou=4.477s | total=12.53s | ETA=9.4m
+[454/496] 000000535253.jpg (8 instances, 751 candidates)
+  Timing: load=0.036s | fiedler=7.924s | masks=0.807s | iou=5.851s | total=15.46s | ETA=9.2m
+[455/496] 000000539143.jpg (1 instances, 725 candidates)
+  Timing: load=0.024s | fiedler=5.821s | masks=0.779s | iou=1.497s | total=8.81s | ETA=9.0m
+[456/496] 000000540932.jpg (11 instances, 775 candidates)
+  Timing: load=0.022s | fiedler=6.320s | masks=0.821s | iou=3.108s | total=11.05s | ETA=8.7m
+[457/496] 000000541291.jpg (2 instances, 745 candidates)
+  Timing: load=0.020s | fiedler=6.591s | masks=0.813s | iou=1.570s | total=9.76s | ETA=8.5m
+[458/496] 000000542089.jpg (1 instances, 785 candidates)
+  Timing: load=0.023s | fiedler=6.187s | masks=0.928s | iou=1.643s | total=9.73s | ETA=8.3m
+[459/496] 000000544565.jpg (5 instances, 779 candidates)
+  Timing: load=0.027s | fiedler=6.599s | masks=0.835s | iou=6.092s | total=14.43s | ETA=8.1m
+[460/496] 000000545007.jpg (3 instances, 891 candidates)
+  Timing: load=0.022s | fiedler=6.281s | masks=0.965s | iou=3.474s | total=11.75s | ETA=7.9m
+[461/496] 000000545826.jpg (2 instances, 751 candidates)
+  Timing: load=0.042s | fiedler=6.015s | masks=0.808s | iou=2.967s | total=10.55s | ETA=7.6m
+[462/496] 000000547144.jpg (8 instances, 837 candidates)
+  Timing: load=0.022s | fiedler=6.450s | masks=0.896s | iou=6.511s | total=14.66s | ETA=7.4m
+[463/496] 000000548339.jpg (11 instances, 551 candidates)
+  Timing: load=0.024s | fiedler=8.157s | masks=0.588s | iou=6.434s | total=15.96s | ETA=7.2m
+[464/496] 000000550471.jpg (2 instances, 809 candidates)
+  Timing: load=0.033s | fiedler=7.451s | masks=0.862s | iou=3.171s | total=12.26s | ETA=7.0m
+[465/496] 000000550691.jpg (8 instances, 777 candidates)
+  Timing: load=0.021s | fiedler=6.284s | masks=0.833s | iou=6.057s | total=13.96s | ETA=6.8m
+[466/496] 000000550714.jpg (2 instances, 711 candidates)
+  Timing: load=0.034s | fiedler=7.156s | masks=0.751s | iou=2.794s | total=11.48s | ETA=6.6m
+[467/496] 000000551780.jpg (2 instances, 693 candidates)
+  Timing: load=0.035s | fiedler=6.248s | masks=0.742s | iou=2.787s | total=10.58s | ETA=6.3m
+[468/496] 000000553990.jpg (2 instances, 673 candidates)
+  Timing: load=0.029s | fiedler=7.126s | masks=0.797s | iou=2.809s | total=11.48s | ETA=6.1m
+[469/496] 000000554266.jpg (4 instances, 845 candidates)
+  Timing: load=0.033s | fiedler=6.585s | masks=0.904s | iou=3.387s | total=11.55s | ETA=5.9m
+[470/496] 000000554291.jpg (8 instances, 833 candidates)
+  Timing: load=0.022s | fiedler=5.718s | masks=0.890s | iou=11.235s | total=18.61s | ETA=5.7m
+[471/496] 000000554595.jpg (2 instances, 785 candidates)
+  Timing: load=0.033s | fiedler=5.781s | masks=0.840s | iou=3.072s | total=10.49s | ETA=5.5m
+[472/496] 000000555009.jpg (9 instances, 801 candidates)
+  Timing: load=0.019s | fiedler=5.778s | masks=0.857s | iou=9.309s | total=16.71s | ETA=5.2m
+[473/496] 000000555412.jpg (1 instances, 741 candidates)
+  Timing: load=0.022s | fiedler=6.723s | masks=0.791s | iou=1.504s | total=9.77s | ETA=5.0m
+[474/496] 000000555597.jpg (16 instances, 857 candidates)
+  Timing: load=0.021s | fiedler=5.866s | masks=0.899s | iou=6.681s | total=14.24s | ETA=4.8m
+[475/496] 000000558213.jpg (6 instances, 833 candidates)
+  Timing: load=0.021s | fiedler=8.335s | masks=0.880s | iou=6.445s | total=16.51s | ETA=4.6m
+[476/496] 000000562229.jpg (4 instances, 803 candidates)
+  Timing: load=0.037s | fiedler=6.337s | masks=0.858s | iou=3.153s | total=11.29s | ETA=4.4m
+[477/496] 000000562561.jpg (3 instances, 831 candidates)
+  Timing: load=0.035s | fiedler=6.105s | masks=0.875s | iou=3.294s | total=11.07s | ETA=4.1m
+[478/496] 000000562581.jpg (4 instances, 769 candidates)
+  Timing: load=0.036s | fiedler=6.255s | masks=0.824s | iou=4.492s | total=12.37s | ETA=3.9m
+[479/496] 000000564133.jpg (8 instances, 805 candidates)
+  Timing: load=0.034s | fiedler=6.543s | masks=0.873s | iou=1.628s | total=9.83s | ETA=3.7m
+[480/496] 000000565012.jpg (10 instances, 701 candidates)
+  Timing: load=0.028s | fiedler=6.259s | masks=0.747s | iou=5.461s | total=13.21s | ETA=3.5m
+[481/496] 000000565877.jpg (5 instances, 801 candidates)
+  Timing: load=0.034s | fiedler=8.133s | masks=0.846s | iou=7.801s | total=17.82s | ETA=3.3m
+[482/496] 000000565962.jpg (2 instances, 831 candidates)
+  Timing: load=0.033s | fiedler=6.066s | masks=0.873s | iou=3.255s | total=10.98s | ETA=3.1m
+[483/496] 000000569825.jpg (6 instances, 741 candidates)
+  Timing: load=0.033s | fiedler=6.961s | masks=0.809s | iou=2.911s | total=11.65s | ETA=2.8m
+[484/496] 000000570756.jpg (26 instances, 747 candidates)
+  Timing: load=0.033s | fiedler=6.352s | masks=0.793s | iou=2.966s | total=10.88s | ETA=2.6m
+[485/496] 000000571857.jpg (14 instances, 681 candidates)
+  Timing: load=0.021s | fiedler=22.778s | masks=0.724s | iou=7.896s | total=32.37s | ETA=2.4m
+[486/496] 000000571943.jpg (1 instances, 639 candidates)
+  Timing: load=0.037s | fiedler=15.918s | masks=0.690s | iou=1.299s | total=18.78s | ETA=2.2m
+[487/496] 000000572408.jpg (5 instances, 811 candidates)
+  Timing: load=0.037s | fiedler=6.252s | masks=0.878s | iou=3.194s | total=11.28s | ETA=2.0m
+[488/496] 000000574297.jpg (2 instances, 671 candidates)
+  Timing: load=0.022s | fiedler=6.308s | masks=0.713s | iou=2.645s | total=10.37s | ETA=1.8m
+[489/496] 000000575081.jpg (4 instances, 763 candidates)
+  Timing: load=0.023s | fiedler=5.743s | masks=0.822s | iou=4.442s | total=11.76s | ETA=1.5m
+[490/496] 000000575815.jpg (1 instances, 745 candidates)
+  Timing: load=0.035s | fiedler=7.072s | masks=0.800s | iou=1.511s | total=10.19s | ETA=1.3m
+[491/496] 000000576052.jpg (2 instances, 817 candidates)
+  Timing: load=0.021s | fiedler=6.070s | masks=0.877s | iou=3.192s | total=10.94s | ETA=1.1m
+[492/496] 000000577976.jpg (4 instances, 767 candidates)
+  Timing: load=0.024s | fiedler=7.027s | masks=0.814s | iou=3.035s | total=11.66s | ETA=0.9m
+[493/496] 000000578792.jpg (2 instances, 831 candidates)
+  Timing: load=0.020s | fiedler=6.692s | masks=0.885s | iou=3.296s | total=11.64s | ETA=0.7m
+[494/496] 000000579818.jpg (3 instances, 685 candidates)
+  Timing: load=0.034s | fiedler=6.553s | masks=0.754s | iou=2.705s | total=10.72s | ETA=0.4m
+[495/496] 000000580410.jpg (19 instances, 749 candidates)
+  Timing: load=0.022s | fiedler=6.435s | masks=0.824s | iou=8.700s | total=16.93s | ETA=0.2m
+[496/496] 000000581206.jpg (3 instances, 693 candidates)
+  Timing: load=0.052s | fiedler=6.368s | masks=0.734s | iou=2.735s | total=10.74s | ETA=0.0m
+
+Completed in 6619.8s
+Saved results CSV to Fiedler Evaluation/output/resize_ablation/stretch_500\instance_results.csv
+Saved summary JSON to Fiedler Evaluation/output/resize_ablation/stretch_500\summary.json
+Saved report to Fiedler Evaluation/output/resize_ablation/stretch_500\report.md
+Saved overall histogram to Fiedler Evaluation/output/resize_ablation/stretch_500\overall_iou_histogram.png
+Saved class overview to Fiedler Evaluation/output/resize_ablation/stretch_500\class_mean_iou.png
+Saved class histograms to Fiedler Evaluation/output/resize_ablation/stretch_500\class_histograms
+Saved top gallery to Fiedler Evaluation/output/resize_ablation/stretch_500\top_10_gallery.png
+Saved bottom gallery to Fiedler Evaluation/output/resize_ablation/stretch_500\bottom_10_gallery.png

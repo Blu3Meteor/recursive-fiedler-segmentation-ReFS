@@ -1,0 +1,182 @@
+﻿python.exe : Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+At line:1 char:358
++ ... s Project"; & ".\.venv\Scripts\python.exe" "Fiedler Evaluation\visual ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Using cache fou...rch_dinov2_main:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is 
+not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is 
+not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not 
+available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Loading backbone...
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Loading COCO annotations...
+loading annotations into memory...
+Done (t=0.41s)
+creating index...
+index created!
+  [debug] 647 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.27303434040157626 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.7269656595984237 stop_reason=None
+  [debug] best match for elephant #1: node id=28 depth=4 iou=0.481
+  [debug] best match for elephant #2: node id=14 depth=3 iou=0.570
+[1/20] same_class_instances/img_001.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_001.png (9.06s)
+  [debug] 817 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.42991180334021395 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.570088196659786 stop_reason=None
+  [debug] best match for horse #1: node id=22 depth=4 iou=0.430
+  [debug] best match for person #2: node id=17 depth=4 iou=0.519
+  [debug] best match for horse #3: node id=170 depth=7 iou=0.623
+  [debug] best match for horse #4: node id=42 depth=5 iou=0.203
+[2/20] same_class_instances/img_002.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_002.png (8.58s)
+  [debug] 713 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.4214674422968662 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.5785325577031338 stop_reason=None
+  [debug] best match for person #1: node id=18 depth=4 iou=0.411
+  [debug] best match for person #2: node id=17 depth=4 iou=0.503
+[3/20] same_class_instances/img_003.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_003.png (8.76s)
+  [debug] 773 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.3312066053668606 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.6687933946331395 stop_reason=None
+  [debug] best match for person #1: node id=4 depth=2 iou=0.762
+  [debug] best match for person #2: node id=25 depth=4 iou=0.702
+  [debug] best match for person #3: node id=82 depth=6 iou=0.577
+[4/20] same_class_instances/img_004.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_004.png (8.69s)
+  [debug] 771 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.4561831488084068 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.5438168511915932 stop_reason=None
+  [debug] best match for person #1: node id=22 depth=4 iou=0.604
+  [debug] best match for person #2: node id=4 depth=2 iou=0.461
+[5/20] same_class_instances/img_005.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_005.png (8.59s)
+  [debug] 711 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.4514918371176581 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.5485081628823419 stop_reason=None
+  [debug] best match for person #1: node id=16 depth=4 iou=0.337
+  [debug] best match for person #2: node id=3 depth=2 iou=0.542
+[6/20] same_class_instances/img_006.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_006.png (8.49s)
+  [debug] 789 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.5357477950835053 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.46425220491649466 stop_reason=None
+  [debug] best match for person #1: node id=20 depth=4 iou=0.669
+  [debug] best match for person #2: node id=3 depth=2 iou=0.782
+  [debug] best match for person #3: node id=208 depth=8 iou=0.400
+[7/20] same_class_instances/img_007.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_007.png (8.28s)
+  [debug] 677 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.6344529930568586 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.3655470069431413 stop_reason=None
+  [debug] best match for person #1: node id=15 depth=4 iou=0.372
+  [debug] best match for person #2: node id=39 depth=5 iou=0.678
+  [debug] best match for person #3: node id=145 depth=7 iou=0.342
+[8/20] same_class_instances/img_008.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_008.png (10.23s)
+  [debug] 841 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.4937136423343967 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.5062863576656033 stop_reason=None
+  [debug] best match for person #1: node id=46 depth=5 iou=0.476
+  [debug] best match for person #2: node id=554 depth=11 iou=0.662
+[9/20] same_class_instances/img_009.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_009.png (8.07s)
+  [debug] 879 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.4055169825483205 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.5944830174516795 stop_reason=None
+  [debug] best match for person #1: node id=9 depth=3 iou=0.683
+  [debug] best match for person #2: node id=44 depth=5 iou=0.779
+  [debug] best match for person #3: node id=41 depth=5 iou=0.795
+  [debug] best match for person #4: node id=12 depth=3 iou=0.434
+[10/20] same_class_instances/img_010.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_010.png (7.45s)
+  [debug] 841 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.47194595608932255 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.5280540439106775 stop_reason=None
+  [debug] best match for dog #1: node id=12 depth=3 iou=0.585
+  [debug] best match for person #2: node id=13 depth=3 iou=0.752
+  [debug] best match for person #3: node id=86 depth=6 iou=0.368
+  [debug] best match for cat #4: node id=12 depth=3 iou=0.583
+[11/20] multi_class/img_001.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_001.png (8.12s)
+  [debug] 807 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.4811409270031901 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.5188590729968099 stop_reason=None
+  [debug] best match for dog #1: node id=9 depth=3 iou=0.829
+  [debug] best match for cat #2: node id=3 depth=2 iou=0.892
+[12/20] multi_class/img_002.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_002.png (7.94s)
+  [debug] 591 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.3578532557703134 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.6421467442296867 stop_reason=None
+  [debug] best match for dog #1: node id=9 depth=3 iou=0.795
+  [debug] best match for cat #2: node id=10 depth=3 iou=0.845
+[13/20] multi_class/img_003.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_003.png (8.27s)
+  [debug] 781 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.5802214299118034 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.41977857008819663 stop_reason=None
+  [debug] best match for dog #1: node id=3 depth=2 iou=0.910
+  [debug] best match for cat #2: node id=19 depth=4 iou=0.893
+  [debug] best match for dog #3: node id=19 depth=4 iou=0.937
+[14/20] multi_class/img_004.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_004.png (8.22s)
+  [debug] 715 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.59241884030775 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.40758115969224995 stop_reason=None
+  [debug] best match for cat #1: node id=8 depth=3 iou=0.788
+  [debug] best match for person #2: node id=7 depth=3 iou=0.847
+  [debug] best match for dog #3: node id=8 depth=3 iou=0.837
+[15/20] multi_class/img_005.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_005.png (8.12s)
+  [debug] 845 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.31863389003565395 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.681366109964346 stop_reason=None
+  [debug] best match for dog #1: node id=1 depth=1 iou=0.746
+  [debug] best match for cat #2: node id=1 depth=1 iou=0.713
+[16/20] multi_class/img_006.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_006.png (7.95s)
+  [debug] 827 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.6136235691499343 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.3863764308500657 stop_reason=None
+  [debug] best match for cat #1: node id=7 depth=3 iou=0.837
+  [debug] best match for dog #2: node id=7 depth=3 iou=0.802
+[17/20] multi_class/img_007.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_007.png (9.41s)
+  [debug] 843 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.2743479076749859 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.725652092325014 stop_reason=None
+  [debug] best match for dog #1: node id=107 depth=6 iou=0.550
+  [debug] best match for person #2: node id=29 depth=4 iou=0.435
+[18/20] multi_class/img_008.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_008.png (7.95s)
+  [debug] 699 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.5430662413210734 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.4569337586789266 stop_reason=None
+  [debug] best match for person #1: node id=19 depth=4 iou=0.696
+  [debug] best match for elephant #2: node id=8 depth=3 iou=0.755
+  [debug] best match for person #3: node id=152 depth=7 iou=0.591
+[19/20] multi_class/img_009.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_009.png (7.68s)
+  [debug] 745 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.40270219553387127 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.5972978044661287 stop_reason=None
+  [debug] best match for horse #1: node id=4 depth=2 iou=0.693
+  [debug] best match for person #2: node id=3 depth=2 iou=0.719
+  [debug] best match for person #3: node id=122 depth=7 iou=0.364
+  [debug] best match for person #4: node id=93 depth=6 iou=0.429
+[20/20] multi_class/img_010.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_010.png (8.02s)
+Saved gallery: Fiedler Evaluation/output/class_vs_instance_viz\gallery_multi_class.png
+Saved gallery: Fiedler Evaluation/output/class_vs_instance_viz\gallery_same_class_instances.png
+
+Done. 20/20 images processed successfully.

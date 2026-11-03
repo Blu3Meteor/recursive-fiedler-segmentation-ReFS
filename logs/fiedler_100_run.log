@@ -1,0 +1,88 @@
+﻿python.exe : Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+At line:1 char:358
++ ... s Project"; & ".\.venv\Scripts\python.exe" "Fiedler Evaluation\fiedle ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Using cache fou...rch_dinov2_main:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is 
+not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is 
+not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not 
+available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+ERROR: Could not load DINOv2 model (RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+)
+DINOv2 models require the facebookresearch/dinov2 repo
+Clone it with: git clone https://github.com/facebookresearch/dinov2.git
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 752, in 
+<module>
+    main()
+    ~~~~^^
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 748, in 
+main
+    evaluate_dataset(args)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 317, in 
+evaluate_dataset
+    backbone = build_backbone(
+        args.vit_arch,
+    ...<4 lines>...
+        debiased=getattr(args, "debiased", False),
+    )
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 65, in build_backbone
+    backbone = dinov2_feat.DINOv2Feat(model_id, feat_type=vit_feat, device="cuda")
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER Implementation\TFSS-CutLER\maskcut\dinov2_feat.py", 
+line 27, in __init__
+    self.model = self._load_dinov2_model(model_id, device)
+                 ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER Implementation\TFSS-CutLER\maskcut\dinov2_feat.py", 
+line 45, in _load_dinov2_model
+    return model.to(device)
+           ~~~~~~~~^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\.venv\Lib\site-packages\torch\nn\modules\module.py", line 
+1355, in to
+    return self._apply(convert)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\.venv\Lib\site-packages\torch\nn\modules\module.py", line 
+915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\.venv\Lib\site-packages\torch\nn\modules\module.py", line 
+915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\.venv\Lib\site-packages\torch\nn\modules\module.py", line 
+942, in _apply
+    param_applied = fn(param)
+  File "D:\Coding\Recursive Segmentation Master's Project\.venv\Lib\site-packages\torch\nn\modules\module.py", line 
+1341, in convert
+    return t.to(
+           ~~~~^
+        device,
+        ^^^^^^^
+        dtype if t.is_floating_point() or t.is_complex() else None,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        non_blocking,
+        ^^^^^^^^^^^^^
+    )
+    ^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+

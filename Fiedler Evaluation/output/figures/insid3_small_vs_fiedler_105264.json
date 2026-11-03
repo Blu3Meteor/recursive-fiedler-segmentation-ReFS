@@ -1,0 +1,20 @@
+{
+  "image_id": 105264,
+  "insid3_small_zeroshot": {
+    "n_clusters": 8,
+    "grid": [
+      64,
+      64
+    ],
+    "cow": 0.7835476661163987,
+    "person": 0.5974342361021122
+  },
+  "fiedler_stretch": {
+    "n_nodes": 779,
+    "n_leaves": 390,
+    "cow": 0.749878579185471,
+    "person": 0.4402018463828105,
+    "cow_depth": 2,
+    "person_depth": 6
+  }
+}

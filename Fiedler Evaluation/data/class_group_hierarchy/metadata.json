@@ -1,0 +1,202 @@
+[
+  {
+    "image_id": 383289,
+    "file_name": "000000383289.jpg",
+    "width": 640,
+    "height": 444,
+    "num_instances": 4,
+    "num_classes": 2,
+    "class_distribution": {
+      "car": 3,
+      "person": 1
+    },
+    "group_category_ids": [
+      3
+    ],
+    "group_category_names": [
+      "car"
+    ],
+    "local_file_name": "img_001.jpg"
+  },
+  {
+    "image_id": 144333,
+    "file_name": "000000144333.jpg",
+    "width": 426,
+    "height": 640,
+    "num_instances": 6,
+    "num_classes": 4,
+    "class_distribution": {
+      "bicycle": 1,
+      "car": 3,
+      "person": 1,
+      "handbag": 1
+    },
+    "group_category_ids": [
+      3
+    ],
+    "group_category_names": [
+      "car"
+    ],
+    "local_file_name": "img_002.jpg"
+  },
+  {
+    "image_id": 575243,
+    "file_name": "000000575243.jpg",
+    "width": 640,
+    "height": 427,
+    "num_instances": 5,
+    "num_classes": 3,
+    "class_distribution": {
+      "umbrella": 1,
+      "car": 3,
+      "person": 1
+    },
+    "group_category_ids": [
+      3
+    ],
+    "group_category_names": [
+      "car"
+    ],
+    "local_file_name": "img_003.jpg"
+  },
+  {
+    "image_id": 19432,
+    "file_name": "000000019432.jpg",
+    "width": 640,
+    "height": 480,
+    "num_instances": 8,
+    "num_classes": 3,
+    "class_distribution": {
+      "chair": 6,
+      "person": 1,
+      "tennis racket": 1
+    },
+    "group_category_ids": [
+      62
+    ],
+    "group_category_names": [
+      "chair"
+    ],
+    "local_file_name": "img_004.jpg"
+  },
+  {
+    "image_id": 297022,
+    "file_name": "000000297022.jpg",
+    "width": 640,
+    "height": 504,
+    "num_instances": 4,
+    "num_classes": 2,
+    "class_distribution": {
+      "truck": 1,
+      "person": 3
+    },
+    "group_category_ids": [
+      1
+    ],
+    "group_category_names": [
+      "person"
+    ],
+    "local_file_name": "img_005.jpg"
+  },
+  {
+    "image_id": 357816,
+    "file_name": "000000357816.jpg",
+    "width": 500,
+    "height": 455,
+    "num_instances": 7,
+    "num_classes": 4,
+    "class_distribution": {
+      "person": 4,
+      "car": 1,
+      "bench": 1,
+      "umbrella": 1
+    },
+    "group_category_ids": [
+      1
+    ],
+    "group_category_names": [
+      "person"
+    ],
+    "local_file_name": "img_006.jpg"
+  },
+  {
+    "image_id": 320743,
+    "file_name": "000000320743.jpg",
+    "width": 640,
+    "height": 360,
+    "num_instances": 7,
+    "num_classes": 2,
+    "class_distribution": {
+      "person": 2,
+      "elephant": 5
+    },
+    "group_category_ids": [
+      22
+    ],
+    "group_category_names": [
+      "elephant"
+    ],
+    "local_file_name": "img_007.jpg"
+  },
+  {
+    "image_id": 470924,
+    "file_name": "000000470924.jpg",
+    "width": 640,
+    "height": 480,
+    "num_instances": 11,
+    "num_classes": 5,
+    "class_distribution": {
+      "chair": 2,
+      "dining table": 2,
+      "cup": 1,
+      "person": 5,
+      "pizza": 1
+    },
+    "group_category_ids": [
+      1
+    ],
+    "group_category_names": [
+      "person"
+    ],
+    "local_file_name": "img_008.jpg"
+  },
+  {
+    "image_id": 575970,
+    "file_name": "000000575970.jpg",
+    "width": 640,
+    "height": 480,
+    "num_instances": 5,
+    "num_classes": 3,
+    "class_distribution": {
+      "chair": 3,
+      "dining table": 1,
+      "refrigerator": 1
+    },
+    "group_category_ids": [
+      62
+    ],
+    "group_category_names": [
+      "chair"
+    ],
+    "local_file_name": "img_009.jpg"
+  },
+  {
+    "image_id": 458325,
+    "file_name": "000000458325.jpg",
+    "width": 640,
+    "height": 427,
+    "num_instances": 7,
+    "num_classes": 2,
+    "class_distribution": {
+      "person": 1,
+      "car": 6
+    },
+    "group_category_ids": [
+      3
+    ],
+    "group_category_names": [
+      "car"
+    ],
+    "local_file_name": "img_010.jpg"
+  }
+]

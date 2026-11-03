@@ -1,0 +1,731 @@
+﻿loading annotations into memory...
+Done (t=0.07s)
+creating index...
+index created!
+Loading weight from https://dl.fbaipublicfiles.com/dino/dino_deitsmall8_300ep_pretrain/dino_deitsmall8_300ep_pretrain.pth
+ERROR: Image 776 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000000776.jpg) failed after 80.33s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+python.exe : Traceback (most recent call last):
+At line:1 char:358
++ ... s Project"; & ".\.venv\Scripts\python.exe" "Fiedler Evaluation\fiedle ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 2431 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000002431.jpg) failed after 58.24s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 4395 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000004395.jpg) failed after 43.72s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 7818 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000007818.jpg) failed after 44.13s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 9914 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000009914.jpg) failed after 44.19s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 12667 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000012667.jpg) failed after 44.53s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 13004 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000013004.jpg) failed after 45.20s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 13348 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000013348.jpg) failed after 45.86s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 14439 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000014439.jpg) failed after 59.53s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 15278 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000015278.jpg) failed after 49.83s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 15751 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000015751.jpg) failed after 61.45s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 16451 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000016451.jpg) failed after 61.83s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 17379 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000017379.jpg) failed after 62.94s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 17436 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000017436.jpg) failed after 62.22s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 19402 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000019402.jpg) failed after 62.31s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 21167 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000021167.jpg) failed after 62.63s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 21503 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000021503.jpg) failed after 62.94s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 22479 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000022479.jpg) failed after 62.64s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 22705 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000022705.jpg) failed after 59.28s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 22892 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000022892.jpg) failed after 59.69s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 23126 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000023126.jpg) failed after 59.76s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 23230 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000023230.jpg) failed after 60.88s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 23272 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000023272.jpg) failed after 59.33s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 23359 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000023359.jpg) failed after 60.34s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 24021 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000024021.jpg) failed after 60.51s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 25393 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000025393.jpg) failed after 60.02s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 26926 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000026926.jpg) failed after 60.19s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 27620 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000027620.jpg) failed after 61.43s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 29596 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000029596.jpg) failed after 60.41s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 33759 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000033759.jpg) failed after 61.31s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 34257 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000034257.jpg) failed after 59.76s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 35326 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000035326.jpg) failed after 61.53s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 36539 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000036539.jpg) failed after 64.87s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 36861 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000036861.jpg) failed after 65.74s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 38829 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000038829.jpg) failed after 62.83s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 42102 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000042102.jpg) failed after 64.54s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 43581 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000043581.jpg) failed after 62.31s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 44260 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000044260.jpg) failed after 62.73s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 46463 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000046463.jpg) failed after 61.38s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.
+ERROR: Image 46872 (CutLER Implementation\TFSS-CutLER\datasets\coco\val2017\000000046872.jpg) failed after 63.08s: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 153439552733184 bytes.
+Traceback (most recent call last):
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 376, in 
+evaluate_dataset
+    tree = collect_recursive_candidates(tree_args, backbone=backbone)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 279, in collect_recursive_candidates
+    result = solve_region(features, grid_h, grid_w, region_mask, args.tau)
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\recursive_fiedler.py", line 150, in solve_region
+    affinity, degree_matrix = get_affinity_matrix(region_features, tau)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 209, in get_affinity_matrix
+    affinity = (feats.transpose(0, 1) @ feats).cpu().numpy().astype(np.float32)
+                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 
+153439552733184 bytes.

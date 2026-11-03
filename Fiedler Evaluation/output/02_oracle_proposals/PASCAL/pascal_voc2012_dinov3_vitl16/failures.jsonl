@@ -1,0 +1,1 @@
+{"image_id": 88533651, "image_path": "Fiedler Evaluation\\datasets\\VOCtrainval_11-May-2012\\VOCdevkit\\VOC2012\\JPEGImages\\2008_005304.jpg", "error": "Unable to allocate 12.4 MiB for an array with shape (810000, 2) and data type int64", "elapsed": 2.5388646125793457}

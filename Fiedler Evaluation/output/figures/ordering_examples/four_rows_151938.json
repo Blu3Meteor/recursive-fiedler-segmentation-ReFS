@@ -1,0 +1,43 @@
+{
+  "image_id": 151938,
+  "1_insid3_small_clustering_oracle": {
+    "n_clusters": 7,
+    "bottle": 0.0214515493697479,
+    "cup": 0.5856033942432862,
+    "dining table": 0.5867752319122062,
+    "person": 0.8759273604548337
+  },
+  "2_fiedler_stretch_oracle": {
+    "n_nodes": 791,
+    "bottle": 0.2614089499335401,
+    "cup": 0.7864469123576431,
+    "dining table": 0.6834794089555593,
+    "person": 0.9019941461126922,
+    "bottle_depth": 8,
+    "cup_depth": 6,
+    "dining table_depth": 3,
+    "person_depth": 1
+  },
+  "3_insid3_small_reference": {
+    "bottle": 0.02148398974291538,
+    "cup": 0.593501099438065,
+    "dining table": 0.5894190617391423,
+    "person": 0.9020080165431291
+  },
+  "4_fiedler_stretch_reference_union_tau0.7": {
+    "bottle": 0.011237290149547623,
+    "cup": 0.6246957403651116,
+    "dining table": 0.288005711565921,
+    "person": 0.8484406398256097,
+    "bottle_n_nodes": 30,
+    "cup_n_nodes": 13,
+    "dining table_n_nodes": 24,
+    "person_n_nodes": 290
+  },
+  "4b_fiedler_stretch_reference_single_node": {
+    "bottle": 0.0005127876418178322,
+    "cup": 0.6246957403651116,
+    "dining table": 0.6862369693599589,
+    "person": 0.8256174813071762
+  }
+}

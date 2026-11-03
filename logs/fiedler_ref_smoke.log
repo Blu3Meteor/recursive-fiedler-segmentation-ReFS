@@ -1,0 +1,60 @@
+﻿python.exe : Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+At line:1 char:358
++ ... s Project"; & ".\.venv\Scripts\python.exe" "Fiedler Evaluation\fiedle ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Using cache fou...rch_dinov2_main:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is 
+not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is 
+not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not 
+available (Block)
+  warnings.warn("xFormers is not available (Block)")
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Evaluating on 5 images (COCO-20i classes only)
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Building reference prototypes...
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+  Built reference prototype: person (from image 218997, 243 fg patches)
+  Built reference prototype: bicycle (from image 65350, 114 fg patches)
+  Built reference prototype: car (from image 84170, 29 fg patches)
+  Built reference prototype: motorcycle (from image 312421, 103 fg patches)
+  Built reference prototype: airplane (from image 338325, 198 fg patches)
+  Built reference prototype: bus (from image 524850, 215 fg patches)
+  Built reference prototype: train (from image 187144, 62 fg patches)
+  Built reference prototype: boat (from image 353518, 13 fg patches)
+  Built reference prototype: bird (from image 2923, 1 fg patches)
+  Built reference prototype: cat (from image 385205, 1922 fg patches)
+  Built reference prototype: dog (from image 547502, 62 fg patches)
+  Built reference prototype: horse (from image 23126, 612 fg patches)
+  Built reference prototype: sheep (from image 375763, 76 fg patches)
+  Built reference prototype: cow (from image 23937, 31 fg patches)
+  Built reference prototype: backpack (from image 32887, 22 fg patches)
+  Built reference prototype: handbag (from image 530975, 18 fg patches)
+  Built reference prototype: bottle (from image 132329, 98 fg patches)
+  Built reference prototype: cup (from image 80932, 100 fg patches)
+  Built reference prototype: chair (from image 518770, 10 fg patches)
+  Built reference prototype: dining table (from image 513283, 147 fg patches)
+[1/5] 000000000872.jpg (2 instances) | elapsed=12.38s | ETA=0.8m
+[2/5] 000000005477.jpg (2 instances) | elapsed=9.41s | ETA=0.5m
+[3/5] 000000009914.jpg (1 instances) | elapsed=9.36s | ETA=0.3m
+[4/5] 000000023899.jpg (3 instances) | elapsed=8.73s | ETA=0.2m
+[5/5] 000000030504.jpg (2 instances) | elapsed=8.76s | ETA=0.0m
+
+Reference-guided Fiedler Results:
+  Images: 5
+  Instances: 10
+  Mean IoU: 0.1807
+  Median IoU: 0.0594
+Saved report to Fiedler Evaluation\output\fiedler_reference_smoke\report.md

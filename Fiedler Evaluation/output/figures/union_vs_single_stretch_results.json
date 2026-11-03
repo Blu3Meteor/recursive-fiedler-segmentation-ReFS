@@ -1,0 +1,82 @@
+[
+  {
+    "image_id": 468632,
+    "category": "person",
+    "n_instances": 4,
+    "single_iou": 0.2961542210278617,
+    "union_iou": 0.6458309037900875,
+    "n_selected": 120,
+    "n_nodes": 615,
+    "oracle_single_node": 0.2961542210278617
+  },
+  {
+    "image_id": 279730,
+    "category": "person",
+    "n_instances": 3,
+    "single_iou": 0.17174348034595094,
+    "union_iou": 0.48541708813810774,
+    "n_selected": 67,
+    "n_nodes": 793,
+    "oracle_single_node": 0.3490051950922958
+  },
+  {
+    "image_id": 150417,
+    "category": "person",
+    "n_instances": 2,
+    "single_iou": 0.3122725748753487,
+    "union_iou": 0.6661721282792089,
+    "n_selected": 141,
+    "n_nodes": 807,
+    "oracle_single_node": 0.399372717319423
+  },
+  {
+    "image_id": 40083,
+    "category": "person",
+    "n_instances": 3,
+    "single_iou": 0.44111645378353,
+    "union_iou": 0.7947713427382261,
+    "n_selected": 90,
+    "n_nodes": 727,
+    "oracle_single_node": 0.44111645378353
+  },
+  {
+    "image_id": 289702,
+    "category": "dog",
+    "n_instances": 2,
+    "single_iou": 0.5712443880489011,
+    "union_iou": 0.7401801708247878,
+    "n_selected": 99,
+    "n_nodes": 703,
+    "oracle_single_node": 0.5712443880489011
+  },
+  {
+    "image_id": 151938,
+    "category": "person",
+    "n_instances": 4,
+    "single_iou": 0.8256174813071762,
+    "union_iou": 0.8484406398256097,
+    "n_selected": 290,
+    "n_nodes": 791,
+    "oracle_single_node": 0.9034182578074036
+  },
+  {
+    "image_id": 488673,
+    "category": "person",
+    "n_instances": 2,
+    "single_iou": 0.715495963526229,
+    "union_iou": 0.7929527369182542,
+    "n_selected": 182,
+    "n_nodes": 835,
+    "oracle_single_node": 0.754797535510254
+  },
+  {
+    "image_id": 499181,
+    "category": "car",
+    "n_instances": 6,
+    "single_iou": 0.3938172206726026,
+    "union_iou": 0.6913751619470665,
+    "n_selected": 50,
+    "n_nodes": 757,
+    "oracle_single_node": 0.3938172206726026
+  }
+]

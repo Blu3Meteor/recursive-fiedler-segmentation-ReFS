@@ -1,0 +1,1956 @@
+{
+  "dataset_name": "resize_stretch_100",
+  "eval_mode": "class",
+  "annotations": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\data\\coco_500_from_1000.json",
+  "image_root": "D:\\Coding\\Recursive Segmentation Master's Project\\Fiedler Evaluation\\datasets\\val2017",
+  "fixed_size": 1022,
+  "patch_size": 14,
+  "tau": 0.0,
+  "num_images": 100,
+  "num_instances": 301,
+  "mean_best_iou": 0.5479491501018042,
+  "median_best_iou": 0.5508439864617242,
+  "min_best_iou": 0.006300635832222336,
+  "max_best_iou": 0.9591147399098502,
+  "mean_best_iou_per_image": 0.7278132703548217,
+  "median_best_iou_per_image": 0.7668274881204548,
+  "per_class": {
+    "person": {
+      "count": 53,
+      "mean_iou": 0.5864276773506016,
+      "median_iou": 0.582995951417004,
+      "min_iou": 0.1111111111111111,
+      "max_iou": 0.9251860853714112,
+      "scores": [
+        0.37540368618496167,
+        0.3263061907374636,
+        0.8515837197062158,
+        0.225151447161768,
+        0.5475481748394172,
+        0.6786064271956206,
+        0.1111111111111111,
+        0.3719596693267071,
+        0.6104611022296392,
+        0.316991643454039,
+        0.8590968366827917,
+        0.8602838071693448,
+        0.8341213692134656,
+        0.8616271074147874,
+        0.45921303440137967,
+        0.23209169054441262,
+        0.4358769547544243,
+        0.5057658638927166,
+        0.43691959707217015,
+        0.4816229864359672,
+        0.9008621901880668,
+        0.5502347962200708,
+        0.760880021952125,
+        0.582995951417004,
+        0.7016454362370077,
+        0.717092999989469,
+        0.6414190268373338,
+        0.5153934286875854,
+        0.3833610648918469,
+        0.5511992933342393,
+        0.8455950893876509,
+        0.6476571831372011,
+        0.601868165673854,
+        0.915525361393472,
+        0.8025838595899986,
+        0.8697182511218243,
+        0.8593256508749466,
+        0.28829613500272183,
+        0.7320174894139391,
+        0.41980452132334845,
+        0.6867362769536494,
+        0.46692591436824377,
+        0.8136189742874639,
+        0.2904429928089147,
+        0.9066913924821985,
+        0.5472181946355624,
+        0.9251860853714112,
+        0.2097953216374269,
+        0.7483760619502293,
+        0.30997904202133264,
+        0.7149901380670611,
+        0.351286322413474,
+        0.4402018463828105
+      ]
+    },
+    "surfboard": {
+      "count": 7,
+      "mean_iou": 0.525019634997441,
+      "median_iou": 0.5495409751551563,
+      "min_iou": 0.19590525893215577,
+      "max_iou": 0.7103724850462207,
+      "scores": [
+        0.5382020026121027,
+        0.19590525893215577,
+        0.5495409751551563,
+        0.6824929136207668,
+        0.5833890498477082,
+        0.41523475976797636,
+        0.7103724850462207
+      ]
+    },
+    "car": {
+      "count": 13,
+      "mean_iou": 0.5447118417189553,
+      "median_iou": 0.5118738981644716,
+      "min_iou": 0.18638392857142858,
+      "max_iou": 0.9375846000070812,
+      "scores": [
+        0.7846462320838973,
+        0.7421414538310412,
+        0.9375846000070812,
+        0.4569010709203924,
+        0.6874396938945267,
+        0.5118738981644716,
+        0.1874521805661821,
+        0.4789866744764973,
+        0.9045766969290227,
+        0.18638392857142858,
+        0.452773826458037,
+        0.194043321299639,
+        0.556450365144201
+      ]
+    },
+    "truck": {
+      "count": 4,
+      "mean_iou": 0.3579545511112628,
+      "median_iou": 0.3178981298039172,
+      "min_iou": 0.2188723570869225,
+      "max_iou": 0.5771495877502945,
+      "scores": [
+        0.2871046228710462,
+        0.5771495877502945,
+        0.2188723570869225,
+        0.3486916367367881
+      ]
+    },
+    "wine glass": {
+      "count": 3,
+      "mean_iou": 0.4933324873676539,
+      "median_iou": 0.48633417864187095,
+      "min_iou": 0.4121809993566374,
+      "max_iou": 0.5814822841044534,
+      "scores": [
+        0.5814822841044534,
+        0.48633417864187095,
+        0.4121809993566374
+      ]
+    },
+    "cup": {
+      "count": 12,
+      "mean_iou": 0.4595507488938686,
+      "median_iou": 0.4617348118257527,
+      "min_iou": 0.08145519077196096,
+      "max_iou": 0.7770134925734155,
+      "scores": [
+        0.481047703743477,
+        0.38348732552459547,
+        0.08145519077196096,
+        0.12440838404327248,
+        0.5508439864617242,
+        0.44242191990802837,
+        0.7401528512639624,
+        0.5011108368304122,
+        0.4294940796555436,
+        0.3276223776223776,
+        0.6755508383276541,
+        0.7770134925734155
+      ]
+    },
+    "knife": {
+      "count": 4,
+      "mean_iou": 0.4631158294976098,
+      "median_iou": 0.4310415691871153,
+      "min_iou": 0.21707317073170732,
+      "max_iou": 0.7733070088845014,
+      "scores": [
+        0.6084949215143121,
+        0.7733070088845014,
+        0.2535882168599185,
+        0.21707317073170732
+      ]
+    },
+    "spoon": {
+      "count": 2,
+      "mean_iou": 0.2404058753287804,
+      "median_iou": 0.2404058753287804,
+      "min_iou": 0.006300635832222336,
+      "max_iou": 0.4745111148253385,
+      "scores": [
+        0.4745111148253385,
+        0.006300635832222336
+      ]
+    },
+    "dining table": {
+      "count": 12,
+      "mean_iou": 0.6082291056570999,
+      "median_iou": 0.600429940063689,
+      "min_iou": 0.369739273249846,
+      "max_iou": 0.82626349470169,
+      "scores": [
+        0.82626349470169,
+        0.8254916437344788,
+        0.7372645248754409,
+        0.7147504981902477,
+        0.369739273249846,
+        0.5924331192207242,
+        0.3902001585941533,
+        0.6084267609066537,
+        0.5294062840433461,
+        0.577590694501786,
+        0.5038557099475476,
+        0.6233271059192844
+      ]
+    },
+    "tie": {
+      "count": 8,
+      "mean_iou": 0.3800282649194241,
+      "median_iou": 0.3341871135690264,
+      "min_iou": 0.031179138321995464,
+      "max_iou": 0.7936215732125976,
+      "scores": [
+        0.7936215732125976,
+        0.5795728421671402,
+        0.6332716049382716,
+        0.35138888888888886,
+        0.31698533824916403,
+        0.19379068602904356,
+        0.031179138321995464,
+        0.14041604754829123
+      ]
+    },
+    "banana": {
+      "count": 3,
+      "mean_iou": 0.5792459340664539,
+      "median_iou": 0.7435618743754712,
+      "min_iou": 0.14603503843200064,
+      "max_iou": 0.84814088939189,
+      "scores": [
+        0.84814088939189,
+        0.7435618743754712,
+        0.14603503843200064
+      ]
+    },
+    "train": {
+      "count": 5,
+      "mean_iou": 0.730168686569888,
+      "median_iou": 0.7252897559570946,
+      "min_iou": 0.39774973938675007,
+      "max_iou": 0.9591147399098502,
+      "scores": [
+        0.8445306900229017,
+        0.39774973938675007,
+        0.724158507572843,
+        0.9591147399098502,
+        0.7252897559570946
+      ]
+    },
+    "bowl": {
+      "count": 7,
+      "mean_iou": 0.41358619378940303,
+      "median_iou": 0.3820084020035547,
+      "min_iou": 0.04550989540607055,
+      "max_iou": 0.8147329011181219,
+      "scores": [
+        0.8147329011181219,
+        0.16127994676131321,
+        0.30370114147353855,
+        0.7068253181292349,
+        0.3820084020035547,
+        0.04550989540607055,
+        0.48104575163398694
+      ]
+    },
+    "sandwich": {
+      "count": 3,
+      "mean_iou": 0.6812377342643358,
+      "median_iou": 0.7714490849849965,
+      "min_iou": 0.48575253274340735,
+      "max_iou": 0.7865115850646034,
+      "scores": [
+        0.7865115850646034,
+        0.7714490849849965,
+        0.48575253274340735
+      ]
+    },
+    "hot dog": {
+      "count": 2,
+      "mean_iou": 0.6541845528747388,
+      "median_iou": 0.6541845528747388,
+      "min_iou": 0.45607990676181326,
+      "max_iou": 0.8522891989876642,
+      "scores": [
+        0.45607990676181326,
+        0.8522891989876642
+      ]
+    },
+    "tv": {
+      "count": 6,
+      "mean_iou": 0.6848026901340759,
+      "median_iou": 0.7271647415923206,
+      "min_iou": 0.4562553834795296,
+      "max_iou": 0.8547129606417648,
+      "scores": [
+        0.783206106870229,
+        0.4562553834795296,
+        0.5310212925907091,
+        0.8124970209078106,
+        0.6711233763144121,
+        0.8547129606417648
+      ]
+    },
+    "fork": {
+      "count": 2,
+      "mean_iou": 0.1552942635758418,
+      "median_iou": 0.1552942635758418,
+      "min_iou": 0.05540540540540541,
+      "max_iou": 0.2551831217462782,
+      "scores": [
+        0.2551831217462782,
+        0.05540540540540541
+      ]
+    },
+    "pizza": {
+      "count": 3,
+      "mean_iou": 0.7964738978827962,
+      "median_iou": 0.8734704067488411,
+      "min_iou": 0.6258246936852027,
+      "max_iou": 0.8901265932143445,
+      "scores": [
+        0.8901265932143445,
+        0.8734704067488411,
+        0.6258246936852027
+      ]
+    },
+    "airplane": {
+      "count": 3,
+      "mean_iou": 0.5182827136850566,
+      "median_iou": 0.4227112531759692,
+      "min_iou": 0.40037418147801684,
+      "max_iou": 0.7317627064011838,
+      "scores": [
+        0.7317627064011838,
+        0.40037418147801684,
+        0.4227112531759692
+      ]
+    },
+    "chair": {
+      "count": 15,
+      "mean_iou": 0.46705733375556324,
+      "median_iou": 0.5071190930026193,
+      "min_iou": 0.2391474245115453,
+      "max_iou": 0.7637983627400234,
+      "scores": [
+        0.44616139318126075,
+        0.5155618734101451,
+        0.2798135135588388,
+        0.7637983627400234,
+        0.5598510632108677,
+        0.6958521243769286,
+        0.644678557046544,
+        0.3170715627781257,
+        0.3196289172983369,
+        0.5071190930026193,
+        0.5190159796146794,
+        0.25855130784708247,
+        0.2391474245115453,
+        0.5710408488714426,
+        0.3685679848850088
+      ]
+    },
+    "kite": {
+      "count": 4,
+      "mean_iou": 0.5325820533996865,
+      "median_iou": 0.5654967273542701,
+      "min_iou": 0.34884484835212964,
+      "max_iou": 0.6504899105380757,
+      "scores": [
+        0.6504899105380757,
+        0.5656348620157121,
+        0.5653585926928282,
+        0.34884484835212964
+      ]
+    },
+    "backpack": {
+      "count": 7,
+      "mean_iou": 0.5673469427803096,
+      "median_iou": 0.5852919750009585,
+      "min_iou": 0.32606060606060605,
+      "max_iou": 0.7698566135008861,
+      "scores": [
+        0.52267072159248,
+        0.6712748271939802,
+        0.6527335456475584,
+        0.7698566135008861,
+        0.44354031046569853,
+        0.5852919750009585,
+        0.32606060606060605
+      ]
+    },
+    "broccoli": {
+      "count": 3,
+      "mean_iou": 0.7960034475739243,
+      "median_iou": 0.8943157790609969,
+      "min_iou": 0.5403427877660674,
+      "max_iou": 0.9533517758947083,
+      "scores": [
+        0.9533517758947083,
+        0.8943157790609969,
+        0.5403427877660674
+      ]
+    },
+    "couch": {
+      "count": 4,
+      "mean_iou": 0.44741665037585093,
+      "median_iou": 0.36848557940962284,
+      "min_iou": 0.2651308254779315,
+      "max_iou": 0.7875646172062264,
+      "scores": [
+        0.2651308254779315,
+        0.3042615548930182,
+        0.7875646172062264,
+        0.4327096039262275
+      ]
+    },
+    "cell phone": {
+      "count": 6,
+      "mean_iou": 0.40931788149019116,
+      "median_iou": 0.4660161251535696,
+      "min_iou": 0.018089053803339517,
+      "max_iou": 0.7276454341446573,
+      "scores": [
+        0.4166958961767801,
+        0.7276454341446573,
+        0.515336354130359,
+        0.018089053803339517,
+        0.6753175546011149,
+        0.10282299608489594
+      ]
+    },
+    "stop sign": {
+      "count": 2,
+      "mean_iou": 0.6837944628368533,
+      "median_iou": 0.6837944628368533,
+      "min_iou": 0.5474222746950019,
+      "max_iou": 0.8201666509787047,
+      "scores": [
+        0.5474222746950019,
+        0.8201666509787047
+      ]
+    },
+    "bus": {
+      "count": 2,
+      "mean_iou": 0.5406234567101367,
+      "median_iou": 0.5406234567101367,
+      "min_iou": 0.508983012272877,
+      "max_iou": 0.5722639011473963,
+      "scores": [
+        0.5722639011473963,
+        0.508983012272877
+      ]
+    },
+    "bird": {
+      "count": 3,
+      "mean_iou": 0.43880621038230966,
+      "median_iou": 0.38390568939005637,
+      "min_iou": 0.28788948270646364,
+      "max_iou": 0.6446234590504089,
+      "scores": [
+        0.38390568939005637,
+        0.28788948270646364,
+        0.6446234590504089
+      ]
+    },
+    "umbrella": {
+      "count": 3,
+      "mean_iou": 0.6296346358947293,
+      "median_iou": 0.581586251697868,
+      "min_iou": 0.4035101465172765,
+      "max_iou": 0.9038075094690434,
+      "scores": [
+        0.581586251697868,
+        0.9038075094690434,
+        0.4035101465172765
+      ]
+    },
+    "handbag": {
+      "count": 6,
+      "mean_iou": 0.5569685056087693,
+      "median_iou": 0.6064315419225215,
+      "min_iou": 0.2520985148971497,
+      "max_iou": 0.7952702854447863,
+      "scores": [
+        0.7952702854447863,
+        0.7381980791706896,
+        0.761216227381641,
+        0.4746650046743534,
+        0.2520985148971497,
+        0.32036292208399586
+      ]
+    },
+    "laptop": {
+      "count": 4,
+      "mean_iou": 0.5275282997095976,
+      "median_iou": 0.5711901574083786,
+      "min_iou": 0.36396424651089854,
+      "max_iou": 0.6037686375107347,
+      "scores": [
+        0.5501652628211963,
+        0.5922150519955609,
+        0.36396424651089854,
+        0.6037686375107347
+      ]
+    },
+    "remote": {
+      "count": 3,
+      "mean_iou": 0.4609882152911851,
+      "median_iou": 0.5006570302233903,
+      "min_iou": 0.3243060257278267,
+      "max_iou": 0.5580015899223384,
+      "scores": [
+        0.3243060257278267,
+        0.5580015899223384,
+        0.5006570302233903
+      ]
+    },
+    "mouse": {
+      "count": 3,
+      "mean_iou": 0.6225169020434941,
+      "median_iou": 0.5845012366034625,
+      "min_iou": 0.5231775378301144,
+      "max_iou": 0.759871931696905,
+      "scores": [
+        0.5231775378301144,
+        0.5845012366034625,
+        0.759871931696905
+      ]
+    },
+    "keyboard": {
+      "count": 3,
+      "mean_iou": 0.5701710095992838,
+      "median_iou": 0.7480822208094935,
+      "min_iou": 0.19998053717399766,
+      "max_iou": 0.7624502708143603,
+      "scores": [
+        0.7480822208094935,
+        0.19998053717399766,
+        0.7624502708143603
+      ]
+    },
+    "bottle": {
+      "count": 9,
+      "mean_iou": 0.5160543357739305,
+      "median_iou": 0.4940145274520148,
+      "min_iou": 0.3428448830723021,
+      "max_iou": 0.7254102756623404,
+      "scores": [
+        0.7063310450038138,
+        0.7254102756623404,
+        0.4940145274520148,
+        0.3428448830723021,
+        0.572059545231474,
+        0.3647277996274063,
+        0.5010224046368624,
+        0.4462809917355372,
+        0.49179754954362304
+      ]
+    },
+    "refrigerator": {
+      "count": 1,
+      "mean_iou": 0.438932516720523,
+      "median_iou": 0.438932516720523,
+      "min_iou": 0.438932516720523,
+      "max_iou": 0.438932516720523,
+      "scores": [
+        0.438932516720523
+      ]
+    },
+    "dog": {
+      "count": 2,
+      "mean_iou": 0.8135090686685442,
+      "median_iou": 0.8135090686685442,
+      "min_iou": 0.7670534821329354,
+      "max_iou": 0.859964655204153,
+      "scores": [
+        0.7670534821329354,
+        0.859964655204153
+      ]
+    },
+    "potted plant": {
+      "count": 2,
+      "mean_iou": 0.5400109788955753,
+      "median_iou": 0.5400109788955753,
+      "min_iou": 0.5317222286307532,
+      "max_iou": 0.5482997291603973,
+      "scores": [
+        0.5482997291603973,
+        0.5317222286307532
+      ]
+    },
+    "cat": {
+      "count": 6,
+      "mean_iou": 0.7641627488340009,
+      "median_iou": 0.8152470472754547,
+      "min_iou": 0.5544085918968209,
+      "max_iou": 0.9207399397995266,
+      "scores": [
+        0.8827608686794606,
+        0.7477332258714487,
+        0.9207399397995266,
+        0.8854782483311987,
+        0.5544085918968209,
+        0.5938556184255497
+      ]
+    },
+    "carrot": {
+      "count": 2,
+      "mean_iou": 0.5642781135991883,
+      "median_iou": 0.5642781135991883,
+      "min_iou": 0.2993968262658892,
+      "max_iou": 0.8291594009324874,
+      "scores": [
+        0.2993968262658892,
+        0.8291594009324874
+      ]
+    },
+    "fire hydrant": {
+      "count": 2,
+      "mean_iou": 0.8686751035803533,
+      "median_iou": 0.8686751035803533,
+      "min_iou": 0.8379212926849969,
+      "max_iou": 0.8994289144757096,
+      "scores": [
+        0.8994289144757096,
+        0.8379212926849969
+      ]
+    },
+    "traffic light": {
+      "count": 3,
+      "mean_iou": 0.26665739878154304,
+      "median_iou": 0.35927954799667305,
+      "min_iou": 0.03617747440273038,
+      "max_iou": 0.40451517394522574,
+      "scores": [
+        0.03617747440273038,
+        0.40451517394522574,
+        0.35927954799667305
+      ]
+    },
+    "vase": {
+      "count": 4,
+      "mean_iou": 0.43964084601463654,
+      "median_iou": 0.48243916870201015,
+      "min_iou": 0.1285670451058607,
+      "max_iou": 0.6651180015486651,
+      "scores": [
+        0.1285670451058607,
+        0.38046272493573263,
+        0.5844156124682877,
+        0.6651180015486651
+      ]
+    },
+    "book": {
+      "count": 2,
+      "mean_iou": 0.3444279393892128,
+      "median_iou": 0.3444279393892128,
+      "min_iou": 0.22439509446470005,
+      "max_iou": 0.4644607843137255,
+      "scores": [
+        0.4644607843137255,
+        0.22439509446470005
+      ]
+    },
+    "skis": {
+      "count": 1,
+      "mean_iou": 0.435006202191441,
+      "median_iou": 0.435006202191441,
+      "min_iou": 0.435006202191441,
+      "max_iou": 0.435006202191441,
+      "scores": [
+        0.435006202191441
+      ]
+    },
+    "oven": {
+      "count": 3,
+      "mean_iou": 0.5569762158034809,
+      "median_iou": 0.5801707338104682,
+      "min_iou": 0.4740755136035536,
+      "max_iou": 0.6166823999964208,
+      "scores": [
+        0.5801707338104682,
+        0.6166823999964208,
+        0.4740755136035536
+      ]
+    },
+    "parking meter": {
+      "count": 1,
+      "mean_iou": 0.6672115947686902,
+      "median_iou": 0.6672115947686902,
+      "min_iou": 0.6672115947686902,
+      "max_iou": 0.6672115947686902,
+      "scores": [
+        0.6672115947686902
+      ]
+    },
+    "bicycle": {
+      "count": 7,
+      "mean_iou": 0.5450850966678906,
+      "median_iou": 0.4692569995565546,
+      "min_iou": 0.30246153846153845,
+      "max_iou": 0.8234441630061881,
+      "scores": [
+        0.4692569995565546,
+        0.6561162079510703,
+        0.40246327762464673,
+        0.30246153846153845,
+        0.705296023218657,
+        0.4565574668565794,
+        0.8234441630061881
+      ]
+    },
+    "motorcycle": {
+      "count": 3,
+      "mean_iou": 0.49954389092153306,
+      "median_iou": 0.5435613601974995,
+      "min_iou": 0.2916096869874196,
+      "max_iou": 0.66346062557968,
+      "scores": [
+        0.2916096869874196,
+        0.66346062557968,
+        0.5435613601974995
+      ]
+    },
+    "bed": {
+      "count": 1,
+      "mean_iou": 0.722512091580393,
+      "median_iou": 0.722512091580393,
+      "min_iou": 0.722512091580393,
+      "max_iou": 0.722512091580393,
+      "scores": [
+        0.722512091580393
+      ]
+    },
+    "apple": {
+      "count": 1,
+      "mean_iou": 0.24681155275950814,
+      "median_iou": 0.24681155275950814,
+      "min_iou": 0.24681155275950814,
+      "max_iou": 0.24681155275950814,
+      "scores": [
+        0.24681155275950814
+      ]
+    },
+    "horse": {
+      "count": 1,
+      "mean_iou": 0.6716345464373573,
+      "median_iou": 0.6716345464373573,
+      "min_iou": 0.6716345464373573,
+      "max_iou": 0.6716345464373573,
+      "scores": [
+        0.6716345464373573
+      ]
+    },
+    "boat": {
+      "count": 1,
+      "mean_iou": 0.6157290365812799,
+      "median_iou": 0.6157290365812799,
+      "min_iou": 0.6157290365812799,
+      "max_iou": 0.6157290365812799,
+      "scores": [
+        0.6157290365812799
+      ]
+    },
+    "elephant": {
+      "count": 4,
+      "mean_iou": 0.6788816618439376,
+      "median_iou": 0.6986736290459687,
+      "min_iou": 0.3863147849198634,
+      "max_iou": 0.9318646043639497,
+      "scores": [
+        0.7836961556276054,
+        0.6136511024643321,
+        0.3863147849198634,
+        0.9318646043639497
+      ]
+    },
+    "sports ball": {
+      "count": 2,
+      "mean_iou": 0.5644916859848157,
+      "median_iou": 0.5644916859848157,
+      "min_iou": 0.2602040816326531,
+      "max_iou": 0.8687792903369783,
+      "scores": [
+        0.2602040816326531,
+        0.8687792903369783
+      ]
+    },
+    "tennis racket": {
+      "count": 1,
+      "mean_iou": 0.7157042847922149,
+      "median_iou": 0.7157042847922149,
+      "min_iou": 0.7157042847922149,
+      "max_iou": 0.7157042847922149,
+      "scores": [
+        0.7157042847922149
+      ]
+    },
+    "toilet": {
+      "count": 3,
+      "mean_iou": 0.614236710659899,
+      "median_iou": 0.6131200389282564,
+      "min_iou": 0.4724993179688519,
+      "max_iou": 0.7570907750825886,
+      "scores": [
+        0.7570907750825886,
+        0.6131200389282564,
+        0.4724993179688519
+      ]
+    },
+    "zebra": {
+      "count": 1,
+      "mean_iou": 0.8771109513164077,
+      "median_iou": 0.8771109513164077,
+      "min_iou": 0.8771109513164077,
+      "max_iou": 0.8771109513164077,
+      "scores": [
+        0.8771109513164077
+      ]
+    },
+    "teddy bear": {
+      "count": 2,
+      "mean_iou": 0.8736626763243229,
+      "median_iou": 0.8736626763243229,
+      "min_iou": 0.8049674172676886,
+      "max_iou": 0.9423579353809571,
+      "scores": [
+        0.9423579353809571,
+        0.8049674172676886
+      ]
+    },
+    "bench": {
+      "count": 2,
+      "mean_iou": 0.36791464675271973,
+      "median_iou": 0.36791464675271973,
+      "min_iou": 0.10076530612244898,
+      "max_iou": 0.6350639873829905,
+      "scores": [
+        0.6350639873829905,
+        0.10076530612244898
+      ]
+    },
+    "giraffe": {
+      "count": 1,
+      "mean_iou": 0.4532016678312818,
+      "median_iou": 0.4532016678312818,
+      "min_iou": 0.4532016678312818,
+      "max_iou": 0.4532016678312818,
+      "scores": [
+        0.4532016678312818
+      ]
+    },
+    "suitcase": {
+      "count": 1,
+      "mean_iou": 0.33680829482700325,
+      "median_iou": 0.33680829482700325,
+      "min_iou": 0.33680829482700325,
+      "max_iou": 0.33680829482700325,
+      "scores": [
+        0.33680829482700325
+      ]
+    },
+    "clock": {
+      "count": 3,
+      "mean_iou": 0.5104510123282302,
+      "median_iou": 0.6099552278114301,
+      "min_iou": 0.2874576271186441,
+      "max_iou": 0.6339401820546163,
+      "scores": [
+        0.2874576271186441,
+        0.6099552278114301,
+        0.6339401820546163
+      ]
+    },
+    "skateboard": {
+      "count": 1,
+      "mean_iou": 0.4130112311930494,
+      "median_iou": 0.4130112311930494,
+      "min_iou": 0.4130112311930494,
+      "max_iou": 0.4130112311930494,
+      "scores": [
+        0.4130112311930494
+      ]
+    },
+    "snowboard": {
+      "count": 3,
+      "mean_iou": 0.37772393495146056,
+      "median_iou": 0.41240560949298816,
+      "min_iou": 0.2195099139543584,
+      "max_iou": 0.5012562814070352,
+      "scores": [
+        0.41240560949298816,
+        0.2195099139543584,
+        0.5012562814070352
+      ]
+    },
+    "cake": {
+      "count": 1,
+      "mean_iou": 0.6197434035342532,
+      "median_iou": 0.6197434035342532,
+      "min_iou": 0.6197434035342532,
+      "max_iou": 0.6197434035342532,
+      "scores": [
+        0.6197434035342532
+      ]
+    },
+    "bear": {
+      "count": 1,
+      "mean_iou": 0.9244557017827215,
+      "median_iou": 0.9244557017827215,
+      "min_iou": 0.9244557017827215,
+      "max_iou": 0.9244557017827215,
+      "scores": [
+        0.9244557017827215
+      ]
+    },
+    "sheep": {
+      "count": 1,
+      "mean_iou": 0.750549765751984,
+      "median_iou": 0.750549765751984,
+      "min_iou": 0.750549765751984,
+      "max_iou": 0.750549765751984,
+      "scores": [
+        0.750549765751984
+      ]
+    },
+    "cow": {
+      "count": 1,
+      "mean_iou": 0.749878579185471,
+      "median_iou": 0.749878579185471,
+      "min_iou": 0.749878579185471,
+      "max_iou": 0.749878579185471,
+      "scores": [
+        0.749878579185471
+      ]
+    },
+    "sink": {
+      "count": 1,
+      "mean_iou": 0.6810467769537935,
+      "median_iou": 0.6810467769537935,
+      "min_iou": 0.6810467769537935,
+      "max_iou": 0.6810467769537935,
+      "scores": [
+        0.6810467769537935
+      ]
+    }
+  },
+  "image_summaries": [
+    {
+      "image_id": 1490,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000001490.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.5382020026121027,
+      "mean_instance_iou": 0.4568028443985322
+    },
+    {
+      "image_id": 1532,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000001532.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.7846462320838973,
+      "mean_instance_iou": 0.5358754274774717
+    },
+    {
+      "image_id": 2431,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000002431.jpg",
+      "num_instances": 6,
+      "best_instance_iou": 0.82626349470169,
+      "mean_instance_iou": 0.5496842849377891
+    },
+    {
+      "image_id": 4395,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000004395.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.8515837197062158,
+      "mean_instance_iou": 0.8226026464594067
+    },
+    {
+      "image_id": 6012,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000006012.jpg",
+      "num_instances": 1,
+      "best_instance_iou": 0.84814088939189,
+      "mean_instance_iou": 0.84814088939189
+    },
+    {
+      "image_id": 6040,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000006040.jpg",
+      "num_instances": 4,
+      "best_instance_iou": 0.8445306900229017,
+      "mean_instance_iou": 0.5972432946915014
+    },
+    {
+      "image_id": 6460,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000006460.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.5475481748394172,
+      "mean_instance_iou": 0.3717267168857865
+    },
+    {
+      "image_id": 9914,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000009914.jpg",
+      "num_instances": 5,
+      "best_instance_iou": 0.8254916437344788,
+      "mean_instance_iou": 0.7312246091127037
+    },
+    {
+      "image_id": 12576,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000012576.jpg",
+      "num_instances": 7,
+      "best_instance_iou": 0.8901265932143445,
+      "mean_instance_iou": 0.568780330898061
+    },
+    {
+      "image_id": 12667,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000012667.jpg",
+      "num_instances": 1,
+      "best_instance_iou": 0.7435618743754712,
+      "mean_instance_iou": 0.7435618743754712
+    },
+    {
+      "image_id": 13348,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000013348.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.7317627064011838,
+      "mean_instance_iou": 0.35391539153307244
+    },
+    {
+      "image_id": 14439,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000014439.jpg",
+      "num_instances": 4,
+      "best_instance_iou": 0.6504899105380757,
+      "mean_instance_iou": 0.49782042365963086
+    },
+    {
+      "image_id": 15278,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000015278.jpg",
+      "num_instances": 1,
+      "best_instance_iou": 0.9533517758947083,
+      "mean_instance_iou": 0.9533517758947083
+    },
+    {
+      "image_id": 15335,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000015335.jpg",
+      "num_instances": 5,
+      "best_instance_iou": 0.6104611022296392,
+      "mean_instance_iou": 0.30700459228352506
+    },
+    {
+      "image_id": 15440,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000015440.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.5722639011473963,
+      "mean_instance_iou": 0.5598430879211991
+    },
+    {
+      "image_id": 15751,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000015751.jpg",
+      "num_instances": 1,
+      "best_instance_iou": 0.38390568939005637,
+      "mean_instance_iou": 0.38390568939005637
+    },
+    {
+      "image_id": 16451,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000016451.jpg",
+      "num_instances": 6,
+      "best_instance_iou": 0.7952702854447863,
+      "mean_instance_iou": 0.5717043093926625
+    },
+    {
+      "image_id": 16598,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000016598.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.8590968366827917,
+      "mean_instance_iou": 0.7221050376648631
+    },
+    {
+      "image_id": 19786,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000019786.jpg",
+      "num_instances": 4,
+      "best_instance_iou": 0.8602838071693448,
+      "mean_instance_iou": 0.5097541626528465
+    },
+    {
+      "image_id": 21167,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000021167.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.8341213692134656,
+      "mean_instance_iou": 0.6512423842645361
+    },
+    {
+      "image_id": 21503,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000021503.jpg",
+      "num_instances": 4,
+      "best_instance_iou": 0.7714490849849965,
+      "mean_instance_iou": 0.6501776083867357
+    },
+    {
+      "image_id": 22396,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000022396.jpg",
+      "num_instances": 1,
+      "best_instance_iou": 0.40037418147801684,
+      "mean_instance_iou": 0.40037418147801684
+    },
+    {
+      "image_id": 22705,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000022705.jpg",
+      "num_instances": 5,
+      "best_instance_iou": 0.8616271074147874,
+      "mean_instance_iou": 0.5445545619938599
+    },
+    {
+      "image_id": 22892,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000022892.jpg",
+      "num_instances": 5,
+      "best_instance_iou": 0.8827608686794606,
+      "mean_instance_iou": 0.638535618344376
+    },
+    {
+      "image_id": 23230,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000023230.jpg",
+      "num_instances": 1,
+      "best_instance_iou": 0.28788948270646364,
+      "mean_instance_iou": 0.28788948270646364
+    },
+    {
+      "image_id": 23272,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000023272.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.9375846000070812,
+      "mean_instance_iou": 0.842658912939265
+    },
+    {
+      "image_id": 23751,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000023751.jpg",
+      "num_instances": 1,
+      "best_instance_iou": 0.5656348620157121,
+      "mean_instance_iou": 0.5656348620157121
+    },
+    {
+      "image_id": 23781,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000023781.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.8943157790609969,
+      "mean_instance_iou": 0.596856302663443
+    },
+    {
+      "image_id": 25393,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000025393.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.45921303440137967,
+      "mean_instance_iou": 0.42250099807022035
+    },
+    {
+      "image_id": 26926,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000026926.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.8994289144757096,
+      "mean_instance_iou": 0.7934343041851182
+    },
+    {
+      "image_id": 27620,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000027620.jpg",
+      "num_instances": 5,
+      "best_instance_iou": 0.7637983627400234,
+      "mean_instance_iou": 0.573181092835077
+    },
+    {
+      "image_id": 28993,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000028993.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.8379212926849969,
+      "mean_instance_iou": 0.3687301525440467
+    },
+    {
+      "image_id": 29596,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000029596.jpg",
+      "num_instances": 8,
+      "best_instance_iou": 0.7875646172062264,
+      "mean_instance_iou": 0.4278210974050102
+    },
+    {
+      "image_id": 32735,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000032735.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.4358769547544243,
+      "mean_instance_iou": 0.43544157847293263
+    },
+    {
+      "image_id": 34257,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000034257.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.8291594009324874,
+      "mean_instance_iou": 0.6847510943492774
+    },
+    {
+      "image_id": 35326,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000035326.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.5801707338104682,
+      "mean_instance_iou": 0.43041947733139674
+    },
+    {
+      "image_id": 36861,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000036861.jpg",
+      "num_instances": 1,
+      "best_instance_iou": 0.6672115947686902,
+      "mean_instance_iou": 0.6672115947686902
+    },
+    {
+      "image_id": 38829,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000038829.jpg",
+      "num_instances": 4,
+      "best_instance_iou": 0.6527335456475584,
+      "mean_instance_iou": 0.4798415240210623
+    },
+    {
+      "image_id": 40083,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000040083.jpg",
+      "num_instances": 6,
+      "best_instance_iou": 0.9038075094690434,
+      "mean_instance_iou": 0.5912357033509976
+    },
+    {
+      "image_id": 40757,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000040757.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.722512091580393,
+      "mean_instance_iou": 0.5783854568690231
+    },
+    {
+      "image_id": 42102,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000042102.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.9008621901880668,
+      "mean_instance_iou": 0.6520152025359734
+    },
+    {
+      "image_id": 44260,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000044260.jpg",
+      "num_instances": 1,
+      "best_instance_iou": 0.24681155275950814,
+      "mean_instance_iou": 0.24681155275950814
+    },
+    {
+      "image_id": 47571,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000047571.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.6716345464373573,
+      "mean_instance_iou": 0.610934671328714
+    },
+    {
+      "image_id": 47740,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000047740.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.760880021952125,
+      "mean_instance_iou": 0.6631193073224766
+    },
+    {
+      "image_id": 47828,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000047828.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.6157290365812799,
+      "mean_instance_iou": 0.4620590561881554
+    },
+    {
+      "image_id": 48924,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000048924.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.7698566135008861,
+      "mean_instance_iou": 0.7315111554874024
+    },
+    {
+      "image_id": 50145,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000050145.jpg",
+      "num_instances": 4,
+      "best_instance_iou": 0.7016454362370077,
+      "mean_instance_iou": 0.48778979271115736
+    },
+    {
+      "image_id": 50326,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000050326.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.717092999989469,
+      "mean_instance_iou": 0.5702054684627141
+    },
+    {
+      "image_id": 51314,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000051314.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.6824929136207668,
+      "mean_instance_iou": 0.6619559702290503
+    },
+    {
+      "image_id": 52507,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000052507.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.5833890498477082,
+      "mean_instance_iou": 0.5493912392676468
+    },
+    {
+      "image_id": 53624,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000053624.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.7836961556276054,
+      "mean_instance_iou": 0.5835286102597261
+    },
+    {
+      "image_id": 54164,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000054164.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.5511992933342393,
+      "mean_instance_iou": 0.4832170265511079
+    },
+    {
+      "image_id": 54654,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000054654.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.8455950893876509,
+      "mean_instance_iou": 0.7311387446920359
+    },
+    {
+      "image_id": 55950,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000055950.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.7157042847922149,
+      "mean_instance_iou": 0.5411885165206897
+    },
+    {
+      "image_id": 56344,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000056344.jpg",
+      "num_instances": 5,
+      "best_instance_iou": 0.8124970209078106,
+      "mean_instance_iou": 0.670162521554565
+    },
+    {
+      "image_id": 56350,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000056350.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.7570907750825886,
+      "mean_instance_iou": 0.6794794703782213
+    },
+    {
+      "image_id": 58384,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000058384.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.6136511024643321,
+      "mean_instance_iou": 0.5057004209255411
+    },
+    {
+      "image_id": 60102,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000060102.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.915525361393472,
+      "mean_instance_iou": 0.8921523258652251
+    },
+    {
+      "image_id": 61471,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000061471.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.859964655204153,
+      "mean_instance_iou": 0.6817147464546278
+    },
+    {
+      "image_id": 68409,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000068409.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.8025838595899986,
+      "mean_instance_iou": 0.4981872728095211
+    },
+    {
+      "image_id": 69213,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000069213.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.8697182511218243,
+      "mean_instance_iou": 0.7066398056596619
+    },
+    {
+      "image_id": 70158,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000070158.jpg",
+      "num_instances": 1,
+      "best_instance_iou": 0.8771109513164077,
+      "mean_instance_iou": 0.8771109513164077
+    },
+    {
+      "image_id": 73118,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000073118.jpg",
+      "num_instances": 1,
+      "best_instance_iou": 0.9423579353809571,
+      "mean_instance_iou": 0.9423579353809571
+    },
+    {
+      "image_id": 73153,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000073153.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.8593256508749466,
+      "mean_instance_iou": 0.43870735233914304
+    },
+    {
+      "image_id": 76416,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000076416.jpg",
+      "num_instances": 4,
+      "best_instance_iou": 0.6753175546011149,
+      "mean_instance_iou": 0.443764560084563
+    },
+    {
+      "image_id": 76547,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000076547.jpg",
+      "num_instances": 10,
+      "best_instance_iou": 0.7320174894139391,
+      "mean_instance_iou": 0.5090991223366357
+    },
+    {
+      "image_id": 78170,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000078170.jpg",
+      "num_instances": 6,
+      "best_instance_iou": 0.9591147399098502,
+      "mean_instance_iou": 0.44012732981969854
+    },
+    {
+      "image_id": 78426,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000078426.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.9207399397995266,
+      "mean_instance_iou": 0.6205946949518014
+    },
+    {
+      "image_id": 79565,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000079565.jpg",
+      "num_instances": 1,
+      "best_instance_iou": 0.4532016678312818,
+      "mean_instance_iou": 0.4532016678312818
+    },
+    {
+      "image_id": 80949,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000080949.jpg",
+      "num_instances": 4,
+      "best_instance_iou": 0.8854782483311987,
+      "mean_instance_iou": 0.608172802596706
+    },
+    {
+      "image_id": 82696,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000082696.jpg",
+      "num_instances": 5,
+      "best_instance_iou": 0.7401528512639624,
+      "mean_instance_iou": 0.6374116882354588
+    },
+    {
+      "image_id": 83113,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000083113.jpg",
+      "num_instances": 1,
+      "best_instance_iou": 0.3863147849198634,
+      "mean_instance_iou": 0.3863147849198634
+    },
+    {
+      "image_id": 84270,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000084270.jpg",
+      "num_instances": 6,
+      "best_instance_iou": 0.46692591436824377,
+      "mean_instance_iou": 0.30162783413665634
+    },
+    {
+      "image_id": 84431,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000084431.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.8734704067488411,
+      "mean_instance_iou": 0.7722968915316266
+    },
+    {
+      "image_id": 85157,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000085157.jpg",
+      "num_instances": 7,
+      "best_instance_iou": 0.8136189742874639,
+      "mean_instance_iou": 0.5358867845708207
+    },
+    {
+      "image_id": 87038,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000087038.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.4565574668565794,
+      "mean_instance_iou": 0.3866705636195145
+    },
+    {
+      "image_id": 88250,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000088250.jpg",
+      "num_instances": 1,
+      "best_instance_iou": 0.9318646043639497,
+      "mean_instance_iou": 0.9318646043639497
+    },
+    {
+      "image_id": 89078,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000089078.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.9066913924821985,
+      "mean_instance_iou": 0.6595485009875933
+    },
+    {
+      "image_id": 90891,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000090891.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.5472181946355624,
+      "mean_instance_iou": 0.3466266165337815
+    },
+    {
+      "image_id": 91779,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000091779.jpg",
+      "num_instances": 6,
+      "best_instance_iou": 0.8522891989876642,
+      "mean_instance_iou": 0.49761436928983965
+    },
+    {
+      "image_id": 92177,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000092177.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.7103724850462207,
+      "mean_instance_iou": 0.6650579442902369
+    },
+    {
+      "image_id": 92839,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000092839.jpg",
+      "num_instances": 1,
+      "best_instance_iou": 0.9244557017827215,
+      "mean_instance_iou": 0.9244557017827215
+    },
+    {
+      "image_id": 93437,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000093437.jpg",
+      "num_instances": 8,
+      "best_instance_iou": 0.9251860853714112,
+      "mean_instance_iou": 0.45711320455003523
+    },
+    {
+      "image_id": 94751,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000094751.jpg",
+      "num_instances": 4,
+      "best_instance_iou": 0.4789866744764973,
+      "mean_instance_iou": 0.2872067125582615
+    },
+    {
+      "image_id": 94871,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000094871.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.750549765751984,
+      "mean_instance_iou": 0.6064295832620697
+    },
+    {
+      "image_id": 95155,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000095155.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.30997904202133264,
+      "mean_instance_iou": 0.2647444779878455
+    },
+    {
+      "image_id": 95786,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000095786.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.6755508383276541,
+      "mean_instance_iou": 0.6299832253979709
+    },
+    {
+      "image_id": 97337,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000097337.jpg",
+      "num_instances": 5,
+      "best_instance_iou": 0.8547129606417648,
+      "mean_instance_iou": 0.639356131485156
+    },
+    {
+      "image_id": 97679,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000097679.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.9045766969290227,
+      "mean_instance_iou": 0.5857064335831773
+    },
+    {
+      "image_id": 98018,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000098018.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.6651180015486651,
+      "mean_instance_iou": 0.23897617759565268
+    },
+    {
+      "image_id": 100274,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000100274.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.7252897559570946,
+      "mean_instance_iou": 0.42012177375510373
+    },
+    {
+      "image_id": 100283,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000100283.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.8201666509787047,
+      "mean_instance_iou": 0.6364702387183708
+    },
+    {
+      "image_id": 101762,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000101762.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.8234441630061881,
+      "mean_instance_iou": 0.6889263774515044
+    },
+    {
+      "image_id": 102707,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000102707.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.7770134925734155,
+      "mean_instance_iou": 0.5809621852401974
+    },
+    {
+      "image_id": 105264,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000105264.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.749878579185471,
+      "mean_instance_iou": 0.5950402127841408
+    },
+    {
+      "image_id": 105455,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000105455.jpg",
+      "num_instances": 2,
+      "best_instance_iou": 0.6339401820546163,
+      "mean_instance_iou": 0.41399175167712765
+    },
+    {
+      "image_id": 107087,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000107087.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.5938556184255497,
+      "mean_instance_iou": 0.5062913228182532
+    },
+    {
+      "image_id": 109827,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000109827.jpg",
+      "num_instances": 1,
+      "best_instance_iou": 0.8049674172676886,
+      "mean_instance_iou": 0.8049674172676886
+    },
+    {
+      "image_id": 110359,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000110359.jpg",
+      "num_instances": 1,
+      "best_instance_iou": 0.4227112531759692,
+      "mean_instance_iou": 0.4227112531759692
+    },
+    {
+      "image_id": 110884,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000110884.jpg",
+      "num_instances": 3,
+      "best_instance_iou": 0.6810467769537935,
+      "mean_instance_iou": 0.5448639488522108
+    }
+  ],
+  "top_samples": [
+    {
+      "image_id": 78170,
+      "annotation_id": -1,
+      "category_id": 7,
+      "category_name": "train",
+      "title": "train (class mask) | img 78170 | IoU 0.959",
+      "best_iou": 0.9591147399098502,
+      "best_candidate_id": 0,
+      "best_candidate_depth": 0,
+      "best_candidate_status": "split",
+      "best_candidate_area_patches": 5329,
+      "candidate_count": 771,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000078170.jpg",
+      "best_candidate_label": "split"
+    },
+    {
+      "image_id": 15278,
+      "annotation_id": -1,
+      "category_id": 56,
+      "category_name": "broccoli",
+      "title": "broccoli (class mask) | img 15278 | IoU 0.953",
+      "best_iou": 0.9533517758947083,
+      "best_candidate_id": 6,
+      "best_candidate_depth": 2,
+      "best_candidate_status": "split",
+      "best_candidate_area_patches": 3504,
+      "candidate_count": 725,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000015278.jpg",
+      "best_candidate_label": "split"
+    },
+    {
+      "image_id": 73118,
+      "annotation_id": -1,
+      "category_id": 88,
+      "category_name": "teddy bear",
+      "title": "teddy bear (class mask) | img 73118 | IoU 0.942",
+      "best_iou": 0.9423579353809571,
+      "best_candidate_id": 2,
+      "best_candidate_depth": 1,
+      "best_candidate_status": "split",
+      "best_candidate_area_patches": 4094,
+      "candidate_count": 731,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000073118.jpg",
+      "best_candidate_label": "split"
+    },
+    {
+      "image_id": 23272,
+      "annotation_id": -1,
+      "category_id": 3,
+      "category_name": "car",
+      "title": "car (class mask) | img 23272 | IoU 0.938",
+      "best_iou": 0.9375846000070812,
+      "best_candidate_id": 2,
+      "best_candidate_depth": 1,
+      "best_candidate_status": "split",
+      "best_candidate_area_patches": 3625,
+      "candidate_count": 721,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000023272.jpg",
+      "best_candidate_label": "split"
+    },
+    {
+      "image_id": 88250,
+      "annotation_id": -1,
+      "category_id": 22,
+      "category_name": "elephant",
+      "title": "elephant (class mask) | img 88250 | IoU 0.932",
+      "best_iou": 0.9318646043639497,
+      "best_candidate_id": 6,
+      "best_candidate_depth": 2,
+      "best_candidate_status": "split",
+      "best_candidate_area_patches": 2938,
+      "candidate_count": 781,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000088250.jpg",
+      "best_candidate_label": "split"
+    },
+    {
+      "image_id": 93437,
+      "annotation_id": -1,
+      "category_id": 1,
+      "category_name": "person",
+      "title": "person (class mask) | img 93437 | IoU 0.925",
+      "best_iou": 0.9251860853714112,
+      "best_candidate_id": 1,
+      "best_candidate_depth": 1,
+      "best_candidate_status": "split",
+      "best_candidate_area_patches": 1773,
+      "candidate_count": 853,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000093437.jpg",
+      "best_candidate_label": "split"
+    },
+    {
+      "image_id": 92839,
+      "annotation_id": -1,
+      "category_id": 23,
+      "category_name": "bear",
+      "title": "bear (class mask) | img 92839 | IoU 0.924",
+      "best_iou": 0.9244557017827215,
+      "best_candidate_id": 1,
+      "best_candidate_depth": 1,
+      "best_candidate_status": "split",
+      "best_candidate_area_patches": 2522,
+      "candidate_count": 867,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000092839.jpg",
+      "best_candidate_label": "split"
+    },
+    {
+      "image_id": 78426,
+      "annotation_id": -1,
+      "category_id": 17,
+      "category_name": "cat",
+      "title": "cat (class mask) | img 78426 | IoU 0.921",
+      "best_iou": 0.9207399397995266,
+      "best_candidate_id": 1,
+      "best_candidate_depth": 1,
+      "best_candidate_status": "split",
+      "best_candidate_area_patches": 1734,
+      "candidate_count": 915,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000078426.jpg",
+      "best_candidate_label": "split"
+    },
+    {
+      "image_id": 60102,
+      "annotation_id": -1,
+      "category_id": 1,
+      "category_name": "person",
+      "title": "person (class mask) | img 60102 | IoU 0.916",
+      "best_iou": 0.915525361393472,
+      "best_candidate_id": 1,
+      "best_candidate_depth": 1,
+      "best_candidate_status": "split",
+      "best_candidate_area_patches": 2449,
+      "candidate_count": 905,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000060102.jpg",
+      "best_candidate_label": "split"
+    },
+    {
+      "image_id": 89078,
+      "annotation_id": -1,
+      "category_id": 1,
+      "category_name": "person",
+      "title": "person (class mask) | img 89078 | IoU 0.907",
+      "best_iou": 0.9066913924821985,
+      "best_candidate_id": 1,
+      "best_candidate_depth": 1,
+      "best_candidate_status": "split",
+      "best_candidate_area_patches": 1303,
+      "candidate_count": 681,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000089078.jpg",
+      "best_candidate_label": "split"
+    }
+  ],
+  "bottom_samples": [
+    {
+      "image_id": 98018,
+      "annotation_id": -1,
+      "category_id": 50,
+      "category_name": "spoon",
+      "title": "spoon (class mask) | img 98018 | IoU 0.006",
+      "best_iou": 0.006300635832222336,
+      "best_candidate_id": 686,
+      "best_candidate_depth": 18,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 796,
+      "candidate_count": 695,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000098018.jpg",
+      "best_candidate_label": "leaf"
+    },
+    {
+      "image_id": 73153,
+      "annotation_id": -1,
+      "category_id": 77,
+      "category_name": "cell phone",
+      "title": "cell phone (class mask) | img 73153 | IoU 0.018",
+      "best_iou": 0.018089053803339517,
+      "best_candidate_id": 540,
+      "best_candidate_depth": 11,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 154,
+      "candidate_count": 805,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000073153.jpg",
+      "best_candidate_label": "leaf"
+    },
+    {
+      "image_id": 76547,
+      "annotation_id": -1,
+      "category_id": 32,
+      "category_name": "tie",
+      "title": "tie (class mask) | img 76547 | IoU 0.031",
+      "best_iou": 0.031179138321995464,
+      "best_candidate_id": 130,
+      "best_candidate_depth": 7,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 27,
+      "candidate_count": 781,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000076547.jpg",
+      "best_candidate_label": "leaf"
+    },
+    {
+      "image_id": 28993,
+      "annotation_id": -1,
+      "category_id": 10,
+      "category_name": "traffic light",
+      "title": "traffic light (class mask) | img 28993 | IoU 0.036",
+      "best_iou": 0.03617747440273038,
+      "best_candidate_id": 288,
+      "best_candidate_depth": 9,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 14,
+      "candidate_count": 739,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000028993.jpg",
+      "best_candidate_label": "leaf"
+    },
+    {
+      "image_id": 98018,
+      "annotation_id": -1,
+      "category_id": 51,
+      "category_name": "bowl",
+      "title": "bowl (class mask) | img 98018 | IoU 0.046",
+      "best_iou": 0.04550989540607055,
+      "best_candidate_id": 686,
+      "best_candidate_depth": 18,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 796,
+      "candidate_count": 695,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000098018.jpg",
+      "best_candidate_label": "leaf"
+    },
+    {
+      "image_id": 85157,
+      "annotation_id": -1,
+      "category_id": 48,
+      "category_name": "fork",
+      "title": "fork (class mask) | img 85157 | IoU 0.055",
+      "best_iou": 0.05540540540540541,
+      "best_candidate_id": 226,
+      "best_candidate_depth": 8,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 11,
+      "candidate_count": 785,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000085157.jpg",
+      "best_candidate_label": "leaf"
+    },
+    {
+      "image_id": 15335,
+      "annotation_id": -1,
+      "category_id": 47,
+      "category_name": "cup",
+      "title": "cup (class mask) | img 15335 | IoU 0.081",
+      "best_iou": 0.08145519077196096,
+      "best_candidate_id": 802,
+      "best_candidate_depth": 19,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 460,
+      "candidate_count": 817,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000015335.jpg",
+      "best_candidate_label": "leaf"
+    },
+    {
+      "image_id": 94751,
+      "annotation_id": -1,
+      "category_id": 15,
+      "category_name": "bench",
+      "title": "bench (class mask) | img 94751 | IoU 0.101",
+      "best_iou": 0.10076530612244898,
+      "best_candidate_id": 354,
+      "best_candidate_depth": 9,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 21,
+      "candidate_count": 771,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000094751.jpg",
+      "best_candidate_label": "leaf"
+    },
+    {
+      "image_id": 78170,
+      "annotation_id": -1,
+      "category_id": 77,
+      "category_name": "cell phone",
+      "title": "cell phone (class mask) | img 78170 | IoU 0.103",
+      "best_iou": 0.10282299608489594,
+      "best_candidate_id": 148,
+      "best_candidate_depth": 7,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 23,
+      "candidate_count": 771,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000078170.jpg",
+      "best_candidate_label": "leaf"
+    },
+    {
+      "image_id": 13348,
+      "annotation_id": -1,
+      "category_id": 1,
+      "category_name": "person",
+      "title": "person (class mask) | img 13348 | IoU 0.111",
+      "best_iou": 0.1111111111111111,
+      "best_candidate_id": 435,
+      "best_candidate_depth": 10,
+      "best_candidate_status": "leaf",
+      "best_candidate_area_patches": 5,
+      "candidate_count": 785,
+      "image_path": "Fiedler Evaluation/datasets/val2017\\000000013348.jpg",
+      "best_candidate_label": "leaf"
+    }
+  ]
+}

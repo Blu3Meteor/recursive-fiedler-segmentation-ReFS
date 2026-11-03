@@ -1,0 +1,29 @@
+{
+  "image_id": 513688,
+  "1_insid3_small_clustering_oracle": {
+    "n_clusters": 7,
+    "chair": 0.5332474039550835,
+    "dining table": 0.540082359995441
+  },
+  "2_fiedler_stretch_oracle": {
+    "n_nodes": 699,
+    "chair": 0.633398962819724,
+    "dining table": 0.8010109849381776,
+    "chair_depth": 1,
+    "dining table_depth": 1
+  },
+  "3_insid3_small_reference": {
+    "chair": 0.42867071792195255,
+    "dining table": 0.4162951571982284
+  },
+  "4_fiedler_stretch_reference_union_tau0.7": {
+    "chair": 0.02035283756261353,
+    "dining table": 0.05173119136730338,
+    "chair_n_nodes": 5,
+    "dining table_n_nodes": 27
+  },
+  "4b_fiedler_stretch_reference_single_node": {
+    "chair": 0.34548133411414256,
+    "dining table": 0.1727395968980195
+  }
+}

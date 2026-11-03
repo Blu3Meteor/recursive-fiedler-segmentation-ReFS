@@ -1,0 +1,122 @@
+[
+  {
+    "backbone": "DINOv2 /14 @1022",
+    "features": "raw",
+    "tree": "default",
+    "best_iou": 0.8433,
+    "n_nodes": 41,
+    "best_node_depth": 2,
+    "best_node_area_ratio": 0.204,
+    "secs": 4.6
+  },
+  {
+    "backbone": "DINOv2 /14 @1022",
+    "features": "raw",
+    "tree": "min_patches_only",
+    "best_iou": 0.8433,
+    "n_nodes": 715,
+    "best_node_depth": 2,
+    "best_node_area_ratio": 0.204,
+    "secs": 9.1
+  },
+  {
+    "backbone": "DINOv2 /14 @1022",
+    "features": "debiased",
+    "tree": "default",
+    "best_iou": 0.8301,
+    "n_nodes": 25,
+    "best_node_depth": 2,
+    "best_node_area_ratio": 0.211,
+    "secs": 3.5
+  },
+  {
+    "backbone": "DINOv2 /14 @1022",
+    "features": "debiased",
+    "tree": "min_patches_only",
+    "best_iou": 0.8301,
+    "n_nodes": 745,
+    "best_node_depth": 2,
+    "best_node_area_ratio": 0.211,
+    "secs": 9.1
+  },
+  {
+    "backbone": "DINOv3 /16->14 @1022",
+    "features": "raw",
+    "tree": "default",
+    "best_iou": 0.7626,
+    "n_nodes": 63,
+    "best_node_depth": 2,
+    "best_node_area_ratio": 0.166,
+    "secs": 3.4
+  },
+  {
+    "backbone": "DINOv3 /16->14 @1022",
+    "features": "raw",
+    "tree": "min_patches_only",
+    "best_iou": 0.7626,
+    "n_nodes": 1105,
+    "best_node_depth": 2,
+    "best_node_area_ratio": 0.166,
+    "secs": 9.2
+  },
+  {
+    "backbone": "DINOv3 /16->14 @1022",
+    "features": "debiased",
+    "tree": "default",
+    "best_iou": 0.856,
+    "n_nodes": 55,
+    "best_node_depth": 2,
+    "best_node_area_ratio": 0.181,
+    "secs": 3.4
+  },
+  {
+    "backbone": "DINOv3 /16->14 @1022",
+    "features": "debiased",
+    "tree": "min_patches_only",
+    "best_iou": 0.856,
+    "n_nodes": 1045,
+    "best_node_depth": 2,
+    "best_node_area_ratio": 0.181,
+    "secs": 9.0
+  },
+  {
+    "backbone": "DINOv3 /16 @1168",
+    "features": "raw",
+    "tree": "default",
+    "best_iou": 0.7614,
+    "n_nodes": 63,
+    "best_node_depth": 2,
+    "best_node_area_ratio": 0.165,
+    "secs": 3.5
+  },
+  {
+    "backbone": "DINOv3 /16 @1168",
+    "features": "raw",
+    "tree": "min_patches_only",
+    "best_iou": 0.7614,
+    "n_nodes": 1101,
+    "best_node_depth": 2,
+    "best_node_area_ratio": 0.165,
+    "secs": 10.7
+  },
+  {
+    "backbone": "DINOv3 /16 @1168",
+    "features": "debiased",
+    "tree": "default",
+    "best_iou": 0.8564,
+    "n_nodes": 55,
+    "best_node_depth": 2,
+    "best_node_area_ratio": 0.181,
+    "secs": 3.6
+  },
+  {
+    "backbone": "DINOv3 /16 @1168",
+    "features": "debiased",
+    "tree": "min_patches_only",
+    "best_iou": 0.8564,
+    "n_nodes": 993,
+    "best_node_depth": 2,
+    "best_node_area_ratio": 0.181,
+    "secs": 10.0
+  }
+]

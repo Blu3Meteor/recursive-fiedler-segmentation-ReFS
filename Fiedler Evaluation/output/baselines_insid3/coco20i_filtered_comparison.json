@@ -1,0 +1,180 @@
+{
+  "fiedler": {
+    "label": "Fiedler (500-img subset)",
+    "num_images": 410,
+    "num_instances": 2178,
+    "mean_best_iou": 0.39313078927194917,
+    "median_best_iou": 0.3759947618425703,
+    "per_class": {
+      "person": {
+        "count": 1114,
+        "mean_iou": 0.3697149534457083
+      },
+      "car": {
+        "count": 205,
+        "mean_iou": 0.36005038452949006
+      },
+      "cup": {
+        "count": 99,
+        "mean_iou": 0.4824230386822556
+      },
+      "dining table": {
+        "count": 62,
+        "mean_iou": 0.5205209566918254
+      },
+      "train": {
+        "count": 23,
+        "mean_iou": 0.7530278736161944
+      },
+      "airplane": {
+        "count": 23,
+        "mean_iou": 0.3428555161140384
+      },
+      "chair": {
+        "count": 159,
+        "mean_iou": 0.3629273187017213
+      },
+      "backpack": {
+        "count": 38,
+        "mean_iou": 0.3415522459372099
+      },
+      "bus": {
+        "count": 29,
+        "mean_iou": 0.5699240800146232
+      },
+      "bird": {
+        "count": 28,
+        "mean_iou": 0.42302920842887853
+      },
+      "handbag": {
+        "count": 65,
+        "mean_iou": 0.3749238473496544
+      },
+      "bottle": {
+        "count": 105,
+        "mean_iou": 0.34893930526797495
+      },
+      "dog": {
+        "count": 22,
+        "mean_iou": 0.613789871690421
+      },
+      "cat": {
+        "count": 27,
+        "mean_iou": 0.6990657745056106
+      },
+      "bicycle": {
+        "count": 35,
+        "mean_iou": 0.3536634356800064
+      },
+      "motorcycle": {
+        "count": 41,
+        "mean_iou": 0.4130246345666004
+      },
+      "horse": {
+        "count": 17,
+        "mean_iou": 0.4685533691135169
+      },
+      "boat": {
+        "count": 44,
+        "mean_iou": 0.3292931711017601
+      },
+      "sheep": {
+        "count": 15,
+        "mean_iou": 0.4259944231137688
+      },
+      "cow": {
+        "count": 27,
+        "mean_iou": 0.5454905610199356
+      }
+    }
+  },
+  "insid3": {
+    "label": "INSID3 (500-img subset)",
+    "num_images": 410,
+    "num_instances": 2178,
+    "mean_best_iou": 0.15578212596312074,
+    "median_best_iou": 0.06040435241375108,
+    "per_class": {
+      "person": {
+        "count": 1114,
+        "mean_iou": 0.1484071000528931
+      },
+      "car": {
+        "count": 205,
+        "mean_iou": 0.08576902281607666
+      },
+      "cup": {
+        "count": 99,
+        "mean_iou": 0.1350335767562015
+      },
+      "dining table": {
+        "count": 62,
+        "mean_iou": 0.3024044077401222
+      },
+      "train": {
+        "count": 23,
+        "mean_iou": 0.3732452144740181
+      },
+      "airplane": {
+        "count": 23,
+        "mean_iou": 0.2286821922456696
+      },
+      "chair": {
+        "count": 159,
+        "mean_iou": 0.13506822259559514
+      },
+      "backpack": {
+        "count": 38,
+        "mean_iou": 0.06912286342085697
+      },
+      "bus": {
+        "count": 29,
+        "mean_iou": 0.24503617469936956
+      },
+      "bird": {
+        "count": 28,
+        "mean_iou": 0.16664318148222296
+      },
+      "handbag": {
+        "count": 65,
+        "mean_iou": 0.07581847015360065
+      },
+      "bottle": {
+        "count": 105,
+        "mean_iou": 0.10679836344244575
+      },
+      "dog": {
+        "count": 22,
+        "mean_iou": 0.4211871212672533
+      },
+      "cat": {
+        "count": 27,
+        "mean_iou": 0.5802743336056196
+      },
+      "bicycle": {
+        "count": 35,
+        "mean_iou": 0.10485003536676399
+      },
+      "motorcycle": {
+        "count": 41,
+        "mean_iou": 0.145238092325557
+      },
+      "horse": {
+        "count": 17,
+        "mean_iou": 0.45294864808331065
+      },
+      "boat": {
+        "count": 44,
+        "mean_iou": 0.1163655015313852
+      },
+      "sheep": {
+        "count": 15,
+        "mean_iou": 0.24985708461955197
+      },
+      "cow": {
+        "count": 27,
+        "mean_iou": 0.2696621612492808
+      }
+    }
+  }
+}

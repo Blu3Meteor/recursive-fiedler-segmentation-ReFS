@@ -1,0 +1,128 @@
+﻿python.exe : Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+At line:1 char:358
++ ... s Project"; & ".\.venv\Scripts\python.exe" "Fiedler Evaluation\visual ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Using cache fou...rch_dinov2_main:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is 
+not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is 
+not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not 
+available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Loading backbone...
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Loading COCO annotations...
+loading annotations into memory...
+Done (t=0.38s)
+creating index...
+index created!
+  [debug] 645 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.27303434040157626 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.7269656595984237 stop_reason=None
+[1/20] same_class_instances/img_001.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_001.png (9.18s)
+  [debug] 817 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.42991180334021395 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.570088196659786 stop_reason=None
+[2/20] same_class_instances/img_002.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_002.png (8.13s)
+  [debug] 711 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.4214674422968662 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.5785325577031338 stop_reason=None
+[3/20] same_class_instances/img_003.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_003.png (8.37s)
+  [debug] 771 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.3312066053668606 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.6687933946331395 stop_reason=None
+[4/20] same_class_instances/img_004.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_004.png (7.82s)
+  [debug] 789 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.4563708012760368 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.5436291987239632 stop_reason=None
+[5/20] same_class_instances/img_005.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_005.png (8.58s)
+  [debug] 711 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.4514918371176581 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.5485081628823419 stop_reason=None
+[6/20] same_class_instances/img_006.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_006.png (8.20s)
+  [debug] 789 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.5357477950835053 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.46425220491649466 stop_reason=None
+[7/20] same_class_instances/img_007.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_007.png (8.07s)
+  [debug] 681 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.6344529930568586 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.3655470069431413 stop_reason=None
+[8/20] same_class_instances/img_008.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_008.png (9.85s)
+  [debug] 841 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.4937136423343967 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.5062863576656033 stop_reason=None
+[9/20] same_class_instances/img_009.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_009.png (8.06s)
+  [debug] 879 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.4055169825483205 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.5944830174516795 stop_reason=None
+[10/20] same_class_instances/img_010.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_010.png (7.18s)
+  [debug] 841 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.47194595608932255 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.5280540439106775 stop_reason=None
+[11/20] multi_class/img_001.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_001.png (8.04s)
+  [debug] 807 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.4811409270031901 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.5188590729968099 stop_reason=None
+[12/20] multi_class/img_002.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_002.png (7.83s)
+  [debug] 591 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.3578532557703134 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.6421467442296867 stop_reason=None
+[13/20] multi_class/img_003.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_003.png (8.44s)
+  [debug] 781 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.5802214299118034 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.41977857008819663 stop_reason=None
+[14/20] multi_class/img_004.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_004.png (8.13s)
+  [debug] 715 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.59241884030775 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.40758115969224995 stop_reason=None
+[15/20] multi_class/img_005.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_005.png (8.02s)
+  [debug] 845 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.31863389003565395 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.681366109964346 stop_reason=None
+[16/20] multi_class/img_006.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_006.png (7.77s)
+  [debug] 827 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.6136235691499343 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.3863764308500657 stop_reason=None
+[17/20] multi_class/img_007.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_007.png (9.37s)
+  [debug] 843 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.2743479076749859 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.725652092325014 stop_reason=None
+[18/20] multi_class/img_008.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_008.png (7.76s)
+  [debug] 699 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.5430662413210734 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.4569337586789266 stop_reason=None
+[19/20] multi_class/img_009.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_009.png (7.60s)
+  [debug] 745 total nodes
+  [debug] id=0 depth=0 status=split area_ratio=1.0 stop_reason=None
+  [debug] id=1 depth=1 status=split area_ratio=0.40270219553387127 stop_reason=None
+  [debug] id=2 depth=1 status=split area_ratio=0.5972978044661287 stop_reason=None
+[20/20] multi_class/img_010.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_010.png (7.87s)
+Saved gallery: Fiedler Evaluation/output/class_vs_instance_viz\gallery_multi_class.png
+Saved gallery: Fiedler Evaluation/output/class_vs_instance_viz\gallery_same_class_instances.png
+
+Done. 20/20 images processed successfully.

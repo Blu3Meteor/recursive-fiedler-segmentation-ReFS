@@ -1,0 +1,302 @@
+image_id,annotation_id,category_id,category_name,best_iou,best_candidate_id,best_candidate_depth,best_candidate_status,best_candidate_area_patches,candidate_count,image_path
+1490,-1,1,person,0.30853712110118614,187,7,split,14,845,Fiedler Evaluation/datasets/val2017\000000001490.jpg
+1490,-1,42,surfboard,0.20887728459530025,280,8,split,15,845,Fiedler Evaluation/datasets/val2017\000000001490.jpg
+1532,-1,3,car,0.4255071741522872,10,3,split,900,745,Fiedler Evaluation/datasets/val2017\000000001532.jpg
+1532,-1,8,truck,0.10972568578553615,234,8,leaf,15,745,Fiedler Evaluation/datasets/val2017\000000001532.jpg
+2431,-1,46,wine glass,0.15519725051609537,298,8,leaf,866,687,Fiedler Evaluation/datasets/val2017\000000002431.jpg
+2431,-1,47,cup,0.24771112107049106,151,7,split,120,687,Fiedler Evaluation/datasets/val2017\000000002431.jpg
+2431,-1,49,knife,0.426861153158112,199,7,split,37,687,Fiedler Evaluation/datasets/val2017\000000002431.jpg
+2431,-1,50,spoon,0.32180052956751987,220,8,split,76,687,Fiedler Evaluation/datasets/val2017\000000002431.jpg
+2431,-1,67,dining table,0.5891109868604977,0,0,split,5329,687,Fiedler Evaluation/datasets/val2017\000000002431.jpg
+2431,-1,1,person,0.2803736583827308,29,4,split,470,687,Fiedler Evaluation/datasets/val2017\000000002431.jpg
+4395,-1,32,tie,0.6333385277441473,208,7,split,403,855,Fiedler Evaluation/datasets/val2017\000000004395.jpg
+4395,-1,1,person,0.4809639001998481,30,4,split,2075,855,Fiedler Evaluation/datasets/val2017\000000004395.jpg
+6012,-1,52,banana,0.4080113749972229,14,3,split,3082,783,Fiedler Evaluation/datasets/val2017\000000006012.jpg
+6040,-1,7,train,0.4476458408733198,14,3,split,2412,819,Fiedler Evaluation/datasets/val2017\000000006040.jpg
+6040,-1,1,person,0.21105034357032673,181,7,leaf,69,819,Fiedler Evaluation/datasets/val2017\000000006040.jpg
+6040,-1,3,car,0.3185572223158604,372,10,leaf,30,819,Fiedler Evaluation/datasets/val2017\000000006040.jpg
+6040,-1,8,truck,0.5137526907438412,371,10,leaf,11,819,Fiedler Evaluation/datasets/val2017\000000006040.jpg
+6460,-1,42,surfboard,0.10905642484589853,466,10,leaf,31,851,Fiedler Evaluation/datasets/val2017\000000006460.jpg
+6460,-1,1,person,0.39743090696769173,385,9,split,31,851,Fiedler Evaluation/datasets/val2017\000000006460.jpg
+9914,-1,51,bowl,0.5690983263467629,22,4,split,784,755,Fiedler Evaluation/datasets/val2017\000000009914.jpg
+9914,-1,49,knife,0.26931913701316895,47,5,split,36,755,Fiedler Evaluation/datasets/val2017\000000009914.jpg
+9914,-1,54,sandwich,0.5138309975308887,14,3,split,1840,755,Fiedler Evaluation/datasets/val2017\000000009914.jpg
+9914,-1,67,dining table,0.7687735639831448,37,5,split,179,755,Fiedler Evaluation/datasets/val2017\000000009914.jpg
+9914,-1,58,hot dog,0.3986817830618584,61,5,split,129,755,Fiedler Evaluation/datasets/val2017\000000009914.jpg
+12576,-1,72,tv,0.430952380952381,121,7,split,26,775,Fiedler Evaluation/datasets/val2017\000000012576.jpg
+12576,-1,47,cup,0.3798158379373849,38,5,split,623,775,Fiedler Evaluation/datasets/val2017\000000012576.jpg
+12576,-1,48,fork,0.1817908314843368,458,12,split,113,775,Fiedler Evaluation/datasets/val2017\000000012576.jpg
+12576,-1,49,knife,0.1947658616137299,410,11,split,121,775,Fiedler Evaluation/datasets/val2017\000000012576.jpg
+12576,-1,59,pizza,0.6111461750373137,248,8,split,1661,775,Fiedler Evaluation/datasets/val2017\000000012576.jpg
+12576,-1,67,dining table,0.5524670555030043,0,0,split,5329,775,Fiedler Evaluation/datasets/val2017\000000012576.jpg
+12576,-1,1,person,0.6062971539553298,43,5,split,124,775,Fiedler Evaluation/datasets/val2017\000000012576.jpg
+12667,-1,52,banana,0.33570774257940145,368,9,split,307,771,Fiedler Evaluation/datasets/val2017\000000012667.jpg
+13348,-1,5,airplane,0.3534421985692658,29,4,split,194,849,Fiedler Evaluation/datasets/val2017\000000013348.jpg
+13348,-1,1,person,0.03741152679474216,297,8,leaf,11,849,Fiedler Evaluation/datasets/val2017\000000013348.jpg
+13348,-1,8,truck,0.17047155688622753,310,8,split,50,849,Fiedler Evaluation/datasets/val2017\000000013348.jpg
+14439,-1,62,chair,0.4200775527789746,441,11,leaf,8,809,Fiedler Evaluation/datasets/val2017\000000014439.jpg
+14439,-1,38,kite,0.6003592798893728,11,3,split,312,809,Fiedler Evaluation/datasets/val2017\000000014439.jpg
+14439,-1,27,backpack,0.30042918454935624,555,15,leaf,8,809,Fiedler Evaluation/datasets/val2017\000000014439.jpg
+14439,-1,1,person,0.19539122809539555,43,5,split,155,809,Fiedler Evaluation/datasets/val2017\000000014439.jpg
+15278,-1,56,broccoli,0.5856686997284064,6,2,split,3215,839,Fiedler Evaluation/datasets/val2017\000000015278.jpg
+15335,-1,63,couch,0.20578403495388028,9,3,split,152,901,Fiedler Evaluation/datasets/val2017\000000015335.jpg
+15335,-1,1,person,0.4502337996560981,0,0,split,5329,901,Fiedler Evaluation/datasets/val2017\000000015335.jpg
+15335,-1,51,bowl,0.15941839994783857,318,8,split,35,901,Fiedler Evaluation/datasets/val2017\000000015335.jpg
+15335,-1,47,cup,0.501974333662389,766,13,split,34,901,Fiedler Evaluation/datasets/val2017\000000015335.jpg
+15335,-1,77,cell phone,0.11918743056657673,270,8,leaf,31,901,Fiedler Evaluation/datasets/val2017\000000015335.jpg
+15440,-1,13,stop sign,0.508278764036551,16,4,split,191,737,Fiedler Evaluation/datasets/val2017\000000015440.jpg
+15440,-1,6,bus,0.39973803286496784,32,5,split,42,737,Fiedler Evaluation/datasets/val2017\000000015440.jpg
+15751,-1,16,bird,0.2533043765910627,3,2,split,297,819,Fiedler Evaluation/datasets/val2017\000000015751.jpg
+16451,-1,28,umbrella,0.44160381103612545,66,6,split,41,779,Fiedler Evaluation/datasets/val2017\000000016451.jpg
+16451,-1,62,chair,0.30566633761105627,152,7,split,58,779,Fiedler Evaluation/datasets/val2017\000000016451.jpg
+16451,-1,1,person,0.08160779537149818,618,14,leaf,6,779,Fiedler Evaluation/datasets/val2017\000000016451.jpg
+16451,-1,42,surfboard,0.38119399391135345,118,6,split,195,779,Fiedler Evaluation/datasets/val2017\000000016451.jpg
+16451,-1,31,handbag,0.6037932999810018,29,4,split,321,779,Fiedler Evaluation/datasets/val2017\000000016451.jpg
+16451,-1,27,backpack,0.6081199756806053,113,6,split,65,779,Fiedler Evaluation/datasets/val2017\000000016451.jpg
+16598,-1,32,tie,0.433593054318789,61,5,split,364,785,Fiedler Evaluation/datasets/val2017\000000016598.jpg
+16598,-1,77,cell phone,0.5569550930996714,7,3,split,78,785,Fiedler Evaluation/datasets/val2017\000000016598.jpg
+16598,-1,1,person,0.48223907690304496,0,0,split,5329,785,Fiedler Evaluation/datasets/val2017\000000016598.jpg
+19786,-1,63,couch,0.5550318324214295,22,4,split,562,869,Fiedler Evaluation/datasets/val2017\000000019786.jpg
+19786,-1,1,person,0.45373774967570174,2,1,split,3741,869,Fiedler Evaluation/datasets/val2017\000000019786.jpg
+19786,-1,73,laptop,0.47426586675086835,687,13,split,16,869,Fiedler Evaluation/datasets/val2017\000000019786.jpg
+19786,-1,75,remote,0.11617119966266076,282,8,leaf,21,869,Fiedler Evaluation/datasets/val2017\000000019786.jpg
+21167,-1,1,person,0.4621831692682198,2,1,split,3961,925,Fiedler Evaluation/datasets/val2017\000000021167.jpg
+21167,-1,46,wine glass,0.2531196213425129,636,12,split,41,925,Fiedler Evaluation/datasets/val2017\000000021167.jpg
+21167,-1,32,tie,0.4793453401943968,384,9,split,67,925,Fiedler Evaluation/datasets/val2017\000000021167.jpg
+21503,-1,74,mouse,0.6163085965362778,123,7,split,115,869,Fiedler Evaluation/datasets/val2017\000000021503.jpg
+21503,-1,75,remote,0.5309622411693057,595,13,split,63,869,Fiedler Evaluation/datasets/val2017\000000021503.jpg
+21503,-1,76,keyboard,0.7042261452262297,127,7,split,129,869,Fiedler Evaluation/datasets/val2017\000000021503.jpg
+21503,-1,54,sandwich,0.4366842040599869,6,2,split,2570,869,Fiedler Evaluation/datasets/val2017\000000021503.jpg
+22396,-1,5,airplane,0.26324060310044595,39,5,split,40,793,Fiedler Evaluation/datasets/val2017\000000022396.jpg
+22705,-1,44,bottle,0.6083358872203494,517,11,leaf,12,825,Fiedler Evaluation/datasets/val2017\000000022705.jpg
+22705,-1,82,refrigerator,0.3889302885842325,21,4,split,455,825,Fiedler Evaluation/datasets/val2017\000000022705.jpg
+22705,-1,1,person,0.3638316975757763,14,3,split,1573,825,Fiedler Evaluation/datasets/val2017\000000022705.jpg
+22705,-1,46,wine glass,0.29238535969709717,156,7,leaf,18,825,Fiedler Evaluation/datasets/val2017\000000022705.jpg
+22705,-1,51,bowl,0.6719367588932806,515,11,leaf,8,825,Fiedler Evaluation/datasets/val2017\000000022705.jpg
+22892,-1,18,dog,0.6116671159146835,3,2,split,559,825,Fiedler Evaluation/datasets/val2017\000000022892.jpg
+22892,-1,64,potted plant,0.3890687645527066,45,5,split,209,825,Fiedler Evaluation/datasets/val2017\000000022892.jpg
+22892,-1,17,cat,0.4020987322954949,12,3,split,638,825,Fiedler Evaluation/datasets/val2017\000000022892.jpg
+22892,-1,67,dining table,0.35504285974831296,154,7,split,156,825,Fiedler Evaluation/datasets/val2017\000000022892.jpg
+22892,-1,62,chair,0.2889762693156733,24,4,split,86,825,Fiedler Evaluation/datasets/val2017\000000022892.jpg
+23230,-1,16,bird,0.18223136952233943,512,11,split,48,767,Fiedler Evaluation/datasets/val2017\000000023230.jpg
+23272,-1,17,cat,0.3041686517389233,7,3,split,151,727,Fiedler Evaluation/datasets/val2017\000000023272.jpg
+23272,-1,3,car,0.614013727421761,2,1,split,3970,727,Fiedler Evaluation/datasets/val2017\000000023272.jpg
+23751,-1,38,kite,0.4110625,696,15,leaf,79,831,Fiedler Evaluation/datasets/val2017\000000023751.jpg
+23781,-1,56,broccoli,0.6626358932620197,9,3,split,322,721,Fiedler Evaluation/datasets/val2017\000000023781.jpg
+23781,-1,57,carrot,0.31813718001876784,157,7,split,83,721,Fiedler Evaluation/datasets/val2017\000000023781.jpg
+25393,-1,32,tie,0.21711750393588092,143,7,split,52,845,Fiedler Evaluation/datasets/val2017\000000025393.jpg
+25393,-1,1,person,0.6186808457220738,10,3,split,1126,845,Fiedler Evaluation/datasets/val2017\000000025393.jpg
+25393,-1,3,car,0.3358542820622071,93,6,split,18,845,Fiedler Evaluation/datasets/val2017\000000025393.jpg
+26926,-1,3,car,0.5259932713873758,66,6,split,118,807,Fiedler Evaluation/datasets/val2017\000000026926.jpg
+26926,-1,11,fire hydrant,0.3846397331095848,6,2,split,3034,807,Fiedler Evaluation/datasets/val2017\000000026926.jpg
+27620,-1,62,chair,0.47642950382860755,682,17,split,1041,859,Fiedler Evaluation/datasets/val2017\000000027620.jpg
+27620,-1,73,laptop,0.3801084888245151,126,7,split,77,859,Fiedler Evaluation/datasets/val2017\000000027620.jpg
+27620,-1,76,keyboard,0.30920174693679486,42,5,split,114,859,Fiedler Evaluation/datasets/val2017\000000027620.jpg
+27620,-1,74,mouse,0.10968494749124855,67,6,leaf,11,859,Fiedler Evaluation/datasets/val2017\000000027620.jpg
+27620,-1,44,bottle,0.44643650911246113,413,10,split,22,859,Fiedler Evaluation/datasets/val2017\000000027620.jpg
+28993,-1,11,fire hydrant,0.45845016285776496,1,1,split,2279,807,Fiedler Evaluation/datasets/val2017\000000028993.jpg
+28993,-1,10,traffic light,0.05007153075822604,405,10,leaf,6,807,Fiedler Evaluation/datasets/val2017\000000028993.jpg
+28993,-1,1,person,0.17221104750116045,335,9,split,17,807,Fiedler Evaluation/datasets/val2017\000000028993.jpg
+29596,-1,72,tv,0.7359938146782443,25,4,split,145,855,Fiedler Evaluation/datasets/val2017\000000029596.jpg
+29596,-1,62,chair,0.2539938628958274,48,5,split,107,855,Fiedler Evaluation/datasets/val2017\000000029596.jpg
+29596,-1,63,couch,0.5591496892202583,28,4,split,657,855,Fiedler Evaluation/datasets/val2017\000000029596.jpg
+29596,-1,67,dining table,0.11418288892524128,461,10,leaf,6,855,Fiedler Evaluation/datasets/val2017\000000029596.jpg
+29596,-1,86,vase,0.24731663685152058,219,7,leaf,9,855,Fiedler Evaluation/datasets/val2017\000000029596.jpg
+29596,-1,84,book,0.07897517168515583,404,9,leaf,50,855,Fiedler Evaluation/datasets/val2017\000000029596.jpg
+29596,-1,47,cup,0.04805491990846682,359,9,leaf,7,855,Fiedler Evaluation/datasets/val2017\000000029596.jpg
+29596,-1,64,potted plant,0.7660532749967829,123,6,split,37,855,Fiedler Evaluation/datasets/val2017\000000029596.jpg
+32735,-1,1,person,0.3055265155312415,3,2,split,324,895,Fiedler Evaluation/datasets/val2017\000000032735.jpg
+32735,-1,35,skis,0.3519900118761229,38,5,split,145,895,Fiedler Evaluation/datasets/val2017\000000032735.jpg
+34257,-1,56,broccoli,0.2856487543682599,104,6,split,434,825,Fiedler Evaluation/datasets/val2017\000000034257.jpg
+34257,-1,57,carrot,0.47647165150328374,716,18,split,435,825,Fiedler Evaluation/datasets/val2017\000000034257.jpg
+35326,-1,44,bottle,0.43437513621899654,100,6,split,117,817,Fiedler Evaluation/datasets/val2017\000000035326.jpg
+35326,-1,49,knife,0.39976415094339623,575,13,leaf,7,817,Fiedler Evaluation/datasets/val2017\000000035326.jpg
+35326,-1,79,oven,0.45203789448032167,5,2,split,1491,817,Fiedler Evaluation/datasets/val2017\000000035326.jpg
+36861,-1,14,parking meter,0.2415685388604938,10,3,split,1075,729,Fiedler Evaluation/datasets/val2017\000000036861.jpg
+38829,-1,2,bicycle,0.39040782252780926,60,5,split,699,881,Fiedler Evaluation/datasets/val2017\000000038829.jpg
+38829,-1,4,motorcycle,0.4402548862566567,62,5,split,591,881,Fiedler Evaluation/datasets/val2017\000000038829.jpg
+38829,-1,1,person,0.3549137758325756,298,8,split,334,881,Fiedler Evaluation/datasets/val2017\000000038829.jpg
+38829,-1,27,backpack,0.5904868078781123,416,9,leaf,22,881,Fiedler Evaluation/datasets/val2017\000000038829.jpg
+40083,-1,62,chair,0.2448219102921677,12,3,split,188,793,Fiedler Evaluation/datasets/val2017\000000040083.jpg
+40083,-1,2,bicycle,0.4250828410891802,98,6,split,64,793,Fiedler Evaluation/datasets/val2017\000000040083.jpg
+40083,-1,3,car,0.2988425009893154,220,8,split,505,793,Fiedler Evaluation/datasets/val2017\000000040083.jpg
+40083,-1,1,person,0.3625624989261353,5,2,split,348,793,Fiedler Evaluation/datasets/val2017\000000040083.jpg
+40083,-1,28,umbrella,0.49295444860189475,22,4,split,853,793,Fiedler Evaluation/datasets/val2017\000000040083.jpg
+40083,-1,44,bottle,0.07616804083235179,598,16,leaf,8,793,Fiedler Evaluation/datasets/val2017\000000040083.jpg
+40757,-1,1,person,0.3583769592353283,5,2,split,987,767,Fiedler Evaluation/datasets/val2017\000000040757.jpg
+40757,-1,65,bed,0.5197267747444058,14,3,split,1640,767,Fiedler Evaluation/datasets/val2017\000000040757.jpg
+40757,-1,72,tv,0.3807213930348259,46,5,split,468,767,Fiedler Evaluation/datasets/val2017\000000040757.jpg
+42102,-1,32,tie,0.22921650717703348,514,9,leaf,29,933,Fiedler Evaluation/datasets/val2017\000000042102.jpg
+42102,-1,31,handbag,0.3339287233137705,692,10,split,91,933,Fiedler Evaluation/datasets/val2017\000000042102.jpg
+42102,-1,1,person,0.37045583436757706,6,2,split,2483,933,Fiedler Evaluation/datasets/val2017\000000042102.jpg
+44260,-1,53,apple,0.20090672639260168,20,4,split,235,779,Fiedler Evaluation/datasets/val2017\000000044260.jpg
+47571,-1,19,horse,0.3819082524973753,8,3,split,809,705,Fiedler Evaluation/datasets/val2017\000000047571.jpg
+47571,-1,1,person,0.3537147647490307,40,5,split,157,705,Fiedler Evaluation/datasets/val2017\000000047571.jpg
+47740,-1,1,person,0.3406738017541057,1,1,split,1946,845,Fiedler Evaluation/datasets/val2017\000000047740.jpg
+47740,-1,38,kite,0.4372537132464383,12,3,split,414,845,Fiedler Evaluation/datasets/val2017\000000047740.jpg
+47828,-1,9,boat,0.7279073632888249,21,4,split,81,947,Fiedler Evaluation/datasets/val2017\000000047828.jpg
+47828,-1,1,person,0.3302035695495568,576,10,split,105,947,Fiedler Evaluation/datasets/val2017\000000047828.jpg
+47828,-1,3,car,0.06767586821015138,63,6,leaf,17,947,Fiedler Evaluation/datasets/val2017\000000047828.jpg
+48924,-1,4,motorcycle,0.42202991093933795,5,2,split,725,823,Fiedler Evaluation/datasets/val2017\000000048924.jpg
+48924,-1,27,backpack,0.35395517137400745,240,8,split,99,823,Fiedler Evaluation/datasets/val2017\000000048924.jpg
+48924,-1,31,handbag,0.51213282247765,396,10,split,57,823,Fiedler Evaluation/datasets/val2017\000000048924.jpg
+50145,-1,2,bicycle,0.2976943886034795,22,4,split,587,861,Fiedler Evaluation/datasets/val2017\000000050145.jpg
+50145,-1,1,person,0.3504320947343216,7,3,split,207,861,Fiedler Evaluation/datasets/val2017\000000050145.jpg
+50145,-1,28,umbrella,0.41230430528375733,383,9,split,20,861,Fiedler Evaluation/datasets/val2017\000000050145.jpg
+50145,-1,27,backpack,0.4053175775480059,141,7,leaf,7,861,Fiedler Evaluation/datasets/val2017\000000050145.jpg
+50326,-1,1,person,0.33041801751343663,20,4,split,367,781,Fiedler Evaluation/datasets/val2017\000000050326.jpg
+50326,-1,38,kite,0.38837088837088835,94,6,split,36,781,Fiedler Evaluation/datasets/val2017\000000050326.jpg
+50326,-1,62,chair,0.36158575174034896,50,5,split,261,781,Fiedler Evaluation/datasets/val2017\000000050326.jpg
+51314,-1,1,person,0.18182440449028017,3,2,split,597,725,Fiedler Evaluation/datasets/val2017\000000051314.jpg
+51314,-1,42,surfboard,0.43335403083928387,23,4,split,52,725,Fiedler Evaluation/datasets/val2017\000000051314.jpg
+52507,-1,1,person,0.27259212063289795,114,7,split,64,819,Fiedler Evaluation/datasets/val2017\000000052507.jpg
+52507,-1,42,surfboard,0.5142488161859664,7,3,split,237,819,Fiedler Evaluation/datasets/val2017\000000052507.jpg
+53624,-1,1,person,0.26362269823374673,424,10,split,46,841,Fiedler Evaluation/datasets/val2017\000000053624.jpg
+53624,-1,22,elephant,0.7759513984410821,13,3,split,442,841,Fiedler Evaluation/datasets/val2017\000000053624.jpg
+54164,-1,1,person,0.24727212911008353,72,6,split,181,781,Fiedler Evaluation/datasets/val2017\000000054164.jpg
+54164,-1,42,surfboard,0.3641456582633053,532,11,leaf,15,781,Fiedler Evaluation/datasets/val2017\000000054164.jpg
+54654,-1,1,person,0.48571824939032404,1,1,split,1977,813,Fiedler Evaluation/datasets/val2017\000000054654.jpg
+54654,-1,79,oven,0.5229550608451244,216,7,split,690,813,Fiedler Evaluation/datasets/val2017\000000054654.jpg
+55950,-1,37,sports ball,0.3520408163265306,157,7,leaf,8,785,Fiedler Evaluation/datasets/val2017\000000055950.jpg
+55950,-1,1,person,0.6027139304555321,8,3,split,291,785,Fiedler Evaluation/datasets/val2017\000000055950.jpg
+55950,-1,43,tennis racket,0.4751767825574543,415,10,split,52,785,Fiedler Evaluation/datasets/val2017\000000055950.jpg
+56344,-1,72,tv,0.8003243932109135,5,2,split,741,829,Fiedler Evaluation/datasets/val2017\000000056344.jpg
+56344,-1,77,cell phone,0.5207520891364903,290,8,split,32,829,Fiedler Evaluation/datasets/val2017\000000056344.jpg
+56344,-1,74,mouse,0.6643668831168831,203,7,split,25,829,Fiedler Evaluation/datasets/val2017\000000056344.jpg
+56344,-1,76,keyboard,0.3413770681309154,769,23,split,58,829,Fiedler Evaluation/datasets/val2017\000000056344.jpg
+56344,-1,75,remote,0.5598310652275926,543,11,split,10,829,Fiedler Evaluation/datasets/val2017\000000056344.jpg
+56350,-1,1,person,0.2812565821975253,0,0,split,5329,737,Fiedler Evaluation/datasets/val2017\000000056350.jpg
+56350,-1,70,toilet,0.31638876454789616,16,4,split,186,737,Fiedler Evaluation/datasets/val2017\000000056350.jpg
+58384,-1,7,train,0.40078822744175696,270,8,split,133,847,Fiedler Evaluation/datasets/val2017\000000058384.jpg
+58384,-1,22,elephant,0.36946530017985096,436,10,split,151,847,Fiedler Evaluation/datasets/val2017\000000058384.jpg
+60102,-1,37,sports ball,0.4042985768225385,566,11,split,196,901,Fiedler Evaluation/datasets/val2017\000000060102.jpg
+60102,-1,1,person,0.4174838494537357,14,3,split,2528,901,Fiedler Evaluation/datasets/val2017\000000060102.jpg
+61471,-1,18,dog,0.357066823017766,734,21,split,856,801,Fiedler Evaluation/datasets/val2017\000000061471.jpg
+61471,-1,44,bottle,0.5520339406039431,77,6,leaf,13,801,Fiedler Evaluation/datasets/val2017\000000061471.jpg
+61471,-1,70,toilet,0.3079274541355416,22,4,split,1123,801,Fiedler Evaluation/datasets/val2017\000000061471.jpg
+68409,-1,32,tie,0.22877358490566038,737,15,leaf,7,825,Fiedler Evaluation/datasets/val2017\000000068409.jpg
+68409,-1,1,person,0.3788656448053445,4,2,split,1878,825,Fiedler Evaluation/datasets/val2017\000000068409.jpg
+69213,-1,1,person,0.5419698594201557,6,2,split,2588,801,Fiedler Evaluation/datasets/val2017\000000069213.jpg
+69213,-1,4,motorcycle,0.47908641300295746,208,8,split,160,801,Fiedler Evaluation/datasets/val2017\000000069213.jpg
+70158,-1,24,zebra,0.44619277643937444,2,1,split,3625,769,Fiedler Evaluation/datasets/val2017\000000070158.jpg
+73118,-1,88,teddy bear,0.7286315539539141,0,0,split,5329,759,Fiedler Evaluation/datasets/val2017\000000073118.jpg
+73153,-1,77,cell phone,0.1546268656716418,297,9,leaf,8,733,Fiedler Evaluation/datasets/val2017\000000073153.jpg
+73153,-1,1,person,0.5682813043426118,4,2,split,1672,733,Fiedler Evaluation/datasets/val2017\000000073153.jpg
+76416,-1,77,cell phone,0.4305326743547501,139,7,split,16,849,Fiedler Evaluation/datasets/val2017\000000076416.jpg
+76416,-1,6,bus,0.3487005613187151,5,2,split,594,849,Fiedler Evaluation/datasets/val2017\000000076416.jpg
+76416,-1,1,person,0.12170779040754089,564,12,leaf,23,849,Fiedler Evaluation/datasets/val2017\000000076416.jpg
+76416,-1,2,bicycle,0.23917388407728182,491,11,leaf,14,849,Fiedler Evaluation/datasets/val2017\000000076416.jpg
+76547,-1,2,bicycle,0.47745730208373555,8,3,split,789,905,Fiedler Evaluation/datasets/val2017\000000076547.jpg
+76547,-1,7,train,0.39214046822742477,54,5,split,902,905,Fiedler Evaluation/datasets/val2017\000000076547.jpg
+76547,-1,1,person,0.6847919311125596,9,3,split,269,905,Fiedler Evaluation/datasets/val2017\000000076547.jpg
+76547,-1,32,tie,0.10459183673469388,235,8,leaf,6,905,Fiedler Evaluation/datasets/val2017\000000076547.jpg
+76547,-1,15,bench,0.40433201039947453,46,5,split,893,905,Fiedler Evaluation/datasets/val2017\000000076547.jpg
+76547,-1,27,backpack,0.3751954540253995,72,6,split,94,905,Fiedler Evaluation/datasets/val2017\000000076547.jpg
+76547,-1,10,traffic light,0.28188865398167723,268,8,leaf,13,905,Fiedler Evaluation/datasets/val2017\000000076547.jpg
+76547,-1,73,laptop,0.2854315868827742,240,8,leaf,46,905,Fiedler Evaluation/datasets/val2017\000000076547.jpg
+76547,-1,62,chair,0.27162325655717123,606,12,split,184,905,Fiedler Evaluation/datasets/val2017\000000076547.jpg
+76547,-1,67,dining table,0.5478783026421137,250,8,split,56,905,Fiedler Evaluation/datasets/val2017\000000076547.jpg
+78170,-1,44,bottle,0.32871037463976943,615,14,split,23,739,Fiedler Evaluation/datasets/val2017\000000078170.jpg
+78170,-1,77,cell phone,0.1728440366972477,227,8,leaf,12,739,Fiedler Evaluation/datasets/val2017\000000078170.jpg
+78170,-1,1,person,0.27500426243616494,59,5,split,195,739,Fiedler Evaluation/datasets/val2017\000000078170.jpg
+78170,-1,31,handbag,0.22211400213348176,481,11,split,51,739,Fiedler Evaluation/datasets/val2017\000000078170.jpg
+78170,-1,62,chair,0.41121751400819256,18,4,split,308,739,Fiedler Evaluation/datasets/val2017\000000078170.jpg
+78170,-1,7,train,0.9591147399098502,0,0,split,5329,739,Fiedler Evaluation/datasets/val2017\000000078170.jpg
+78426,-1,17,cat,0.431257405584019,6,2,split,2420,815,Fiedler Evaluation/datasets/val2017\000000078426.jpg
+78426,-1,67,dining table,0.5547688329960577,8,3,split,808,815,Fiedler Evaluation/datasets/val2017\000000078426.jpg
+78426,-1,47,cup,0.7487294842955927,9,3,split,170,815,Fiedler Evaluation/datasets/val2017\000000078426.jpg
+79565,-1,25,giraffe,0.20685834045987256,3,2,split,157,899,Fiedler Evaluation/datasets/val2017\000000079565.jpg
+80949,-1,17,cat,0.33638107756766816,2,1,split,3125,881,Fiedler Evaluation/datasets/val2017\000000080949.jpg
+80949,-1,73,laptop,0.7520807134700721,10,3,split,1482,881,Fiedler Evaluation/datasets/val2017\000000080949.jpg
+80949,-1,44,bottle,0.4054591591797545,7,3,split,72,881,Fiedler Evaluation/datasets/val2017\000000080949.jpg
+80949,-1,47,cup,0.240473061760841,131,7,leaf,10,881,Fiedler Evaluation/datasets/val2017\000000080949.jpg
+82696,-1,16,bird,0.3263947623970178,5,2,split,325,837,Fiedler Evaluation/datasets/val2017\000000082696.jpg
+82696,-1,62,chair,0.25329286533741885,4,2,split,2326,837,Fiedler Evaluation/datasets/val2017\000000082696.jpg
+82696,-1,67,dining table,0.3552980403946541,41,5,split,174,837,Fiedler Evaluation/datasets/val2017\000000082696.jpg
+82696,-1,1,person,0.4226586618265308,112,7,split,301,837,Fiedler Evaluation/datasets/val2017\000000082696.jpg
+82696,-1,47,cup,0.2190939881456393,323,10,leaf,24,837,Fiedler Evaluation/datasets/val2017\000000082696.jpg
+83113,-1,22,elephant,0.27412246428906323,462,11,split,243,797,Fiedler Evaluation/datasets/val2017\000000083113.jpg
+84270,-1,27,backpack,0.07461734693877552,342,9,leaf,32,829,Fiedler Evaluation/datasets/val2017\000000084270.jpg
+84270,-1,31,handbag,0.2258254716981132,351,9,split,32,829,Fiedler Evaluation/datasets/val2017\000000084270.jpg
+84270,-1,33,suitcase,0.2784108220096277,241,8,split,51,829,Fiedler Evaluation/datasets/val2017\000000084270.jpg
+84270,-1,1,person,0.4525264095710831,78,6,split,477,829,Fiedler Evaluation/datasets/val2017\000000084270.jpg
+84270,-1,32,tie,0.1105072463768116,725,16,leaf,8,829,Fiedler Evaluation/datasets/val2017\000000084270.jpg
+84270,-1,85,clock,0.1210576015108593,676,14,leaf,27,829,Fiedler Evaluation/datasets/val2017\000000084270.jpg
+84431,-1,72,tv,0.5762249680443119,17,4,split,138,887,Fiedler Evaluation/datasets/val2017\000000084431.jpg
+84431,-1,59,pizza,0.49086922298436975,62,5,split,1354,887,Fiedler Evaluation/datasets/val2017\000000084431.jpg
+85157,-1,62,chair,0.3184780547919234,106,6,split,358,771,Fiedler Evaluation/datasets/val2017\000000085157.jpg
+85157,-1,67,dining table,0.4767879340349714,45,5,split,170,771,Fiedler Evaluation/datasets/val2017\000000085157.jpg
+85157,-1,1,person,0.4850204354918349,2,1,split,3554,771,Fiedler Evaluation/datasets/val2017\000000085157.jpg
+85157,-1,47,cup,0.3198370770657741,236,8,split,91,771,Fiedler Evaluation/datasets/val2017\000000085157.jpg
+85157,-1,51,bowl,0.5469248291571754,233,8,leaf,17,771,Fiedler Evaluation/datasets/val2017\000000085157.jpg
+85157,-1,48,fork,0.07796852646638054,345,9,leaf,7,771,Fiedler Evaluation/datasets/val2017\000000085157.jpg
+85157,-1,59,pizza,0.2515475520540236,450,10,leaf,17,771,Fiedler Evaluation/datasets/val2017\000000085157.jpg
+87038,-1,2,bicycle,0.3833229620410703,157,7,split,14,779,Fiedler Evaluation/datasets/val2017\000000087038.jpg
+87038,-1,1,person,0.2499001160556306,364,9,split,210,779,Fiedler Evaluation/datasets/val2017\000000087038.jpg
+87038,-1,41,skateboard,0.5698729582577132,155,7,leaf,10,779,Fiedler Evaluation/datasets/val2017\000000087038.jpg
+88250,-1,22,elephant,0.5602674687031741,6,2,split,3243,919,Fiedler Evaluation/datasets/val2017\000000088250.jpg
+89078,-1,1,person,0.8889504604792122,1,1,split,1006,809,Fiedler Evaluation/datasets/val2017\000000089078.jpg
+89078,-1,36,snowboard,0.38573817850083625,31,5,split,16,809,Fiedler Evaluation/datasets/val2017\000000089078.jpg
+90891,-1,1,person,0.5177925107638472,1,1,split,831,757,Fiedler Evaluation/datasets/val2017\000000090891.jpg
+90891,-1,52,banana,0.0888905903070209,727,29,leaf,12,757,Fiedler Evaluation/datasets/val2017\000000090891.jpg
+91779,-1,58,hot dog,0.39649184667104603,5,2,split,879,761,Fiedler Evaluation/datasets/val2017\000000091779.jpg
+91779,-1,51,bowl,0.6313469675599436,81,6,split,37,761,Fiedler Evaluation/datasets/val2017\000000091779.jpg
+91779,-1,47,cup,0.3436746154150354,26,4,split,252,761,Fiedler Evaluation/datasets/val2017\000000091779.jpg
+91779,-1,62,chair,0.3272583201267829,255,9,split,29,761,Fiedler Evaluation/datasets/val2017\000000091779.jpg
+91779,-1,67,dining table,0.512955003768358,27,4,split,497,761,Fiedler Evaluation/datasets/val2017\000000091779.jpg
+91779,-1,54,sandwich,0.8355820290408584,12,3,split,671,761,Fiedler Evaluation/datasets/val2017\000000091779.jpg
+92177,-1,42,surfboard,0.406302090655313,18,4,split,248,741,Fiedler Evaluation/datasets/val2017\000000092177.jpg
+92177,-1,61,cake,0.3750723648968395,30,4,split,1438,741,Fiedler Evaluation/datasets/val2017\000000092177.jpg
+92839,-1,23,bear,0.6162762058729303,1,1,split,2318,771,Fiedler Evaluation/datasets/val2017\000000092839.jpg
+93437,-1,62,chair,0.228483061904992,157,7,split,43,931,Fiedler Evaluation/datasets/val2017\000000093437.jpg
+93437,-1,1,person,0.8224538258575198,1,1,split,1147,931,Fiedler Evaluation/datasets/val2017\000000093437.jpg
+93437,-1,47,cup,0.09962406015037593,273,8,leaf,11,931,Fiedler Evaluation/datasets/val2017\000000093437.jpg
+93437,-1,84,book,0.13877551020408163,415,9,leaf,8,931,Fiedler Evaluation/datasets/val2017\000000093437.jpg
+93437,-1,44,bottle,0.10333159812597606,560,10,leaf,19,931,Fiedler Evaluation/datasets/val2017\000000093437.jpg
+93437,-1,85,clock,0.2469237079573421,464,9,leaf,23,931,Fiedler Evaluation/datasets/val2017\000000093437.jpg
+93437,-1,86,vase,0.08752366926151904,464,9,leaf,23,931,Fiedler Evaluation/datasets/val2017\000000093437.jpg
+93437,-1,67,dining table,0.5166610341331531,161,7,split,78,931,Fiedler Evaluation/datasets/val2017\000000093437.jpg
+94751,-1,3,car,0.39579027937236894,102,6,split,52,877,Fiedler Evaluation/datasets/val2017\000000094751.jpg
+94751,-1,10,traffic light,0.3118186537463229,49,5,split,52,877,Fiedler Evaluation/datasets/val2017\000000094751.jpg
+94751,-1,1,person,0.09110396570203644,344,9,split,32,877,Fiedler Evaluation/datasets/val2017\000000094751.jpg
+94751,-1,15,bench,0.13865546218487396,753,19,leaf,7,877,Fiedler Evaluation/datasets/val2017\000000094751.jpg
+94871,-1,20,sheep,0.5671316766367956,30,4,split,2066,773,Fiedler Evaluation/datasets/val2017\000000094871.jpg
+94871,-1,1,person,0.4078104166514319,1,1,split,2062,773,Fiedler Evaluation/datasets/val2017\000000094871.jpg
+94871,-1,31,handbag,0.481151832460733,31,5,split,36,773,Fiedler Evaluation/datasets/val2017\000000094871.jpg
+95155,-1,1,person,0.3044234079173838,3,2,split,139,929,Fiedler Evaluation/datasets/val2017\000000095155.jpg
+95155,-1,36,snowboard,0.15056710055568243,162,7,split,50,929,Fiedler Evaluation/datasets/val2017\000000095155.jpg
+95786,-1,47,cup,0.4299570947312849,5,2,split,1805,879,Fiedler Evaluation/datasets/val2017\000000095786.jpg
+95786,-1,86,vase,0.425277589111266,6,2,split,3001,879,Fiedler Evaluation/datasets/val2017\000000095786.jpg
+97337,-1,72,tv,0.35089415176413724,640,13,split,245,851,Fiedler Evaluation/datasets/val2017\000000097337.jpg
+97337,-1,63,couch,0.31105981680785144,14,3,split,1637,851,Fiedler Evaluation/datasets/val2017\000000097337.jpg
+97337,-1,62,chair,0.3898685116673874,49,5,split,206,851,Fiedler Evaluation/datasets/val2017\000000097337.jpg
+97337,-1,67,dining table,0.43995723686091115,12,3,split,800,851,Fiedler Evaluation/datasets/val2017\000000097337.jpg
+97337,-1,1,person,0.37879495562821114,249,8,split,66,851,Fiedler Evaluation/datasets/val2017\000000097337.jpg
+97679,-1,3,car,0.410783855052739,6,2,split,2376,811,Fiedler Evaluation/datasets/val2017\000000097679.jpg
+97679,-1,1,person,0.304096834264432,174,7,split,16,811,Fiedler Evaluation/datasets/val2017\000000097679.jpg
+97679,-1,36,snowboard,0.4650983645413605,102,6,split,86,811,Fiedler Evaluation/datasets/val2017\000000097679.jpg
+98018,-1,50,spoon,0.36877828054298645,384,9,leaf,9,785,Fiedler Evaluation/datasets/val2017\000000098018.jpg
+98018,-1,51,bowl,0.3656677637276979,177,7,leaf,16,785,Fiedler Evaluation/datasets/val2017\000000098018.jpg
+98018,-1,86,vase,0.5013726835964311,402,9,split,95,785,Fiedler Evaluation/datasets/val2017\000000098018.jpg
+100274,-1,7,train,0.35717971874596827,12,3,split,659,759,Fiedler Evaluation/datasets/val2017\000000100274.jpg
+100274,-1,3,car,0.13637182489641506,240,8,leaf,20,759,Fiedler Evaluation/datasets/val2017\000000100274.jpg
+100274,-1,8,truck,0.183832709113608,380,9,leaf,35,759,Fiedler Evaluation/datasets/val2017\000000100274.jpg
+100283,-1,13,stop sign,0.5994292802919646,1,1,split,1205,889,Fiedler Evaluation/datasets/val2017\000000100283.jpg
+100283,-1,3,car,0.31187067815115854,97,6,split,154,889,Fiedler Evaluation/datasets/val2017\000000100283.jpg
+101762,-1,2,bicycle,0.5053929858939875,1,1,split,1992,775,Fiedler Evaluation/datasets/val2017\000000101762.jpg
+101762,-1,17,cat,0.6285628434065934,27,4,split,169,775,Fiedler Evaluation/datasets/val2017\000000101762.jpg
+102707,-1,44,bottle,0.41550485847063795,59,5,split,266,753,Fiedler Evaluation/datasets/val2017\000000102707.jpg
+102707,-1,47,cup,0.3998313283686589,11,3,split,564,753,Fiedler Evaluation/datasets/val2017\000000102707.jpg
+102707,-1,79,oven,0.321123597961068,4,2,split,1679,753,Fiedler Evaluation/datasets/val2017\000000102707.jpg
+105264,-1,21,cow,0.7865642728656427,5,2,split,570,909,Fiedler Evaluation/datasets/val2017\000000105264.jpg
+105264,-1,1,person,0.26944262055883855,354,10,split,497,909,Fiedler Evaluation/datasets/val2017\000000105264.jpg
+105455,-1,85,clock,0.5509045185365458,187,7,split,46,755,Fiedler Evaluation/datasets/val2017\000000105455.jpg
+105455,-1,3,car,0.08830455259026687,244,8,leaf,26,755,Fiedler Evaluation/datasets/val2017\000000105455.jpg
+107087,-1,17,cat,0.3357424866777416,5,2,split,906,777,Fiedler Evaluation/datasets/val2017\000000107087.jpg
+107087,-1,62,chair,0.36454843231169376,5,2,split,906,777,Fiedler Evaluation/datasets/val2017\000000107087.jpg
+107087,-1,3,car,0.34162432022822503,61,5,split,202,777,Fiedler Evaluation/datasets/val2017\000000107087.jpg
+109827,-1,88,teddy bear,0.5528111916976237,3,2,split,660,857,Fiedler Evaluation/datasets/val2017\000000109827.jpg
+110359,-1,5,airplane,0.4251737904033787,3,2,split,331,929,Fiedler Evaluation/datasets/val2017\000000110359.jpg
+110884,-1,51,bowl,0.39217694040548845,133,7,leaf,12,787,Fiedler Evaluation/datasets/val2017\000000110884.jpg
+110884,-1,70,toilet,0.666469893742621,11,3,split,491,787,Fiedler Evaluation/datasets/val2017\000000110884.jpg
+110884,-1,81,sink,0.7516789537467178,20,4,split,359,787,Fiedler Evaluation/datasets/val2017\000000110884.jpg

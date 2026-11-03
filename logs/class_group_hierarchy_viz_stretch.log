@@ -1,0 +1,44 @@
+Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Loading backbone...
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Loading COCO annotations...
+loading annotations into memory...
+Done (t=0.44s)
+creating index...
+index created!
+[1/10] 000000383289.jpg -> HIERARCHY DOES NOT HOLD: some instance nodes are NOT descendants of the group node (10.81s)
+[2/10] 000000144333.jpg -> HIERARCHY HOLDS: group isolated first, then all instances split beneath it (8.04s)
+[3/10] 000000575243.jpg -> HIERARCHY DOES NOT HOLD: some instance nodes are NOT descendants of the group node (7.31s)
+[4/10] 000000019432.jpg -> HIERARCHY HOLDS: group isolated first, then all instances split beneath it (10.08s)
+[5/10] 000000297022.jpg -> HIERARCHY DOES NOT HOLD: some instance nodes are NOT descendants of the group node (7.42s)
+[6/10] 000000357816.jpg -> HIERARCHY HOLDS: group isolated first, then all instances split beneath it (8.93s)
+[7/10] 000000320743.jpg -> HIERARCHY DOES NOT HOLD: some instance nodes are NOT descendants of the group node (7.68s)
+[8/10] 000000470924.jpg -> HIERARCHY DOES NOT HOLD: some instance nodes are NOT descendants of the group node (7.74s)
+[9/10] 000000575970.jpg -> HIERARCHY HOLDS: group isolated first, then all instances split beneath it (8.50s)
+[10/10] 000000458325.jpg -> HIERARCHY HOLDS: group isolated first, then all instances split beneath it (7.95s)
+Saved gallery: Fiedler Evaluation/output/05_reference_vs_gt_and_semantics/class_group_hierarchy_viz\gallery.png
+
+============================================================
+SUMMARY
+============================================================
+Images processed: 10 (failures: 0)
+  Hierarchy holds fully:        5
+  Partial (group isolated, some instances un-split): 0
+  Hierarchy does NOT hold:      5
+  000000383289.jpg          group=car          depth=4 descendant=1/3 same=1 -> HIERARCHY DOES NOT HOLD: some instance nodes are NOT descendants of the group node
+  000000144333.jpg          group=car          depth=5 descendant=3/3 same=0 -> HIERARCHY HOLDS: group isolated first, then all instances split beneath it
+  000000575243.jpg          group=car          depth=3 descendant=2/3 same=0 -> HIERARCHY DOES NOT HOLD: some instance nodes are NOT descendants of the group node
+  000000019432.jpg          group=chair        depth=7 descendant=6/6 same=0 -> HIERARCHY HOLDS: group isolated first, then all instances split beneath it
+  000000297022.jpg          group=person       depth=5 descendant=2/3 same=0 -> HIERARCHY DOES NOT HOLD: some instance nodes are NOT descendants of the group node
+  000000357816.jpg          group=person       depth=0 descendant=4/4 same=0 -> HIERARCHY HOLDS: group isolated first, then all instances split beneath it
+  000000320743.jpg          group=elephant     depth=1 descendant=1/5 same=1 -> HIERARCHY DOES NOT HOLD: some instance nodes are NOT descendants of the group node
+  000000470924.jpg          group=person       depth=2 descendant=1/5 same=1 -> HIERARCHY DOES NOT HOLD: some instance nodes are NOT descendants of the group node
+  000000575970.jpg          group=chair        depth=3 descendant=3/3 same=0 -> HIERARCHY HOLDS: group isolated first, then all instances split beneath it
+  000000458325.jpg          group=car          depth=2 descendant=6/6 same=0 -> HIERARCHY HOLDS: group isolated first, then all instances split beneath it

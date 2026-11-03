@@ -1,0 +1,26 @@
+﻿loading annotations into memory...
+Done (t=0.05s)
+creating index...
+index created!
+Evaluating on 500 images...
+Loading DINOv3-large on cuda...
+python.exe : Traceback (most recent call last):
+At line:1 char:358
++ ... s Project"; & ".\.venv\Scripts\python.exe" "Fiedler Evaluation\insid3 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\insid3_zeroshot_500.py", line 210, in 
+<module>
+    evaluate_dataset(args)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\insid3_zeroshot_500.py", line 96, in 
+evaluate_dataset
+    model = load_dinov3_model(args.model_size, device)
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\insid3_zeroshot_500.py", line 27, in 
+load_dinov3_model
+    from INSID3.models import _build_encoder
+  File "D:\Coding\Recursive Segmentation Master's Project\INSID3\models\__init__.py", line 8, in <module>
+    from models.insid3 import INSID3
+ModuleNotFoundError: No module named 'models'

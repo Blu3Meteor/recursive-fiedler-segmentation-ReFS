@@ -1,0 +1,45 @@
+# environments, caches, local settings
+.venv/
+__pycache__/
+*.py[cod]
+.vscode/
+.claude/settings.local.json
+
+# upstream repos, cloned at pinned commits (README "Setup")
+/INSID3/
+/dinov3_repo/
+/CutLER Implementation/TFSS-CutLER/detectron2/
+/CutLER Implementation/TFSS-CutLER.worktrees/
+
+# weights
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# raw datasets (README "Datasets"); derived split JSONs stay tracked
+/CutLER Implementation/TFSS-CutLER/datasets/coco/
+/CutLER Implementation/TFSS-CutLER/datasets/ade_20k/
+/Fiedler Evaluation/datasets/val2017/
+/Fiedler Evaluation/datasets/VOCtrainval_11-May-2012/
+
+# third-party papers (arXiv links in README)
+/Fiedler Evaluation/Ref Papers/
+/Fiedler Evaluation/insid3_text.txt
+
+# generated images: GitHub release "results-v1", or regenerated
+/CutLER Implementation/TFSS-CutLER/output/
+/Fiedler Evaluation/output/**/candidate_visualizations/
+/Fiedler Evaluation/output/**/pca_trees/
+/Fiedler Evaluation/output/**/visualizations/
+/Fiedler Evaluation/output/**/*.png
+/Fiedler Evaluation/output/**/*.jpg
+/Fiedler Evaluation/output/**/*.gif
+/Fiedler Evaluation/output/**/*.pdf
+!/Fiedler Evaluation/output/**/class_mean_iou.png
+!/Fiedler Evaluation/output/**/overall_iou_histogram.png
+!/Fiedler Evaluation/output/**/class_histograms/*.png
+!/Fiedler Evaluation/output/figures/*.png
+!/Fiedler Evaluation/output/figures/*.pdf
+/presentation_figures/qualitative*/
+*.pptx

@@ -1,0 +1,42 @@
+﻿loading annotations into memory...
+Done (t=0.05s)
+creating index...
+index created!
+python.exe : Traceback (most recent call last):
+At line:1 char:358
++ ... s Project"; & ".\.venv\Scripts\python.exe" "Fiedler Evaluation\fiedle ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 752, in 
+<module>
+    main()
+    ~~~~^^
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 748, in 
+main
+    evaluate_dataset(args)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\fiedler_candidate_eval.py", line 317, in 
+evaluate_dataset
+    backbone = build_backbone(
+        args.vit_arch,
+    ...<4 lines>...
+        debiased=getattr(args, "debiased", False),
+    )
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER 
+Implementation\TFSS-CutLER\maskcut\fiedler_class_transfer.py", line 52, in build_backbone
+    import dinov2_feat
+  File "D:\Coding\Recursive Segmentation Master's Project\CutLER Implementation\TFSS-CutLER\maskcut\dinov2_feat.py", 
+line 5, in <module>
+    import torch
+  File "D:\Coding\Recursive Segmentation Master's Project\.venv\Lib\site-packages\torch\__init__.py", line 270, in 
+<module>
+    _load_dll_libraries()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Coding\Recursive Segmentation Master's Project\.venv\Lib\site-packages\torch\__init__.py", line 253, in 
+_load_dll_libraries
+    raise err
+OSError: [WinError 1455] The paging file is too small for this operation to complete. Error loading 
+"D:\Coding\Recursive Segmentation Master's 
+Project\.venv\Lib\site-packages\torch\lib\cudnn_engines_precompiled64_9.dll" or one of its dependencies.

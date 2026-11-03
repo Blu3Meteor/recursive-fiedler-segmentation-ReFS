@@ -1,0 +1,14 @@
+image_id,annotation_id,category_id,category_name,best_iou,best_candidate_id,best_candidate_depth,best_candidate_status,best_candidate_area_patches,candidate_count,image_path
+2342,11344,9,chair,0.044221698113207544,13,4,leaf,42,33,Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2010_002639.jpg
+2342,11345,9,chair,0.07408578353883444,13,4,leaf,42,33,Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2010_002639.jpg
+2342,11346,9,chair,0.47472689439916765,20,4,split,104,33,Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2010_002639.jpg
+2342,11347,9,chair,0.5284237726098191,11,3,split,129,33,Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2010_002639.jpg
+2342,11348,9,chair,0.03553976010661928,7,3,leaf,35,33,Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2010_002639.jpg
+2342,11349,9,chair,0.03191088736051374,12,3,leaf,506,33,Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2010_002639.jpg
+2342,11350,9,chair,0.1785321907273127,22,5,split,141,33,Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2010_002639.jpg
+2342,11351,11,diningtable,0.3700901825020302,4,2,split,238,33,Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2010_002639.jpg
+51461,1665,15,person,0.33913565426170467,0,0,split,1156,13,Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2008_002314.jpg
+51461,1666,15,person,0.020610433772912003,4,2,leaf,489,13,Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2008_002314.jpg
+55067,6613,20,tvmonitor,0.23114654120926992,6,2,leaf,581,7,Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2009_000398.jpg
+55067,6614,20,tvmonitor,0.006638800098352594,6,2,leaf,581,7,Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2009_000398.jpg
+55067,6615,20,tvmonitor,0.0186606484246022,6,2,leaf,581,7,Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2009_000398.jpg

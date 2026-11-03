@@ -1,0 +1,43 @@
+{
+  "image_id": 363188,
+  "1_insid3_small_clustering_oracle": {
+    "n_clusters": 9,
+    "backpack": 0.022616469930851434,
+    "bottle": 0.016576985733326752,
+    "car": 0.1896219135802469,
+    "person": 0.304369573007955
+  },
+  "2_fiedler_stretch_oracle": {
+    "n_nodes": 719,
+    "backpack": 0.25709950140906135,
+    "bottle": 0.4792719919110212,
+    "car": 0.6151732005807924,
+    "person": 0.8912730181326155,
+    "backpack_depth": 9,
+    "bottle_depth": 10,
+    "car_depth": 7,
+    "person_depth": 1
+  },
+  "3_insid3_small_reference": {
+    "backpack": 0.022795608698692398,
+    "bottle": 0.016580750923347355,
+    "car": 0.0,
+    "person": 0.8182363874745283
+  },
+  "4_fiedler_stretch_reference_union_tau0.7": {
+    "backpack": 0.0,
+    "bottle": 0.010849796663882666,
+    "car": 0.0,
+    "person": 0.8923868019357348,
+    "backpack_n_nodes": 1,
+    "bottle_n_nodes": 75,
+    "car_n_nodes": 61,
+    "person_n_nodes": 317
+  },
+  "4b_fiedler_stretch_reference_single_node": {
+    "backpack": 0.0,
+    "bottle": 0.0017625928209527384,
+    "car": 0.0,
+    "person": 0.8938941554738249
+  }
+}

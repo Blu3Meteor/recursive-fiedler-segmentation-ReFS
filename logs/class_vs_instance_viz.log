@@ -1,0 +1,48 @@
+﻿python.exe : Using cache found in C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main
+At line:1 char:358
++ ... s Project"; & ".\.venv\Scripts\python.exe" "Fiedler Evaluation\visual ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Using cache fou...rch_dinov2_main:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is 
+not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is 
+not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\DRON/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not 
+available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Loading backbone...
+Loading DINOv2 model: dinov2_vits14...
+Successfully loaded dinov2_vits14 from torch.hub
+Loading COCO annotations...
+loading annotations into memory...
+Done (t=0.42s)
+creating index...
+index created!
+[1/20] same_class_instances/img_001.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_001.png (4.00s)
+[2/20] same_class_instances/img_002.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_002.png (3.46s)
+[3/20] same_class_instances/img_003.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_003.png (3.98s)
+[4/20] same_class_instances/img_004.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_004.png (3.47s)
+[5/20] same_class_instances/img_005.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_005.png (3.40s)
+[6/20] same_class_instances/img_006.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_006.png (3.37s)
+[7/20] same_class_instances/img_007.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_007.png (3.29s)
+[8/20] same_class_instances/img_008.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_008.png (3.35s)
+[9/20] same_class_instances/img_009.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_009.png (3.21s)
+[10/20] same_class_instances/img_010.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\same_class_instances\img_010.png (3.30s)
+[11/20] multi_class/img_001.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_001.png (3.42s)
+[12/20] multi_class/img_002.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_002.png (3.41s)
+[13/20] multi_class/img_003.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_003.png (3.41s)
+[14/20] multi_class/img_004.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_004.png (3.28s)
+[15/20] multi_class/img_005.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_005.png (3.40s)
+[16/20] multi_class/img_006.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_006.png (3.48s)
+[17/20] multi_class/img_007.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_007.png (3.41s)
+[18/20] multi_class/img_008.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_008.png (3.40s)
+[19/20] multi_class/img_009.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_009.png (3.46s)
+[20/20] multi_class/img_010.jpg -> Fiedler Evaluation/output/class_vs_instance_viz\multi_class\img_010.png (3.41s)
+Saved gallery: Fiedler Evaluation/output/class_vs_instance_viz\gallery_multi_class.png
+Saved gallery: Fiedler Evaluation/output/class_vs_instance_viz\gallery_same_class_instances.png
+
+Done. 20/20 images processed successfully.

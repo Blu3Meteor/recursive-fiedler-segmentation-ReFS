@@ -1,0 +1,22 @@
+# pascal_voc2012_dinov3_vitl16_text class histograms
+
+- aeroplane: aeroplane.png
+- bicycle: bicycle.png
+- bird: bird.png
+- boat: boat.png
+- bottle: bottle.png
+- bus: bus.png
+- car: car.png
+- cat: cat.png
+- chair: chair.png
+- cow: cow.png
+- diningtable: diningtable.png
+- dog: dog.png
+- horse: horse.png
+- motorbike: motorbike.png
+- person: person.png
+- pottedplant: pottedplant.png
+- sheep: sheep.png
+- sofa: sofa.png
+- train: train.png
+- tvmonitor: tvmonitor.png

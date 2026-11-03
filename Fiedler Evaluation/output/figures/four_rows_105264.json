@@ -1,0 +1,29 @@
+{
+  "image_id": 105264,
+  "1_insid3_small_clustering_oracle": {
+    "n_clusters": 8,
+    "cow": 0.7844339367006287,
+    "person": 0.5963437778380263
+  },
+  "2_fiedler_stretch_oracle": {
+    "n_nodes": 779,
+    "cow": 0.749878579185471,
+    "person": 0.4402018463828105,
+    "cow_depth": 2,
+    "person_depth": 6
+  },
+  "3_insid3_small_reference": {
+    "cow": 0.8589971663468747,
+    "person": 0.6060388772277486
+  },
+  "4_fiedler_stretch_reference_union_tau0.7": {
+    "cow": 0.7333723871654906,
+    "person": 0.21943340867864347,
+    "cow_n_nodes": 138,
+    "person_n_nodes": 159
+  },
+  "4b_fiedler_stretch_reference_single_node": {
+    "cow": 0.7522410072924918,
+    "person": 0.05622071381650975
+  }
+}

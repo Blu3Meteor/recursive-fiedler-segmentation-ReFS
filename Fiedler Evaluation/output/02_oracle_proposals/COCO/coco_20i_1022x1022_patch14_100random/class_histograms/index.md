@@ -1,0 +1,21 @@
+# coco_20i_1022x1022_patch14_100random class histograms
+
+- airplane: airplane.png
+- backpack: backpack.png
+- bicycle: bicycle.png
+- bird: bird.png
+- boat: boat.png
+- bottle: bottle.png
+- bus: bus.png
+- car: car.png
+- cat: cat.png
+- chair: chair.png
+- cow: cow.png
+- cup: cup.png
+- dining table: dining_table.png
+- dog: dog.png
+- handbag: handbag.png
+- horse: horse.png
+- motorcycle: motorcycle.png
+- person: person.png
+- train: train.png

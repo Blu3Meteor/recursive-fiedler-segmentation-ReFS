@@ -1,0 +1,79 @@
+{
+  "dataset": "COCO-20i",
+  "num_test_images": 10,
+  "num_test_instances": 56,
+  "mean_best_iou": 0.07344191100860983,
+  "median_best_iou": 0.03292577292739905,
+  "per_class": {
+    "person": {
+      "count": 37,
+      "mean_iou": 0.08683258790613425,
+      "median_iou": 0.057271757854154705,
+      "min_iou": 0.002008228840125392,
+      "max_iou": 0.5049367479173095
+    },
+    "chair": {
+      "count": 6,
+      "mean_iou": 0.018980726505371495,
+      "median_iou": 0.016011846881396473,
+      "min_iou": 0.0008370535714285714,
+      "max_iou": 0.05502456754391869
+    },
+    "dining table": {
+      "count": 1,
+      "mean_iou": 0.02601716696571456,
+      "median_iou": 0.02601716696571456,
+      "min_iou": 0.02601716696571456,
+      "max_iou": 0.02601716696571456
+    },
+    "car": {
+      "count": 1,
+      "mean_iou": 0.0006613290067720091,
+      "median_iou": 0.0006613290067720091,
+      "min_iou": 0.0006613290067720091,
+      "max_iou": 0.0006613290067720091
+    },
+    "backpack": {
+      "count": 3,
+      "mean_iou": 0.0034553690398274376,
+      "median_iou": 0.0029043222402597405,
+      "min_iou": 0.0022748000377386182,
+      "max_iou": 0.005186984841483955
+    },
+    "handbag": {
+      "count": 3,
+      "mean_iou": 0.07143222752183014,
+      "median_iou": 0.018098112824675324,
+      "min_iou": 0.014978900280062348,
+      "max_iou": 0.1812196694607527
+    },
+    "boat": {
+      "count": 3,
+      "mean_iou": 0.015625,
+      "median_iou": 0.017159598214285716,
+      "min_iou": 0.0123291015625,
+      "max_iou": 0.017386300223214284
+    },
+    "bird": {
+      "count": 1,
+      "mean_iou": 0.008442711415938447,
+      "median_iou": 0.008442711415938447,
+      "min_iou": 0.008442711415938447,
+      "max_iou": 0.008442711415938447
+    },
+    "train": {
+      "count": 1,
+      "mean_iou": 0.4793979078495568,
+      "median_iou": 0.4793979078495568,
+      "min_iou": 0.4793979078495568,
+      "max_iou": 0.4793979078495568
+    }
+  },
+  "total_elapsed_seconds": 10.584577083587646,
+  "num_reference_classes": 20,
+  "method": "INSID3+Fiedler",
+  "backbone": "DINOv3-small",
+  "debiased": false,
+  "alpha": 0.5,
+  "bc_threshold": 0.0
+}

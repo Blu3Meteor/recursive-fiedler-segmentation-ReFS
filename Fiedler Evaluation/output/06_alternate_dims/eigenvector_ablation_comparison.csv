@@ -1,0 +1,6 @@
+index,laplacian_label,laplacian_mean_iou,laplacian_median_iou,pca_label,pca_mean_iou,pca_median_iou,mean_iou_delta_pca_minus_laplacian,,
+0,trivial (degenerate),0.2986,0.2663,top component (PC1),0.5237,0.5126,0.2252,,
+1,Fiedler vector,0.5324,0.5438,2nd component (PC2),0.3979,0.3813,-0.1345,,
+2,3rd-smallest,0.3895,0.3833,3rd component (PC3),0.3349,0.3118,-0.0546,,
+3,4th-smallest,0.3359,0.3165,4th component (PC4),0.3185,0.2977,-0.0174,,
+4,5th-smallest,0.3091,0.294,5th component (PC5),0.3096,0.2847,0.0005,,

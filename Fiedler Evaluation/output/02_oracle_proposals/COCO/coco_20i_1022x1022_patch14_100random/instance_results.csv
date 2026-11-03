@@ -1,0 +1,3 @@
+image_id,annotation_id,category_id,category_name,best_iou,best_candidate_id,best_candidate_depth,best_candidate_status,best_candidate_area_patches,candidate_count,image_path
+872,559508,1,person,0.3962689423472208,33,5,split,168,753,Fiedler Evaluation\datasets\val2017\000000000872.jpg
+872,560228,1,person,0.5755111191673266,3,2,split,1060,753,Fiedler Evaluation\datasets\val2017\000000000872.jpg

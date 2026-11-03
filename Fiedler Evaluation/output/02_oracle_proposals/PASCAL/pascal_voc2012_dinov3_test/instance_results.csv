@@ -1,0 +1,9 @@
+image_id,annotation_id,category_id,category_name,best_iou,best_candidate_id,best_candidate_depth,best_candidate_status,best_candidate_area_patches,candidate_count,image_path
+2342,11344,9,chair,0.03292642418202956,5,2,leaf,185,9,D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2010_002639.jpg
+2342,11345,9,chair,0.024519961320624395,4,2,leaf,224,9,D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2010_002639.jpg
+2342,11346,9,chair,0.4345498783454988,7,3,leaf,84,9,D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2010_002639.jpg
+2342,11347,9,chair,0.7206837606837607,7,3,leaf,84,9,D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2010_002639.jpg
+2342,11348,9,chair,0.03443411881845337,5,2,leaf,185,9,D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2010_002639.jpg
+2342,11349,9,chair,0.05034242460651207,5,2,leaf,185,9,D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2010_002639.jpg
+2342,11350,9,chair,0.13530144882380432,4,2,leaf,224,9,D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2010_002639.jpg
+2342,11351,11,diningtable,0.4683374544235363,4,2,leaf,224,9,D:\Coding\Recursive Segmentation Master's Project\Fiedler Evaluation\datasets\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages\2010_002639.jpg
